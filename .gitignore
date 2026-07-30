@@ -1,0 +1,11 @@
+# Ignore everything by default
+*
+
+# But descend into directories so nested files can be matched
+!*/
+
+# Track Python files only
+!*.py
+
+# Keep this .gitignore itself
+!.gitignore
