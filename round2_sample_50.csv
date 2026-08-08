@@ -7,9 +7,9 @@
 224,Diether Lambrechts,A5078760536,exact,I2802017950,round2_inst,Flanders Institute for Biotechnology (VIB), yes
 270,Alena Zikova,A5017181527,alias,I4210164740,round2_inst,Biology Centre (CAS), repeated
 375,Nicolas Gaudenzio,A5003492206,exact,I154526488,round2_inst,National Institute of Health and Medical Research (INSERM), yes
-462,Marcel Van Vugt,A5025446346,fuzzy,I1334415907,round2_inst,University Medical Center Groningen, 
-474,Hugo Georges Roger Aguilaniu,A5033838889,fuzzy,I1294671590,round2_inst,National Centre for Scientific Research (CNRS)
-751,Satu Maarit Mustjoki,A5008868111,fuzzy,I133731052,round2_inst,University of Helsinki
+462,Marcel Van Vugt,A5025446346,fuzzy,I1334415907,round2_inst,University Medical Center Groningen, yes
+474,Hugo Georges Roger Aguilaniu,A5033838889,fuzzy,I1294671590,round2_inst,National Centre for Scientific Research (CNRS), yes
+751,Satu Maarit Mustjoki,A5008868111,fuzzy,I133731052,round2_inst,University of Helsinki, 
 790,Johannes Espolin Roksund Hov,A5087109628,fuzzy,I184942183,round2_inst,University of Oslo
 980,Ana Isabel De Sousa Teixeira,A5058949558,fuzzy,I28166907,round2_inst,Karolinska Institute
 990,Erin Saupe,A5022428558,fuzzy,I40120149,round2_inst,University of Oxford
