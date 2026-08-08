@@ -1,0 +1,51 @@
+﻿rid,eu_name,authorid,match_type,host_id,source,host,yes_or_no
+36,Marvin Tanenbaum,A5050072827,fuzzy,I1322597698,round2_inst,Royal Netherlands Academy of Arts and Sciences, yes
+70,Friedrich Förster,A5073848521,exact,I193662353,round2_inst,Utrecht University, yes
+111,David Burstein,A5101885296,exact,I16391192,round2_inst,Tel Aviv University, yes
+117,Ines Drinnenberg,A5038330559,fuzzy,I1294671590,round2_inst,National Centre for Scientific Research (CNRS), yes
+192,Stein Luc Aerts,A5002137087,fuzzy,I2802017950,round2_inst,Flanders Institute for Biotechnology (VIB), yes
+224,Diether Lambrechts,A5078760536,exact,I2802017950,round2_inst,Flanders Institute for Biotechnology (VIB), yes
+270,Alena Zikova,A5017181527,alias,I4210164740,round2_inst,Biology Centre (CAS), repeated
+375,Nicolas Gaudenzio,A5003492206,exact,I154526488,round2_inst,National Institute of Health and Medical Research (INSERM), yes
+462,Marcel Van Vugt,A5025446346,fuzzy,I1334415907,round2_inst,University Medical Center Groningen, 
+474,Hugo Georges Roger Aguilaniu,A5033838889,fuzzy,I1294671590,round2_inst,National Centre for Scientific Research (CNRS)
+751,Satu Maarit Mustjoki,A5008868111,fuzzy,I133731052,round2_inst,University of Helsinki
+790,Johannes Espolin Roksund Hov,A5087109628,fuzzy,I184942183,round2_inst,University of Oslo
+980,Ana Isabel De Sousa Teixeira,A5058949558,fuzzy,I28166907,round2_inst,Karolinska Institute
+990,Erin Saupe,A5022428558,fuzzy,I40120149,round2_inst,University of Oxford
+1418,Velle Toll,A5046636343,exact,I56085075,round2_inst,University of Tartu
+1810,Ruth Britto,A5004298140,exact,I205274468,round2_inst,Trinity College Dublin
+1820,Walter Winter,A5008473973,exact,I2801876189,round2_inst,DESY (Helmholtz Research Center)
+1885,Juan Carlos Rojas Sanchez,A5106928968,exact,I1294671590,round2_inst,National Centre for Scientific Research (CNRS)
+1917,Dennis Meier,A5041645777,exact,I204778367,round2_inst,Norwegian University of Science and Technology
+1984,Eric Jean-Marie Lauga,A5003974917,fuzzy,I241749,round2_inst,University of Cambridge
+2102,Tobias Weidner,A5032665317,exact,I204337017,round2_inst,Aarhus University
+2440,Laura Ildiko Kovacs,A5071158512,fuzzy,I145847075,round2_inst,Vienna University of Technology
+2466,Stefan Roth,A5056098625,exact,I31512782,round2_inst,Technical University of Darmstadt
+2532,Nir Yosef Ailon,A5033770678,fuzzy,I174306211,round2_inst,Technion - Israel Institute of Technology
+2670,Christian Ott,A5048539897,exact,I145847075,round2_inst,Vienna University of Technology
+2677,Victor Torres Company,A5021864307,alias,I66862912,round2_inst,Chalmers University of Technology
+2714,Madeleine Mary Lowery,A5077901559,fuzzy,I100930933,round2_inst,National University of Ireland - University College Dublin
+2958,Annalisa Bonafede,A5035103058,alias,I9360294,round2_inst,University of Bologna
+2984,Michal Drahus,A5006704814,alias,I126596746,round2_inst,Jagiellonian University
+3019,Hagai Perets,A5065198365,fuzzy,I174306211,round2_inst,Technion - Israel Institute of Technology
+3093,Marta Volonteri,A5087752642,exact,I1294671590,round2_inst,National Centre for Scientific Research (CNRS)
+3238,Eldar Haber,A5066026585,exact,I91203450,round2_inst,University of Haifa
+3284,Inger Skjelsbaek,A5089894308,alias,I184942183,round2_inst,University of Oslo
+3300,Delia Ferri,A5025276430,exact,I157286207,round2_inst,National University Of Ireland Maynooth
+3327,Gara Villalba Méndez,A5010005419,alias,I123044942,round2_inst,Autonomous University of Barcelona
+3349,Zoe Georgina Davies,A5053168179,fuzzy,I20581793,round2_inst,University of Kent
+3631,Floris De Lange,A5091104349,fuzzy,I145872427,round2_inst,Radboud University Nijmegen
+3673,Christian Carl Ruff,A5043120916,fuzzy,I202697423,round2_inst,University of Zurich
+3693,Amanda Gabrielle Wood,A5033274421,fuzzy,I169199633,round2_inst,Aston University
+3702,Martine Robbeets,A5009459959,exact,I149899117,round2_inst,Max Planck Society
+3790,Marta Puxan,A5031195330,alias,I50441567,round2_inst,University of the Balearic Islands
+3918,Brigitte Le Normand,A5018178559,exact,I34352273,round2_inst,Maastricht University
+3958,Olalla López Costas,A5091435094,alias,I200284239,round2_inst,University of Santiago de Compostela
+4011,Valentina Lepri,A5077243151,exact,I4210108857,round2_inst,Institute of Philosophy and Sociology (PAS)
+4052,Julien Loiseau,A5078680462,exact,I21491767,round2_inst,Aix-Marseille University
+4064,Caroline An H Waerzeggers,A5003075197,fuzzy,I121797337,round2_inst,Leiden University
+4076,Cameron Andrew Petrie,A5030822768,fuzzy,I241749,round2_inst,University of Cambridge
+4105,Simon Scheider,A5031790635,exact,I193662353,round2_inst,Utrecht University
+4116,Beatriz Rodriguez Labajos,A5053084080,alias,I170486558,round2_inst,Pompeu Fabra University
+4152,Christopher Haworth,A5025939375,exact,I79619799,round2_inst,University of Birmingham

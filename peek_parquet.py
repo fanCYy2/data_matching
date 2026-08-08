@@ -24,4 +24,4 @@ for path in files:
         print("ERROR:", e)
     print()
 
-# python -c "import pandas as pd; df=pd.read_parquet('sciscinet_authors.parquet'); print(df.head()); print(df.shape); print(df.dtypes)"
+# python -c "import pandas as pd; df=pd.read_parquet('openalex_institutions_eu.parquet'); print(df.head()); print(df.shape); print(df.dtypes)"

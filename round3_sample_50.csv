@@ -1,0 +1,51 @@
+﻿rid,eu_name,authorid,match_type,host_id,source,机构
+94,Nils Wiedemann,A5068752218,exact,,round3_semantic,University Medical Center Freiburg
+149,Cynthia Sharma,A5048266578,fuzzy,,round3_semantic,University of Wuerzburg
+174,Paola Picotti,A5084914720,exact,I35440088,round3_semantic,Swiss Federal Institute of Technology Zurich (ETH Zurich)
+223,Felipe Cortés Ledesma,A5016437548,fuzzy,,round3_semantic,Spanish National Cancer Research Centre
+266,Ulrika Marklund,A5087519517,exact,I28166907,round3_semantic,Karolinska Institute
+405,Jorge Alegre-Cebollada,A5113153852,exact,I2809107791,round3_semantic,National Centre for Cardiovascular Research - Spain
+563,Ana Joao Gomes Rodrigues,A5020683956,fuzzy,I99682543,round3_semantic,University of Minho
+570,Martin Fuhrmann,A5082020011,exact,,round3_semantic,German Center for Neurodegenerative Diseases (DZNE) - Helmholtz Center
+796,Michael Sommerauer,A5080852796,exact,,round3_semantic,University Hospital Bonn
+837,Tim Dyrby,A5102857785,fuzzy,,round3_semantic,"Institute of Preventive Medicine (IPM) - Bispebjerg Hospital, Hoverdstaden, Denmark"
+905,Francesca Meteora Buffa,A5075865182,fuzzy,,round3_semantic,Bocconi University Milan
+946,Niel Hens,A5042663607,exact,I878454856,round3_semantic,Hasselt University
+960,Dan Peer,A5103097324,exact,I16391192,round3_semantic,Tel Aviv University
+1059,Tal Dagan,A5004587704,exact,,round3_semantic,University of Kiel
+1240,Miina Alina Rautiainen,A5079472711,fuzzy,I9927081,round3_semantic,Aalto University
+1279,Tillmann Joachim Lüders,A5109681086,fuzzy,I54009628,round3_semantic,University of Bayreuth
+1320,Hendrik Weber,A5001883810,exact,I22465464,round3_semantic,University of Muenster
+1371,Francis Clément Sais Brown,A5057969937,fuzzy,I40120149,round3_semantic,University of Oxford
+1421,Anna Pakhomova,A5087651504,exact,,round3_semantic,National Centre for Scientific Research (CNRS)
+1552,Daniel Metcalfe,A5039514583,exact,,round3_semantic,University of Umea
+1578,Diego Perugini,A5078724935,exact,I27483092,round3_semantic,University of Perugia
+1602,Xuekun Lu,A5024838764,exact,I166337079,round3_semantic,University of London - Queen Mary College
+1784,Selim Chandra Dominik Jochim,A5076896437,fuzzy,,round3_semantic,University of Heidelberg
+1832,Sebastien André Marcel Bize,A5106859499,fuzzy,,round3_semantic,National Centre for Scientific Research (CNRS)
+1971,Frank Henricus Louis Koppens,A5019599310,fuzzy,,round3_semantic,ICFO-Institute of Photonics Sciences
+1983,Massimiliano Gennaro Esposito,A5023030824,fuzzy,I186903577,round3_semantic,University of Luxembourg
+2033,Nikolay Kosinov,A5052823556,exact,I83019370,round3_semantic,Eindhoven University of Technology
+2261,Maria Kamperman,A5025797923,fuzzy,,round3_semantic,University of Groningen
+2468,Julien Jérôme Tierny,A5074734666,fuzzy,I1294671590,round3_semantic,National Centre for Scientific Research (CNRS)
+2537,Josef Urban,A5031019731,exact,I44504214,round3_semantic,Czech Technical University of Prague
+2559,Eike Kiltz,A5002016815,exact,,round3_semantic,University of Bochum
+2643,Laurent Schmalen,A5053280913,exact,I102335020,round3_semantic,Karlsruhe Institute of Technology
+2748,Mario Merino Martínez,A5083558673,fuzzy,,round3_semantic,Carlos III University of Madrid
+2806,Luisa De Marco,A5073676149,exact,,round3_semantic,National Research Council (CNR) - Italy
+2854,Christoph Rüdiger Müller,A5024347042,fuzzy,I35440088,round3_semantic,Swiss Federal Institute of Technology Zurich (ETH Zurich)
+3041,Michela Mapelli,A5071822154,exact,,round3_semantic,University of Heidelberg
+3213,Barbara Rossi,A5101804566,exact,I170486558,round3_semantic,Pompeu Fabra University
+3350,Panagiotis Delimatsis,A5027327104,exact,I193700539,round3_semantic,Tilburg University
+3371,Philip Howard,A5019176699,exact,,round3_semantic,University of Oxford
+3396,Patrick Naef,A5070850900,fuzzy,,round3_semantic,University College London
+3445,Joris Mulder,A5068435789,exact,I193700539,round3_semantic,Tilburg University
+3523,Marc Anton Luy,A5090508615,fuzzy,,round3_semantic,Austrian Academy of Science (AAS)
+3534,Inga Dora Sigfusdottir,A5105792354,exact,I123185442,round3_semantic,Reykjavik University
+3564,Andrea Martin,A5080064387,exact,,round3_semantic,Max Planck Society
+3577,Caspar Schwiedrzik,A5065568970,fuzzy,,round3_semantic,University of Bochum
+3593,Delphine Oudiette,A5075924830,exact,I154526488,round3_semantic,National Institute of Health and Medical Research (INSERM)
+3651,John Robert Gareth Williams,A5002313174,fuzzy,I130828816,round3_semantic,University of Leeds
+3692,Roberta Anna Grazia D'Alessandro,A5107344876,fuzzy,,round3_semantic,Utrecht University
+3910,Béla Vilmos Mihalik,A5001430221,exact,,round3_semantic,Unknown Name
+3986,Erin Thomas Dailey,A5062807619,fuzzy,,round3_semantic,University of Leicester

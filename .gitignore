@@ -9,3 +9,7 @@
 
 # Keep this .gitignore itself
 !.gitignore
+
+# track the test csv
+!round2_sample_50.csv
+!round3_sample_50.csv

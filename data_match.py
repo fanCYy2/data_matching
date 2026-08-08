@@ -1,8 +1,17 @@
 # -*- coding: utf-8 -*-
+import os
 import duckdb
+import numpy as np
 import pandas as pd
 
 con = duckdb.connect()
+
+# ===== 第三轮语义相似度参数 =====
+# bge cosine 有 ~0.5 的高地板:正确匹配 ~0.73-0.81,跨领域 ~0.50-0.70。
+# 判定以"同一 rid 下取最高分候选"为主(相对),THRESH 只当"连最像的都明显不相关就不收"的安全闸。
+EMB_MODEL = "BAAI/bge-small-en-v1.5"
+SEM_THRESH = 0.62   # 绝对下限:候选前3领域名与 EU 面板文本的最大 cosine 需 >= 此值
+SEM_MARGIN = 0.03   # 同 rid 多个候选都过阈值时,第一名要比第二名高出的最小差,否则判为模糊不定
 
 # EU.xlsx 注册成视图,并加一列行号 rid(从 0 开始),用来和 val_host_ids.csv 按行对齐
 con.sql("""
@@ -29,8 +38,11 @@ con.sql(r"""
     array_to_string(list_sort(string_split(norm(x), ' ')), ' ')
 """)
 
-# 每个 EU 行的 host 机构对应的 OpenAlex 机构 id(之前已经匹配好的桥,按 row_id 对齐 rid)
-con.sql("CREATE VIEW host AS SELECT * FROM 'val_host_ids.csv'")
+# 每个 EU 行的 host 机构对应的 OpenAlex 机构 id(按 row_id 对齐 rid)。
+# 桥 = host_ids_bridge.csv:resolve_host_ids_api.py 的产物(exact/fuzzy/weak)为主,
+#      旧 val_host_ids.csv 只补新方法为空的 106 个空档 -> 覆盖 3921/4242。
+# 只取 row_id + host_openalex_id 两列即可(matched_name/method 等复核信息不参与匹配)。
+con.sql("CREATE VIEW host AS SELECT row_id, host_openalex_id FROM 'host_ids_bridge.csv'")
 
 # EU 的 Domain 抽成大类代码(PE / LS / SH),供第三轮领域消歧用
 con.sql("""
@@ -98,6 +110,22 @@ con.sql("""
         ('SH7','C205649164'),('SH7','C144024400'),            -- Human Mobility/Environment/Space -> Geography, Sociology
         ('SH8','C142362112'),('SH8','C95457728')              -- Studies of Cultures and Arts -> Art, History
     ) AS t(panel, fieldid)
+""")
+
+# 第三轮语义匹配用:每个 EU 行的"领域文本"。优先用 Panel 全名(去掉 "PE9 - " 前缀,
+# 如 "Universe Sciences"),Panel 缺失("-"/空)时回退用 Domain(去掉 "(PE)" 后缀)。
+# 两者都缺则为 NULL(该行无法做语义比较)。
+con.sql(r"""
+    CREATE VIEW eu_field_text AS
+    SELECT rid,
+        CASE
+            WHEN "Panel" IS NOT NULL AND "Panel" <> '-'
+                THEN trim(regexp_replace("Panel", '^[A-Z]{2}[0-9]+\s*-\s*', ''))
+            WHEN "Domain" IS NOT NULL AND "Domain" <> '-'
+                THEN trim(regexp_replace("Domain", '\s*\([A-Z]{2}\)\s*$', ''))
+            ELSE NULL
+        END AS eu_text
+    FROM eu
 """)
 
 
@@ -206,75 +234,115 @@ def match_2():
 
 
 def match_3():
+    """层3 语义消歧的取数部分(纯 DuckDB,不含 embedding)。
+
+    对每个待消歧候选 author,取他发文占比【前 3】的 level-1 子学科名(如 Astronomy /
+    Optics / Astrophysics),连同该 EU 行的领域文本(eu_text)一起返回。
+    返回长表:每 (rid, authorid) 最多 3 行,列 = rid, eu_name, authorid, match_type,
+    host_id, eu_text, field_name, share, rnk。没有 level-1 论文的 author -> field_name 为 NULL。
+    语义打分(embedding + cosine)在 semantic_score() 里做。
+    """
     result = con.sql("""
         WITH cand AS (
-            -- 层3全部待消歧候选,带上 EU 的 Domain 大类(粗)和 Panel 面板码(细)
-            SELECT c.rid, c.eu_name, c.authorid, c.match_type, c.host_id,
-                   d.dom AS eu_domain, p.panel AS eu_panel
-            FROM r3in c
-            JOIN eu_dom d ON c.rid = d.rid
-            LEFT JOIN eu_panel p ON c.rid = p.rid
+            SELECT DISTINCT authorid FROM r3in
         ),
         papers AS (
-            -- 只取这些候选 author 的论文
+            -- 只取候选 author 的论文
             SELECT authorid, paperid
             FROM 'sciscinet_authors_paperid.parquet'
-            WHERE authorid IN (SELECT DISTINCT authorid FROM cand)
+            WHERE authorid IN (SELECT authorid FROM cand)
+        ),
+        lvl1 AS (
+            -- OpenAlex level-1 子学科(284 个),细领域信号就用这一级
+            SELECT fieldid, display_name
+            FROM 'sciscinet_fields.parquet'
+            WHERE level = 1
         ),
         field_cnt AS (
-            -- 每个 author 在各 level-0 顶层领域的发文数
+            -- 每个 author 在各 level-1 子学科的发文数
             SELECT p.authorid, pf.fieldid, count(*) AS n
             FROM papers p
             JOIN 'sciscinet_paperfields.parquet' pf ON p.paperid = pf.paperid
-            WHERE pf.fieldid IN (SELECT fieldid FROM fielddomain)
+            WHERE pf.fieldid IN (SELECT fieldid FROM lvl1)
             GROUP BY 1, 2
         ),
-        field_share AS (
-            -- 每个 author 各顶层领域的论文占比,以及他最高的那个领域的论文数
+        ranked AS (
+            -- 各 level-1 子学科的发文占比,按发文数排名
             SELECT authorid, fieldid, n,
                    n * 1.0 / sum(n) OVER (PARTITION BY authorid) AS share,
-                   max(n)          OVER (PARTITION BY authorid) AS max_n
+                   row_number() OVER (PARTITION BY authorid ORDER BY n DESC, fieldid) AS rnk
             FROM field_cnt
         ),
-        main_fields AS (
-            -- author 的主 level-0 领域(占比 >= 15% 或就是最高的那个),细领域消歧用这个
-            SELECT DISTINCT authorid, fieldid
-            FROM field_share
-            WHERE share >= 0.15 OR n = max_n
-        ),
-        main_doms AS (
-            -- 把主 level-0 领域再归到 PE/LS/SH 大类并去重(粗领域消歧,保持原行为)
-            SELECT DISTINCT mf.authorid, fd.dom
-            FROM main_fields mf
-            JOIN fielddomain fd ON mf.fieldid = fd.fieldid
-        ),
-        author_domset AS (
-            -- 每个 author 的主大类集合(拼成字符串便于核对)
-            SELECT authorid, string_agg(dom, ',' ORDER BY dom) AS author_domains
-            FROM main_doms GROUP BY authorid
-        ),
-        author_fieldset AS (
-            -- 每个 author 的主 level-0 领域名集合(便于核对细领域)
-            SELECT mf.authorid, string_agg(f.display_name, ',' ORDER BY f.display_name) AS author_fields
-            FROM main_fields mf
-            JOIN 'sciscinet_fields.parquet' f ON mf.fieldid = f.fieldid
-            GROUP BY mf.authorid
+        top3 AS (
+            -- 每个 author 占比前 3 的 level-1 子学科(带学科名)
+            SELECT r.authorid, l.display_name AS field_name, r.share, r.rnk
+            FROM ranked r
+            JOIN lvl1 l ON r.fieldid = l.fieldid
+            WHERE r.rnk <= 3
         )
-        -- 先按粗大类佐证(EU 的 domain 落在 author 主大类集合里),再给一个"细领域是否也对上"的标记:
-        -- panel_ok = author 的主 level-0 领域 与 该 EU 面板映射的 level-0 领域 有交集
         SELECT c.rid, c.eu_name, c.authorid, c.match_type, c.host_id,
-               c.eu_domain, c.eu_panel, ds.author_domains, fs.author_fields,
-               EXISTS (
-                   SELECT 1 FROM main_fields mf
-                   JOIN panelfield pf2 ON mf.fieldid = pf2.fieldid
-                   WHERE mf.authorid = c.authorid AND pf2.panel = c.eu_panel
-               ) AS panel_ok
-        FROM cand c
-        JOIN main_doms a           ON c.authorid = a.authorid AND a.dom = c.eu_domain
-        JOIN author_domset ds      ON c.authorid = ds.authorid
-        LEFT JOIN author_fieldset fs ON c.authorid = fs.authorid
+               t.eu_text, top3.field_name, top3.share, top3.rnk
+        FROM r3in c
+        JOIN eu_field_text t ON c.rid = t.rid
+        LEFT JOIN top3        ON c.authorid = top3.authorid
     """).df()
     return result
+
+
+_EMBED = {}
+
+
+def _get_embedder():
+    """惰性加载本地 bge 句向量模型;返回 embed(list[str]) -> np.ndarray(已 L2 归一)。"""
+    if "fn" in _EMBED:
+        return _EMBED["fn"]
+    os.environ.setdefault("HF_HUB_DISABLE_SYMLINKS_WARNING", "1")
+    import torch
+    from transformers import AutoTokenizer, AutoModel
+    tok = AutoTokenizer.from_pretrained(EMB_MODEL)
+    model = AutoModel.from_pretrained(EMB_MODEL)
+    model.eval()
+
+    @torch.no_grad()
+    def embed(texts):
+        out = []
+        for i in range(0, len(texts), 64):
+            enc = tok(texts[i:i + 64], padding=True, truncation=True,
+                      max_length=64, return_tensors="pt")
+            v = model(**enc).last_hidden_state[:, 0]            # bge: CLS pooling
+            v = torch.nn.functional.normalize(v, p=2, dim=1)
+            out.append(v.cpu().numpy())
+        return np.vstack(out)
+
+    _EMBED["fn"] = embed
+    return embed
+
+
+def semantic_score(long_df):
+    """把 match_3() 的长表打分:每 (rid, authorid) 返回一行,sim = 其前3 level-1 领域名
+    与该行 eu_text 的【最大】cosine(取最像的一个领域)。无领域/无 eu_text -> sim = NaN。"""
+    keys = ["rid", "eu_name", "authorid", "match_type", "host_id"]
+    df = long_df.copy()
+
+    # 唯一短文本一次性嵌入(领域名 + EU 面板文本,合计约几百条)
+    texts = pd.unique(pd.concat(
+        [df["eu_text"].dropna(), df["field_name"].dropna()], ignore_index=True))
+    if len(texts) == 0:
+        base = df[keys].drop_duplicates().reset_index(drop=True)
+        base["sim"] = np.nan
+        return base
+    vecs = _get_embedder()(list(texts))
+    idx = {t: i for i, t in enumerate(texts)}
+
+    def cos(f, e):
+        if not isinstance(f, str) or not isinstance(e, str):
+            return np.nan
+        return float(vecs[idx[f]] @ vecs[idx[e]])
+
+    df["cos"] = [cos(f, e) for f, e in zip(df["field_name"], df["eu_text"])]
+    sim = (df.groupby(keys, dropna=False)["cos"].max()
+             .reset_index().rename(columns={"cos": "sim"}))
+    return sim
 
 
 def main():
@@ -339,28 +407,34 @@ def main():
                .drop_duplicates())
     con.register('r3in', l3_in)
 
-    r3 = match_3().sort_values(['rid', 'authorid']).reset_index(drop=True)
+    # 层3 语义消歧:候选前3 level-1 领域名 与 EU 面板文本 的最大 cosine
+    r3_long = match_3()                                 # 长表:每候选最多 3 行领域名
+    scored = semantic_score(r3_long)                    # 每 (rid, authorid) 一行,带 sim
+    scored = scored.sort_values(['rid', 'sim'], ascending=[True, False]).reset_index(drop=True)
 
-    # 两段式消歧:先用粗大类(PE/LS/SH),粗大类还剩多个同名的,再用细领域(ERC 面板 -> level-0 领域)打破。
-    #   - 粗后唯一          -> round3_field(和之前一样)
-    #   - 粗后仍多个、细后唯一 -> round3_panel(靠细领域打破平局,置信度略低,单独标记便于核对)
+    # 判定(相对为主 + 绝对下限):同一 rid 下,先取过阈值(sim >= SEM_THRESH)的候选,
+    #   - 只有 1 个过阈值            -> 收(round3_semantic)
+    #   - 多个过阈值、且第一名比第二名高出 SEM_MARGIN -> 收最高分的那个
+    #   - 多个过阈值但差距 < margin  -> 判为模糊,不定(留人工)
     picks = []
-    for rid, g in r3.groupby('rid'):
-        if g['authorid'].nunique() == 1:               # 粗大类后就只剩 1 个
-            picks.append(g.iloc[[0]].assign(source='round3_field'))
-        else:
-            gf = g[g['panel_ok']]                      # 细领域也对上的子集
-            if gf['authorid'].nunique() == 1:          # 细领域把平局打破到唯一
-                picks.append(gf.iloc[[0]].assign(source='round3_panel'))
-    r3res = pd.concat(picks, ignore_index=True) if picks else r3.iloc[:0].assign(source=pd.NA)
+    for rid, g in scored.groupby('rid'):
+        passed = g[g['sim'] >= SEM_THRESH].sort_values('sim', ascending=False)
+        if passed.empty:
+            continue
+        if len(passed) == 1 or (passed.iloc[0]['sim'] - passed.iloc[1]['sim'] >= SEM_MARGIN):
+            picks.append(passed.iloc[[0]].assign(source='round3_semantic'))
+    r3res = pd.concat(picks, ignore_index=True) if picks else scored.iloc[:0].assign(source=pd.NA)
     take3 = set(r3res['rid'])
-    take3_field = int((r3res['source'] == 'round3_field').sum())
-    take3_panel = int((r3res['source'] == 'round3_panel').sum())
     resolved.append(r3res[cols])
     pending -= take3
-    print('层3 领域 → 确定 %d(粗领域 %d + 细领域打破平局 %d),剩下 %d'
-          % (len(take3), take3_field, take3_panel, len(pending)))
+    print('层3 语义 → 确定 %d(sim>=%.2f,margin>=%.2f),剩下 %d'
+          % (len(take3), SEM_THRESH, SEM_MARGIN, len(pending)))
     print()
+
+    # match_3.csv:长表 + 每候选的 sim,便于人工核对语义打分
+    r3 = r3_long.merge(scored[['rid', 'authorid', 'sim']], on=['rid', 'authorid'], how='left')
+    r3 = r3.sort_values(['rid', 'sim', 'authorid', 'rnk'],
+                        ascending=[True, False, True, True]).reset_index(drop=True)
 
     # 最后整理数据
     final = (pd.concat(resolved, ignore_index=True)
@@ -376,8 +450,7 @@ def main():
     print('总数:', len(final), '| 筛选率: %d / %d = %.1f%%' % (len(final), total, 100.0 * len(final) / total))
     print('  来源:名字唯一', int((final['source'] == 'name_unique').sum()),
           '| 机构', int((final['source'] == 'round2_inst').sum()),
-          '| 粗领域', int((final['source'] == 'round3_field').sum()),
-          '| 细领域', int((final['source'] == 'round3_panel').sum()))
+          '| 语义领域', int((final['source'] == 'round3_semantic').sum()))
     print('  名字类型:精确', int((final['match_type'] == 'exact').sum()),
           '| 首末名模糊', int((final['match_type'] == 'fuzzy').sum()),
           '| 别名', int((final['match_type'] == 'alias').sum()))
