@@ -6,6 +6,13 @@ import pandas as pd
 
 con = duckdb.connect()
 
+# 允许把大表扫描/连接的中间结果溢写到磁盘:内存版 DuckDB(connect() 不带文件)默认
+# 无 temp_directory、完全不溢写,match_2 扫 6.8GB 的 affiliation parquet 会 OOM。
+# 纯执行层配置,不影响任何匹配结果。
+con.sql("SET temp_directory='.duckdb_tmp'")     # 溢写目录(关键)
+con.sql("SET memory_limit='12GB'")              # 卡在可用内存以内
+con.sql("SET preserve_insertion_order=false")   # 大扫描/聚合省内存
+
 # ===== 第三轮语义相似度参数 =====
 # bge cosine 有 ~0.5 的高地板:正确匹配 ~0.73-0.81,跨领域 ~0.50-0.70。
 # 判定以"同一 rid 下取最高分候选"为主(相对),THRESH 只当"连最像的都明显不相关就不收"的安全闸。
@@ -20,10 +27,19 @@ con.sql("""
     FROM read_xlsx('EU.xlsx', all_varchar = true)
 """)
 
-# 名字归一化宏:去重音(ö->o、é->e)-> 小写 -> 去首尾/压缩空格。第一轮用它做匹配键。
+# 名字归一化宏:先把连字符/破折号家族(普通连字符 U+002D、软连字符 U+00AD、
+# Unicode 连字符/破折号 U+2010–U+2015、减号 U+2212)统一成空格 -> 去重音(é->e)
+# -> 小写 -> 去首尾 / 压缩空格。第一轮用它做匹配键。
+# 只收窄到"连字符类"、不动句点等其它标点:OpenAlex 名字会混入 U+2010 等奇怪连字符
+# (如 "Felipe Cortés‐Ledesma"),不归一它就和普通空格写法配不上;但若把句点也当分隔符,
+# "Cynthia. Sharma" 这类残缺记录会精确命中、顶掉真人 "Cynthia M. Sharma",故仅限连字符。
 con.sql(r"""
     CREATE MACRO norm(x) AS
-    regexp_replace(trim(lower(strip_accents(x))), '\s+', ' ', 'g')
+    regexp_replace(
+        trim(lower(strip_accents(
+            regexp_replace(x, '[\x{002D}\x{00AD}\x{2010}-\x{2015}\x{2212}]', ' ', 'g')
+        ))),
+        '\s+', ' ', 'g')
 """)
 
 # 首名+末名(姓)key:丢掉中间名/缩写,用于 match_1b 模糊补配(如 "Jonathan Lawrence Marchini" -> "jonathan|marchini")
@@ -147,9 +163,9 @@ def match_1():
 
 
 def match_1b():
-    # 第一轮补充:归一化精确没配上的 EU 行,丢掉中间名和缩写
+    # 第一轮兜底(最松、放在最后):归一化精确、别名都没配上的 EU 行,丢掉中间名和缩写。
     # 首名末名较宽松、fan-out 大,所以这些候选不单独可信,一律要靠第二轮机构过滤才会被接受。
-    # 只处理不在 r1_exact 里的 rid, 避免弄乱已经精确配上的行。
+    # 只处理不在 r1_ea(精确+别名)里的 rid,避免用松匹配盖掉已被更高精度层配上的行。
     result = con.sql("""
         SELECT
             eu.rid             AS rid,
@@ -160,25 +176,26 @@ def match_1b():
         JOIN 'sciscinet_authors.parquet' sci
           ON fl(sci.display_name) = fl(eu."Researcher(s)")
         WHERE eu."Researcher(s)" IS NOT NULL
-          AND eu.rid NOT IN (SELECT DISTINCT rid FROM r1_exact)
+          AND eu.rid NOT IN (SELECT DISTINCT rid FROM r1_ea)
     """).df()
     return result
 
 
 def match_1c():
-    # 精确(match_1)和首末名(match_1b)都没配上的行,用 author_details 的
-    # display_name_alternatives(曾用名/别名/拼写变体)再召回。
-    # 两种 key:整名别名(拼写变体)、排序词集(姓名顺序颠倒)。松散匹配,靠下游机构/领域佐证。
+    # 精确(match_1)没配上的行,用 author_details 的 display_name_alternatives
+    # (曾用名/别名/拼写变体)再召回。放在首末名模糊【之前】跑:别名要求整名或整词集相等,
+    # 精度远高于只比首末名的模糊层,应优先占坑。
+    # 两种 key:整名别名(拼写变体)、排序词集(姓名顺序颠倒)。整串/整词集相等,精度高。
     result = con.sql("""
         WITH nm AS (
-            -- 还没有任何名字候选的 EU 行(不在精确+模糊结果 r1_ef 里)
+            -- 精确没配上的 EU 行(不在精确结果 r1_exact 里)
             SELECT rid,
                    "Researcher(s)"       AS eu_name,
                    norm("Researcher(s)") AS nn,
                    wset("Researcher(s)") AS ws
             FROM eu
             WHERE "Researcher(s)" IS NOT NULL
-              AND rid NOT IN (SELECT DISTINCT rid FROM r1_ef)
+              AND rid NOT IN (SELECT DISTINCT rid FROM r1_exact)
         ),
         alias AS (
             -- 展开别名数组,只保留 key 命中上面这些没配上名字的
@@ -349,21 +366,21 @@ def main():
     cols = ['rid', 'eu_name', 'authorid', 'match_type', 'host_id', 'source']
     resolved = []   # 每层剔除定下来的行(带 source)
 
-    # 第一轮:名字匹配
-    # 归一化精确，首末名 别名,
+    # 第一轮:名字匹配。精度从高到低排层,前层先占坑、后层排除已占的 rid:
+    # 精确 → 别名(整名变体/词集,高精度) → 首末名模糊(丢中间名,最松、兜底)。
     r1_exact = match_1()
     r1_exact['match_type'] = 'exact'
-    con.register('r1_exact', r1_exact)                 # 供 match_1b 排除已精确配上的 rid
-
-    r1_fuzzy = match_1b()
-    r1_fuzzy['match_type'] = 'fuzzy'
-    r1_ef = pd.concat([r1_exact, r1_fuzzy], ignore_index=True)
-    con.register('r1_ef', r1_ef)                       # 供 match_1c 排除已精确/模糊配上的 rid
+    con.register('r1_exact', r1_exact)                 # 供 match_1c 排除已精确配上的 rid
 
     r1_alias = match_1c()
     r1_alias['match_type'] = 'alias'
+    r1_ea = pd.concat([r1_exact, r1_alias], ignore_index=True)
+    con.register('r1_ea', r1_ea)                       # 供 match_1b 排除已精确/别名配上的 rid
 
-    r1 = pd.concat([r1_exact, r1_fuzzy, r1_alias], ignore_index=True)
+    r1_fuzzy = match_1b()
+    r1_fuzzy['match_type'] = 'fuzzy'
+
+    r1 = pd.concat([r1_exact, r1_alias, r1_fuzzy], ignore_index=True)
     pending = set(r1['rid'])                            # 还没唯一确定的 EU 行
 
     # print('候选行数: 精确', len(r1_exact), '| 模糊', len(r1_fuzzy), '| 别名', len(r1_alias))
