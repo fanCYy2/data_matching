@@ -31,8 +31,6 @@ con.sql("""
 # Unicode 连字符/破折号 U+2010–U+2015、减号 U+2212)统一成空格 -> 去重音(é->e)
 # -> 小写 -> 去首尾 / 压缩空格。第一轮用它做匹配键。
 # 只收窄到"连字符类"、不动句点等其它标点:OpenAlex 名字会混入 U+2010 等奇怪连字符
-# (如 "Felipe Cortés‐Ledesma"),不归一它就和普通空格写法配不上;但若把句点也当分隔符,
-# "Cynthia. Sharma" 这类残缺记录会精确命中、顶掉真人 "Cynthia M. Sharma",故仅限连字符。
 con.sql(r"""
     CREATE MACRO norm(x) AS
     regexp_replace(
@@ -42,7 +40,7 @@ con.sql(r"""
         '\s+', ' ', 'g')
 """)
 
-# 首名+末名(姓)key:丢掉中间名/缩写,用于 match_1b 模糊补配(如 "Jonathan Lawrence Marchini" -> "jonathan|marchini")
+# 首名+末名(姓)key:丢掉中间名/缩写,用于 match_1c 模糊补配(如 "Jonathan Lawrence Marchini" -> "jonathan|marchini")
 con.sql(r"""
     CREATE MACRO fl(x) AS
     regexp_extract(norm(x), '^(\S+)', 1) || '|' || regexp_extract(norm(x), '(\S+)$', 1)
@@ -59,74 +57,6 @@ con.sql(r"""
 #      旧 val_host_ids.csv 只补新方法为空的 106 个空档 -> 覆盖 3921/4242。
 # 只取 row_id + host_openalex_id 两列即可(matched_name/method 等复核信息不参与匹配)。
 con.sql("CREATE VIEW host AS SELECT row_id, host_openalex_id FROM 'host_ids_bridge.csv'")
-
-# EU 的 Domain 抽成大类代码(PE / LS / SH),供第三轮领域消歧用
-con.sql("""
-    CREATE VIEW eu_dom AS
-    SELECT rid, regexp_extract("Domain", '\\(([A-Z]{2})\\)', 1) AS dom
-    FROM eu
-""")
-
-# OpenAlex 19 个顶层领域映射为EU 三大类
-con.sql("""
-    CREATE VIEW fielddomain AS
-    SELECT * FROM (VALUES
-        ('C86803240','LS'), ('C71924100','LS'),                        -- Biology, Medicine
-        ('C185592680','PE'),('C121332964','PE'),('C41008148','PE'),    -- Chemistry, Physics, Computer science
-        ('C127413603','PE'),('C192562407','PE'),('C33923547','PE'),    -- Engineering, Materials science, Mathematics
-        ('C127313418','PE'),('C39432304','PE'),                        -- Geology, Environmental science
-        ('C162324750','SH'),('C144133560','SH'),('C144024400','SH'),   -- Economics, Business, Sociology
-        ('C17744445','SH'), ('C15744967','SH'), ('C95457728','SH'),    -- Political science, Psychology, History
-        ('C138885662','SH'),('C142362112','SH'),('C205649164','SH')    -- Philosophy, Art, Geography
-    ) AS t(fieldid, dom)
-""")
-
-# EU 的 Panel 抽成 ERC 面板码(PE8 / LS7 / SH6 …),比 Domain(只有 PE/LS/SH 三类)细得多,
-# 供第三轮"细领域"消歧:同一大类里再区分是数学/物理/化学/…
-con.sql("""
-    CREATE VIEW eu_panel AS
-    SELECT rid, regexp_extract("Panel", '^([A-Z]{2}[0-9]+)', 1) AS panel
-    FROM eu
-""")
-
-# ERC 面板码 -> OpenAlex 19 个 level-0 领域(手工对应)。每个面板给 1~2 个最贴近的 level-0 领域,
-# 略放宽以免把真人过滤掉;映射严格落在该面板对应的 PE/LS/SH 大类内,是对 fielddomain 的细化。
-con.sql("""
-    CREATE VIEW panelfield AS
-    SELECT * FROM (VALUES
-        -- PE 理工
-        ('PE1','C33923547'),                                  -- Mathematics -> Mathematics
-        ('PE2','C121332964'),                                 -- Fundamental Constituents of Matter -> Physics
-        ('PE3','C121332964'),                                 -- Condensed Matter Physics -> Physics
-        ('PE4','C185592680'),('PE4','C121332964'),            -- Physical & Analytical Chemistry -> Chemistry, Physics
-        ('PE5','C185592680'),('PE5','C192562407'),            -- Synthetic Chemistry & Materials -> Chemistry, Materials
-        ('PE6','C41008148'),                                  -- Computer Science & Informatics -> Computer science
-        ('PE7','C127413603'),('PE7','C41008148'),             -- Systems & Communication Eng -> Engineering, CS
-        ('PE8','C127413603'),('PE8','C192562407'),            -- Products & Processes Eng -> Engineering, Materials
-        ('PE9','C121332964'),                                 -- Universe Sciences -> Physics (Astronomy 在 Physics 下)
-        ('PE10','C127313418'),('PE10','C39432304'),           -- Earth System Science -> Geology, Environmental sci
-        ('PE11','C192562407'),('PE11','C127413603'),          -- Materials Engineering -> Materials, Engineering
-        -- LS 生命
-        ('LS1','C86803240'),('LS1','C185592680'),             -- Molecules of Life -> Biology, Chemistry
-        ('LS2','C86803240'),                                  -- Integrative Biology (genes/genomes) -> Biology
-        ('LS3','C86803240'),                                  -- Cellular/Developmental Biology -> Biology
-        ('LS4','C71924100'),('LS4','C86803240'),              -- Physiology in Health/Disease -> Medicine, Biology
-        ('LS5','C71924100'),('LS5','C86803240'),              -- Neuroscience -> Medicine, Biology
-        ('LS6','C71924100'),('LS6','C86803240'),              -- Immunity/Infection -> Medicine, Biology
-        ('LS7','C71924100'),                                  -- Diagnosis & Treatment of Diseases -> Medicine
-        ('LS8','C86803240'),('LS8','C39432304'),              -- Environmental Biology/Ecology -> Biology, Env sci
-        ('LS9','C86803240'),('LS9','C127413603'),             -- Biotechnology & Biosystems Eng -> Biology, Engineering
-        -- SH 人文社科
-        ('SH1','C162324750'),('SH1','C144133560'),            -- Markets & Organisations -> Economics, Business
-        ('SH2','C17744445'),                                  -- Institutions/Governance/Legal -> Political science
-        ('SH3','C144024400'),('SH3','C17744445'),             -- The Social World -> Sociology, Political science
-        ('SH4','C15744967'),                                  -- The Human Mind -> Psychology
-        ('SH5','C142362112'),('SH5','C95457728'),             -- Cultures & Cultural Production -> Art, History
-        ('SH6','C95457728'),                                  -- The Study of the Human Past -> History
-        ('SH7','C205649164'),('SH7','C144024400'),            -- Human Mobility/Environment/Space -> Geography, Sociology
-        ('SH8','C142362112'),('SH8','C95457728')              -- Studies of Cultures and Arts -> Art, History
-    ) AS t(panel, fieldid)
-""")
 
 # 第三轮语义匹配用:每个 EU 行的"领域文本"。优先用 Panel 全名(去掉 "PE9 - " 前缀,
 # 如 "Universe Sciences"),Panel 缺失("-"/空)时回退用 Domain(去掉 "(PE)" 后缀)。
@@ -145,7 +75,7 @@ con.sql(r"""
 """)
 
 
-def match_1():
+def match_1a():
     # 第一轮粗匹配:authors 表的 display_name 和 EU 表的 Researcher(s) 比较。
     # 用 norm() 归一化后再比, 防止一些奇怪的欧洲字母不一样导致匹配不上
     # 两张表可能都存在重名
@@ -163,26 +93,7 @@ def match_1():
 
 
 def match_1b():
-    # 第一轮兜底(最松、放在最后):归一化精确、别名都没配上的 EU 行,丢掉中间名和缩写。
-    # 首名末名较宽松、fan-out 大,所以这些候选不单独可信,一律要靠第二轮机构过滤才会被接受。
-    # 只处理不在 r1_ea(精确+别名)里的 rid,避免用松匹配盖掉已被更高精度层配上的行。
-    result = con.sql("""
-        SELECT
-            eu.rid             AS rid,
-            eu."Researcher(s)" AS eu_name,
-            sci.authorid         AS authorid,
-            sci.display_name     AS sci_name
-        FROM eu
-        JOIN 'sciscinet_authors.parquet' sci
-          ON fl(sci.display_name) = fl(eu."Researcher(s)")
-        WHERE eu."Researcher(s)" IS NOT NULL
-          AND eu.rid NOT IN (SELECT DISTINCT rid FROM r1_ea)
-    """).df()
-    return result
-
-
-def match_1c():
-    # 精确(match_1)没配上的行,用 author_details 的 display_name_alternatives
+    # 精确(match_1a)没配上的行,用 author_details 的 display_name_alternatives
     # (曾用名/别名/拼写变体)再召回。放在首末名模糊【之前】跑:别名要求整名或整词集相等,
     # 精度远高于只比首末名的模糊层,应优先占坑。
     # 两种 key:整名别名(拼写变体)、排序词集(姓名顺序颠倒)。整串/整词集相等,精度高。
@@ -215,6 +126,25 @@ def match_1c():
         JOIN alias a
           ON nm.nn = a.nalias
           OR nm.ws = a.wsalias
+    """).df()
+    return result
+
+
+def match_1c():
+    # 第一轮兜底(最松、放在最后):归一化精确、别名都没配上的 EU 行,丢掉中间名和缩写。
+    # 首名末名较宽松、fan-out 大,所以这些候选不单独可信,一律要靠第二轮机构过滤才会被接受。
+    # 只处理不在 r1_ea(精确+别名)里的 rid,避免用松匹配盖掉已被更高精度层配上的行。
+    result = con.sql("""
+        SELECT
+            eu.rid             AS rid,
+            eu."Researcher(s)" AS eu_name,
+            sci.authorid         AS authorid,
+            sci.display_name     AS sci_name
+        FROM eu
+        JOIN 'sciscinet_authors.parquet' sci
+          ON fl(sci.display_name) = fl(eu."Researcher(s)")
+        WHERE eu."Researcher(s)" IS NOT NULL
+          AND eu.rid NOT IN (SELECT DISTINCT rid FROM r1_ea)
     """).df()
     return result
 
@@ -362,22 +292,62 @@ def semantic_score(long_df):
     return sim
 
 
+def match_4():
+    """层4 兜底:层3 之后仍有歧义(重名候选无法收敛)的 rid,在候选里定案。候选来自 r4in
+    (层3 未定的 rid 及其同名候选),每个候选带一个 passed 标志 = 该候选在层3 是否过了语义阈值。
+
+    排序键(同一 rid 内):passed DESC → 论文数 DESC → authorid ASC。含义:
+      - 若该 rid 有过阈值的候选(A 类:语义近似平局),只在【过阈值的候选】里挑论文数最高的,
+        把语义不相关的高产同名者挡在门外;
+      - 若一个都没过阈值(B 类:无语义信号),passed 全 False,自动退回【纯论文数】兜底。
+    论文数用 sciscinet_authors_paperid.parquet 按 authorid 数【去重 paperid】,没记录记 0 篇。
+    并列时按 authorid 升序取一个,保证确定。返回每 rid 一行,带 passed / n_papers。
+    """
+    result = con.sql("""
+        WITH cand AS (
+            SELECT DISTINCT rid, eu_name, authorid, match_type, host_id, passed FROM r4in
+        ),
+        pcnt AS (
+            -- 每个候选 author 的论文数(去重 paperid)
+            SELECT authorid, count(DISTINCT paperid) AS n_papers
+            FROM 'sciscinet_authors_paperid.parquet'
+            WHERE authorid IN (SELECT DISTINCT authorid FROM cand)
+            GROUP BY authorid
+        ),
+        ranked AS (
+            -- 同一 rid 内:先按是否过语义阈值,再按论文数降序,没有论文记录的 author 记 0 篇
+            SELECT c.rid, c.eu_name, c.authorid, c.match_type, c.host_id, c.passed,
+                   COALESCE(p.n_papers, 0) AS n_papers,
+                   row_number() OVER (
+                       PARTITION BY c.rid
+                       ORDER BY c.passed DESC, COALESCE(p.n_papers, 0) DESC, c.authorid
+                   ) AS rnk
+            FROM cand c
+            LEFT JOIN pcnt p ON c.authorid = p.authorid
+        )
+        SELECT rid, eu_name, authorid, match_type, host_id, passed, n_papers
+        FROM ranked
+        WHERE rnk = 1
+    """).df()
+    return result
+
+
 def main():
     cols = ['rid', 'eu_name', 'authorid', 'match_type', 'host_id', 'source']
     resolved = []   # 每层剔除定下来的行(带 source)
 
     # 第一轮:名字匹配。精度从高到低排层,前层先占坑、后层排除已占的 rid:
     # 精确 → 别名(整名变体/词集,高精度) → 首末名模糊(丢中间名,最松、兜底)。
-    r1_exact = match_1()
+    r1_exact = match_1a()
     r1_exact['match_type'] = 'exact'
-    con.register('r1_exact', r1_exact)                 # 供 match_1c 排除已精确配上的 rid
+    con.register('r1_exact', r1_exact)                 # 供 match_1b 排除已精确配上的 rid
 
-    r1_alias = match_1c()
+    r1_alias = match_1b()
     r1_alias['match_type'] = 'alias'
     r1_ea = pd.concat([r1_exact, r1_alias], ignore_index=True)
-    con.register('r1_ea', r1_ea)                       # 供 match_1b 排除已精确/别名配上的 rid
+    con.register('r1_ea', r1_ea)                       # 供 match_1c 排除已精确/别名配上的 rid
 
-    r1_fuzzy = match_1b()
+    r1_fuzzy = match_1c()
     r1_fuzzy['match_type'] = 'fuzzy'
 
     r1 = pd.concat([r1_exact, r1_alias, r1_fuzzy], ignore_index=True)
@@ -453,6 +423,30 @@ def main():
     r3 = r3.sort_values(['rid', 'sim', 'authorid', 'rnk'],
                         ascending=[True, False, True, True]).reset_index(drop=True)
 
+    # 层4:兜底定案。层1-3 都没能唯一确定的 rid(重名候选仍收不敛),在候选里选一个定给它。
+    # 候选沿用进层3 的同名候选(l3_in),按剩下未定的 rid 过滤,并 merge 回层3 已算好的语义分:
+    # passed = 该候选是否过了 SEM_THRESH。层4 先按 passed 再按论文数排(见 match_4),这样:
+    #   - 有候选过阈值的 rid(语义近似平局)→ 只在过阈值候选里挑最高产的,挡掉无关高产同名者;
+    #   - 一个都没过阈值的 rid(无语义信号)→ 退回纯论文数兜底。
+    # 这一层把所有还有候选的 rid 都定下来(不再留人工),代价是牺牲一点精度换全覆盖。
+    l4_in = (l3_in[l3_in['rid'].isin(pending)]
+             .merge(scored[['rid', 'authorid', 'sim']], on=['rid', 'authorid'], how='left'))
+    l4_in['passed'] = (l4_in['sim'] >= SEM_THRESH).fillna(False)
+    con.register('r4in', l4_in)
+    r4res = match_4()
+    # source 拆两类:semtie = 有语义背书的平局裁决(可信度高);maxpapers = 纯论文数硬兜底(低置信,建议抽查)
+    r4res['source'] = np.where(r4res['passed'], 'round4_semtie', 'round4_maxpapers')
+    take4 = set(r4res['rid'])
+    resolved.append(r4res[cols])
+    pending -= take4
+    print('层4 兜底 → 确定 %d(语义平局 %d,论文数兜底 %d),剩下 %d'
+          % (len(take4), int((r4res['source'] == 'round4_semtie').sum()),
+             int((r4res['source'] == 'round4_maxpapers').sum()), len(pending)))
+    print()
+
+    # match_4.csv:层4 各 rid 选中的 author 及其论文数,便于人工核对兜底决策
+    r4 = r4res.sort_values('rid').reset_index(drop=True)
+
     # 最后整理数据
     final = (pd.concat(resolved, ignore_index=True)
                .drop_duplicates(subset='rid').sort_values('rid').reset_index(drop=True))
@@ -460,6 +454,7 @@ def main():
     r1.to_csv("match_1.csv", index=False, encoding='utf-8-sig')
     r2.to_csv("match_2.csv", index=False, encoding='utf-8-sig')
     r3.to_csv("match_3.csv", index=False, encoding='utf-8-sig')
+    r4.to_csv("match_4.csv", index=False, encoding='utf-8-sig')
     final.to_csv("matched_final.csv", index=False, encoding='utf-8-sig')
 
     total = con.sql("SELECT count(*) FROM eu").fetchone()[0]
@@ -467,11 +462,13 @@ def main():
     print('总数:', len(final), '| 筛选率: %d / %d = %.1f%%' % (len(final), total, 100.0 * len(final) / total))
     print('  来源:名字唯一', int((final['source'] == 'name_unique').sum()),
           '| 机构', int((final['source'] == 'round2_inst').sum()),
-          '| 语义领域', int((final['source'] == 'round3_semantic').sum()))
+          '| 语义领域', int((final['source'] == 'round3_semantic').sum()),
+          '| 语义平局兜底', int((final['source'] == 'round4_semtie').sum()),
+          '| 论文数兜底', int((final['source'] == 'round4_maxpapers').sum()))
     print('  名字类型:精确', int((final['match_type'] == 'exact').sum()),
           '| 首末名模糊', int((final['match_type'] == 'fuzzy').sum()),
           '| 别名', int((final['match_type'] == 'alias').sum()))
-    print("结果已保存:match_1.csv, match_2.csv, match_3.csv, matched_final.csv")
+    print("结果已保存:match_1.csv, match_2.csv, match_3.csv, match_4.csv, matched_final.csv")
 
 
 if __name__ == "__main__":

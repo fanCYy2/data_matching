@@ -4,7 +4,7 @@
 # But descend into directories so nested files can be matched
 !*/
 
-# Track Python files only
+# Track Python files 
 !*.py
 
 # Keep this .gitignore itself
@@ -13,3 +13,10 @@
 # track the test csv
 !round2_sample_50.csv
 !round3_sample_50.csv
+!round4_sample_100.csv
+
+# track the final csv
+!matched_final.csv
+
+# trackt the Algorithm.md
+!Algorithm.md
