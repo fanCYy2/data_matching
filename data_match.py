@@ -93,20 +93,21 @@ def match_1a():
 
 
 def match_1b():
-    # 精确(match_1a)没配上的行,用 author_details 的 display_name_alternatives
-    # (曾用名/别名/拼写变体)再召回。放在首末名模糊【之前】跑:别名要求整名或整词集相等,
-    # 精度远高于只比首末名的模糊层,应优先占坑。
+    # 别名召回:用 author_details 的 display_name_alternatives(曾用名/别名/拼写变体)。
+    # 【对所有 rid 生效,别名与 display_name 平级】——哪怕某 rid 已被精确命中,别名也可能
+    # 指向另一个 authorid(真人常把 EU 里的写法登记成别名,而其 display_name 是缩写/带中间名/
+    # 带重音的形式,精确层只会命中一个论文数极少的空壳)。这些别名候选并进候选池,
+    # name_unique 的唯一性判定改用 精确∪别名(见 main);消歧仍交给机构/语义/层4。
     # 两种 key:整名别名(拼写变体)、排序词集(姓名顺序颠倒)。整串/整词集相等,精度高。
     result = con.sql("""
         WITH nm AS (
-            -- 精确没配上的 EU 行(不在精确结果 r1_exact 里)
+            -- 所有有名字的 EU 行(不再排除已精确命中的 rid)
             SELECT rid,
                    "Researcher(s)"       AS eu_name,
                    norm("Researcher(s)") AS nn,
                    wset("Researcher(s)") AS ws
             FROM eu
             WHERE "Researcher(s)" IS NOT NULL
-              AND rid NOT IN (SELECT DISTINCT rid FROM r1_exact)
         ),
         alias AS (
             -- 展开别名数组,只保留 key 命中上面这些没配上名字的
@@ -357,10 +358,16 @@ def main():
     # print('有候选的 EU 记录:', len(pending))
     # print()
 
-    
-    exact_counts = r1_exact.groupby('rid').size()
-    uniq_rids = set(exact_counts[exact_counts == 1].index)
-    take = r1_exact[r1_exact['rid'].isin(uniq_rids)].copy()
+    # name_unique(层1 直接定档):只针对"有精确命中"的 rid,且当 精确∪别名 合起来仍是
+    # 唯一 authorid 时才收。别名现已对所有 rid 生效(match_1b),所以"精确唯一、但别名带出了
+    # 另一个 authorid"的 rid 不再算唯一——把两边候选一起降级,交给 机构/语义/层4 消歧。
+    # 真正干净的唯一命中(精确唯一、且无冲突别名)照旧在这里定,保护面不变。
+    ea_ids = pd.concat([r1_exact[['rid', 'authorid']], r1_alias[['rid', 'authorid']]],
+                       ignore_index=True).drop_duplicates()
+    ea_nunique = ea_ids.groupby('rid')['authorid'].nunique()
+    uniq_rids = set(ea_nunique[ea_nunique == 1].index) & set(r1_exact['rid'])
+    take = (r1_exact[r1_exact['rid'].isin(uniq_rids)]
+            .drop_duplicates(subset='rid').copy())
     take['host_id'] = pd.NA
     take['source'] = 'name_unique'
     resolved.append(take[cols])
