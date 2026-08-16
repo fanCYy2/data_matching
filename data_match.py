@@ -4,7 +4,17 @@ import duckdb
 import numpy as np
 import pandas as pd
 
+from fuzzyname_vendored import names_match   # L1c 模糊候选的成对精度复核(vendored,见文件头)
+
 con = duckdb.connect()
+
+# ===== L1c 名字精度过滤(fuzzyname)=====
+# match_1c 用 fl(首名|末名)召回,positional 且丢中间名,会把"首末名相同但中间名冲突"的
+# 同名者也召进来(如 EU 'Jonathan Paul Marchini' 误配 sci 'Jonathan Lawrence Marchini')。
+# 打开后用 fuzzyname 成对复核每个模糊候选,只保留 名字规则下算同一人 的(首字母/中间名一致/
+# 子集/昵称)。只作用在 match_1c 的候选上,不动 shell_reopen(那层已有机构确认闸)。
+# 默认【关】,不改变原有流水线行为;A/B 时用 L1C_FUZZYNAME=1 打开。
+L1C_FUZZYNAME = os.environ.get("L1C_FUZZYNAME", "0") == "1"
 
 # 允许把大表扫描/连接的中间结果溢写到磁盘:内存版 DuckDB(connect() 不带文件)默认
 # 无 temp_directory、完全不溢写,match_2 扫 6.8GB 的 affiliation parquet 会 OOM。
@@ -19,6 +29,15 @@ con.sql("SET preserve_insertion_order=false")   # 大扫描/聚合省内存
 EMB_MODEL = "BAAI/bge-small-en-v1.5"
 SEM_THRESH = 0.62   # 绝对下限:候选前3领域名与 EU 面板文本的最大 cosine 需 >= 此值
 SEM_MARGIN = 0.03   # 同 rid 多个候选都过阈值时,第一名要比第二名高出的最小差,否则判为模糊不定
+
+# ===== 空壳重开(shell_reopen)参数 =====
+# name_unique 里"锁定作者是低产空壳、但存在一个首末名相同、在 EU host 机构发过文的更高产
+# 候选"的 rid:不在 L1 锁死,放开首末名候选交给 L2 机构裁决。A/B(verify_orcid 独立复核)实测
+# 机构确认子集 9 修正/0 打破;唯一翻车案例发生在"机构确认不了、只按论文数最高"时——所以闸是
+# 【机构确认】而非【论文数最高】,机构确认不了的空壳一律保持锁定(不回归)。详见 [[name-unique-alias-hole]]。
+SHELL_MAXP = 2       # 锁定作者论文数 <= 此值 → 视为空壳嫌疑,触发重开检查
+HOMONYM_MINP = 10    # 首末名同名者论文数下限(高产)
+HOMONYM_RATIO = 5    # 同名者论文数需 >= RATIO × 锁定者(相对更高产)
 
 # EU.xlsx 注册成视图,并加一列行号 rid(从 0 开始),用来和 val_host_ids.csv 按行对齐
 con.sql("""
@@ -333,6 +352,92 @@ def match_4():
     return result
 
 
+def shell_reopen(uniq_rids, r1_exact):
+    """空壳重开:在 name_unique 直接定档的 rid 里,挑出"锁定作者是低产空壳(<=SHELL_MAXP 篇)、
+    且存在一个首末名相同、论文数高得多(>=HOMONYM_MINP 且 >=HOMONYM_RATIO 倍)、并且在该 EU 行
+    host 机构发过文的候选"的 rid —— 这些 rid 的精确命中往往是个空壳,真人以中间名/缩写形式另存。
+    对它们:不在 L1 锁死,放开首末名候选交给 L2 机构裁决。
+
+    机构确认是关键闸(而非论文数最高):A/B 实测机构确认子集 9 修正/0 打破,唯一翻车发生在机构
+    确认不了、仅按论文数最高时。机构确认不了的空壳一律保持锁定(不动、不回归)。
+
+    返回 (reopen_rids:set, extra_fuzzy:DataFrame[rid,eu_name,authorid,match_type='fuzzy'])。
+    仍不依赖 ORCID:论文数只作为 matcher 内部触发器,与 verify_orcid.py 的独立复核正交。
+    """
+    empty = r1_exact.iloc[:0][['rid', 'eu_name', 'authorid']].assign(match_type='fuzzy')
+    nu_all = (r1_exact[r1_exact['rid'].isin(uniq_rids)]
+              .drop_duplicates(subset='rid')[['rid', 'eu_name', 'authorid']]
+              .rename(columns={'authorid': 'locked_authorid'}))
+    if nu_all.empty:
+        return set(), empty
+    con.register('nu_all', nu_all)
+
+    # 1) 先只算锁定作者的论文数,过滤出"空壳"rid —— 把后面昂贵的首末名 fan-out 限制在这一小撮
+    shell = con.sql(f"""
+        WITH pc AS (
+            SELECT authorid, count(DISTINCT paperid) AS n
+            FROM 'sciscinet_authors_paperid.parquet'
+            WHERE authorid IN (SELECT locked_authorid FROM nu_all)
+            GROUP BY authorid
+        )
+        SELECT nu_all.rid, nu_all.eu_name, nu_all.locked_authorid,
+               COALESCE(pc.n, 0) AS locked_papers
+        FROM nu_all LEFT JOIN pc ON nu_all.locked_authorid = pc.authorid
+        WHERE COALESCE(pc.n, 0) <= {SHELL_MAXP}
+    """).df()
+    if shell.empty:
+        return set(), empty
+    con.register('shell', shell)
+
+    # 2) 只对空壳 rid 做首末名召回,带上每个候选的论文数 + 是否在该 rid 的 host 机构发过文
+    flc = con.sql(f"""
+        WITH flcand AS (
+            SELECT s.rid, s.eu_name, s.locked_authorid, s.locked_papers,
+                   sci.authorid AS cand_authorid
+            FROM shell s
+            JOIN 'sciscinet_authors.parquet' sci
+              ON fl(sci.display_name) = fl(s.eu_name)
+        ),
+        pc AS (
+            SELECT authorid, count(DISTINCT paperid) AS n
+            FROM 'sciscinet_authors_paperid.parquet'
+            WHERE authorid IN (SELECT cand_authorid FROM flcand)
+            GROUP BY authorid
+        ),
+        athost AS (
+            -- 候选作者在"其所属 rid 的 host 机构"发过文(与 match_2 同一口径的机构确认)
+            SELECT DISTINCT f.rid, f.cand_authorid
+            FROM flcand f
+            JOIN host h ON f.rid = h.row_id
+            JOIN 'sciscinet_paper_author_affiliation.parquet' aff
+              ON aff.authorid = f.cand_authorid
+             AND aff.institutionid = h.host_openalex_id
+        )
+        SELECT f.rid, f.eu_name, f.locked_authorid, f.locked_papers, f.cand_authorid,
+               COALESCE(pc.n, 0) AS n_papers,
+               (f.cand_authorid = f.locked_authorid) AS is_locked,
+               (ah.cand_authorid IS NOT NULL) AS at_host
+        FROM flcand f
+        LEFT JOIN pc     ON f.cand_authorid = pc.authorid
+        LEFT JOIN athost ah ON f.rid = ah.rid AND f.cand_authorid = ah.cand_authorid
+    """).df()
+
+    # 3) 判定 reopen:存在一个 非锁定 + 高产 + 机构确认 的首末名同名者
+    good = flc[(~flc['is_locked']) & (flc['at_host'])
+               & (flc['n_papers'] >= HOMONYM_MINP)
+               & (flc['n_papers'] >= HOMONYM_RATIO * flc['locked_papers'].clip(lower=1))]
+    reopen_rids = set(good['rid'])
+
+    # 4) reopen rid 的全部(非锁定)首末名候选一起放进候选池,由 L2 机构过滤裁决(可能有多个候选
+    #    都在该机构 → L2 平局再交 L3 语义,符合既有分层)
+    extra = (flc[flc['rid'].isin(reopen_rids) & (~flc['is_locked'])]
+             [['rid', 'eu_name', 'cand_authorid']]
+             .rename(columns={'cand_authorid': 'authorid'})
+             .drop_duplicates())
+    extra['match_type'] = 'fuzzy'
+    return reopen_rids, extra
+
+
 def main():
     cols = ['rid', 'eu_name', 'authorid', 'match_type', 'host_id', 'source']
     resolved = []   # 每层剔除定下来的行(带 source)
@@ -351,6 +456,17 @@ def main():
     r1_fuzzy = match_1c()
     r1_fuzzy['match_type'] = 'fuzzy'
 
+    # L1c 精度过滤:fl 只按首|末名配对,漏掉中间名一致性;用 fuzzyname 成对复核,丢掉
+    # 中间名冲突/非同一人的模糊候选。fl 已保证首末名相同 → 过滤只会移除中间名冲突子集,
+    # 不会误伤"两边都没中间名"的干净命中。见文件头 L1C_FUZZYNAME 说明。
+    if L1C_FUZZYNAME and len(r1_fuzzy):
+        keep = r1_fuzzy.apply(lambda r: names_match(r['eu_name'], r['sci_name']), axis=1)
+        n_rid_before = r1_fuzzy['rid'].nunique()
+        n_lost_all = n_rid_before - r1_fuzzy[keep]['rid'].nunique()
+        print('L1c fuzzyname 过滤:模糊候选 %d → 保留 %d(丢 %d);受影响后整 rid 全丢 %d'
+              % (len(r1_fuzzy), int(keep.sum()), int((~keep).sum()), n_lost_all))
+        r1_fuzzy = r1_fuzzy[keep].reset_index(drop=True)
+
     r1 = pd.concat([r1_exact, r1_alias, r1_fuzzy], ignore_index=True)
     pending = set(r1['rid'])                            # 还没唯一确定的 EU 行
 
@@ -366,13 +482,22 @@ def main():
                        ignore_index=True).drop_duplicates()
     ea_nunique = ea_ids.groupby('rid')['authorid'].nunique()
     uniq_rids = set(ea_nunique[ea_nunique == 1].index) & set(r1_exact['rid'])
+
+    # 空壳重开:name_unique 里"锁定低产空壳、但有机构确认的高产首末名同名者"的 rid,退出 L1
+    # 直接定档,把首末名候选放进候选池交给 L2 机构裁决(A/B 实测 9 修/0 破,见 [[name-unique-alias-hole]])。
+    reopen_rids, extra_fuzzy = shell_reopen(uniq_rids, r1_exact)
+    uniq_rids -= reopen_rids
+    if not extra_fuzzy.empty:
+        r1 = pd.concat([r1, extra_fuzzy], ignore_index=True)   # 新候选并入池,供后面 pend/L2 使用
+
     take = (r1_exact[r1_exact['rid'].isin(uniq_rids)]
             .drop_duplicates(subset='rid').copy())
     take['host_id'] = pd.NA
     take['source'] = 'name_unique'
     resolved.append(take[cols])
     pending -= uniq_rids
-    print('层1 名字唯一 → 确定 %d,剩下 %d' % (len(uniq_rids), len(pending)))
+    print('层1 名字唯一 → 确定 %d(空壳重开退出 %d,转 L2),剩下 %d'
+          % (len(uniq_rids), len(reopen_rids), len(pending)))
 
     #层2:机构消歧(只处理剩下的重名/模糊/别名候选) 
     pend = r1[r1['rid'].isin(pending)]
