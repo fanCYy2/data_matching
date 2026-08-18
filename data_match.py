@@ -4,17 +4,10 @@ import duckdb
 import numpy as np
 import pandas as pd
 
-from fuzzyname_vendored import names_match   # L1c 模糊候选的成对精度复核(vendored,见文件头)
+from fuzzyname_vendored import names_match   # 同名者补召 homonym_reopen 的成对姓名同一性复核(vendored)
+from erc_embed import score_semantic_v2, PROTO_FILE, AUTHORVEC_FILE   # 层3 v2 语义打分(C2)
 
 con = duckdb.connect()
-
-# ===== L1c 名字精度过滤(fuzzyname)=====
-# match_1c 用 fl(首名|末名)召回,positional 且丢中间名,会把"首末名相同但中间名冲突"的
-# 同名者也召进来(如 EU 'Jonathan Paul Marchini' 误配 sci 'Jonathan Lawrence Marchini')。
-# 打开后用 fuzzyname 成对复核每个模糊候选,只保留 名字规则下算同一人 的(首字母/中间名一致/
-# 子集/昵称)。只作用在 match_1c 的候选上,不动 shell_reopen(那层已有机构确认闸)。
-# 默认【关】,不改变原有流水线行为;A/B 时用 L1C_FUZZYNAME=1 打开。
-L1C_FUZZYNAME = os.environ.get("L1C_FUZZYNAME", "0") == "1"
 
 # 允许把大表扫描/连接的中间结果溢写到磁盘:内存版 DuckDB(connect() 不带文件)默认
 # 无 temp_directory、完全不溢写,match_2 扫 6.8GB 的 affiliation parquet 会 OOM。
@@ -30,14 +23,29 @@ EMB_MODEL = "BAAI/bge-small-en-v1.5"
 SEM_THRESH = 0.62   # 绝对下限:候选前3领域名与 EU 面板文本的最大 cosine 需 >= 此值
 SEM_MARGIN = 0.03   # 同 rid 多个候选都过阈值时,第一名要比第二名高出的最小差,否则判为模糊不定
 
-# ===== 空壳重开(shell_reopen)参数 =====
-# name_unique 里"锁定作者是低产空壳、但存在一个首末名相同、在 EU host 机构发过文的更高产
-# 候选"的 rid:不在 L1 锁死,放开首末名候选交给 L2 机构裁决。A/B(verify_orcid 独立复核)实测
-# 机构确认子集 9 修正/0 打破;唯一翻车案例发生在"机构确认不了、只按论文数最高"时——所以闸是
-# 【机构确认】而非【论文数最高】,机构确认不了的空壳一律保持锁定(不回归)。详见 [[name-unique-alias-hole]]。
-SHELL_MAXP = 2       # 锁定作者论文数 <= 此值 → 视为空壳嫌疑,触发重开检查
-HOMONYM_MINP = 10    # 首末名同名者论文数下限(高产)
-HOMONYM_RATIO = 5    # 同名者论文数需 >= RATIO × 锁定者(相对更高产)
+# ===== 层3 v2:语义领域打分(C2:作者论文摘要文本 vs ERC 面板原型)=====
+# 默认【开】。把作者侧从"前3子学科名"换成"论文标题+摘要质心",面板侧从"面板名字符串"换成
+# ERC 分类数据集(SIRIS-Lab/erc-classification-dataset)建的面板原型;ORCID 真值集上
+# acc@1 73%→89%(见 eval_sem_v2.py)。实现见 erc_embed.score_semantic_v2。
+#   依赖离线产物:erc_panel_prototypes.npz(build_panel_prototypes.py)、
+#                author_vectors.npz(build_author_vectors.py);缺任一 -> 自动回退 v1。
+#   作者无英文摘要 -> 回退用其 top-3 子学科名质心(仍对齐到面板原型,保证同 rid 内可比)。
+#   v2 分数量纲与 v1 不同,阈值单独标定(见 eval_sem_v2.py);SEM_V2=0 可回退做 A/B。
+SEM_V2 = os.environ.get("SEM_V2", "1") == "1"
+# 标定(eval_sem_v2.py,ORCID 真值 56 个候选>=2 的 rid):v2 正确候选 mean=0.888/p10=0.851,
+# 错误候选 mean=0.765/p50=0.771 → 阈值 0.80 落在两者之间(passed 即"在该面板上")。
+# v2 严格 acc@1 = 51/56(91%)、零并列;v1 严格仅 35/56(62%)、16 个真人与错误候选并列分不开。
+SEM_THRESH_V2 = 0.80   # v2 绝对下限:最像的候选也要 >= 此值才算"在该面板上"(否则 passed=False → 层4)
+SEM_MARGIN_V2 = 0.01   # v2 同 rid 第一名对第二名最小领先;不足则判模糊,交层4(passed + 论文数)
+
+# ===== 同名者补召(homonym_reopen)=====
+# fl 召回门造成的漏配:真人以中间名/缩写另存、只有 fl 能召回却被 match_1c 的 `rid NOT IN r1_ea`
+# 门掉,精确/别名位被空壳占了,真人进不了候选池。host_ids_bridge 现已【100% 覆盖】(4241/4242,
+# 每行唯一机构 id)→ 直接以「在该行 host 机构发过文」这一事实作为 fl 召回的【唯一准入闸】,不再用
+# 空壳阈值 / 全局论文数比 / 词集超集这些替代闸(它们只是 host 信号缺失时的近似)。判定与裁决全部
+# 交回既有的 L2 机构 / L3 语义 / L4 论文数三层,homonym_reopen 只负责【把真人放进候选池】。
+# 均不看 ORCID(与 verify_orcid.py 正交)。详见 homonym_reopen、[[fl-recall-mid-initial-hole]]、
+# [[name-unique-alias-hole]]。
 
 # EU.xlsx 注册成视图,并加一列行号 rid(从 0 开始),用来和 val_host_ids.csv 按行对齐
 con.sql("""
@@ -285,8 +293,20 @@ def _get_embedder():
     return embed
 
 
+def _use_v2():
+    """v2 可用 = 开关打开 且 两个离线产物都在;否则回退 v1。"""
+    return SEM_V2 and os.path.exists(PROTO_FILE) and os.path.exists(AUTHORVEC_FILE)
+
+
 def semantic_score(long_df):
-    """把 match_3() 的长表打分:每 (rid, authorid) 返回一行,sim = 其前3 level-1 领域名
+    """层3 打分调度:v2(作者论文摘要 vs ERC 面板原型)优先,缺产物/关开关则回退 v1。"""
+    if _use_v2():
+        return score_semantic_v2(long_df)
+    return _semantic_score_v1(long_df)
+
+
+def _semantic_score_v1(long_df):
+    """v1(旧版):每 (rid, authorid) 返回一行,sim = 其前3 level-1 领域名
     与该行 eu_text 的【最大】cosine(取最像的一个领域)。无领域/无 eu_text -> sim = NaN。"""
     keys = ["rid", "eu_name", "authorid", "match_type", "host_id"]
     df = long_df.copy()
@@ -352,90 +372,65 @@ def match_4():
     return result
 
 
-def shell_reopen(uniq_rids, r1_exact):
-    """空壳重开:在 name_unique 直接定档的 rid 里,挑出"锁定作者是低产空壳(<=SHELL_MAXP 篇)、
-    且存在一个首末名相同、论文数高得多(>=HOMONYM_MINP 且 >=HOMONYM_RATIO 倍)、并且在该 EU 行
-    host 机构发过文的候选"的 rid —— 这些 rid 的精确命中往往是个空壳,真人以中间名/缩写形式另存。
-    对它们:不在 L1 锁死,放开首末名候选交给 L2 机构裁决。
+def homonym_reopen(uniq_rids, r1):
+    """同名者补召(L1→L2 交接):修补 fl 召回门造成的漏配——真人常以【中间名/缩写】形式登记
+    (如 "Susana Q. Lima"),norm 保留句点 → 精确/别名/词集都配不上,只有 fl(首|末名)能召回;
+    但 match_1c 的 `rid NOT IN r1_ea` 门控让 fl 只在"精确+别名全空"时才跑。于是只要有别的同名者
+    (常是挂过 host 一两篇的空壳)占了精确/别名位,真人就进不了候选池。
 
-    机构确认是关键闸(而非论文数最高):A/B 实测机构确认子集 9 修正/0 打破,唯一翻车发生在机构
-    确认不了、仅按论文数最高时。机构确认不了的空壳一律保持锁定(不动、不回归)。
+    host_ids_bridge 现已【100% 覆盖】→ 以「在该行 host 机构发过文」这一事实作为 fl 召回的【唯一准入
+    闸】:对每个【已有精确/别名候选】的 rid(name_unique 与多候选都算),把「首末名相同 + 在该 host
+    发过文 + 不在现有候选」的作者(names_match 成对复核,丢掉中间名冲突的非同一人)并入候选池。
+    这样真人就进了池;name_unique 行若因此多出候选 → 退出 name_unique(withdraw),后续裁决全交回
+    既有的 L2 机构 / L3 语义 / L4 论文数三层。空壳阈值 / 全局论文数比 / 词集超集这些替代闸(host 缺失
+    时的近似)不再需要,也不再有"直接定档"分支。均不看 ORCID,与 verify_orcid.py 正交。
+    见 [[fl-recall-mid-initial-hole]]、[[name-unique-alias-hole]]。
 
-    返回 (reopen_rids:set, extra_fuzzy:DataFrame[rid,eu_name,authorid,match_type='fuzzy'])。
-    仍不依赖 ORCID:论文数只作为 matcher 内部触发器,与 verify_orcid.py 的独立复核正交。
+    返回 (withdraw:set 因多出 host 确认候选而退出 name_unique 的 rid,
+          inject:DataFrame[rid,eu_name,authorid,match_type='fuzzy'] 并入候选池的 fl 候选)。
     """
-    empty = r1_exact.iloc[:0][['rid', 'eu_name', 'authorid']].assign(match_type='fuzzy')
-    nu_all = (r1_exact[r1_exact['rid'].isin(uniq_rids)]
-              .drop_duplicates(subset='rid')[['rid', 'eu_name', 'authorid']]
-              .rename(columns={'authorid': 'locked_authorid'}))
-    if nu_all.empty:
-        return set(), empty
-    con.register('nu_all', nu_all)
+    cols = ['rid', 'eu_name', 'authorid', 'match_type']
+    empty = r1.iloc[:0][['rid', 'eu_name', 'authorid']].assign(match_type='fuzzy')[cols]
 
-    # 1) 先只算锁定作者的论文数,过滤出"空壳"rid —— 把后面昂贵的首末名 fan-out 限制在这一小撮
-    shell = con.sql(f"""
-        WITH pc AS (
-            SELECT authorid, count(DISTINCT paperid) AS n
-            FROM 'sciscinet_authors_paperid.parquet'
-            WHERE authorid IN (SELECT locked_authorid FROM nu_all)
-            GROUP BY authorid
-        )
-        SELECT nu_all.rid, nu_all.eu_name, nu_all.locked_authorid,
-               COALESCE(pc.n, 0) AS locked_papers
-        FROM nu_all LEFT JOIN pc ON nu_all.locked_authorid = pc.authorid
-        WHERE COALESCE(pc.n, 0) <= {SHELL_MAXP}
-    """).df()
-    if shell.empty:
+    # 准入闸只对【已有名字命中(精确/别名)】的 rid 补 fl;纯 fl 兜底行由 match_1c 单独处理,不重复。
+    ea = r1[r1['match_type'].isin(['exact', 'alias'])][['rid', 'eu_name']].drop_duplicates()
+    if ea.empty:
         return set(), empty
-    con.register('shell', shell)
+    exist = r1[['rid', 'authorid']].drop_duplicates()   # 该 rid 已有的全部候选,注入时去重
+    con.register('reopen_rids', ea)
+    con.register('reopen_exist', exist)
 
-    # 2) 只对空壳 rid 做首末名召回,带上每个候选的论文数 + 是否在该 rid 的 host 机构发过文
-    flc = con.sql(f"""
-        WITH flcand AS (
-            SELECT s.rid, s.eu_name, s.locked_authorid, s.locked_papers,
-                   sci.authorid AS cand_authorid
-            FROM shell s
+    # 首末名同名 + 在该行 host 机构发过文 + 不在现有候选 —— host 发文事实即准入(与 match_2 同口径)
+    cand = con.sql("""
+        WITH rids AS (
+            SELECT DISTINCT r.rid, r.eu_name, h.host_openalex_id AS host_id
+            FROM reopen_rids r JOIN host h ON r.rid = h.row_id
+            WHERE h.host_openalex_id IS NOT NULL AND h.host_openalex_id <> ''
+        ),
+        flh AS (
+            SELECT DISTINCT r.rid, r.eu_name, sci.authorid, sci.display_name AS cname
+            FROM rids r
             JOIN 'sciscinet_authors.parquet' sci
-              ON fl(sci.display_name) = fl(s.eu_name)
-        ),
-        pc AS (
-            SELECT authorid, count(DISTINCT paperid) AS n
-            FROM 'sciscinet_authors_paperid.parquet'
-            WHERE authorid IN (SELECT cand_authorid FROM flcand)
-            GROUP BY authorid
-        ),
-        athost AS (
-            -- 候选作者在"其所属 rid 的 host 机构"发过文(与 match_2 同一口径的机构确认)
-            SELECT DISTINCT f.rid, f.cand_authorid
-            FROM flcand f
-            JOIN host h ON f.rid = h.row_id
+              ON fl(sci.display_name) = fl(r.eu_name)
             JOIN 'sciscinet_paper_author_affiliation.parquet' aff
-              ON aff.authorid = f.cand_authorid
-             AND aff.institutionid = h.host_openalex_id
+              ON aff.authorid = sci.authorid AND aff.institutionid = r.host_id
+            LEFT JOIN reopen_exist e ON e.rid = r.rid AND e.authorid = sci.authorid
+            WHERE e.authorid IS NULL
         )
-        SELECT f.rid, f.eu_name, f.locked_authorid, f.locked_papers, f.cand_authorid,
-               COALESCE(pc.n, 0) AS n_papers,
-               (f.cand_authorid = f.locked_authorid) AS is_locked,
-               (ah.cand_authorid IS NOT NULL) AS at_host
-        FROM flcand f
-        LEFT JOIN pc     ON f.cand_authorid = pc.authorid
-        LEFT JOIN athost ah ON f.rid = ah.rid AND f.cand_authorid = ah.cand_authorid
+        SELECT rid, eu_name, authorid, cname FROM flh
     """).df()
+    if cand.empty:
+        return set(), empty
 
-    # 3) 判定 reopen:存在一个 非锁定 + 高产 + 机构确认 的首末名同名者
-    good = flc[(~flc['is_locked']) & (flc['at_host'])
-               & (flc['n_papers'] >= HOMONYM_MINP)
-               & (flc['n_papers'] >= HOMONYM_RATIO * flc['locked_papers'].clip(lower=1))]
-    reopen_rids = set(good['rid'])
+    # names_match 成对复核:fl 只看首|末名,可能召进中间名冲突的另一个真人,丢掉非同一人
+    cand = cand[cand.apply(lambda r: names_match(r['eu_name'], r['cname']), axis=1)]
+    if cand.empty:
+        return set(), empty
 
-    # 4) reopen rid 的全部(非锁定)首末名候选一起放进候选池,由 L2 机构过滤裁决(可能有多个候选
-    #    都在该机构 → L2 平局再交 L3 语义,符合既有分层)
-    extra = (flc[flc['rid'].isin(reopen_rids) & (~flc['is_locked'])]
-             [['rid', 'eu_name', 'cand_authorid']]
-             .rename(columns={'cand_authorid': 'authorid'})
-             .drop_duplicates())
-    extra['match_type'] = 'fuzzy'
-    return reopen_rids, extra
+    inject = cand[['rid', 'eu_name', 'authorid']].copy()
+    inject['match_type'] = 'fuzzy'
+    withdraw = set(inject['rid']) & set(uniq_rids)   # 只有 name_unique 行需"退出";多候选行本就进 L2
+    return withdraw, inject[cols]
 
 
 def main():
@@ -456,17 +451,6 @@ def main():
     r1_fuzzy = match_1c()
     r1_fuzzy['match_type'] = 'fuzzy'
 
-    # L1c 精度过滤:fl 只按首|末名配对,漏掉中间名一致性;用 fuzzyname 成对复核,丢掉
-    # 中间名冲突/非同一人的模糊候选。fl 已保证首末名相同 → 过滤只会移除中间名冲突子集,
-    # 不会误伤"两边都没中间名"的干净命中。见文件头 L1C_FUZZYNAME 说明。
-    if L1C_FUZZYNAME and len(r1_fuzzy):
-        keep = r1_fuzzy.apply(lambda r: names_match(r['eu_name'], r['sci_name']), axis=1)
-        n_rid_before = r1_fuzzy['rid'].nunique()
-        n_lost_all = n_rid_before - r1_fuzzy[keep]['rid'].nunique()
-        print('L1c fuzzyname 过滤:模糊候选 %d → 保留 %d(丢 %d);受影响后整 rid 全丢 %d'
-              % (len(r1_fuzzy), int(keep.sum()), int((~keep).sum()), n_lost_all))
-        r1_fuzzy = r1_fuzzy[keep].reset_index(drop=True)
-
     r1 = pd.concat([r1_exact, r1_alias, r1_fuzzy], ignore_index=True)
     pending = set(r1['rid'])                            # 还没唯一确定的 EU 行
 
@@ -483,12 +467,12 @@ def main():
     ea_nunique = ea_ids.groupby('rid')['authorid'].nunique()
     uniq_rids = set(ea_nunique[ea_nunique == 1].index) & set(r1_exact['rid'])
 
-    # 空壳重开:name_unique 里"锁定低产空壳、但有机构确认的高产首末名同名者"的 rid,退出 L1
-    # 直接定档,把首末名候选放进候选池交给 L2 机构裁决(A/B 实测 9 修/0 破,见 [[name-unique-alias-hole]])。
-    reopen_rids, extra_fuzzy = shell_reopen(uniq_rids, r1_exact)
-    uniq_rids -= reopen_rids
-    if not extra_fuzzy.empty:
-        r1 = pd.concat([r1, extra_fuzzy], ignore_index=True)   # 新候选并入池,供后面 pend/L2 使用
+    # 同名者补召(L1→L2 交接):host 准入的 fl 召回,把真人放进候选池,见 homonym_reopen 文档。
+    #   withdraw = 因多出 host 确认的 fl 候选而退出 name_unique 的行;inject = 注入的 fl 候选。
+    withdraw, inject = homonym_reopen(uniq_rids, r1)
+    uniq_rids -= withdraw
+    if not inject.empty:
+        r1 = pd.concat([r1, inject], ignore_index=True)        # 注入候选并入池,供后面 pend/L2 使用
 
     take = (r1_exact[r1_exact['rid'].isin(uniq_rids)]
             .drop_duplicates(subset='rid').copy())
@@ -496,10 +480,11 @@ def main():
     take['source'] = 'name_unique'
     resolved.append(take[cols])
     pending -= uniq_rids
-    print('层1 名字唯一 → 确定 %d(空壳重开退出 %d,转 L2),剩下 %d'
-          % (len(uniq_rids), len(reopen_rids), len(pending)))
 
-    #层2:机构消歧(只处理剩下的重名/模糊/别名候选) 
+    print('层1→L2 交接:名字唯一 %d(host 确认 fl 重开退出 %d),剩下 %d'
+          % (len(uniq_rids), len(withdraw), len(pending)))
+
+    #层2:机构消歧(只处理剩下的重名/模糊/别名候选)
     pend = r1[r1['rid'].isin(pending)]
     con.register('pend', pend)
     r2 = match_2()
@@ -530,6 +515,10 @@ def main():
     r3_long = match_3()                                 # 长表:每候选最多 3 行领域名
     scored = semantic_score(r3_long)                    # 每 (rid, authorid) 一行,带 sim
     scored = scored.sort_values(['rid', 'sim'], ascending=[True, False]).reset_index(drop=True)
+    # v2/v1 分数量纲不同,阈值随之切换(passed 标志、层4 也用同一组)
+    sem_thresh, sem_margin = (SEM_THRESH_V2, SEM_MARGIN_V2) if _use_v2() else (SEM_THRESH, SEM_MARGIN)
+    print('层3 语义打分:%s(thresh=%.2f, margin=%.2f)'
+          % ('v2 摘要×原型' if _use_v2() else 'v1 子学科名×面板名', sem_thresh, sem_margin))
 
     # 判定(相对为主 + 绝对下限):同一 rid 下,先取过阈值(sim >= SEM_THRESH)的候选,
     #   - 只有 1 个过阈值            -> 收(round3_semantic)
@@ -537,17 +526,17 @@ def main():
     #   - 多个过阈值但差距 < margin  -> 判为模糊,不定(留人工)
     picks = []
     for rid, g in scored.groupby('rid'):
-        passed = g[g['sim'] >= SEM_THRESH].sort_values('sim', ascending=False)
+        passed = g[g['sim'] >= sem_thresh].sort_values('sim', ascending=False)
         if passed.empty:
             continue
-        if len(passed) == 1 or (passed.iloc[0]['sim'] - passed.iloc[1]['sim'] >= SEM_MARGIN):
+        if len(passed) == 1 or (passed.iloc[0]['sim'] - passed.iloc[1]['sim'] >= sem_margin):
             picks.append(passed.iloc[[0]].assign(source='round3_semantic'))
     r3res = pd.concat(picks, ignore_index=True) if picks else scored.iloc[:0].assign(source=pd.NA)
     take3 = set(r3res['rid'])
     resolved.append(r3res[cols])
     pending -= take3
     print('层3 语义 → 确定 %d(sim>=%.2f,margin>=%.2f),剩下 %d'
-          % (len(take3), SEM_THRESH, SEM_MARGIN, len(pending)))
+          % (len(take3), sem_thresh, sem_margin, len(pending)))
     print()
 
     # match_3.csv:长表 + 每候选的 sim,便于人工核对语义打分
@@ -563,7 +552,7 @@ def main():
     # 这一层把所有还有候选的 rid 都定下来(不再留人工),代价是牺牲一点精度换全覆盖。
     l4_in = (l3_in[l3_in['rid'].isin(pending)]
              .merge(scored[['rid', 'authorid', 'sim']], on=['rid', 'authorid'], how='left'))
-    l4_in['passed'] = (l4_in['sim'] >= SEM_THRESH).fillna(False)
+    l4_in['passed'] = (l4_in['sim'] >= sem_thresh).fillna(False)
     con.register('r4in', l4_in)
     r4res = match_4()
     # source 拆两类:semtie = 有语义背书的平局裁决(可信度高);maxpapers = 纯论文数硬兜底(低置信,建议抽查)
