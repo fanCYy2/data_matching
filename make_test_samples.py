@@ -51,9 +51,6 @@ def add_host(df):
     return df
 
 
-# 层4 各候选的论文数(round4 抽样并入,便于核对兜底决策)
-m4 = pd.read_csv('match_4.csv', encoding='utf-8-sig')[['rid', 'n_papers']]
-
 for fname, sources, n in SAMPLES:
     sub = final[final['source'].isin(sources)]
     samp = (add_host(sub)
@@ -61,8 +58,7 @@ for fname, sources, n in SAMPLES:
             .sort_values('rid'))
     cols = COLS
     if any(s.startswith('round4') for s in sources):   # round4 额外带 n_papers
-        samp = samp.merge(m4, on='rid', how='left')
-        cols = COLS[:6] + ['n_papers'] + COLS[6:]
+        cols = COLS[:6] + ['n_papers'] + COLS[6:]       # n_papers 已在 matched_final 里
     samp['yes_or_no'] = ''                              # 空列,人工填 y/n
     samp[cols].to_csv(fname, index=False, encoding='utf-8-sig')
     print('%s: 从 %d 条 [%s] 抽 %d 行' % (fname, len(sub), '/'.join(sources), len(samp)))

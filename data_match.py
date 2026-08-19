@@ -38,6 +38,13 @@ SEM_V2 = os.environ.get("SEM_V2", "1") == "1"
 SEM_THRESH_V2 = 0.80   # v2 绝对下限:最像的候选也要 >= 此值才算"在该面板上"(否则 passed=False → 层4)
 SEM_MARGIN_V2 = 0.01   # v2 同 rid 第一名对第二名最小领先;不足则判模糊,交层4(passed + 论文数)
 
+# ===== 论文数下限闸(精度优先,全层通用)=====
+# 最终选中的作者若论文数 < PAPER_FLOOR,不判为匹配成功:直接移出 matched_final、写入
+# held_lowpaper.csv 待人工(不尝试"换更高产同名候选",直接扔)。空壳(shell)按定义低产,
+# 这道闸直接挡掉"名字/机构对上了、但其实是个低产空壳"的假阳性。依据 ORCID 独立真值:
+# <30 篇错误率 ~25% vs >=30 篇 ~1%。闸作用在收口处的最终答案上,不分哪一层给的。
+PAPER_FLOOR = 30
+
 # ===== 同名者补召(homonym_reopen)=====
 # fl 召回门造成的漏配:真人以中间名/缩写另存、只有 fl 能召回却被 match_1c 的 `rid NOT IN r1_ea`
 # 门掉,精确/别名位被空壳占了,真人进不了候选池。host_ids_bridge 现已【100% 覆盖】(4241/4242,
@@ -572,15 +579,35 @@ def main():
     final = (pd.concat(resolved, ignore_index=True)
                .drop_duplicates(subset='rid').sort_values('rid').reset_index(drop=True))
 
+    # 论文数下限闸(全层通用,精度优先):给每个最终选中的作者补论文数(去重 paperid,没记录记 0),
+    # 低于 PAPER_FLOOR 的不算匹配成功——移出 matched_final、单独写 held_lowpaper.csv 待人工。
+    con.register('final_ids', final[['authorid']].drop_duplicates())
+    npdf = con.sql("""
+        SELECT authorid, count(DISTINCT paperid) AS n_papers
+        FROM 'sciscinet_authors_paperid.parquet'
+        WHERE authorid IN (SELECT authorid FROM final_ids)
+        GROUP BY authorid
+    """).df()
+    final = final.merge(npdf, on='authorid', how='left')
+    final['n_papers'] = final['n_papers'].fillna(0).astype(int)
+    held = (final[final['n_papers'] < PAPER_FLOOR]
+            .sort_values(['source', 'n_papers', 'rid']).reset_index(drop=True))
+    final = final[final['n_papers'] >= PAPER_FLOOR].reset_index(drop=True)
+
     r1.to_csv("match_1.csv", index=False, encoding='utf-8-sig')
     r2.to_csv("match_2.csv", index=False, encoding='utf-8-sig')
     r3.to_csv("match_3.csv", index=False, encoding='utf-8-sig')
     r4.to_csv("match_4.csv", index=False, encoding='utf-8-sig')
     final.to_csv("matched_final.csv", index=False, encoding='utf-8-sig')
+    held.to_csv("held_lowpaper.csv", index=False, encoding='utf-8-sig')
 
     total = con.sql("SELECT count(*) FROM eu").fetchone()[0]
-    print('汇总:已唯一确定的 EU 记录')
-    print('总数:', len(final), '| 筛选率: %d / %d = %.1f%%' % (len(final), total, 100.0 * len(final) / total))
+    n_matched, n_held = len(final), len(held)
+    print('汇总:已唯一确定的 EU 记录(论文数下限闸 = %d)' % PAPER_FLOOR)
+    print('匹配成功:', n_matched, '| 筛选率: %d / %d = %.1f%%'
+          % (n_matched, total, 100.0 * n_matched / total))
+    print('低产扣留(< %d 篇,待人工): %d,按 source: %s'
+          % (PAPER_FLOOR, n_held, held['source'].value_counts().to_dict()))
     print('  来源:名字唯一', int((final['source'] == 'name_unique').sum()),
           '| 机构', int((final['source'] == 'round2_inst').sum()),
           '| 语义领域', int((final['source'] == 'round3_semantic').sum()),
@@ -589,7 +616,8 @@ def main():
     print('  名字类型:精确', int((final['match_type'] == 'exact').sum()),
           '| 首末名模糊', int((final['match_type'] == 'fuzzy').sum()),
           '| 别名', int((final['match_type'] == 'alias').sum()))
-    print("结果已保存:match_1.csv, match_2.csv, match_3.csv, match_4.csv, matched_final.csv")
+    print("结果已保存:match_1.csv, match_2.csv, match_3.csv, match_4.csv, "
+          "matched_final.csv, held_lowpaper.csv")
 
 
 if __name__ == "__main__":

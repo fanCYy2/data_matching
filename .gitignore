@@ -5,7 +5,7 @@
 !*/
 
 # Track Python files 
-!*.py
+!data_matching.py
 
 # Keep this .gitignore itself
 !.gitignore
