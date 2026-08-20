@@ -1,34 +1,34 @@
 ﻿rid,eu_name,authorid,match_type,host_id,source,host,yes_or_no
-137,Minna Kaikkonen-Määttä,A5015092410,alias,I175532246,round3_semantic,University of Eastern Finland,
-161,Manuel Irimia Martinez,A5084138702,fuzzy,,round3_semantic,"* Centre for Genomic Regulation [999544455,ES]",
-277,Raquel Aguiar Cardoso De Oliveira,A5030645496,alias,,round3_semantic,"* Calouste Gulbenkian Foundation [999455894,PT]",
-341,Olivier Thomas Hamant,A5014061110,fuzzy,,round3_semantic,"* French National Institute for Agricultural Research [999993274,FR]",
-380,Nina Henriette Uhlenhaut,A5064933213,alias,I62916508,round3_semantic,Technical University of Munich,
-463,Rami Aqeilan,A5021249524,alias,I197251160,round3_semantic,Hebrew University of Jerusalem,
-573,Stefan Jens Hallermann,A5007022136,alias,,round3_semantic,"* University of Leipzig [999854564,DE]",
-746,Bruno Miguel De Carvalho E Silva Santos,A5030043762,fuzzy,I141596103,round3_semantic,University of Lisbon,
+137,Minna Kaikkonen-Määttä,A5015092410,alias,I175532246,round3_semantic,University of Eastern Finland, yes
+161,Manuel Irimia Martinez,A5084138702,fuzzy,,round3_semantic,"* Centre for Genomic Regulation [999544455,ES]", no
+277,Raquel Aguiar Cardoso De Oliveira,A5030645496,alias,,round3_semantic,"* Calouste Gulbenkian Foundation [999455894,PT]", yes
+341,Olivier Thomas Hamant,A5014061110,fuzzy,,round3_semantic,"* French National Institute for Agricultural Research [999993274,FR]", yes
+380,Nina Henriette Uhlenhaut,A5064933213,alias,I62916508,round3_semantic,Technical University of Munich, yes
+463,Rami Aqeilan,A5021249524,alias,I197251160,round3_semantic,Hebrew University of Jerusalem, yes
+573,Stefan Jens Hallermann,A5007022136,alias,,round3_semantic,"* University of Leipzig [999854564,DE]", 
+746,Bruno Miguel De Carvalho E Silva Santos,A5030043762,fuzzy,I141596103,round3_semantic,University of Lisbon,yes
 804,Thomas Grünewald,A5010237107,alias,I17937529,round3_semantic,German Cancer Research Center,
 837,Tim Dyrby,A5102857785,alias,,round3_semantic,"* Institute of Preventive Medicine (IPM) - Bispebjerg Hospital, Hoverdstaden, Denmark [999654744,DK]",
 1023,Carlos Perez Carmona,A5084114422,alias,,round3_semantic,"* Spanish National Research Council (CSIC) [999991722,ES], University of Tartu [999895013,EE]",
-1073,Maria Eithne Mcnamara,A5080911157,fuzzy,,round3_semantic,"* National University of Ireland - University College Cork [999975717,IE]",
-1087,Susana Barroso Coelho,A5063878448,fuzzy,,round3_semantic,"* Max Planck Society [999990267,DE]",
-1156,John Leo Quinn,A5061510230,fuzzy,I181231927,round3_semantic,National University of Ireland,
-1178,Duarte Dionísio Figueiredo,A5004244154,alias,,round3_semantic,"* Max Planck Society [999990267,DE]",
-1257,Ana Isabel Caño Delgado,A5090351225,fuzzy,I4210158808,round3_semantic,Center for Research in Agricultural Genomics,
-1371,Francis Clément Sais Brown,A5057969937,fuzzy,I40120149,round3_semantic,University of Oxford,
+1073,Maria Eithne Mcnamara,A5080911157,fuzzy,,round3_semantic,"* National University of Ireland - University College Cork [999975717,IE]", yes
+1087,Susana Barroso Coelho,A5063878448,fuzzy,,round3_semantic,"* Max Planck Society [999990267,DE]", yes
+1156,John Leo Quinn,A5061510230,fuzzy,I181231927,round3_semantic,National University of Ireland, no
+1178,Duarte Dionísio Figueiredo,A5004244154,alias,,round3_semantic,"* Max Planck Society [999990267,DE]", 
+1257,Ana Isabel Caño Delgado,A5090351225,fuzzy,I4210158808,round3_semantic,Center for Research in Agricultural Genomics, yes
+1371,Francis Clément Sais Brown,A5057969937,fuzzy,I40120149,round3_semantic,University of Oxford, yes
 1415,Jose Luis Rodrigo,A5103252995,alias,I39555362,round3_semantic,University of Warwick,
 1613,Iñigo Ramiro,A5018426124,alias,,round3_semantic,"* Technical University of Catalonia [999976202,ES]",
 1710,Mikko Voutilainen,A5100661571,alias,I133731052,round3_semantic,University of Helsinki,
 1800,Gary Alexander Steele,A5042843637,alias,I98358874,round3_semantic,Delft University of Technology,
 1881,Moshe Ben Shalom,A5088836116,alias,I16391192,round3_semantic,Tel Aviv University,
-1951,John Julian Larrarte Morton,A5070143479,fuzzy,I45129253,round3_semantic,University College London,
+1951,John Julian Larrarte Morton,A5070143479,fuzzy,I45129253,round3_semantic,University College London, yes
 1973,Christian Reinhard Ast,A5027387996,alias,I149899117,round3_semantic,Max Planck Society,
 2266,Sander Izaak Van Kasteren,A5110607137,alias,I121797337,round3_semantic,Leiden University,
 2270,Thomas Poulsen,A5012032867,alias,I204337017,round3_semantic,Aarhus University,
-2319,Stephen Patrick Fletcher,A5005894917,fuzzy,I40120149,round3_semantic,University of Oxford,
-2446,Assia Selma Mahboubi,A5113674451,fuzzy,I1326498283,round3_semantic,Institut national de recherche en sciences et technologies du numérique,
+2319,Stephen Patrick Fletcher,A5005894917,fuzzy,I40120149,round3_semantic,University of Oxford, yes
+2446,Assia Selma Mahboubi,A5113674451,fuzzy,I1326498283,round3_semantic,Institut national de recherche en sciences et technologies du numérique, yes
 2624,Clara Mihaela Ionescu,A5004573956,alias,I32597200,round3_semantic,Ghent University,
-2691,Antonio Ivorra Cano,A5048107244,fuzzy,,round3_semantic,"* Pompeu Fabra University [999867077,ES]",
+2691,Antonio Ivorra Cano,A5048107244,fuzzy,,round3_semantic,"* Pompeu Fabra University [999867077,ES]", yes
 2777,Michael Monaghan,A5016008892,alias,I205274468,round3_semantic,Trinity College Dublin,
 2872,Salvador Pané Vidal,A5012597574,alias,I35440088,round3_semantic,ETH Zurich,
 2947,Iair Arcavi,A5044822144,alias,I16391192,round3_semantic,Tel Aviv University,
@@ -36,16 +36,16 @@
 3007,Silvia Galli,A5106453768,alias,I1294671590,round3_semantic,Centre National de la Recherche Scientifique,
 3072,Maria-Rosa Cioni,A5040426329,alias,I2799713863,round3_semantic,Leibniz Institute for Astrophysics Potsdam,
 3085,Peter Gustaaf Jonker,A5022185514,alias,,round3_semantic,"* Netherlands Foundation of Scientific Research Institutes [999624092,NL]",
-3197,Ricardo Augusto Marcos Rocha Reis,A5006318958,fuzzy,I909854389,round3_semantic,London School of Economics and Political Science,
+3197,Ricardo Augusto Marcos Rocha Reis,A5006318958,fuzzy,I909854389,round3_semantic,London School of Economics and Political Science, yes
 3241,Catherine O'Rourke,A5011271883,alias,,round3_semantic,"* Dublin City University [999892588,IE]",
-3537,Basile Georges Paul Chaix,A5110151710,fuzzy,I154526488,round3_semantic,Inserm,
+3537,Basile Georges Paul Chaix,A5110151710,fuzzy,I154526488,round3_semantic,Inserm, yes
 3577,Caspar Schwiedrzik,A5065568970,alias,,round3_semantic,"* University of Bochum [999988812,DE]",
 3632,Daniel Margulies,A5020214490,alias,I1294671590,round3_semantic,Centre National de la Recherche Scientifique,
 3677,Jelte Wicherts,A5029698090,alias,I193700539,round3_semantic,Tilburg University,
 3687,Kenneth Smith,A5020926211,alias,I98677209,round3_semantic,University of Edinburgh,
 3727,Daniel Batovici,A5014164625,alias,,round3_semantic,"* University of Vienna [999866883,AT]",
-3872,Annette Adelheid Haug,A5077954085,fuzzy,,round3_semantic,"* University of Kiel [999839529,DE]",
-3891,Gesine Ulrike Müller,A5006102966,fuzzy,I180923762,round3_semantic,University of Cologne,
+3872,Annette Adelheid Haug,A5077954085,fuzzy,,round3_semantic,"* University of Kiel [999839529,DE]", yes
+3891,Gesine Ulrike Müller,A5006102966,fuzzy,I180923762,round3_semantic,University of Cologne, yes
 3895,Nicolas James Laurent Fernando De Warren,A5076386108,fuzzy,I99464096,round3_semantic,KU Leuven,
-4176,Daniel Li Chen,A5017324980,fuzzy,I4210092408,round3_semantic,Toulouse School of Economics,
-4225,Olivier Thomas Hamant,A5014061110,fuzzy,,round3_semantic,"* French National Institute for Agricultural Research [999993274,FR]",
+4176,Daniel Li Chen,A5017324980,fuzzy,I4210092408,round3_semantic,Toulouse School of Economics, yes
+4225,Olivier Thomas Hamant,A5014061110,fuzzy,,round3_semantic,"* French National Institute for Agricultural Research [999993274,FR]", yes
