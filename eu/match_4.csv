@@ -1,0 +1,727 @@
+﻿rid,eu_name,authorid,match_type,host_id,passed,n_papers,source
+1,Andreas Bock,A5065250034,exact,,True,125,round4_semtie
+2,Clemens Plaschka,A5006479386,exact,I195525897,True,24,round4_semtie
+9,Thomas Sharp,A5085976588,alias,I36234482,False,80,round4_maxpapers
+14,Eva Kowalinski,A5049088846,exact,,True,29,round4_semtie
+15,Christian Münch,A5012478165,exact,,True,145,round4_semtie
+30,Elodie Laine,A5076453514,alias,I39804081,True,100,round4_semtie
+50,Robert Ernst,A5043813423,alias,I91712215,True,380,round4_semtie
+55,Martin Jinek,A5000173541,exact,I202697423,True,155,round4_semtie
+59,Chirlmin Joo,A5088856493,exact,I98358874,True,142,round4_semtie
+67,Alwin Köhler,A5051857909,alias,,True,35,round4_semtie
+68,Thomas Arnesen,A5032682346,alias,I4432739,True,136,round4_semtie
+71,Stephan Gruber,A5007805763,alias,I97565354,True,102,round4_semtie
+78,David Komander,A5086480636,exact,,True,158,round4_semtie
+83,Petr Cejka,A5056096904,alias,,True,128,round4_semtie
+84,Helen Walden,A5055937619,alias,I7882870,True,72,round4_semtie
+89,Irina Gutsche,A5039571597,exact,I1294671590,True,104,round4_semtie
+94,Nils Wiedemann,A5068752218,alias,,True,104,round4_semtie
+96,Mart Loog,A5090178938,exact,I56085075,True,79,round4_semtie
+101,Vincenzo Costanzo,A5056633333,exact,I189158943,True,112,round4_semtie
+118,Miao-Ping Chien,A5076454824,alias,I2801952686,True,55,round4_semtie
+132,Jeroen De Ridder,A5071483953,exact,I3018483916,True,168,round4_semtie
+147,Nir Yosef,A5026299103,exact,I53964585,True,277,round4_semtie
+148,Darío Jesús Lupiáñez García,A5009382919,alias,,False,1,round4_maxpapers
+163,Joseph Marsh,A5002238592,alias,I98677209,True,167,round4_semtie
+166,Alfredo Castello Palomares,A5097923988,alias,,False,1,round4_maxpapers
+174,Paola Picotti,A5084914720,alias,I35440088,True,158,round4_semtie
+179,Nicola Iovino,A5024510416,exact,,True,41,round4_semtie
+187,Theodore Alexandrov,A5023802736,exact,I4210138560,True,270,round4_semtie
+195,Ido Amit,A5048280875,alias,I53964585,True,378,round4_semtie
+198,Anders Peter Brodersen,A5045230635,fuzzy,,False,5,round4_maxpapers
+200,Amos Tanay,A5083312685,exact,I53964585,True,188,round4_semtie
+204,Nuria Lopez Bigas,A5057300983,alias,I4210122345,True,328,round4_semtie
+205,Rotem Sorek,A5024718393,exact,I53964585,True,161,round4_semtie
+213,Petr Svoboda,A5063809380,exact,I4210138103,True,212,round4_semtie
+219,Ron Milo,A5024451873,alias,I53964585,True,189,round4_semtie
+229,Jonathan Lawrence Marchini,A5051043751,fuzzy,I40120149,True,216,round4_semtie
+242,Edouard Hannezo,A5027982101,exact,I157556583,True,114,round4_semtie
+246,Marie-Cécile Caillaud,A5017462808,alias,I1294671590,True,50,round4_semtie
+253,Shotaro Otsuka,A5082422826,alias,,True,35,round4_semtie
+261,Vincenzo Calvanese,A5038217290,alias,,True,64,round4_semtie
+266,Ulrika Marklund,A5087519517,alias,I28166907,True,27,round4_semtie
+276,Miki Matsuda,A5113732636,alias,,False,8,round4_maxpapers
+287,Cesar Nombela,A5089356341,exact,,True,250,round4_semtie
+288,Jérôme Gros,A5089103667,exact,I157536573,True,64,round4_semtie
+290,Ana Garcia Saez,A5041672678,alias,I180923762,True,170,round4_semtie
+293,Julien Dumont,A5002172208,alias,I1294671590,True,70,round4_semtie
+294,Ari Pekka Mähönen,A5076653362,exact,I133731052,True,77,round4_semtie
+306,Ana Martin-Villalba,A5003387515,exact,I17937529,True,110,round4_semtie
+313,Simon Alberti,A5008277442,alias,,True,159,round4_semtie
+321,Mohamed Lamkanfi,A5014558436,alias,I32597200,True,132,round4_semtie
+330,Thomas Greb,A5005431192,exact,,True,83,round4_semtie
+347,Francesco Paneni,A5050799541,alias,I202697423,True,312,round4_semtie
+351,Ihsan Ekin Demir,A5088890575,alias,I2802619606,True,321,round4_semtie
+358,Direna Alonso-Curbelo,A5010025130,alias,I4210122345,True,83,round4_semtie
+360,Benoit Chassaing,A5018718565,alias,I154526488,True,273,round4_semtie
+370,José Pedro Friedmann Angeli,A5065710911,alias,,True,100,round4_semtie
+373,Pedro Sousa-Victor,A5075912749,exact,,True,35,round4_semtie
+386,Elmar Wolf,A5081972858,exact,,True,146,round4_semtie
+387,Carmine Settembre,A5056795266,exact,I71267560,True,86,round4_semtie
+388,Ruth Scherz-Shouval,A5006544087,exact,I53964585,True,106,round4_semtie
+397,Timo Mueller,A5113212927,alias,,False,187,round4_maxpapers
+404,Guillaume Canaud,A5042298336,exact,I204730241,True,101,round4_semtie
+405,Jorge Alegre-Cebollada,A5005585216,exact,I2809107791,True,99,round4_semtie
+409,Manuel Valiente,A5070418898,exact,I4210089594,True,258,round4_semtie
+415,Simon Holst Bekker-Jensen,A5063029794,alias,I124055696,False,103,round4_maxpapers
+418,Matthew Campbell,A5008861348,alias,I205274468,True,309,round4_semtie
+419,Ruben Van Boxtel,A5019020568,alias,I4210127118,True,173,round4_semtie
+429,Yuval Rinkevich,A5027977934,alias,I3018134672,True,62,round4_semtie
+430,Nadia Mercader Huber,A5014798491,alias,I118564535,True,96,round4_semtie
+442,Ana Dias Neto Domingos Jansen,A5085473640,fuzzy,,False,196,round4_maxpapers
+445,Marc Claret Carles,A5029410280,fuzzy,,False,6,round4_maxpapers
+455,Triantafyllos Chavakis,A5086672334,exact,,True,372,round4_semtie
+466,Lars Zender,A5052075637,exact,I8087733,True,326,round4_semtie
+472,Thomas Thum,A5020543934,alias,I34809795,True,605,round4_semtie
+477,Massimo Santoro,A5048243012,alias,I138689650,True,366,round4_semtie
+480,Eleanor Elizabeth Patton,A5046316908,fuzzy,,False,2,round4_maxpapers
+484,Paolo Salomoni,A5051777812,alias,,True,148,round4_semtie
+509,Sabine Krabbe,A5079856012,alias,,True,20,round4_semtie
+522,Susanne Wegmann,A5008475864,exact,,True,88,round4_semtie
+529,Ayal Ben-Zvi,A5066671374,exact,I197251160,True,43,round4_semtie
+535,Hiroshi Ito,A5044544721,alias,,True,1826,round4_semtie
+537,Miriam Melis,A5045189209,alias,I172446870,True,158,round4_semtie
+539,Julien Bouvier,A5010173240,alias,I1294671590,True,49,round4_semtie
+548,Tarja Malm,A5000776705,alias,I175532246,True,188,round4_semtie
+549,Frederic Gambino,A5021903452,alias,I1294671590,True,32,round4_semtie
+552,Gaia Novarino,A5049497512,alias,I157556583,True,60,round4_semtie
+557,Claire Wyart,A5030843888,alias,I154526488,True,112,round4_semtie
+559,Ilaria Testa,A5077962429,alias,I86987016,True,104,round4_semtie
+565,Georg Keller,A5036840680,alias,I860889466,False,96,round4_maxpapers
+570,Martin Fuhrmann,A5082020011,exact,,True,94,round4_semtie
+572,Pascale Bomont,A5074532965,exact,I154526488,True,105,round4_semtie
+574,Camilla Bellone,A5002276509,exact,I114457229,True,74,round4_semtie
+594,Ragnhildur Thora Karadottir,A5044032139,exact,I241749,True,71,round4_semtie
+597,Amir Amedi,A5034713252,alias,I138898306,True,168,round4_semtie
+599,Susana Lima,A5063057508,fuzzy,I113358080,False,29,round4_maxpapers
+605,Simon Hippenmeyer,A5080499335,alias,I157556583,True,107,round4_semtie
+616,Nathalie Rouach,A5033299269,alias,,True,164,round4_semtie
+618,Petra Ritter,A5059814273,alias,I7877124,True,8,round4_semtie
+622,Nachum Ulanovsky,A5086304017,exact,I53964585,True,59,round4_semtie
+627,Sebastian Kadener,A5038140921,exact,I197251160,True,88,round4_semtie
+631,André Fischer,A5040773420,exact,,True,354,round4_semtie
+632,Christoph Kayser,A5010335917,exact,,True,273,round4_semtie
+635,Aldo Genovesio,A5005245127,exact,I861853513,True,93,round4_semtie
+650,Richard Roland Benton,A5078310984,fuzzy,I97565354,True,184,round4_semtie
+668,Christoph Schneider,A5033849275,exact,I202697423,True,241,round4_semtie
+669,Daniela Latorre,A5075565802,exact,,True,34,round4_semtie
+670,Noam Stern-Ginossar,A5082856046,alias,I53964585,True,107,round4_semtie
+671,Matthieu Mahevas,A5031127153,alias,I197681013,True,141,round4_semtie
+678,Leïla Perié,A5055849177,alias,,True,94,round4_semtie
+680,Thomas Marichal,A5076651905,alias,I157674565,True,127,round4_semtie
+683,Liliana Mancio Silva,A5028637796,exact,I154526488,True,46,round4_semtie
+687,Neta Regev-Rudzki,A5087526855,exact,I53964585,True,69,round4_semtie
+696,Moritz Treeck,A5003714113,exact,,True,85,round4_semtie
+702,Ziv Shulman Ben-Avraham,A5034305916,fuzzy,,False,1,round4_maxpapers
+705,Noam Stern-Ginossar,A5082856046,exact,I53964585,True,107,round4_semtie
+708,Doron Merkler,A5074794983,exact,I114457229,True,219,round4_semtie
+718,Wolfgang Kastenmüller,A5037220835,exact,,True,127,round4_semtie
+722,Serge Mostowy,A5000285007,alias,I4210089966,True,199,round4_semtie
+725,Jan-Willem Veening,A5021934828,alias,I97565354,True,182,round4_semtie
+727,Dietmar Zehn,A5016497210,exact,I62916508,True,135,round4_semtie
+738,Matthias Marti,A5004504354,alias,I7882870,True,154,round4_semtie
+740,Marc Schmidt-Supprian,A5089219567,alias,I2802619606,True,128,round4_semtie
+760,Pablo Pelegrin Vivancos,A5060565561,exact,,False,1,round4_maxpapers
+763,Karina Elizabeth De Visser,A5012101402,fuzzy,,False,1,round4_maxpapers
+765,Ron Dzikowski,A5023420108,exact,I197251160,True,62,round4_semtie
+768,Federico Mingozzi,A5049298836,exact,I4210127167,True,195,round4_semtie
+777,Katja Van Den Hurk,A5049510588,alias,I3020210244,True,123,round4_semtie
+786,Gustaf Edgren,A5075852201,alias,I28166907,True,240,round4_semtie
+792,Hrvoje Bogunovic,A5089575197,alias,,True,283,round4_semtie
+796,Michael Sommerauer,A5080852796,exact,,True,78,round4_semtie
+798,Michael White,A5056258333,exact,I157536573,True,230,round4_semtie
+809,Jakob Stokholm,A5031414961,exact,,True,246,round4_semtie
+814,Bettina Husebo,A5039904067,alias,I4432739,False,186,round4_maxpapers
+819,Wolfgang Bogner,A5023652216,exact,,True,305,round4_semtie
+822,Valentina Bollati,A5007836073,exact,I189158943,True,411,round4_semtie
+827,Ritse Mann,A5073381909,alias,I2802934949,False,309,round4_maxpapers
+834,Dario Greco,A5028682033,exact,I166825849,True,294,round4_semtie
+836,Rachela Popovtzer,A5039004884,alias,I13955877,True,117,round4_semtie
+847,Daniel Aili,A5033045367,alias,I102134673,True,121,round4_semtie
+848,Waldo Nogueira Vazquez,A5077493283,fuzzy,,False,1,round4_maxpapers
+857,Christoph Bock,A5059183480,exact,I4210127611,True,449,round4_semtie
+869,Mathilde Touvier,A5106788643,exact,I154526488,True,847,round4_semtie
+872,Aron Philip Kater,A5085320086,fuzzy,,False,1,round4_maxpapers
+874,Ali Ertürk,A5050828185,alias,I3018134672,True,95,round4_semtie
+877,Jean-Baptiste Pingault,A5013110004,alias,I45129253,True,204,round4_semtie
+881,Steven Alexander Niederer,A5000435552,alias,I183935753,False,543,round4_maxpapers
+889,Bruno De Geest,A5083147395,alias,I32597200,True,53,round4_semtie
+902,Davide Rossi,A5015790909,exact,,True,890,round4_semtie
+903,Jan Herman Veldink,A5069816083,alias,I3018483916,False,488,round4_maxpapers
+904,Matthias Meier,A5053507788,alias,I3018134672,True,182,round4_semtie
+908,Charles Agyemang,A5067202010,exact,I2802928900,True,471,round4_semtie
+910,Olivier Couture,A5028875960,alias,I1294671590,True,115,round4_semtie
+917,Andrea Bertotti,A5031287599,exact,I55143463,True,403,round4_semtie
+923,Mary Cannon,A5006791816,alias,,True,570,round4_semtie
+924,Mikko Olavi Niemi,A5047851431,fuzzy,I133731052,False,345,round4_maxpapers
+925,Tomasz Jan Guzik,A5040329167,alias,I98677209,False,408,round4_maxpapers
+926,Susana Marina Chuva De Sousa Lopes,A5006746843,fuzzy,I2800006345,True,256,round4_semtie
+930,Unnur Valdimarsdóttir,A5010145550,exact,I165368041,False,395,round4_maxpapers
+940,Daniel Razansky,A5082319905,exact,I202697423,True,636,round4_semtie
+941,Henrik Zetterberg,A5079766290,exact,I881427289,True,3278,round4_semtie
+943,Weimin Ye,A5100601148,exact,I28166907,True,665,round4_semtie
+946,Niel Hens,A5042663607,alias,I878454856,True,607,round4_semtie
+949,Lorraine Brennan,A5003874766,exact,I100930933,True,419,round4_semtie
+952,Brian Huntly,A5029251605,alias,I241749,True,282,round4_semtie
+953,Frederic Amant,A5023783658,alias,I99464096,True,1092,round4_semtie
+954,Raphaël Rodriguez,A5004676065,alias,I80043,True,208,round4_semtie
+959,Hugo Wilhelmus Antonius Maria De Jong,A5051038749,fuzzy,I3018483916,True,173,round4_semtie
+960,Dan Peer,A5038855686,exact,I16391192,True,185,round4_semtie
+962,Caroline Klaver,A5029529953,alias,I2801952686,False,588,round4_maxpapers
+966,Patrizio Lancellotti,A5034995895,exact,I157674565,True,1050,round4_semtie
+967,Craig Morgan,A5045508438,alias,I183935753,True,611,round4_semtie
+969,Jonas Larsson,A5112464570,alias,I187531555,True,154,round4_semtie
+970,Jennifer Irene Keiser,A5033452459,fuzzy,I158937107,True,520,round4_semtie
+972,Giuseppe Testa,A5087706646,alias,I189158943,True,269,round4_semtie
+973,Massimiliano Pagani,A5075506116,exact,I189158943,True,105,round4_semtie
+983,Ronit Satchi-Fainaro,A5061202040,alias,I16391192,True,249,round4_semtie
+991,Lucie Etienne,A5048275896,exact,I1294671590,True,106,round4_semtie
+993,Cecilia Nilsson,A5054084621,exact,I187531555,True,98,round4_semtie
+996,Roberto Salguero-Gómez,A5069697028,alias,I40120149,True,257,round4_semtie
+997,Emily Mitchell,A5012590514,exact,I241749,True,150,round4_semtie
+1000,Anton Potapov,A5014102183,exact,,True,113,round4_semtie
+1002,Arnau Sebé-Pedrós,A5004697708,exact,I4210137962,True,78,round4_semtie
+1003,Arnaud Sentis,A5022540401,alias,,True,110,round4_semtie
+1004,Henrik Salje,A5086547092,alias,I241749,True,209,round4_semtie
+1016,Pieter De Frenne,A5000715083,exact,I32597200,True,339,round4_semtie
+1017,Matthias Fischer,A5080341519,exact,I149899117,True,109,round4_semtie
+1024,Antoine Wystrach,A5061323512,exact,I1294671590,True,88,round4_semtie
+1026,Zuzana Musilová,A5008296954,alias,I21250087,True,90,round4_semtie
+1035,Alvaro Sanchez,A5049086349,exact,,True,128,round4_semtie
+1045,Johan Decelle,A5057021217,exact,I1294671590,True,83,round4_semtie
+1046,Petr Keil,A5055421718,alias,I205984670,True,98,round4_semtie
+1053,Nicola Segata,A5068576885,alias,I193223587,True,419,round4_semtie
+1054,Amelia-Elena Rotaru,A5050995136,exact,I177969490,False,68,round4_maxpapers
+1059,Tal Dagan,A5004587704,exact,,True,149,round4_semtie
+1064,Yossi Yovel,A5016325693,alias,I16391192,True,210,round4_semtie
+1068,Mederic Diard,A5048213818,alias,I1850255,True,31,round4_semtie
+1074,Aris Katzourakis,A5058450513,alias,I40120149,True,131,round4_semtie
+1075,Tanja Stadler,A5055449742,exact,I35440088,True,316,round4_semtie
+1079,Rita Covas,A5008198078,alias,,True,83,round4_semtie
+1083,Nicolas Puillandre,A5001511906,exact,I4210123595,True,141,round4_semtie
+1093,Karla Gisela Kristin Tessmar-Raible,A5055395658,fuzzy,,False,1,round4_maxpapers
+1107,Dominic Wright,A5068690309,alias,I102134673,True,147,round4_semtie
+1110,Joseph Schacherer,A5091722749,exact,I68947357,True,137,round4_semtie
+1121,Anna-Liisa Laine,A5089207824,alias,I202697423,True,159,round4_semtie
+1122,Juan Antonio Gabaldón Estevan,A5073271482,fuzzy,,False,11,round4_maxpapers
+1132,Stephanie Bedhomme,A5024965499,exact,I1294671590,True,53,round4_semtie
+1133,Mariangela Bonizzoni,A5089901991,exact,I25217355,True,141,round4_semtie
+1139,Ignacio González Bravo,A5074079969,fuzzy,I1294671590,False,200,round4_maxpapers
+1140,Josefa Gonzalez Perez,A5008899556,alias,,True,383,round4_semtie
+1143,Samuel Alizon,A5083653654,exact,I1294671590,True,228,round4_semtie
+1145,Andrea Manica,A5006178689,exact,I241749,True,379,round4_semtie
+1160,Hélène Morlon,A5084776094,exact,I1294671590,True,167,round4_semtie
+1163,Iñaki Ruiz Trillo,A5018607362,alias,I170486558,True,214,round4_semtie
+1167,Bastien Bissaro,A5007511324,alias,,True,72,round4_semtie
+1168,Li Tang,A5065125027,exact,I5124864,True,237,round4_semtie
+1172,Velia Siciliano,A5030631840,alias,I30771326,True,47,round4_semtie
+1177,Emma Andersson,A5030754446,exact,I28166907,False,252,round4_maxpapers
+1181,Korbinian Schneeberger,A5008117650,alias,,True,147,round4_semtie
+1185,Guillaume Lobet,A5023803941,exact,I95674353,True,222,round4_semtie
+1190,Murat Sunbul,A5047141737,exact,,True,165,round4_semtie
+1199,Caroline Gutjahr,A5065949573,exact,,True,110,round4_semtie
+1200,Moussa Benhamed,A5070486620,alias,I204730241,True,88,round4_semtie
+1201,David Bikard,A5064065434,alias,I157536573,True,97,round4_semtie
+1203,Clara Sanchez Rodriguez,A5083521633,exact,,True,77,round4_semtie
+1220,Abel Garcia Pino,A5025516016,alias,I132053463,True,66,round4_semtie
+1228,Henning Jacob Jessen,A5030496315,alias,I161046081,True,252,round4_semtie
+1232,Rob Lavigne,A5056568447,alias,I99464096,True,498,round4_semtie
+1239,Cecilia Maria Sahlgren,A5052741873,alias,I130217899,False,129,round4_maxpapers
+1240,Miina Alina Rautiainen,A5079472711,fuzzy,I9927081,False,217,round4_maxpapers
+1243,Chris Barnes,A5018040610,alias,I45129253,True,4,round4_semtie
+1245,Etienne Bucher,A5063098798,alias,,True,90,round4_semtie
+1252,Thomas Reinier Maxim Barends,A5041806853,fuzzy,I149899117,False,81,round4_maxpapers
+1268,Christopher Guy Bass,A5111739313,fuzzy,,False,121,round4_maxpapers
+1277,Kris Verheyen,A5025403876,exact,I32597200,True,963,round4_semtie
+1278,Mark Howarth,A5012100815,exact,I40120149,True,138,round4_semtie
+1292,Antoine Levitt,A5040118029,exact,I277688954,True,48,round4_semtie
+1304,Gabor Szabo,A5054049660,exact,I99464096,True,81,round4_semtie
+1306,Andrea Seppi,A5048852896,alias,,True,70,round4_semtie
+1313,Benjamin Gess,A5091000281,exact,I4577782,True,147,round4_semtie
+1315,Lauri Oksanen,A5044437642,alias,I133731052,True,111,round4_semtie
+1320,Hendrik Weber,A5001883810,alias,I22465464,True,86,round4_semtie
+1324,Phan Thanh Nam,A5048239767,alias,I8204097,True,155,round4_semtie
+1331,Kathrin Bringmann,A5089032048,alias,I180923762,True,375,round4_semtie
+1333,Simon Riche,A5005759805,exact,I198244214,True,106,round4_semtie
+1343,Choonghong Tadahiro Oh,A5048680727,fuzzy,,False,2,round4_maxpapers
+1344,Vincent Calvez,A5114375058,alias,I1294671590,True,103,round4_semtie
+1346,Pierre Berger,A5030919165,alias,I1294671590,True,98,round4_semtie
+1350,Xin Li,A5100353932,exact,I7882870,True,449,round4_semtie
+1351,Stefano Favaro,A5083953277,exact,I55143463,True,185,round4_semtie
+1357,Siddhartha Mishra,A5101961582,alias,I35440088,True,246,round4_semtie
+1369,Laszlo Szekelyhidi,A5077855474,alias,,True,168,round4_semtie
+1372,Anna Ershler,A5038347500,fuzzy,,False,1,round4_maxpapers
+1374,Clement Mouhot,A5060848970,exact,I241749,True,145,round4_semtie
+1378,Alessandro Giuliani,A5013428460,exact,I861853513,True,626,round4_semtie
+1379,Gianluigi Rozza,A5061558433,exact,I138549579,True,572,round4_semtie
+1381,Victor Rotger Cerdà,A5006215137,fuzzy,,False,7,round4_maxpapers
+1386,Andreas Thom,A5010043767,alias,,True,233,round4_semtie
+1389,Søren Galatius,A5089158851,exact,I124055696,True,130,round4_semtie
+1392,Peter Keevash,A5023231478,alias,I40120149,True,182,round4_semtie
+1394,David Perez Garcia,A5037099975,alias,I121748325,True,170,round4_semtie
+1407,Jose Maria Martell Berrocal,A5038937908,fuzzy,,False,173,round4_maxpapers
+1416,Donato Giovannelli,A5089320122,alias,I71267560,True,172,round4_semtie
+1420,Gabriele Messori,A5061617752,alias,I123387679,True,303,round4_semtie
+1421,Anna Pakhomova,A5055262354,exact,,True,223,round4_semtie
+1423,Eva Stueeken,A5074674276,alias,I16835326,True,15,round4_semtie
+1424,Aloisia Nuijens,A5028455474,fuzzy,,False,1,round4_maxpapers
+1435,Pablo Ortega,A5054457106,alias,I2799803557,True,187,round4_semtie
+1445,Olivier Namur,A5083347283,alias,I99464096,True,158,round4_semtie
+1447,Martin Schiller,A5050832722,alias,I124055696,True,137,round4_semtie
+1448,Andreas Nilsson,A5047834365,exact,I187531555,True,90,round4_semtie
+1452,Jia Chen,A5086814847,exact,I62916508,True,641,round4_semtie
+1460,Wei-Li Hong,A5053211960,exact,I161593684,True,165,round4_semtie
+1463,Nicolas Brantut,A5014620465,exact,,True,195,round4_semtie
+1465,Jan-Hendrik Hehemann,A5062026003,alias,I180437899,True,102,round4_semtie
+1467,Mustafa Yucel,A5006534189,exact,I201799495,True,90,round4_semtie
+1471,Sophie Bonnet,A5083944985,exact,I4210166444,True,193,round4_semtie
+1474,Cathy Quantin-Nataf,A5029307055,exact,I100532134,True,162,round4_semtie
+1475,Faysal Bibi,A5038250577,exact,I1313606977,True,103,round4_semtie
+1477,Alida Timar-Gabor,A5016545451,exact,I3125347698,True,167,round4_semtie
+1479,Matti Rissanen,A5073788174,exact,I166825849,True,335,round4_semtie
+1480,Lisa Wingate,A5045245314,exact,,True,239,round4_semtie
+1485,Frederic Moynier,A5036994564,alias,I148261361,True,523,round4_semtie
+1488,Robert Hilton,A5003424407,alias,I40120149,True,242,round4_semtie
+1493,Ana Godinho Ferreira,A5039305073,fuzzy,I45129253,True,179,round4_semtie
+1504,Madeleine Clare Sperryn White,A5091159076,fuzzy,,False,26,round4_maxpapers
+1505,Angela Gallego-Sala,A5011579501,alias,I23923803,True,129,round4_semtie
+1507,Stijn De Schepper,A5002139453,exact,I4210107808,True,150,round4_semtie
+1509,Horst Machguth,A5036217745,alias,I154338468,True,179,round4_semtie
+1515,Bruno Dhuime,A5086220526,alias,I1294671590,True,109,round4_semtie
+1518,Michael Sigl,A5023875272,exact,I118564535,True,266,round4_semtie
+1523,Carlos Perez Garcia-Pando,A5040545550,alias,I2799803557,True,462,round4_semtie
+1524,Ulrike Herzschuh,A5085075467,alias,I127251866,True,710,round4_semtie
+1531,Karine Sellegri,A5028858445,exact,I1294671590,True,262,round4_semtie
+1534,Helge Niemann,A5075104775,alias,,True,255,round4_semtie
+1538,Christoph Karl Thomas,A5074981980,alias,I54009628,False,344,round4_maxpapers
+1545,Philip Stier,A5087616218,alias,I40120149,True,533,round4_semtie
+1559,Hendrik Fuchs,A5057217648,alias,I171892758,True,313,round4_semtie
+1566,Sari Hannele Korhonen,A5066081714,fuzzy,,False,24,round4_maxpapers
+1568,Guillaume Dupont-Nivet,A5006751458,alias,I1294671590,True,292,round4_semtie
+1569,Benjamin John Murray,A5031447909,alias,I130828816,False,372,round4_maxpapers
+1578,Diego Perugini,A5078724935,exact,I27483092,True,275,round4_semtie
+1586,Giulio Di Toro,A5058567673,exact,I138689650,True,477,round4_semtie
+1591,Yu Ogawa,A5062856177,exact,,True,138,round4_semtie
+1597,Sara Abalde-Cela,A5022060261,alias,,True,49,round4_semtie
+1602,Xuekun Lu,A5000724287,exact,I166337079,True,72,round4_semtie
+1622,Tong Li,A5100359057,exact,,True,500,round4_semtie
+1636,Anna Sandak,A5023451581,alias,I118905719,True,143,round4_semtie
+1641,Feng Gao,A5100729278,exact,I102134673,True,869,round4_semtie
+1649,Viviana Cavaliere,A5105659374,alias,,True,619,round4_semtie
+1664,Franz Herzog,A5054539660,exact,I98677209,True,165,round4_semtie
+1668,Tim Schröder,A5029645305,alias,I39343248,True,171,round4_semtie
+1673,Astrid Eichhorn,A5010105121,alias,,True,207,round4_semtie
+1707,Marcus Huber,A5027058735,alias,I145847075,True,228,round4_semtie
+1717,Lorenzo Bianchini,A5013310906,alias,I108290504,True,567,round4_semtie
+1728,Simon Gröblacher,A5112342934,alias,I98358874,True,137,round4_semtie
+1731,Leticia Tarruell Pellegrin,A5068132442,fuzzy,,False,3,round4_maxpapers
+1737,Pierre Brun,A5104062094,alias,I2738703131,True,59,round4_semtie
+1738,Matthias Schott,A5071143509,alias,I197323543,True,588,round4_semtie
+1740,Francesco Benini,A5037607367,alias,I138549579,True,78,round4_semtie
+1750,Elisabetta Baracchini,A5114378273,alias,I4210150763,True,388,round4_semtie
+1757,Reinhild Fatima Yvonne Peters,A5107448738,fuzzy,I28407311,True,31,round4_semtie
+1764,Ronald Hanson,A5039442806,alias,I98358874,True,1143,round4_semtie
+1776,Alexander Schmidt,A5067866874,alias,I887968799,True,1648,round4_semtie
+1782,Benjamin Wolf Freivogel,A5015191174,fuzzy,,False,3,round4_maxpapers
+1787,Aleksandra Maria Walczak,A5016850339,fuzzy,I1294671590,True,311,round4_semtie
+1788,Marc Tobias Schumann,A5102951517,fuzzy,,False,12,round4_maxpapers
+1790,Tuomas Veli Valtteri Lappi,A5089748557,fuzzy,,False,9,round4_maxpapers
+1803,Antonin Vacheret,A5063689819,alias,I47508984,True,29,round4_semtie
+1807,Alessandro Bacchetta,A5025191314,exact,I25217355,True,205,round4_semtie
+1815,Kieran Thomas Joseph Flanagan,A5101668087,fuzzy,,False,187,round4_maxpapers
+1818,Uriel Levy,A5014032344,exact,I197251160,False,459,round4_maxpapers
+1821,Lucio Cerrito,A5007925027,alias,I116067653,True,2641,round4_semtie
+1824,Jeremy Lloyd O'Brien,A5011294609,fuzzy,,False,3,round4_maxpapers
+1825,Markus Aspelmeyer,A5073463154,alias,I129774422,True,268,round4_semtie
+1828,Tobias Johannes Jakob Boris Christoph Schätz,A5065642406,fuzzy,,False,10,round4_maxpapers
+1829,Shuang Zhang,A5100321581,alias,I79619799,True,1050,round4_semtie
+1831,Jens Limpert,A5003592165,alias,,True,1053,round4_semtie
+1832,Sebastien André Marcel Bize,A5106859499,fuzzy,,True,4,round4_semtie
+1836,Roee Ozeri,A5038915880,exact,I53964585,True,218,round4_semtie
+1841,Silvia Pascoli,A5038469819,alias,I190082696,True,145,round4_semtie
+1846,Gilad Perez,A5103551312,exact,I53964585,True,149,round4_semtie
+1860,Christian Schneider,A5011588936,exact,I129877168,True,617,round4_semtie
+1872,Ariel Amir,A5080479523,exact,I53964585,True,189,round4_semtie
+1893,Thomas Salez,A5062740465,alias,I1294671590,True,241,round4_semtie
+1899,Stefan Kaiser,A5081594966,alias,,True,251,round4_semtie
+1902,Ajit Srivastava,A5024977858,alias,,True,111,round4_semtie
+1903,Pablo Alonso Gonzalez,A5078591848,exact,I165339363,True,119,round4_semtie
+1906,Silvia Vignolini,A5050782114,alias,I241749,True,261,round4_semtie
+1908,Alexey Chernikov,A5088371748,alias,,True,126,round4_semtie
+1912,Robert Vácha,A5065633302,exact,I21449261,True,146,round4_semtie
+1919,Francesco Cardarelli,A5073809598,exact,I157210198,True,133,round4_semtie
+1920,Vincent Jacques,A5062152732,alias,I1294671590,True,161,round4_semtie
+1925,Pierre Thibault,A5009187210,exact,I142444530,True,487,round4_semtie
+1953,Ivan Guilhem Daniel Favero,A5033271744,fuzzy,I1294671590,True,167,round4_semtie
+1958,Virginie Chamard,A5075664474,alias,I1294671590,True,134,round4_semtie
+1961,Hendrik Dietz,A5072507626,exact,I62916508,True,187,round4_semtie
+1965,Massimiliano Stengel,A5053056300,exact,,True,156,round4_semtie
+1972,Ralf Seidel,A5074416216,alias,,True,160,round4_semtie
+1974,Julie Grollier,A5035082537,alias,I1294671590,True,278,round4_semtie
+1981,Fernando Moreno-Herrero,A5018736467,alias,I134820265,False,110,round4_maxpapers
+1982,Emanuela Zaccarelli,A5024556594,alias,,True,239,round4_semtie
+1996,Tommaso Fellin,A5032412662,exact,I30771326,True,104,round4_semtie
+2009,Francesco Giazotto,A5059450888,alias,,True,307,round4_semtie
+2015,Manuel Alain Bibes,A5016698882,fuzzy,,False,1,round4_maxpapers
+2016,Christopher Patrick (Paddy) Royall,A5104268794,fuzzy,,False,2,round4_maxpapers
+2018,Francesco De Angelis,A5029460508,alias,I30771326,True,572,round4_semtie
+2027,Roberto Rizzato,A5079611641,exact,I62916508,True,26,round4_semtie
+2033,Nikolay Kosinov,A5052823556,alias,I83019370,True,94,round4_semtie
+2034,Cornelia Meinert,A5019519555,alias,I1294671590,True,91,round4_semtie
+2039,Sergii Pud,A5065581707,alias,,True,41,round4_semtie
+2042,Anne Schuetz,A5033131145,alias,,True,10,round4_semtie
+2064,Lars Heinke,A5082394369,alias,,True,179,round4_semtie
+2070,Csaba Janaky,A5075233752,exact,I227486990,True,203,round4_semtie
+2076,Tuomas Pertti Jonathan Knowles,A5041530719,fuzzy,I241749,True,653,round4_semtie
+2087,Kevin Pagel,A5007527719,exact,I75951250,True,211,round4_semtie
+2088,Oren Tal,A5061253584,alias,I53964585,True,44,round4_semtie
+2090,Claire Wilhelm,A5034456156,exact,I1294671590,True,277,round4_semtie
+2106,Laura Fumagalli,A5067243546,alias,I28407311,True,164,round4_semtie
+2112,Jana Zaumseil,A5041039123,alias,,True,232,round4_semtie
+2114,Hans Jakob Wörner,A5011676219,exact,I35440088,True,266,round4_semtie
+2127,Ville-Veikko Telkki,A5005498732,exact,I98381234,True,132,round4_semtie
+2140,Jerome Wenger,A5022399572,exact,I1294671590,True,312,round4_semtie
+2141,Leo Gross,A5109100631,alias,,True,8,round4_semtie
+2144,Rolf Erni,A5037189873,alias,I71824836,True,360,round4_semtie
+2145,Dan Oron,A5046587873,exact,I53964585,True,387,round4_semtie
+2156,Pau Bernado Pereto,A5024911291,alias,,False,1,round4_maxpapers
+2157,Xavier Salvatella Giralt,A5016848004,fuzzy,,False,52,round4_maxpapers
+2164,Jianting Ye,A5063444087,exact,I169381384,True,67,round4_semtie
+2186,Lutz Greb,A5000849314,exact,,True,349,round4_semtie
+2191,Malte Gersch,A5077133303,exact,,True,41,round4_semtie
+2196,Lars Borchardt,A5071419158,alias,,True,184,round4_semtie
+2197,Stephen Wallace,A5038831116,alias,I98677209,True,131,round4_semtie
+2199,Lutz Nuhn,A5034323485,alias,,True,135,round4_semtie
+2201,Guillaume Lefèvre,A5028044238,alias,I1294671590,True,339,round4_semtie
+2203,Nir London,A5044428734,alias,I53964585,True,279,round4_semtie
+2217,Laura Hartmann,A5073720658,exact,I161046081,True,164,round4_semtie
+2223,François Guérard,A5013200742,exact,I1294671590,True,61,round4_semtie
+2236,Philipp Heretsch,A5045730028,exact,,True,92,round4_semtie
+2246,Kasper Moth-Poulsen,A5012584282,alias,I9617848,True,248,round4_semtie
+2252,Paolo Arosio,A5001560379,alias,I35440088,True,333,round4_semtie
+2255,Laura Fabris,A5058963090,exact,I177477856,True,96,round4_semtie
+2256,Martín Fañanás-Mastral,A5024147412,alias,I200284239,True,158,round4_semtie
+2272,Nuno Silva,A5077900736,fuzzy,I60858718,True,131,round4_semtie
+2281,Ryan Gilmour,A5050197366,alias,I22465464,True,310,round4_semtie
+2285,Xinliang Feng,A5100659481,exact,,True,1521,round4_semtie
+2286,Giuseppe Battaglia,A5083505605,alias,I4210147769,True,509,round4_semtie
+2302,Wolfgang Hoyer,A5068353740,alias,,True,103,round4_semtie
+2305,Stephan Sieber,A5048928672,alias,I62916508,False,293,round4_maxpapers
+2310,Jamie Hans Warner,A5035136972,fuzzy,I40120149,True,476,round4_semtie
+2317,Nuria Aliaga-Alcalde,A5064283701,alias,,True,250,round4_semtie
+2323,Claudia Höbartner,A5021290270,exact,,True,157,round4_semtie
+2351,Sebastien Perrier,A5014057252,exact,I39555362,True,332,round4_semtie
+2354,Erik Petrus Antonius Maria Bakkers,A5041376320,fuzzy,I98358874,True,498,round4_semtie
+2359,Olivier Berteau,A5062031836,alias,,True,90,round4_semtie
+2363,Martin Albrecht,A5066696423,alias,I118564535,True,773,round4_semtie
+2364,Liberato Manna,A5025956413,exact,I30771326,True,819,round4_semtie
+2367,Andreas Geiger,A5016606943,exact,I8087733,True,383,round4_semtie
+2368,Jerónimo Castrillón Mazo,A5019339903,exact,,True,11,round4_semtie
+2372,Gil Cohen,A5101865765,alias,I16391192,True,254,round4_semtie
+2375,Serena Villata,A5016281730,exact,I1294671590,True,270,round4_semtie
+2381,Michał Pilipczuk,A5000479623,alias,I4654613,True,466,round4_semtie
+2382,Marcel Böhme,A5005260100,exact,,True,82,round4_semtie
+2390,Michal Feldman,A5103282352,alias,I16391192,True,309,round4_semtie
+2392,Ambrus Kaposi,A5047340010,alias,I106118109,True,57,round4_semtie
+2396,Gerhard Neumann,A5088394978,alias,I102335020,True,209,round4_semtie
+2397,Soren Pirk,A5022418359,exact,,True,105,round4_semtie
+2405,Carola Doerr,A5040561209,exact,I1294671590,True,462,round4_semtie
+2414,Maud Marchal,A5006521642,exact,I28221208,True,233,round4_semtie
+2424,Maks Ovsjanikov,A5072368950,alias,I142476485,True,215,round4_semtie
+2432,Gil Segev,A5110233330,alias,I197251160,True,164,round4_semtie
+2434,Antonio J. Peña Monferrer,A5073051157,fuzzy,,False,1,round4_maxpapers
+2444,Robert Wille,A5004214923,exact,I62916508,True,888,round4_semtie
+2447,Olga Sorkine Hornung,A5064927253,alias,I35440088,True,167,round4_semtie
+2451,Piotr Faliszewski,A5000000572,alias,I686019,True,286,round4_semtie
+2452,Torsten Hoefler,A5026990786,exact,I35440088,True,642,round4_semtie
+2456,Stefan Schmid,A5066080641,alias,I4577782,True,921,round4_semtie
+2460,Alex Bronstein,A5025410418,exact,I174306211,True,290,round4_semtie
+2464,Jian-Jia Chen,A5000417436,exact,I200332995,True,413,round4_semtie
+2465,Michal Feldman,A5103282352,exact,I16391192,True,309,round4_semtie
+2466,Stefan Roth,A5056098625,exact,I31512782,True,281,round4_semtie
+2471,Ugo Dal Lago,A5084450516,exact,I9360294,True,280,round4_semtie
+2479,Rainer Andreas Krause,A5109325233,fuzzy,,False,92,round4_maxpapers
+2488,Matteo Maffei,A5059351004,alias,I145847075,True,168,round4_semtie
+2489,Libor Barto,A5071004419,alias,I21250087,True,84,round4_semtie
+2491,Sebastian Rudolph,A5024774718,exact,,True,282,round4_semtie
+2504,David Atienza Alonso,A5074236306,alias,I5124864,True,572,round4_semtie
+2506,Lior Wolf,A5078102229,alias,I16391192,True,619,round4_semtie
+2517,Albrecht Schmidt,A5062196262,exact,I8204097,True,960,round4_semtie
+2520,Manuel Bodirsky,A5058729018,exact,,True,296,round4_semtie
+2521,Mauro Birattari,A5061782786,alias,I132053463,True,359,round4_semtie
+2524,Philippe Cudre-Mauroux,A5028454093,exact,I154338468,True,293,round4_semtie
+2529,Derek Dreyer,A5050585539,alias,I149899117,True,133,round4_semtie
+2537,Josef Urban,A5031019731,alias,I44504214,True,278,round4_semtie
+2541,Carsten Lutz,A5034616829,exact,I180437899,True,308,round4_semtie
+2545,Leonardo Mariani,A5036120394,alias,I189158943,True,276,round4_semtie
+2546,Anna-Leena Korhonen,A5040854564,alias,I241749,True,3,round4_semtie
+2547,Anders Møller,A5103189175,alias,I204337017,True,169,round4_semtie
+2556,Yee Whye Teh,A5064373793,exact,I40120149,True,422,round4_semtie
+2558,Vladimir Kolmogorov,A5021390142,exact,I157556583,True,129,round4_semtie
+2559,Eike Kiltz,A5002016815,exact,,True,186,round4_semtie
+2562,Yehuda Lindell,A5033036383,alias,I13955877,True,276,round4_semtie
+2563,Michal Koucky,A5040922782,exact,I21250087,True,150,round4_semtie
+2566,Ronald De Wolf,A5066563480,alias,,True,225,round4_semtie
+2570,Anastasia Ailamaki,A5070907021,alias,I5124864,True,276,round4_semtie
+2589,David Phillips,A5040378209,fuzzy,I23923803,False,750,round4_maxpapers
+2592,Birgit Stiller,A5065896036,alias,,True,173,round4_semtie
+2594,Coen De Visser,A5008760854,alias,I98358874,False,186,round4_maxpapers
+2595,Stanisa Raspopovic,A5033447067,alias,,True,110,round4_semtie
+2597,Michèle Wigger,A5065826035,alias,,True,225,round4_semtie
+2601,Jan Hasenauer,A5063254041,alias,I135140700,True,307,round4_semtie
+2602,Ferruccio Pisanello,A5028454417,exact,I30771326,True,171,round4_semtie
+2619,Sebastian Reineke,A5024180183,alias,,True,216,round4_semtie
+2620,Carlos Alonso Ramos,A5011803299,alias,I1294671590,True,421,round4_semtie
+2626,Elisa Vianello,A5046458712,alias,I2738703131,True,293,round4_semtie
+2632,Fei Ding,A5004243536,exact,,True,477,round4_semtie
+2637,Yonina Eldar,A5005913897,alias,I53964585,False,1545,round4_maxpapers
+2643,Laurent Schmalen,A5053280913,exact,I102335020,True,296,round4_semtie
+2648,Stefan Witte,A5046110011,exact,,True,236,round4_semtie
+2650,Fabrizio De Vico Fallani,A5089157446,exact,I1326498283,True,277,round4_semtie
+2667,Matthias Althoff,A5005383495,exact,I62916508,True,413,round4_semtie
+2669,Francois Andrieu,A5069215871,alias,I2738703131,True,211,round4_semtie
+2675,Heinz Koeppl,A5070544702,exact,I31512782,True,335,round4_semtie
+2676,Ming Cao,A5021403340,exact,I169381384,True,792,round4_semtie
+2684,Camille Sophie Bres Ep. Tremblay,A5088617511,fuzzy,,False,3,round4_maxpapers
+2696,Albert Guillén I Fàbregas,A5005125538,exact,I170486558,False,246,round4_maxpapers
+2699,Esther Rodriguez-Villegas,A5026574215,exact,I47508984,True,203,round4_semtie
+2712,Hatice Altug Yanik,A5036210470,fuzzy,,False,1,round4_maxpapers
+2713,Yonina Eldar,A5005913897,alias,I53964585,False,1545,round4_maxpapers
+2715,Robert Huber,A5072604023,alias,I9341345,True,434,round4_semtie
+2719,Sebastian Sager,A5070436541,alias,I95793202,True,155,round4_semtie
+2720,Bernd Rieger,A5048898725,alias,I98358874,True,162,round4_semtie
+2734,Chun Huang,A5067895502,exact,I47508984,True,74,round4_semtie
+2737,Alexandra Vallet,A5026237672,alias,,True,33,round4_semtie
+2740,Sophia Haussener,A5041466191,exact,I5124864,True,249,round4_semtie
+2751,Michele Marino,A5046964678,alias,I116067653,True,126,round4_semtie
+2758,Carlos Mota,A5058979303,alias,I34352273,True,152,round4_semtie
+2762,Pierre-Thomas Brun,A5113786632,exact,,True,56,round4_semtie
+2766,Nils Goseberg,A5004995298,exact,I94509681,True,180,round4_semtie
+2768,Michele Conti,A5069653622,alias,I25217355,True,223,round4_semtie
+2778,Ciara Murphy,A5084598089,exact,,True,16,round4_semtie
+2782,Richard Stevens,A5020935259,alias,I94624287,True,219,round4_semtie
+2785,Maria Cristina Vicente Manzano,A5045235527,exact,,True,1,round4_semtie
+2789,Ioannis Stefanou,A5037413847,alias,,True,159,round4_semtie
+2796,Tom Breugelmans,A5060948708,alias,I149213910,True,161,round4_semtie
+2800,Elie Hachem,A5005367331,exact,,True,263,round4_semtie
+2806,Luisa De Marco,A5009922205,exact,,True,106,round4_semtie
+2807,Andreas Fischer,A5054687195,exact,I180437899,True,653,round4_semtie
+2813,Wei Cao,A5064243515,exact,I98381234,True,380,round4_semtie
+2814,Ignazio Maria Viola,A5041519952,alias,I98677209,True,226,round4_semtie
+2819,Gerasimos Konstantatos,A5000051253,exact,I179630473,True,186,round4_semtie
+2822,Alexandra Teleki Sotiriou,A5086569597,fuzzy,,False,7,round4_maxpapers
+2829,Agnese Seminara,A5079450620,exact,I83816512,True,85,round4_semtie
+2845,Michael De Volder,A5027615173,alias,I241749,True,260,round4_semtie
+2856,Marco Deluca,A5026281346,alias,I4210135925,True,124,round4_semtie
+2861,Antonio Ambrosio,A5014616438,alias,I30771326,True,178,round4_semtie
+2864,Francesco Scotognella,A5015787949,exact,I177477856,True,356,round4_semtie
+2866,Nicolas Noiray,A5005160866,exact,I35440088,True,191,round4_semtie
+2890,Gerasimos Konstantatos,A5000051253,alias,I179630473,True,186,round4_semtie
+2911,Francois Courvoisier,A5037973920,alias,I1294671590,True,342,round4_semtie
+2919,Mariano Campoy Quiles,A5029700996,alias,,True,206,round4_semtie
+2921,Dongsheng Wen,A5070857673,exact,I130828816,True,439,round4_semtie
+2930,Maria De Les Neus Sabate Vizcarra,A5005053726,fuzzy,,False,10,round4_maxpapers
+2935,Timon Rabczuk,A5065190539,alias,I51441396,True,998,round4_semtie
+2943,Alberto Guardone,A5028685995,alias,I93860229,True,275,round4_semtie
+2944,Paolo Decuzzi,A5061631250,exact,I30771326,True,301,round4_semtie
+2951,Miguel Zumalacarregui Perez,A5009717379,alias,,False,1,round4_maxpapers
+2965,Ondrej Pejcha,A5048301562,alias,I21250087,True,147,round4_semtie
+2966,Boon Kok Tan,A5037572044,alias,I40120149,True,77,round4_semtie
+2972,Antoine Strugarek,A5085271241,exact,I2738703131,True,179,round4_semtie
+2974,Alessandra Silvestri,A5101571590,alias,I121797337,True,206,round4_semtie
+2990,Paola Popesso,A5107006836,alias,I1321434546,True,48,round4_semtie
+2994,Christian Moestl,A5000417828,alias,I4387154425,True,254,round4_semtie
+2995,Sebastiano Bernuzzi,A5036798137,alias,,True,333,round4_semtie
+2998,Akira Endo,A5036791785,exact,I98358874,True,415,round4_semtie
+3004,Stefan Kraus,A5040615789,alias,I23923803,True,410,round4_semtie
+3011,Sebastiano Cantalupo,A5065902238,exact,,True,210,round4_semtie
+3022,Alberto Sesana,A5013212715,alias,,True,364,round4_semtie
+3024,Ingunn Kathrine Wehus,A5060541292,alias,I184942183,False,339,round4_maxpapers
+3041,Michela Mapelli,A5071822154,exact,,True,409,round4_semtie
+3042,Kevin Heng,A5019327228,exact,I118564535,True,365,round4_semtie
+3048,Olena Khomenko,A5010585644,alias,,False,62,round4_maxpapers
+3050,Pierre Beck,A5082819947,alias,I899635006,True,420,round4_semtie
+3051,Petrus Van De Ven,A5020277527,fuzzy,,False,1,round4_maxpapers
+3061,Daniele Antonangeli,A5004482216,alias,I1294671590,True,183,round4_semtie
+3064,Emilia Kilpua,A5020163516,alias,I133731052,False,492,round4_maxpapers
+3073,Frantz Martinache,A5024494164,alias,I4210126779,True,312,round4_semtie
+3080,Haley Louise Gomez,A5060096577,alias,I79510175,True,102,round4_semtie
+3091,Andreas Zezas,A5052546913,alias,,False,1,round4_maxpapers
+3110,Alessia Russo,A5069225762,alias,I138689650,True,30,round4_semtie
+3117,Arash Nekoei,A5057259115,exact,I161593684,True,36,round4_semtie
+3123,Joan Llull,A5069285498,exact,,True,33,round4_semtie
+3125,Mathieu Couttenier,A5026351385,exact,I113428412,True,83,round4_semtie
+3127,Andrew Rhodes,A5056779507,exact,I4210092408,True,56,round4_semtie
+3134,Luigi Pascali,A5005979151,exact,,True,31,round4_semtie
+3138,Tobias Berg,A5110237508,alias,,True,225,round4_semtie
+3144,Ghazala Azmat,A5087433849,alias,I205092303,True,56,round4_semtie
+3152,Eduardo Perez,A5073946143,alias,I205092303,True,27,round4_semtie
+3163,Stephen Hansen,A5044176523,alias,I45129253,True,90,round4_semtie
+3177,Daniel Alberto Paravisini Maggi,A5088730075,fuzzy,,False,6,round4_maxpapers
+3178,Maria Libertad González Luna,A5102776436,fuzzy,I170486558,False,104,round4_maxpapers
+3212,Yann Algan,A5051037471,exact,I205092303,True,262,round4_semtie
+3213,Barbara Rossi,A5101804566,alias,I170486558,True,197,round4_semtie
+3215,Donato (Dino) Gerardi,A5076100220,fuzzy,,False,16,round4_maxpapers
+3240,Steffen Eckhard,A5028821349,alias,,True,125,round4_semtie
+3243,Ignacio Jurado,A5071506658,alias,,True,161,round4_semtie
+3268,Aoife Daly,A5086530124,exact,,True,62,round4_semtie
+3271,Tom Van Der Meer,A5010780363,exact,I887064364,True,141,round4_semtie
+3278,Maria Malksoo,A5029193606,exact,I124055696,True,94,round4_semtie
+3285,Charles Wilson,A5033157082,alias,I40120149,True,117,round4_semtie
+3295,Tobias Kuemmerle,A5060331729,alias,I39343248,True,325,round4_semtie
+3317,Niels Petersen,A5065018261,alias,I22465464,True,208,round4_semtie
+3318,Eoin Carolan,A5102849467,alias,I100930933,True,73,round4_semtie
+3320,James Woodcock,A5036593639,exact,I241749,True,156,round4_semtie
+3329,Jean-Benoit Pilet,A5036219475,exact,I132053463,True,346,round4_semtie
+3337,Victoria Reyes-García,A5080550633,exact,I123044942,True,407,round4_semtie
+3346,Staffan I. Lindberg,A5082109923,alias,I881427289,True,515,round4_semtie
+3350,Panagiotis Delimatsis,A5027327104,exact,I193700539,True,199,round4_semtie
+3354,Jochen Peter,A5037694810,exact,I887064364,True,137,round4_semtie
+3357,Rachel Mary Brooks,A5054393041,fuzzy,I28290843,False,294,round4_maxpapers
+3364,Klaus Lindgaard Hoeyer,A5017257181,alias,I124055696,False,119,round4_maxpapers
+3386,Vinh-Kim Nguyen,A5042365595,alias,I951315,True,76,round4_semtie
+3392,Edward Simpson,A5018349673,exact,I31575130,True,128,round4_semtie
+3399,Pablo Alonso Gonzalez,A5046619694,alias,I134820265,True,195,round4_semtie
+3411,Carsten Sauer,A5001091566,alias,,True,92,round4_semtie
+3420,Ilona Croy,A5012388054,exact,,True,240,round4_semtie
+3421,Luigi Achilli,A5045347137,alias,,True,53,round4_semtie
+3437,Jeanine Dagyeli,A5037343994,exact,I129774422,False,34,round4_maxpapers
+3438,Maya Benish-Weisman,A5008725627,alias,I197251160,True,47,round4_semtie
+3441,Tali Kristal,A5060541841,alias,I91203450,True,31,round4_semtie
+3445,Joris Mulder,A5025801659,alias,I193700539,True,153,round4_semtie
+3461,Hallvard Moe,A5012542798,exact,I4432739,True,112,round4_semtie
+3473,Maria Melchior,A5020661226,exact,I154526488,True,327,round4_semtie
+3475,Roger Canals Vilageliu,A5089635816,fuzzy,,False,4,round4_maxpapers
+3478,Dimitrios Pavlopoulos,A5080609103,fuzzy,,False,1,round4_maxpapers
+3485,Eran Halperin,A5042631896,alias,I197251160,True,295,round4_semtie
+3486,Sonja Zmerli,A5046470069,alias,I899635006,True,114,round4_semtie
+3497,Helga De Valk,A5103954271,alias,I1322597698,True,154,round4_semtie
+3498,Torkild Hovde Lyngstad,A5022144815,alias,I184942183,True,103,round4_semtie
+3507,Paula Marie Madelén Evertsson,A5087668674,fuzzy,,False,1,round4_maxpapers
+3509,Lucie Dale Cluver,A5063549016,alias,I40120149,False,319,round4_maxpapers
+3513,Maria Almudena Sevilla,A5038930937,fuzzy,,True,69,round4_semtie
+3526,Benjamin William Anthony Ansell,A5110857298,fuzzy,,False,39,round4_maxpapers
+3528,Christiaan Willem Simon Monden,A5110883201,alias,I40120149,True,15,round4_semtie
+3534,Inga Dora Sigfusdottir,A5067846824,exact,I123185442,True,136,round4_semtie
+3538,Anna Ray Davies,A5017955133,alias,I205274468,False,179,round4_maxpapers
+3547,Lars Meyer,A5068448582,alias,I149899117,True,194,round4_semtie
+3550,John Mansfield,A5064414060,exact,I202697423,True,45,round4_semtie
+3574,Siri Leknes,A5005944284,alias,I184942183,True,75,round4_semtie
+3582,Matthias Urban,A5008245214,exact,,True,68,round4_semtie
+3584,Sigal Zilcha-Mano,A5087376272,alias,I91203450,True,209,round4_semtie
+3590,Simone Kuehn,A5110904026,exact,,True,11,round4_semtie
+3593,Delphine Oudiette,A5075924830,exact,I154526488,True,74,round4_semtie
+3594,Yuval Hart,A5003719175,exact,I197251160,True,43,round4_semtie
+3597,Philipp Kanske,A5032090455,alias,,True,229,round4_semtie
+3609,Gesa Hartwigsen,A5021157610,exact,,True,338,round4_semtie
+3615,Stefano Palminteri,A5028199267,exact,I154526488,True,158,round4_semtie
+3620,Bernhard Spitzer,A5073216442,alias,,True,71,round4_semtie
+3623,Alejandrina Cristia,A5042831132,exact,I1294671590,True,334,round4_semtie
+3633,Birte Forstmann,A5032945266,alias,I887064364,True,244,round4_semtie
+3648,Michel Thiebaut De Schotten,A5024787899,exact,I1294671590,True,266,round4_semtie
+3649,Raquel Fernandez Rovira,A5030112271,fuzzy,,False,1,round4_maxpapers
+3650,Christopher Mark Bird,A5040659934,alias,,False,1,round4_maxpapers
+3651,John Robert Gareth Williams,A5040243886,fuzzy,I130828816,False,909,round4_maxpapers
+3656,Bahador Bahrami,A5049607869,alias,I8204097,True,126,round4_semtie
+3658,Giovanni Pezzulo,A5053290697,alias,,True,330,round4_semtie
+3692,Roberta Anna Grazia D'Alessandro,A5030265040,fuzzy,,False,2,round4_maxpapers
+3699,Christopher David Iain Chambers,A5103000465,fuzzy,,True,190,round4_semtie
+3701,Simon Hanslmayr,A5012219181,exact,I7882870,True,181,round4_semtie
+3710,Pol Van Lier,A5053439178,alias,I865915315,True,202,round4_semtie
+3716,Andrea Evers,A5065164200,alias,I121797337,False,538,round4_maxpapers
+3724,Giorgio Coricelli,A5025755962,exact,I193223587,True,84,round4_semtie
+3730,Peter Webb,A5080240323,alias,I121797337,True,175,round4_semtie
+3731,Giuliano Mori,A5109447583,alias,,True,23,round4_semtie
+3744,Enrique Jiménez,A5109359445,alias,I8204097,True,18,round4_semtie
+3750,Sanjukta Sunderason,A5012699443,alias,,True,19,round4_semtie
+3754,Sidh Losa Mendiratta,A5072060304,exact,,True,4,round4_semtie
+3755,Silke Felber,A5075534535,exact,,False,71,round4_maxpapers
+3764,Karen Desmond,A5049161736,exact,,True,48,round4_semtie
+3766,Lena Henningsen,A5064914728,exact,,True,30,round4_semtie
+3768,Susana Viegas,A5025252638,exact,I83558840,True,55,round4_semtie
+3773,Eva Ulrike Pirker,A5008012882,exact,,True,106,round4_semtie
+3775,Miriam Edlich-Muth,A5003082579,exact,,True,24,round4_semtie
+3776,Nicola Carpentieri,A5074924669,alias,I138689650,True,93,round4_semtie
+3782,Quentin Landenne,A5021081743,alias,,True,52,round4_semtie
+3786,Andre Tavares,A5045725977,alias,I182534213,True,23,round4_semtie
+3788,Eva-Maria Troelenberg,A5084590851,exact,,True,62,round4_semtie
+3791,Timo Mueller,A5113212927,alias,,False,187,round4_maxpapers
+3802,Anna Papaeti,A5051209881,exact,I4210127711,True,15,round4_semtie
+3804,Julia Lajta-Novak,A5066285044,fuzzy,I129774422,True,56,round4_semtie
+3817,Valentina Arena,A5001005124,exact,I45129253,True,58,round4_semtie
+3826,Julian Henriques,A5043284977,exact,,True,49,round4_semtie
+3829,J. Griffith Rollefson,A5009861181,exact,,True,22,round4_semtie
+3832,Massimo Leone,A5091416153,alias,I55143463,True,290,round4_semtie
+3842,Hugh Alexander Gervase Houghton,A5043545359,fuzzy,,False,6,round4_maxpapers
+3844,Beate Fricke,A5086232926,alias,,True,105,round4_semtie
+3850,Jill Walker Rettberg,A5069492392,exact,I4432739,True,72,round4_semtie
+3854,Marianne Maeckelbergh,A5006840334,alias,,True,25,round4_semtie
+3857,Matteo Martelli,A5039317288,exact,I9360294,True,128,round4_semtie
+3868,Christian Robert Lange,A5101436003,fuzzy,I193662353,False,138,round4_maxpapers
+3871,Monika Salzbrunn,A5073286080,alias,I97565354,True,174,round4_semtie
+3874,Livia Holden,A5080897680,alias,I1294671590,True,98,round4_semtie
+3875,Eyal Weizman,A5029924739,alias,,True,156,round4_semtie
+3878,Erik Bähre,A5002956724,exact,I121797337,True,41,round4_semtie
+3879,Katarzyna Marciniak,A5016295413,alias,I4654613,True,93,round4_semtie
+3887,Sandra Ponzanesi,A5063365715,alias,I193662353,True,117,round4_semtie
+3890,Maria Margarida De Sa Calafate Ribeiro,A5040523449,fuzzy,,True,319,round4_semtie
+3901,Jutta Bolt,A5065440777,alias,I169381384,True,68,round4_semtie
+3903,Eugene Costello,A5029474150,exact,,True,20,round4_semtie
+3910,Béla Vilmos Mihalik,A5001430221,alias,I4210131266,True,11,round4_semtie
+3913,Marton Ver,A5029724742,alias,,True,12,round4_semtie
+3917,Martin Hinz,A5061303354,alias,,True,102,round4_semtie
+3924,Zachary Chitwood,A5055449732,exact,,True,41,round4_semtie
+3931,David Pretel,A5091248521,exact,,True,47,round4_semtie
+3934,M. Talha Cicek,A5084368562,alias,,True,24,round4_semtie
+3952,Dennis Lehmkuhl,A5072424030,alias,I135140700,False,51,round4_maxpapers
+3953,Jana Tschurenev,A5020784963,alias,,True,31,round4_semtie
+3954,Ere Nokkala,A5019109542,exact,,True,31,round4_semtie
+3955,Stefanie Gänger,A5074677620,exact,,True,64,round4_semtie
+3965,Martin Biersack,A5089542934,exact,,True,53,round4_semtie
+3966,Chiara Bonfiglioli,A5000790374,exact,,True,53,round4_semtie
+3970,Umberto Lombardo,A5046272739,exact,I123044942,True,75,round4_semtie
+3974,Islam Dayeh,A5032940013,exact,,True,23,round4_semtie
+3990,Felicita Tramontana,A5017658927,alias,,True,30,round4_semtie
+3991,Manuel Bastias Saavedra,A5039655761,exact,,True,47,round4_semtie
+3992,Anastasia Tatiana Theodoropoulou,A5043727279,fuzzy,,False,42,round4_maxpapers
+3994,John-Paul Ghobrial,A5075681746,alias,I40120149,True,10,round4_semtie
+4000,Sireen El Zaatari,A5079881496,exact,I8087733,True,27,round4_semtie
+4002,Henning Trüper,A5083906090,exact,,True,45,round4_semtie
+4015,Nitin Sinha,A5038020168,alias,,True,65,round4_semtie
+4022,Claire Zalc,A5014443416,alias,I1294671590,False,206,round4_maxpapers
+4024,Yuliana Boycheva,A5036852455,alias,,True,2,round4_semtie
+4027,Giulia Giannini,A5106513059,exact,I189158943,True,8,round4_semtie
+4030,Maria De Lurdes Pereira Rosa,A5103261909,exact,I83558840,True,98,round4_semtie
+4033,Catherine Ferris,A5022167412,alias,,True,18,round4_semtie
+4034,Leyla Dakhli,A5026388312,alias,I1294671590,True,135,round4_semtie
+4045,Matthieu Husson,A5062205664,exact,I1294671590,True,56,round4_semtie
+4046,Maria Fusaro,A5031068846,exact,I23923803,True,92,round4_semtie
+4050,Pietro Daniel Omodeo,A5042205000,exact,I149461666,True,296,round4_semtie
+4055,Stefano Benazzi,A5024472507,exact,I9360294,True,338,round4_semtie
+4056,Elisheva Baumgarten,A5079659873,alias,I197251160,True,66,round4_semtie
+4060,Corinna Rossi,A5072210157,exact,I93860229,True,97,round4_semtie
+4063,Ludovic Antoine Alexandre Orlando,A5032664670,alias,I1294671590,False,309,round4_maxpapers
+4094,Matthias Garschagen,A5058834792,alias,,True,187,round4_semtie
+4099,Oded Cats,A5058766860,alias,I98358874,True,406,round4_semtie
+4100,Emanuele Campiglio,A5080543399,alias,I9360294,True,56,round4_semtie
+4134,Samuel Rufat,A5020082706,exact,,True,120,round4_semtie
+4144,Iselin Åsedotter Strønen,A5019303974,alias,I4432739,True,35,round4_semtie
+4145,Deborah Nadal,A5050316572,alias,,True,30,round4_semtie
+4147,Aike Peter Rots,A5022249335,alias,I184942183,False,29,round4_maxpapers
+4148,Rune Steenberg Reyhé,A5029394500,alias,,False,1,round4_maxpapers
+4149,Macarena Garcia González,A5079053390,exact,,True,43,round4_semtie
+4154,Yoel Greenberg,A5008017472,alias,,True,22,round4_semtie
+4155,Minh Nguyen,A5050267995,alias,,True,587,round4_semtie
+4159,Laura Feldt,A5067181030,exact,,True,93,round4_semtie
+4161,Yafa Shanneik,A5003315566,exact,,True,65,round4_semtie
+4164,Martin Biersack,A5089542934,alias,,True,53,round4_semtie
+4170,Jose Antonio Iriarte Mugica,A5090527226,fuzzy,,False,27,round4_maxpapers
+4183,Erik Petrus Antonius Maria Bakkers,A5041376320,fuzzy,I98358874,True,498,round4_semtie
+4191,Manuel Alain Bibes,A5016698882,fuzzy,,False,1,round4_maxpapers
+4198,Rebecca Jane Miriam Goss,A5073970185,fuzzy,I16835326,False,103,round4_maxpapers
+4207,Charles Agyemang,A5067202010,alias,I2802928900,False,471,round4_maxpapers
+4214,Jonathan Lawrence Marchini,A5051043751,fuzzy,I40120149,True,216,round4_semtie
+4226,Ronald Van Rij,A5040007262,alias,I145872427,True,148,round4_semtie
+4227,Michaël Philippe Weber,A5010500477,fuzzy,I1294671590,True,118,round4_semtie
+4237,Pablo Pelegrin Vivancos,A5060565561,exact,,False,1,round4_maxpapers
+4238,Daniel Andreas Huber,A5035303223,fuzzy,I114457229,False,871,round4_maxpapers

@@ -1,22 +1,6 @@
-# Ignore everything by default
-*
-
-# But descend into directories so nested files can be matched
-!*/
-
-# Track Python files 
-!data_matching.py
-
-# Keep this .gitignore itself
-!.gitignore
-
-# track the test csv
-!round2_sample_50.csv
-!round3_sample_50.csv
-!round4_sample_100.csv
-
-# track the final csv
-!matched_final.csv
-
-# trackt the Algorithm.md
-!Algorithm.md
+*.parquet
+.openalex_api_key
+__pycache__
+*.json
+.claude
+/pres

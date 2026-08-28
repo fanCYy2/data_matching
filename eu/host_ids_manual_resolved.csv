@@ -1,0 +1,321 @@
+row_id,inst_name,cc,method,host_openalex_id,matched_name,ror
+37,Superior School of Physics and Industrial Chemistry Paris (ESPCI),FR,api_top,I98910050,ESPCI Paris,https://ror.org/03zx86w41
+45,Humboldt University of Berlin,DE,api_top,I39343248,Humboldt-Universität zu Berlin,https://ror.org/01hcx6992
+83,Institute for Research in Biomedicine -  Bellinzona,CH,manual_override,I4387152247,Institute for Research in Biomedicine,https://ror.org/05gfswd81
+91,Masaryk University Brno,CZ,api_top,I21449261,Masaryk University,https://ror.org/02j46qs45
+131,Hasso Plattner Institute for Digital Engineering,DE,api_top,I143288331,Hasso Plattner Institute,https://ror.org/058rn5r42
+158,University of Linkoeping,SE,api_top,I102134673,Linköping University,https://ror.org/05ynxx418
+189,Foundation for Applied Medical Investigation - University of Navarra,ES,api_top,I4392738196,Centro de Investigación Médica Aplicada,https://ror.org/01qew8q20
+222,Genome Research Limited,UK,api_top,I2802476451,Wellcome Sanger Institute,https://ror.org/05cy4wa09
+249,Helmholtz Center Munich - German Research Center for Environmental Health,DE,api_top,I3018134672,Helmholtz Munich,https://ror.org/00cfam450
+282,San Raffaele Hospital,IT,api_top,I4210133214,IRCCS Ospedale San Raffaele,https://ror.org/039zxt351
+328,Ruder Boskovic Institute,HR,api_top,I4210123216,Ruđer Bošković Institute,https://ror.org/02mw21745
+351,University Hospital Munich \Klinikum rechts der Isar\,DE,api_top,I2802619606,TUM Klinikum,https://ror.org/04jc43x05
+361,Research and Higher-Education Pole University of Bordeaux,FR,manual_override,I15057530,Université de Bordeaux,https://ror.org/057qpr032
+362,Princess Maxima Centre for Pediatric Oncology,NL,manual_override,I4210127118,Princess Máxima Center,https://ror.org/02aj7yc53
+377,Princess Maxima Centre for Pediatric Oncology,NL,manual_override,I4210127118,Princess Máxima Center,https://ror.org/02aj7yc53
+382,University of Tromso,NO,api_top,I78037679,UiT The Arctic University of Norway,https://ror.org/00wge5k78
+383,Leibniz Institute for Age Research - Fritz Lipmann Institute (FLI),DE,api_top,I4210127789,Leibniz Institute on Aging - Fritz Lipmann Institute (FLI),https://ror.org/039a53269
+392,Charite - University Hospital Berlin,DE,api_top,I7877124,Charité - Universitätsmedizin Berlin,https://ror.org/001w7jn25
+394,Free University Medical Center Amsterdam (VUmc),NL,manual_override,I911458345,Amsterdam UMC Location Vrije Universiteit Amsterdam,https://ror.org/00q6h8f30
+397,Helmholtz Center Munich - German Research Center for Environmental Health,DE,api_top,I3018134672,Helmholtz Munich,https://ror.org/00cfam450
+402,Free University Medical Center Amsterdam (VUmc),NL,manual_override,I911458345,Amsterdam UMC Location Vrije Universiteit Amsterdam,https://ror.org/00q6h8f30
+408,Helmholtz Center Munich - German Research Center for Environmental Health,DE,api_top,I3018134672,Helmholtz Munich,https://ror.org/00cfam450
+419,Princess Maxima Centre for Pediatric Oncology,NL,manual_override,I4210127118,Princess Máxima Center,https://ror.org/02aj7yc53
+427,University Hospital Munich \Klinikum rechts der Isar\,DE,api_top,I2802619606,TUM Klinikum,https://ror.org/04jc43x05
+429,Helmholtz Center Munich - German Research Center for Environmental Health,DE,api_top,I3018134672,Helmholtz Munich,https://ror.org/00cfam450
+434,Charite - University Hospital Berlin,DE,api_top,I7877124,Charité - Universitätsmedizin Berlin,https://ror.org/001w7jn25
+445,August Pi i Sunyer Biomedical Research Institute (IDIBAPS),ES,api_top,I4210160192,Consorci Institut D'Investigacions Biomediques August Pi I Sunyer,https://ror.org/054vayn55
+453,University Hospital Munich \Klinikum rechts der Isar\,DE,api_top,I2802619606,TUM Klinikum,https://ror.org/04jc43x05
+475,University Hospital Munich \Klinikum rechts der Isar\,DE,api_top,I2802619606,TUM Klinikum,https://ror.org/04jc43x05
+494,Academic Medical Center of the University of Amsterdam,NL,manual_override,I2802928900,Amsterdam UMC Location University of Amsterdam,https://ror.org/03t4gr691
+499,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+510,Normal Superior School (ENS),FR,api_top,I29607241,École Normale Supérieure - PSL,https://ror.org/05a0dhs15
+518,University Hospital Munich \Klinikum rechts der Isar\,DE,api_top,I2802619606,TUM Klinikum,https://ror.org/04jc43x05
+540,Charite - University Hospital Berlin,DE,api_top,I7877124,Charité - Universitätsmedizin Berlin,https://ror.org/001w7jn25
+544,Helmholtz Center Munich - German Research Center for Environmental Health,DE,api_top,I3018134672,Helmholtz Munich,https://ror.org/00cfam450
+547,Charite - University Hospital Berlin,DE,api_top,I7877124,Charité - Universitätsmedizin Berlin,https://ror.org/001w7jn25
+564,Humboldt University of Berlin,DE,api_top,I39343248,Humboldt-Universität zu Berlin,https://ror.org/01hcx6992
+583,Technnical University of Madrid,ES,api_top,I88060688,Universidad Politécnica de Madrid,https://ror.org/03n6nwv02
+618,Charite - University Hospital Berlin,DE,api_top,I7877124,Charité - Universitätsmedizin Berlin,https://ror.org/001w7jn25
+623,August Pi i Sunyer Biomedical Research Institute (IDIBAPS),ES,api_top,I4210160192,Consorci Institut D'Investigacions Biomediques August Pi I Sunyer,https://ror.org/054vayn55
+634,Research Association Berlin,DE,api_top,I4210156597,Forschungsverbund Berlin,https://ror.org/059m1v232
+664,University of Umea,SE,api_top,I90267481,Umeå University,https://ror.org/05kb8h459
+671,Paris-East Creteil University (UPEC),FR,api_top,I197681013,Université Paris-Est Créteil,https://ror.org/05ggc9x40
+700,Charite - University Hospital Berlin,DE,api_top,I7877124,Charité - Universitätsmedizin Berlin,https://ror.org/001w7jn25
+719,New University of Lisbon,PT,api_top,I83558840,Universidade Nova de Lisboa,https://ror.org/02xankh89
+731,San Raffaele Hospital,IT,api_top,I4210133214,IRCCS Ospedale San Raffaele,https://ror.org/039zxt351
+740,University Hospital Munich \Klinikum rechts der Isar\,DE,api_top,I2802619606,TUM Klinikum,https://ror.org/04jc43x05
+748,University Hospital Munich \Klinikum rechts der Isar\,DE,api_top,I2802619606,TUM Klinikum,https://ror.org/04jc43x05
+760,FFIS Murcia,ES,api_top,I4210157519,Fundación para la Formación e Investigación Sanitarias de la Región de Murcia,https://ror.org/05m5has32
+768,Association GENETHON,FR,api_top,I4210127167,Genethon (France),https://ror.org/03fj96t64
+789,Free University Medical Center Amsterdam (VUmc),NL,manual_override,I911458345,Amsterdam UMC Location Vrije Universiteit Amsterdam,https://ror.org/00q6h8f30
+794,University of Caen Lower Normandy,FR,api_top,I98702875,Université de Caen Normandie,https://ror.org/051kpcy16
+797,San Raffaele Hospital,IT,api_top,I4210133214,IRCCS Ospedale San Raffaele,https://ror.org/039zxt351
+809,"Institute of Preventive Medicine (IPM) - Bispebjerg Hospital, Hoverdstaden, Denmark",DK,api_top,I2801941904,Bispebjerg Hospital,https://ror.org/00td68a17
+817,Free University Medical Center Amsterdam (VUmc),NL,manual_override,I911458345,Amsterdam UMC Location Vrije Universiteit Amsterdam,https://ror.org/00q6h8f30
+821,University Hospital Munich \Klinikum rechts der Isar\,DE,api_top,I2802619606,TUM Klinikum,https://ror.org/04jc43x05
+834,Tampere Universities,FI,api_top,I166825849,Tampere University,https://ror.org/033003e23
+837,"Institute of Preventive Medicine (IPM) - Bispebjerg Hospital, Hoverdstaden, Denmark",DK,api_top,I2801941904,Bispebjerg Hospital,https://ror.org/00td68a17
+842,San Raffaele Hospital,IT,api_top,I4210133214,IRCCS Ospedale San Raffaele,https://ror.org/039zxt351
+843,University Hospital Munich \Klinikum rechts der Isar\,DE,api_top,I2802619606,TUM Klinikum,https://ror.org/04jc43x05
+845,Free University Medical Center Amsterdam (VUmc),NL,manual_override,I911458345,Amsterdam UMC Location Vrije Universiteit Amsterdam,https://ror.org/00q6h8f30
+847,University of Linkoeping,SE,api_top,I102134673,Linköping University,https://ror.org/05ynxx418
+861,Academic Medical Center of the University of Amsterdam,NL,manual_override,I2802928900,Amsterdam UMC Location University of Amsterdam,https://ror.org/03t4gr691
+864,Foundation of Scientific Cooperation for Hearing and Seeing,FR,api_top,I1340951533,Institut de la Vision,https://ror.org/000zhpw23
+872,Academic Medical Center of the University of Amsterdam,NL,manual_override,I2802928900,Amsterdam UMC Location University of Amsterdam,https://ror.org/03t4gr691
+874,Helmholtz Center Munich - German Research Center for Environmental Health,DE,api_top,I3018134672,Helmholtz Munich,https://ror.org/00cfam450
+876,Helmholtz Center Munich - German Research Center for Environmental Health,DE,api_top,I3018134672,Helmholtz Munich,https://ror.org/00cfam450
+890,San Raffaele Hospital,IT,api_top,I4210133214,IRCCS Ospedale San Raffaele,https://ror.org/039zxt351
+904,Helmholtz Center Munich - German Research Center for Environmental Health,DE,api_top,I3018134672,Helmholtz Munich,https://ror.org/00cfam450
+905,Bocconi University Milan,IT,api_top,I71209653,Bocconi University,https://ror.org/05crjpb27
+908,Academic Medical Center of the University of Amsterdam,NL,manual_override,I2802928900,Amsterdam UMC Location University of Amsterdam,https://ror.org/03t4gr691
+935,Helmholtz Center Munich - German Research Center for Environmental Health,DE,api_top,I3018134672,Helmholtz Munich,https://ror.org/00cfam450
+958,Academic Medical Center of the University of Amsterdam,NL,manual_override,I2802928900,Amsterdam UMC Location University of Amsterdam,https://ror.org/03t4gr691
+985,Unknown Name,CH,unresolved_no_openalex,,Institute of Biodiversity Research and Action for Nature Climate and Humanity Foundation,
+987,Higher Technical Institute for Research and Development (IST-ID),PT,manual_override,I4392738108,IST-ID - Associação do Instituto Superior Técnico para a Investigação e Desenvolvimento,https://ror.org/018qmvm63
+1044,Normal Superior School of Lyon,FR,api_top,I113428412,École Normale Supérieure de Lyon,https://ror.org/04zmssz18
+1069,BIOPOLIS (Portugal),PT,manual_override,I4405252717,Associação BIOPOLIS - Rede de Investigação em Biodiversidade e Biologia Evolutiva,https://ror.org/0020c4y69
+1070,Leibniz Institute for the Analysis of Biodiversity Change (LIB),DE,manual_override,I4387155279,Leibniz Institute for the Analysis of Biodiversity Change,https://ror.org/03k5bhd83
+1079,BIOPOLIS (Portugal),PT,manual_override,I4405252717,Associação BIOPOLIS - Rede de Investigação em Biodiversidade e Biologia Evolutiva,https://ror.org/0020c4y69
+1083,French National Museum of Natural History (MNHN),FR,api_top,I4210123595,Muséum national d'Histoire naturelle,https://ror.org/03wkt5x30
+1092,University of Tromso,NO,api_top,I78037679,UiT The Arctic University of Norway,https://ror.org/00wge5k78
+1094,Academic Medical Center of the University of Amsterdam,NL,manual_override,I2802928900,Amsterdam UMC Location University of Amsterdam,https://ror.org/03t4gr691
+1107,University of Linkoeping,SE,api_top,I102134673,Linköping University,https://ror.org/05ynxx418
+1109,Marine Biological Association of the UK,UK,api_top,I114472154,Marine Biological Association of the United Kingdom,https://ror.org/0431sk359
+1112,FCiencias.ID,PT,manual_override,I4392738271,FCiências.ID - Associação para a Investigação e Desenvolvimento de Ciências,https://ror.org/034d74a71
+1173,CSIC-IRTA Plant Molecular Genetics Laboratory,ES,api_top,I4210158808,Center for Research in Agricultural Genomics,https://ror.org/04tz2h245
+1184,Helmholtz Center Munich - German Research Center for Environmental Health,DE,api_top,I3018134672,Helmholtz Munich,https://ror.org/00cfam450
+1214,Helmholtz Center Munich - German Research Center for Environmental Health,DE,api_top,I3018134672,Helmholtz Munich,https://ror.org/00cfam450
+1257,CSIC-IRTA Plant Molecular Genetics Laboratory,ES,api_top,I4210158808,Center for Research in Agricultural Genomics,https://ror.org/04tz2h245
+1259,Organisation for International Cooperation and Agricultural Research for Development (CIRAD),FR,api_top,I131077856,Centre de Coopération Internationale en Recherche Agronomique pour le Développement,https://ror.org/05kpkpg04
+1267,New University of Lisbon,PT,api_top,I83558840,Universidade Nova de Lisboa,https://ror.org/02xankh89
+1273,Helmholtz Center Munich - German Research Center for Environmental Health,DE,api_top,I3018134672,Helmholtz Munich,https://ror.org/00cfam450
+1293,Technical University of Aachen,DE,api_top,I887968799,RWTH Aachen University,https://ror.org/04xfq0f34
+1366,Humboldt University of Berlin,DE,api_top,I39343248,Humboldt-Universität zu Berlin,https://ror.org/01hcx6992
+1381,Technical University of Catalonia,ES,api_top,I9617848,Universitat Politècnica de Catalunya,https://ror.org/03mb6wj31
+1395,National Institute for Research in Computer Science and Automatic Control (INRIA),FR,api_top,I1326498283,Institut national de recherche en sciences et technologies du numérique,https://ror.org/02kvxyf05
+1399,Masaryk University Brno,CZ,api_top,I21449261,Masaryk University,https://ror.org/02j46qs45
+1411,ENPC ParisTech,FR,api_top,I142631665,École nationale des ponts et chaussées,https://ror.org/02nwvxz07
+1417,Unknown Name,FR,cordis_reverse,I2802487185,Université du littoral côte d'opale,https://ror.org/02gdcg342
+1444,Normal Superior School (ENS),FR,api_top,I29607241,École Normale Supérieure - PSL,https://ror.org/05a0dhs15
+1456,ISAE-SUPAERO Toulouse,FR,api_top,I193033237,Institut Supérieur de l'Aéronautique et de l'Espace (ISAE-SUPAERO),https://ror.org/04gyj6s21
+1466,Technical University of Aachen,DE,api_top,I887968799,RWTH Aachen University,https://ror.org/04xfq0f34
+1475,Natural History Museum Berlin - Leibniz Institute for Evolution and Biodiversity Science,DE,manual_override,I1313606977,Museum für Naturkunde,https://ror.org/052d1a351
+1477,Babes-Bolyai University (UBB),RO,api_top,I3125347698,Babeș-Bolyai University,https://ror.org/02rmd1t30
+1479,Tampere Universities,FI,api_top,I166825849,Tampere University,https://ror.org/033003e23
+1481,Normal Superior School of Lyon,FR,api_top,I113428412,École Normale Supérieure de Lyon,https://ror.org/04zmssz18
+1482,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+1542,University of Linkoeping,SE,api_top,I102134673,Linköping University,https://ror.org/05ynxx418
+1552,University of Umea,SE,api_top,I90267481,Umeå University,https://ror.org/05kb8h459
+1576,Normal Superior School (ENS),FR,api_top,I29607241,École Normale Supérieure - PSL,https://ror.org/05a0dhs15
+1612,Technical University of Aachen,DE,api_top,I887968799,RWTH Aachen University,https://ror.org/04xfq0f34
+1613,Technical University of Catalonia,ES,api_top,I9617848,Universitat Politècnica de Catalunya,https://ror.org/03mb6wj31
+1619,Superior School Sant'Anna,IT,api_top,I162290304,Scuola Superiore Sant'Anna,https://ror.org/025602r80
+1621,University of Linkoeping,SE,api_top,I102134673,Linköping University,https://ror.org/05ynxx418
+1623,Dortmund University of Technology,DE,api_top,I200332995,TU Dortmund University,https://ror.org/01k97gp34
+1624,New University of Lisbon,PT,api_top,I83558840,Universidade Nova de Lisboa,https://ror.org/02xankh89
+1627,Technical University of Catalonia,ES,api_top,I9617848,Universitat Politècnica de Catalunya,https://ror.org/03mb6wj31
+1629,Technnical University of Madrid,ES,api_top,I88060688,Universidad Politécnica de Madrid,https://ror.org/03n6nwv02
+1630,University of Linkoeping,SE,api_top,I102134673,Linköping University,https://ror.org/05ynxx418
+1635,University of Linkoeping,SE,api_top,I102134673,Linköping University,https://ror.org/05ynxx418
+1636,Unknown Name,SI,cordis_reverse,I118905719,University of Primorska,https://ror.org/05xefg082
+1641,University of Linkoeping,SE,api_top,I102134673,Linköping University,https://ror.org/05ynxx418
+1643,Koc University,TR,api_top,I1351752,Koç University,https://ror.org/00jzwgz36
+1645,Tampere Universities,FI,api_top,I166825849,Tampere University,https://ror.org/033003e23
+1668,Humboldt University of Berlin,DE,api_top,I39343248,Humboldt-Universität zu Berlin,https://ror.org/01hcx6992
+1684,Normal Superior School of Pisa,IT,api_top,I157210198,Scuola Normale Superiore,https://ror.org/03aydme10
+1698,Polytechnic School - Palaiseau,FR,api_top,I142476485,École Polytechnique,https://ror.org/05hy3tk52
+1713,Austrian Academy of Science (AAS),AT,api_top,I138211613,Austrian Academy of Sciences,https://ror.org/03anc3s24
+1716,Higher Technical Institute for Research and Development (IST-ID),PT,manual_override,I4392738108,IST-ID - Associação do Instituto Superior Técnico para a Investigação e Desenvolvimento,https://ror.org/018qmvm63
+1725,ICFO-Institute of Photonics Sciences,ES,api_top,I179630473,Institute of Photonic Sciences,https://ror.org/03g5ew477
+1731,ICFO-Institute of Photonics Sciences,ES,api_top,I179630473,Institute of Photonic Sciences,https://ror.org/03g5ew477
+1772,Humboldt University of Berlin,DE,api_top,I39343248,Humboldt-Universität zu Berlin,https://ror.org/01hcx6992
+1776,Technical University of Aachen,DE,api_top,I887968799,RWTH Aachen University,https://ror.org/04xfq0f34
+1842,ICFO-Institute of Photonics Sciences,ES,api_top,I179630473,Institute of Photonic Sciences,https://ror.org/03g5ew477
+1878,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+1912,Masaryk University Brno,CZ,api_top,I21449261,Masaryk University,https://ror.org/02j46qs45
+1919,Normal Superior School of Pisa,IT,api_top,I157210198,Scuola Normale Superiore,https://ror.org/03aydme10
+1930,Technical University of Aachen,DE,api_top,I887968799,RWTH Aachen University,https://ror.org/04xfq0f34
+1969,Superior School of Physics and Industrial Chemistry Paris (ESPCI),FR,api_top,I98910050,ESPCI Paris,https://ror.org/03zx86w41
+1971,ICFO-Institute of Photonics Sciences,ES,api_top,I179630473,Institute of Photonic Sciences,https://ror.org/03g5ew477
+2010,University of Paris 7 - Diderot,FR,api_top,I204730241,Université Paris Cité,https://ror.org/05f82e368
+2011,Polytechnic School - Palaiseau,FR,api_top,I142476485,École Polytechnique,https://ror.org/05hy3tk52
+2012,University of Paris 7 - Diderot,FR,api_top,I204730241,Université Paris Cité,https://ror.org/05f82e368
+2029,Helmholtz Center Munich - German Research Center for Environmental Health,DE,api_top,I3018134672,Helmholtz Munich,https://ror.org/00cfam450
+2053,Helmholtz Center Berlin,DE,api_top,I2800795503,Helmholtz-Zentrum Berlin für Materialien und Energie,https://ror.org/02aj13c28
+2055,Dortmund University of Technology,DE,api_top,I200332995,TU Dortmund University,https://ror.org/01k97gp34
+2104,Normal Superior School of Pisa,IT,api_top,I157210198,Scuola Normale Superiore,https://ror.org/03aydme10
+2133,Dortmund University of Technology,DE,api_top,I200332995,TU Dortmund University,https://ror.org/01k97gp34
+2158,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+2213,Technical University of Aachen,DE,api_top,I887968799,RWTH Aachen University,https://ror.org/04xfq0f34
+2218,CIIMAR Interdisciplinary Centre of Marine and Environmental Research,PT,manual_override,I4387153601,Centro Interdisciplinar de Investigação Marinha e Ambiental,https://ror.org/05p7z7s64
+2228,New University of Lisbon,PT,api_top,I83558840,Universidade Nova de Lisboa,https://ror.org/02xankh89
+2239,Enamine Ltd - Kiev,UA,api_top,I5626980,Enamine (Ukraine),https://ror.org/02t6zky14
+2246,Technical University of Catalonia,ES,api_top,I9617848,Universitat Politècnica de Catalunya,https://ror.org/03mb6wj31
+2268,Technical University of Aachen,DE,api_top,I887968799,RWTH Aachen University,https://ror.org/04xfq0f34
+2309,Dortmund University of Technology,DE,api_top,I200332995,TU Dortmund University,https://ror.org/01k97gp34
+2327,National Superior School of Chemistry Paris (ENSCP),FR,api_top,I149758196,Chimie ParisTech,https://ror.org/05q65zh81
+2328,Dortmund University of Technology,DE,api_top,I200332995,TU Dortmund University,https://ror.org/01k97gp34
+2339,Technical University of Braunschweig,DE,api_top,I94509681,Technische Universität Braunschweig,https://ror.org/010nsgg66
+2362,Technical University of Aachen,DE,api_top,I887968799,RWTH Aachen University,https://ror.org/04xfq0f34
+2369,Unknown Name,EL,cordis_reverse,I4210156054,Athena Research and Innovation Center In Information Communication & Knowledge Technologies,https://ror.org/0576by029
+2393,Masaryk University Brno,CZ,api_top,I21449261,Masaryk University,https://ror.org/02j46qs45
+2410,National Institute for Research in Computer Science and Automatic Control (INRIA),FR,api_top,I1326498283,Institut national de recherche en sciences et technologies du numérique,https://ror.org/02kvxyf05
+2414,National Institute of Applied Sciences Rennes (INSA Rennes),FR,api_top,I28221208,Institut National des Sciences Appliquées de Rennes,https://ror.org/04xaa4j22
+2415,National Institute for Research in Computer Science and Automatic Control (INRIA),FR,api_top,I1326498283,Institut national de recherche en sciences et technologies du numérique,https://ror.org/02kvxyf05
+2420,Bogazici University,TR,api_top,I4405392,Boğaziçi University,https://ror.org/03z9tma90
+2424,Polytechnic School - Palaiseau,FR,api_top,I142476485,École Polytechnique,https://ror.org/05hy3tk52
+2446,National Institute for Research in Computer Science and Automatic Control (INRIA),FR,api_top,I1326498283,Institut national de recherche en sciences et technologies du numérique,https://ror.org/02kvxyf05
+2461,Kristiania University College Oslo,NO,api_top,I2800207870,Høyskolen Kristiania,https://ror.org/03gss5916
+2464,Dortmund University of Technology,DE,api_top,I200332995,TU Dortmund University,https://ror.org/01k97gp34
+2492,Technical University of Aachen,DE,api_top,I887968799,RWTH Aachen University,https://ror.org/04xfq0f34
+2501,Normal Superior School of Rennes,FR,api_top,I4210146044,École Normale Supérieure de Rennes,https://ror.org/03rxtdc22
+2502,Polytechnic School - Palaiseau,FR,api_top,I142476485,École Polytechnique,https://ror.org/05hy3tk52
+2514,National Institute for Research in Computer Science and Automatic Control (INRIA),FR,api_top,I1326498283,Institut national de recherche en sciences et technologies du numérique,https://ror.org/02kvxyf05
+2519,National Institute for Research in Computer Science and Automatic Control (INRIA),FR,api_top,I1326498283,Institut national de recherche en sciences et technologies du numérique,https://ror.org/02kvxyf05
+2538,Technical University of Catalonia,ES,api_top,I9617848,Universitat Politècnica de Catalunya,https://ror.org/03mb6wj31
+2551,National Institute for Research in Computer Science and Automatic Control (INRIA),FR,api_top,I1326498283,Institut national de recherche en sciences et technologies du numérique,https://ror.org/02kvxyf05
+2553,Technical University of Aachen,DE,api_top,I887968799,RWTH Aachen University,https://ror.org/04xfq0f34
+2579,Technnical University of Madrid,ES,api_top,I88060688,Universidad Politécnica de Madrid,https://ror.org/03n6nwv02
+2583,Izmir Biomedicine and Genome Centre,TR,api_top,I4405261022,Izmir Biomedicine and Genome Center,https://ror.org/04n6j6456
+2585,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+2588,Technical University of Braunschweig,DE,api_top,I94509681,Technische Universität Braunschweig,https://ror.org/010nsgg66
+2591,Tampere Universities,FI,api_top,I166825849,Tampere University,https://ror.org/033003e23
+2597,CentraleSupelec,FR,api_top,I4210107720,CentraleSupélec,https://ror.org/019tcpt25
+2611,University of Linkoeping,SE,api_top,I102134673,Linköping University,https://ror.org/05ynxx418
+2617,Technical University of Braunschweig,DE,api_top,I94509681,Technische Universität Braunschweig,https://ror.org/010nsgg66
+2628,Helmholtz Centre Dresden-Rossendorf,DE,api_top,I2801798921,Helmholtz-Zentrum Dresden-Rossendorf,https://ror.org/01zy2cs03
+2650,National Institute for Research in Computer Science and Automatic Control (INRIA),FR,api_top,I1326498283,Institut national de recherche en sciences et technologies du numérique,https://ror.org/02kvxyf05
+2657,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+2717,Lyon Central School (ECL),FR,api_top,I112936343,École Centrale de Lyon,https://ror.org/05s6rge65
+2726,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+2732,IMDEA Networks Institute (Madrid Institute for Advanced Studies of Networks),ES,manual_override,I2802499160,IMDEA Networks,https://ror.org/04mm9fg30
+2735,ENPC ParisTech,FR,api_top,I142631665,École nationale des ponts et chaussées,https://ror.org/02nwvxz07
+2737,Institute Mines-Telecom,FR,api_top,I205703379,Institut Mines-Télécom,https://ror.org/025vp2923
+2744,Wroclaw University of Science and Technology,PL,api_top,I11923345,Wrocław University of Science and Technology,https://ror.org/008fyn775
+2757,Biomedical Campus University of Rome,IT,api_top,I155125353,Università Campus Bio-Medico,https://ror.org/04gqx4x78
+2764,Erciyes University (ERU) - Kayseri,TR,api_top,I87673952,Erciyes University,https://ror.org/047g8vk19
+2766,Technical University of Braunschweig,DE,api_top,I94509681,Technische Universität Braunschweig,https://ror.org/010nsgg66
+2780,Koc University,TR,api_top,I1351752,Koç University,https://ror.org/00jzwgz36
+2784,Superior School Sant'Anna,IT,api_top,I162290304,Scuola Superiore Sant'Anna,https://ror.org/025602r80
+2787,Polytechnic School - Palaiseau,FR,api_top,I142476485,École Polytechnique,https://ror.org/05hy3tk52
+2789,National Higher School of Advanced Techniques (ENSTA),FR,api_top,I4405258625,École Nationale Supérieure de Techniques Avancées Paris,https://ror.org/0106ccb15
+2794,Technnical University of Madrid,ES,api_top,I88060688,Universidad Politécnica de Madrid,https://ror.org/03n6nwv02
+2811,Ri.MED Foundation,IT,manual_override,I4210150906,Ri.MED,https://ror.org/05qetrn02
+2815,Normal Superior School of Cachan,FR,api_top,I11559806,École Normale Supérieure Paris-Saclay,https://ror.org/00hx6zz33
+2819,ICFO-Institute of Photonics Sciences,ES,api_top,I179630473,Institute of Photonic Sciences,https://ror.org/03g5ew477
+2824,Dortmund University of Technology,DE,api_top,I200332995,TU Dortmund University,https://ror.org/01k97gp34
+2846,National Institute for Research in Computer Science and Automatic Control (INRIA),FR,api_top,I1326498283,Institut national de recherche en sciences et technologies du numérique,https://ror.org/02kvxyf05
+2849,Humboldt University of Berlin,DE,api_top,I39343248,Humboldt-Universität zu Berlin,https://ror.org/01hcx6992
+2850,Technical University of Catalonia,ES,api_top,I9617848,Universitat Politècnica de Catalunya,https://ror.org/03mb6wj31
+2885,New University of Lisbon - Association for Innovation and Development of FST (NOVA ID FCT),PT,manual_override,I4405253347,Universidade Nova de Lisboa Associação para a Inovação e Desenvolvimento da FCT,https://ror.org/00js76g45
+2890,ICFO-Institute of Photonics Sciences,ES,api_top,I179630473,Institute of Photonic Sciences,https://ror.org/03g5ew477
+2905,Technical University of Catalonia,ES,api_top,I9617848,Universitat Politècnica de Catalunya,https://ror.org/03mb6wj31
+2916,New University of Lisbon - Association for Innovation and Development of FST (NOVA ID FCT),PT,manual_override,I4405253347,Universidade Nova de Lisboa Associação para a Inovação e Desenvolvimento da FCT,https://ror.org/00js76g45
+3016,Normal Superior School of Lyon,FR,api_top,I113428412,École Normale Supérieure de Lyon,https://ror.org/04zmssz18
+3048,Astrophysics Institute of the Canary Islands,ES,api_top,I4210130807,Instituto de Astrofísica de Canarias,https://ror.org/03cmntr54
+3070,Research and Higher-Education Pole University of Bordeaux,FR,manual_override,I15057530,Université de Bordeaux,https://ror.org/057qpr032
+3073,Cote d’Azur Observatory,FR,api_top,I4210126779,Observatoire de la Côte d’Azur,https://ror.org/039fj2469
+3107,Centre for Research in International Economy Barcelona,ES,api_top,I4210115615,Centre de Recerca en Economia Internacional,https://ror.org/0241avf06
+3116,Centre for Research in International Economy Barcelona,ES,api_top,I4210115615,Centre de Recerca en Economia Internacional,https://ror.org/0241avf06
+3118,Polytechnic School - Palaiseau,FR,api_top,I142476485,École Polytechnique,https://ror.org/05hy3tk52
+3120,Bocconi University Milan,IT,api_top,I71209653,Bocconi University,https://ror.org/05crjpb27
+3125,Normal Superior School of Lyon,FR,api_top,I113428412,École Normale Supérieure de Lyon,https://ror.org/04zmssz18
+3128,Bocconi University Milan,IT,api_top,I71209653,Bocconi University,https://ror.org/05crjpb27
+3130,Group of National Schools of Economics and Statistics (GENES),FR,manual_override,I4210108488,Groupe des Écoles Nationales d'Économie et Statistique,https://ror.org/01p6yxw64
+3134,University of Social Studies - Rome,IT,api_top,I56441308,Libera Università Internazionale degli Studi Sociali Guido Carli,https://ror.org/01q8b6q23
+3147,Bocconi University Milan,IT,api_top,I71209653,Bocconi University,https://ror.org/05crjpb27
+3156,Bocconi University Milan,IT,api_top,I71209653,Bocconi University,https://ror.org/05crjpb27
+3162,Koc University,TR,api_top,I1351752,Koç University,https://ror.org/00jzwgz36
+3198,Koc University,TR,api_top,I1351752,Koç University,https://ror.org/00jzwgz36
+3204,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+3209,Bocconi University Milan,IT,api_top,I71209653,Bocconi University,https://ror.org/05crjpb27
+3211,Bocconi University Milan,IT,api_top,I71209653,Bocconi University,https://ror.org/05crjpb27
+3215,Carlo Alberto College -  Turin,IT,api_top,I1330701686,Collegio Carlo Alberto,https://ror.org/0397knh37
+3216,Centre for Research in International Economy Barcelona,ES,api_top,I4210115615,Centre de Recerca en Economia Internacional,https://ror.org/0241avf06
+3217,University of Social Studies - Rome,IT,api_top,I56441308,Libera Università Internazionale degli Studi Sociali Guido Carli,https://ror.org/01q8b6q23
+3226,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+3246,Research and Higher-Education Pole University of Bordeaux,FR,manual_override,I15057530,Université de Bordeaux,https://ror.org/057qpr032
+3258,Humboldt University of Berlin,DE,api_top,I39343248,Humboldt-Universität zu Berlin,https://ror.org/01hcx6992
+3275,Superior School Sant'Anna,IT,api_top,I162290304,Scuola Superiore Sant'Anna,https://ror.org/025602r80
+3282,National University of Political Studies and Public Administration (SNSPA),RO,api_top,I135790613,National School of Political Science and Public Administration,https://ror.org/05750v978
+3287,Masaryk University Brno,CZ,api_top,I21449261,Masaryk University,https://ror.org/02j46qs45
+3288,National Institute of Geographic and Forest Information (IGN),FR,manual_override,I1327553481,Institut national de l’information géographique et forestière,https://ror.org/05jxfge78
+3295,Humboldt University of Berlin,DE,api_top,I39343248,Humboldt-Universität zu Berlin,https://ror.org/01hcx6992
+3306,Bocconi University Milan,IT,api_top,I71209653,Bocconi University,https://ror.org/05crjpb27
+3365,Kingston University London,UK,api_top,I205051169,Kingston University,https://ror.org/05bbqza97
+3372,University of Umea,SE,api_top,I90267481,Umeå University,https://ror.org/05kb8h459
+3375,University of Linkoeping,SE,api_top,I102134673,Linköping University,https://ror.org/05ynxx418
+3386,Foundation for International Relations and Development Studies,CH,api_top,I951315,Graduate Institute of International and Development Studies,https://ror.org/007ygn379
+3407,Unknown Name,HR,cordis_reverse,I3133182661,Institute for Social Research,https://ror.org/03egy0233
+3409,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+3421,Superior School Sant'Anna,IT,api_top,I162290304,Scuola Superiore Sant'Anna,https://ror.org/025602r80
+3430,Austrian Academy of Science (AAS),AT,api_top,I138211613,Austrian Academy of Sciences,https://ror.org/03anc3s24
+3432,Austrian Academy of Science (AAS),AT,api_top,I138211613,Austrian Academy of Sciences,https://ror.org/03anc3s24
+3469,Bocconi University Milan,IT,api_top,I71209653,Bocconi University,https://ror.org/05crjpb27
+3477,Humboldt University of Berlin,DE,api_top,I39343248,Humboldt-Universität zu Berlin,https://ror.org/01hcx6992
+3478,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+3482,Centre for Demographic Studies Barcelona,ES,manual_override,I4210121658,Centre for Demographic Studies,https://ror.org/02dm87055
+3487,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+3506,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+3521,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+3523,Austrian Academy of Science (AAS),AT,api_top,I138211613,Austrian Academy of Sciences,https://ror.org/03anc3s24
+3544,University of Luneburg,DE,api_top,I113456305,Leuphana University of Lüneburg,https://ror.org/02w2y2t16
+3546,Humboldt University of Berlin,DE,api_top,I39343248,Humboldt-Universität zu Berlin,https://ror.org/01hcx6992
+3552,Tampere Universities,FI,api_top,I166825849,Tampere University,https://ror.org/033003e23
+3559,Free University Medical Center Amsterdam (VUmc),NL,manual_override,I911458345,Amsterdam UMC Location Vrije Universiteit Amsterdam,https://ror.org/00q6h8f30
+3589,Charite - University Hospital Berlin,DE,api_top,I7877124,Charité - Universitätsmedizin Berlin,https://ror.org/001w7jn25
+3612,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+3619,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+3628,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+3646,Humboldt University of Berlin,DE,api_top,I39343248,Humboldt-Universität zu Berlin,https://ror.org/01hcx6992
+3668,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+3671,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+3704,Normal Superior School (ENS),FR,api_top,I29607241,École Normale Supérieure - PSL,https://ror.org/05a0dhs15
+3708,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+3710,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+3723,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+3753,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+3767,Austrian Academy of Science (AAS),AT,api_top,I138211613,Austrian Academy of Sciences,https://ror.org/03anc3s24
+3768,New University of Lisbon,PT,api_top,I83558840,Universidade Nova de Lisboa,https://ror.org/02xankh89
+3789,Normal Superior School (ENS),FR,api_top,I29607241,École Normale Supérieure - PSL,https://ror.org/05a0dhs15
+3793,Austrian Academy of Science (AAS),AT,api_top,I138211613,Austrian Academy of Sciences,https://ror.org/03anc3s24
+3794,Humboldt University of Berlin,DE,api_top,I39343248,Humboldt-Universität zu Berlin,https://ror.org/01hcx6992
+3805,Central European University Vienna,AT,api_top,I198945027,Central European University,https://ror.org/02zx40v98
+3809,Austrian Academy of Science (AAS),AT,api_top,I138211613,Austrian Academy of Sciences,https://ror.org/03anc3s24
+3833,Austrian Academy of Science (AAS),AT,api_top,I138211613,Austrian Academy of Sciences,https://ror.org/03anc3s24
+3906,Unknown Name,DE,cordis_reverse,I4210131093,Leibniz Institute for East and Southeast European Studies,https://ror.org/039s64n79
+3910,Unknown Name,HU,cordis_reverse,I4210131266,ELTE Research Centre for the Humanities,https://ror.org/03wxxbs05
+3945,Humboldt University of Berlin,DE,api_top,I39343248,Humboldt-Universität zu Berlin,https://ror.org/01hcx6992
+3964,Research Centre of the Slovenian Academy of Sciences and Arts (ZRC SAZU),SI,manual_override,I4387154574,Research Centre of the Slovenian Academy of Sciences and Arts,https://ror.org/04zvj8c18
+3973,Centers for Advanced Studies in the Humanities,DE,manual_override,I4210126132,Geisteswissenschaftliche Zentren Berlin,https://ror.org/02pvadn84
+3979,Unknown Name,HU,cordis_reverse,I4210131266,ELTE Research Centre for the Humanities,https://ror.org/03wxxbs05
+3980,Unknown Name,HU,cordis_reverse,I4210131266,ELTE Research Centre for the Humanities,https://ror.org/03wxxbs05
+3985,Masaryk University Brno,CZ,api_top,I21449261,Masaryk University,https://ror.org/02j46qs45
+4002,Centers for Advanced Studies in the Humanities,DE,manual_override,I4210126132,Geisteswissenschaftliche Zentren Berlin,https://ror.org/02pvadn84
+4013,Sabanci University,TR,api_top,I134235054,Sabancı Üniversitesi,https://ror.org/049asqa32
+4015,Centers for Advanced Studies in the Humanities,DE,manual_override,I4210126132,Geisteswissenschaftliche Zentren Berlin,https://ror.org/02pvadn84
+4030,New University of Lisbon,PT,api_top,I83558840,Universidade Nova de Lisboa,https://ror.org/02xankh89
+4054,Bocconi University Milan,IT,api_top,I71209653,Bocconi University,https://ror.org/05crjpb27
+4073,Central European University Vienna,AT,api_top,I198945027,Central European University,https://ror.org/02zx40v98
+4117,Austrian Academy of Science (AAS),AT,api_top,I138211613,Austrian Academy of Sciences,https://ror.org/03anc3s24
+4127,Tampere Universities,FI,api_top,I166825849,Tampere University,https://ror.org/033003e23
+4128,Free University and Medical Center Amsterdam (VU-VUmc),NL,manual_override,I865915315,Vrije Universiteit Amsterdam,https://ror.org/008xxew50
+4129,University of Luneburg,DE,api_top,I113456305,Leuphana University of Lüneburg,https://ror.org/02w2y2t16
+4134,Polytechnic School - Palaiseau,FR,api_top,I142476485,École Polytechnique,https://ror.org/05hy3tk52
+4137,Bocconi University Milan,IT,api_top,I71209653,Bocconi University,https://ror.org/05crjpb27
+4141,Tampere Universities,FI,api_top,I166825849,Tampere University,https://ror.org/033003e23
+4163,"[,]",,cordis_reverse,I887064364,University of Amsterdam,https://ror.org/04dkp9463
+4177,University of Luneburg,DE,api_top,I113456305,Leuphana University of Lüneburg,https://ror.org/02w2y2t16
+4179,"[,]",,cordis_reverse,I145847075,TU Wien,https://ror.org/04d836q62
+4181,IMDEA Networks Institute (Madrid Institute for Advanced Studies of Networks),ES,manual_override,I2802499160,IMDEA Networks,https://ror.org/04mm9fg30
+4184,University of Paris 7 - Diderot,FR,api_top,I204730241,Université Paris Cité,https://ror.org/05f82e368
+4202,ENPC ParisTech,FR,api_top,I142631665,École nationale des ponts et chaussées,https://ror.org/02nwvxz07
+4205,"[,]",,cordis_reverse,I32597200,Ghent University,https://ror.org/00cv9y106
+4207,Academic Medical Center of the University of Amsterdam,NL,manual_override,I2802928900,Amsterdam UMC Location University of Amsterdam,https://ror.org/03t4gr691
+4213,Academic Medical Center of the University of Amsterdam,NL,manual_override,I2802928900,Amsterdam UMC Location University of Amsterdam,https://ror.org/03t4gr691
+4237,FFIS Murcia,ES,api_top,I4210157519,Fundación para la Formación e Investigación Sanitarias de la Región de Murcia,https://ror.org/05m5has32
+4239,"[,]",,cordis_reverse,I145847075,TU Wien,https://ror.org/04d836q62
+4240,"[,]",,cordis_reverse,I887064364,University of Amsterdam,https://ror.org/04dkp9463
+4241,"[,]",,cordis_reverse,I32597200,Ghent University,https://ror.org/00cv9y106

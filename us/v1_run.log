@@ -1,0 +1,14 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+层1→L2 交接:名字唯一 425(host 确认 fl 重开退出 18),剩下 2501
+层2 机构 → 确定 1182,机构平局 378,机构缺失 941,剩下 1319
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 6732.00it/s]
+层3 语义打分:v1 子学科名 × Title+Program(s) (thresh=0.62, margin=0.03)
+层3 语义 → 确定 351(sim>=0.62,margin>=0.03),剩下 968
+层4 兜底 → 确定 968(语义平局 639,论文数兜底 329),剩下 0
+
+汇总:已唯一确定的 US 记录(论文数下限闸 = 30)
+匹配成功: 2197 | 筛选率: 2197 / 3000 = 73.2%
+低产扣留(< 30 篇,待人工): 729,按 source: {'round2_inst': 210, 'round3_semantic': 148, 'name_unique': 145, 'round4_maxpapers': 130, 'round4_semtie': 96}
+  来源:名字唯一 280 | 机构 972 | 语义领域 203 | 语义平局兜底 543 | 论文数兜底 199
+  名字类型:精确 731 | 首末名模糊 774 | 别名 692
+结果已保存:match_1_us.csv, match_2_us.csv, match_3_us.csv, match_4_us.csv, matched_final_us.csv, held_lowpaper_us.csv

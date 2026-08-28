@@ -1,0 +1,169 @@
+﻿rid,us_name,authorid,match_type,host_id,passed,n_papers,source
+97,Matthew J Hankins,A5014357505,fuzzy,,False,135,round4_maxpapers
+154,Xueqing Liu,A5100775509,exact,I108468826,False,158,round4_maxpapers
+165,Liana T Burghardt,A5041487565,alias,,False,1,round4_maxpapers
+199,Yu-Chan Chang,A5036497451,alias,,False,184,round4_maxpapers
+213,Alexander M Kale,A5080552189,fuzzy,,False,7,round4_maxpapers
+262,Elise K Webber,A5082141859,fuzzy,,False,5,round4_maxpapers
+307,Keary M Engle,A5063085607,alias,,False,1,round4_maxpapers
+363,Russell G Miller,A5109229738,fuzzy,,False,111,round4_maxpapers
+381,Mingzhe Chen,A5072241033,alias,I145608581,False,347,round4_maxpapers
+397,Derek A Brown,A5022816786,alias,,False,1,round4_maxpapers
+411,David A Butler,A5020577930,fuzzy,I1318687432,False,757,round4_maxpapers
+447,John M Herbert,A5066827924,alias,,False,1,round4_maxpapers
+475,Francis G Garvan,A5002312876,fuzzy,,False,9,round4_maxpapers
+479,Tafadzwa J Dube,A5062186547,fuzzy,,False,9,round4_maxpapers
+482,Daniel W Roush,A5009793855,fuzzy,,False,35,round4_maxpapers
+506,Overtoun M Jenda,A5026173481,fuzzy,,False,62,round4_maxpapers
+507,Franck J Vernerey,A5049834569,alias,,False,1,round4_maxpapers
+527,Tuncay Aktosun,A5053386759,exact,,False,81,round4_maxpapers
+555,M Hassan Najafi,A5013272913,fuzzy,,False,171,round4_maxpapers
+593,Keith D Schloeman,A5067776696,fuzzy,,False,1,round4_maxpapers
+603,Steven M Kahn,A5066700951,fuzzy,,False,722,round4_maxpapers
+623,Heather M Savage,A5057913967,fuzzy,,False,8,round4_maxpapers
+646,Michael Gangone,A5113107997,alias,,False,23,round4_maxpapers
+677,Piran R Kidambi,A5084322134,alias,,False,1,round4_maxpapers
+702,Ian T McCrum,A5033117815,alias,,False,1,round4_maxpapers
+725,Van A Doze,A5041537880,fuzzy,,False,108,round4_maxpapers
+730,Monica M Carlsen-Krause,A5022053071,fuzzy,,False,16,round4_maxpapers
+744,Robert B Rose,A5111489753,fuzzy,I137902535,False,65,round4_maxpapers
+749,Carolyn T Chang,A5000093928,fuzzy,,False,44,round4_maxpapers
+755,Yunfei Hou,A5056807970,alias,,False,174,round4_maxpapers
+756,Shiyao Lin,A5061557446,exact,,False,77,round4_maxpapers
+761,Maria S Peresin,A5041149174,alias,,False,2,round4_maxpapers
+771,Joel Atallah,A5086244426,alias,I192396691,False,32,round4_maxpapers
+780,Sangjin Ryu,A5038658773,exact,,False,114,round4_maxpapers
+784,Alia L Khan,A5076002317,alias,,False,1,round4_maxpapers
+795,Kristin M Rosler,A5030485166,fuzzy,,False,3,round4_maxpapers
+813,Jonathan Little,A5073764742,alias,,False,659,round4_maxpapers
+820,Julie R Robinson,A5012110847,alias,,False,1,round4_maxpapers
+842,Lindsey Applegate,A5053887418,fuzzy,,False,13,round4_maxpapers
+872,Frank A Gomez,A5041020929,alias,,False,2,round4_maxpapers
+884,Ryan J Zerr,A5072255467,fuzzy,,False,26,round4_maxpapers
+918,Wei E Gordon,A5012009454,fuzzy,,False,6,round4_maxpapers
+923,Richard P Vaughn,A5043975231,fuzzy,,False,6,round4_maxpapers
+927,David A Butler,A5020577930,fuzzy,I1318687432,False,757,round4_maxpapers
+928,Tyler C Maley,A5015187338,fuzzy,,False,1,round4_maxpapers
+930,Rebecca M Reck,A5004598537,alias,,False,1,round4_maxpapers
+938,Kristine M Christensen,A5052417986,fuzzy,,False,9,round4_maxpapers
+948,Md Tahmidul Islam Molla,A5003217702,fuzzy,,False,15,round4_maxpapers
+955,Carlos E Colosqui,A5087687532,fuzzy,,False,71,round4_maxpapers
+964,Michele E Wilson,A5109080651,fuzzy,,False,55,round4_maxpapers
+967,John E Majoris,A5063714201,alias,,False,1,round4_maxpapers
+987,Sadie S Elliott,A5112869231,fuzzy,,False,2,round4_maxpapers
+989,Jessica M Hutchison,A5075245889,fuzzy,,False,10,round4_maxpapers
+995,Pamela J Wisniewski,A5061993312,alias,,False,1,round4_maxpapers
+1000,Ander J Sundell,A5057897435,fuzzy,,False,6,round4_maxpapers
+1002,Noah Butler,A5019550435,alias,,False,88,round4_maxpapers
+1018,Alexis R Torres,A5052409584,fuzzy,,False,15,round4_maxpapers
+1036,Kimberly C Mullane,A5070122377,alias,,False,2,round4_maxpapers
+1058,Samuel K Fleming,A5088993558,fuzzy,,False,9,round4_maxpapers
+1061,Jian J Zhang,A5100409879,fuzzy,I201448701,False,1915,round4_maxpapers
+1114,Juan C Santos Garcia,A5023928269,alias,,False,1,round4_maxpapers
+1157,Donald J Siegel,A5026153077,alias,,False,1,round4_maxpapers
+1196,C A Figg,A5080259642,fuzzy,,False,1,round4_maxpapers
+1219,Alan Legg,A5085046703,alias,,False,18,round4_maxpapers
+1225,Tom G Driver,A5017654256,alias,,False,1,round4_maxpapers
+1228,Joseph A Waldron,A5051652526,fuzzy,,False,38,round4_maxpapers
+1258,Amy Dejongh Curry,A5078104720,fuzzy,I94658018,False,51,round4_maxpapers
+1285,Sally Bane,A5005279392,alias,,False,91,round4_maxpapers
+1326,Miguel F Larsen,A5007414466,alias,,False,2,round4_maxpapers
+1349,Zufen Wang,A5040157910,alias,I75256744,False,10,round4_maxpapers
+1350,Min Zhang,A5100402851,alias,I47500952,False,1694,round4_maxpapers
+1367,Youzhi Bao,A5021693984,exact,,False,3,round4_maxpapers
+1383,Yuri A Omelchenko,A5001944917,alias,,False,1,round4_maxpapers
+1393,Matthew J Paul,A5078858848,alias,,False,1,round4_maxpapers
+1399,Jason T Wright,A5014359103,alias,,False,2,round4_maxpapers
+1444,Wenbin Yu,A5101934162,alias,,False,324,round4_maxpapers
+1477,Patricia M Gregg,A5087033193,alias,,False,1,round4_maxpapers
+1478,Melanie R McReynolds,A5074060815,alias,,False,2,round4_maxpapers
+1505,Davita Watkins,A5007869147,alias,,False,99,round4_maxpapers
+1517,Ming C Hammond,A5033537158,fuzzy,I223532165,False,81,round4_maxpapers
+1530,Oana M Martin,A5009077482,fuzzy,,False,3,round4_maxpapers
+1533,Jacob Shiba,A5001536117,fuzzy,,False,1,round4_maxpapers
+1538,Craig A Ogilvie,A5102348820,fuzzy,,False,1,round4_maxpapers
+1545,Robert J Garner,A5025885316,fuzzy,,False,183,round4_maxpapers
+1548,Roger Casals Gutierrez,A5026017521,fuzzy,,False,1,round4_maxpapers
+1562,Marisa S Otegui,A5046990371,alias,,False,5,round4_maxpapers
+1570,Susan G Glenn,A5064461404,fuzzy,,False,43,round4_maxpapers
+1574,Emmanuelle A Marquis,A5005125065,alias,,False,1,round4_maxpapers
+1577,Johnathan H Broome,A5012228316,fuzzy,,False,2,round4_maxpapers
+1587,Kyungtae Kim,A5100713090,alias,,False,448,round4_maxpapers
+1591,Melanie R Fewings,A5087197928,alias,,False,1,round4_maxpapers
+1612,Carl L Arrington,A5042930784,fuzzy,,False,3,round4_maxpapers
+1623,Murat Arcak,A5025743742,exact,I95457486,False,440,round4_maxpapers
+1703,Kejie Zhao,A5057355127,alias,,False,182,round4_maxpapers
+1714,Isaiah Abimbola,A5031961996,fuzzy,,False,1,round4_maxpapers
+1718,Tristan S LEcuyer,A5030353580,fuzzy,,False,2,round4_maxpapers
+1721,Samuel Ramsey,A5113939273,alias,,False,54,round4_maxpapers
+1733,Philip N Brown,A5048349173,alias,,False,4,round4_maxpapers
+1750,Varghese M Vaidyan,A5090994008,fuzzy,I125467818,False,37,round4_maxpapers
+1792,Alaine Martaus,A5045471967,exact,,False,297,round4_maxpapers
+1835,Vernon K Dunn,A5027772108,fuzzy,,False,1,round4_maxpapers
+1851,Stacey D Smith,A5029361917,alias,,False,1,round4_maxpapers
+1878,Mark R Sweeney,A5080598676,alias,,False,1,round4_maxpapers
+1924,Gabrielle D Pina,A5037263240,fuzzy,,False,1,round4_maxpapers
+1976,Jacqueline E Dixon,A5056933367,fuzzy,,False,5,round4_maxpapers
+1999,Victoria D Wilder,A5090538920,fuzzy,,False,1,round4_maxpapers
+2035,Ashley A Weaver,A5057140665,alias,,False,1,round4_maxpapers
+2053,Sarah C Jones,A5019810790,exact,,False,1,round4_maxpapers
+2059,Joanna Maria N San Pedro,A5044808931,fuzzy,,False,5,round4_maxpapers
+2060,Ryan B Comes,A5074020104,alias,,False,2,round4_maxpapers
+2085,Roger H Varney,A5064007159,alias,,False,1,round4_maxpapers
+2097,Juan F Patarroyo,A5053161433,fuzzy,,False,21,round4_maxpapers
+2130,Karri F DiPetrillo,A5011573057,fuzzy,,False,2,round4_maxpapers
+2168,Andrew R Thurber,A5040801727,alias,,False,1,round4_maxpapers
+2189,Demyan E Prokopchuk,A5068273549,alias,,False,1,round4_maxpapers
+2197,Geraldine L Cochran,A5006627094,alias,,False,1,round4_maxpapers
+2241,Maria E Labreveux,A5001922989,fuzzy,,False,9,round4_maxpapers
+2262,Nicholas L Balascio,A5008534394,alias,,False,164,round4_maxpapers
+2279,India Jackson,A5009288199,alias,,False,9,round4_maxpapers
+2286,Lindsey M Knapp,A5003873908,fuzzy,,False,5,round4_maxpapers
+2297,Maureen M Sanz,A5075420932,fuzzy,,False,26,round4_maxpapers
+2333,Jeffrey T Freymueller,A5072688223,alias,,False,2,round4_maxpapers
+2347,Mayra S Artiles Fonseca,A5113867780,fuzzy,,False,2,round4_maxpapers
+2355,Karthik C Srikanta,A5092515540,fuzzy,,False,1,round4_maxpapers
+2390,Tanzima Z Islam,A5051863378,alias,,False,1,round4_maxpapers
+2414,Kyle C Hale,A5040162769,alias,,False,1,round4_maxpapers
+2426,Cesar E Valladares,A5021901842,fuzzy,,False,4,round4_maxpapers
+2429,Christopher M Lowery,A5055921729,fuzzy,,False,238,round4_maxpapers
+2440,Rickey L Silvey,A5033289984,fuzzy,,False,1,round4_maxpapers
+2478,Gregory S Mountain,A5019035661,alias,,False,1,round4_maxpapers
+2481,Fariborz Tavangarian,A5012985149,alias,,False,90,round4_maxpapers
+2490,Roger B Tipton,A5040529379,fuzzy,,False,8,round4_maxpapers
+2492,Georgia L Mansell,A5102387951,fuzzy,,False,1,round4_maxpapers
+2494,Camelia M Kantor,A5053612289,fuzzy,,False,15,round4_maxpapers
+2498,Mikhail V Matz,A5074487326,alias,,False,1,round4_maxpapers
+2522,David A Nichols,A5085133141,alias,,False,4,round4_maxpapers
+2524,Monica Bugallo,A5058778434,alias,,False,229,round4_maxpapers
+2535,Endawoke Yizengaw,A5015381501,alias,,False,2,round4_maxpapers
+2536,Cesar E Valladares,A5021901842,fuzzy,,False,4,round4_maxpapers
+2557,Philip J Erickson,A5003096673,alias,,False,1,round4_maxpapers
+2567,Sarah J Fowell,A5072621073,fuzzy,,False,50,round4_maxpapers
+2573,Deirdre C Gonsalves-Jackson,A5021543454,fuzzy,,False,24,round4_maxpapers
+2579,Matthew D Zettergren,A5061760517,alias,,False,1,round4_maxpapers
+2584,Chau-Wai Wong,A5014799225,exact,I137902535,False,120,round4_maxpapers
+2607,Yoel Rodriguez,A5021669224,alias,I50568159,False,32,round4_maxpapers
+2637,Steven K Platt,A5050967209,fuzzy,,False,217,round4_maxpapers
+2646,Alden C Adolph,A5047623830,alias,,False,1,round4_maxpapers
+2677,Matthew D Schau,A5000175507,fuzzy,,False,3,round4_maxpapers
+2689,Andrew K Lawton,A5023287055,alias,,False,1,round4_maxpapers
+2691,Mohammed A Qazi,A5022161643,fuzzy,I6026837,False,44,round4_maxpapers
+2702,Truong X Nghiem,A5080459102,alias,,False,2,round4_maxpapers
+2710,Christian W Pester,A5074747161,alias,,False,3,round4_maxpapers
+2772,Xiaofei Wang,A5100363486,exact,I75256744,False,329,round4_maxpapers
+2773,Jialai Wang,A5058220215,alias,,False,142,round4_maxpapers
+2776,Robert E Geer,A5079497121,fuzzy,,False,161,round4_maxpapers
+2780,Neelam Azad,A5085464026,alias,I151328261,False,77,round4_maxpapers
+2781,Kimberley R Sudler,A5009240695,fuzzy,,False,1,round4_maxpapers
+2782,Yalan Ning,A5114164532,alias,,False,19,round4_maxpapers
+2802,Jennifer S Tront,A5000816029,fuzzy,,False,18,round4_maxpapers
+2805,Alison F Banwell,A5011797189,alias,,False,1,round4_maxpapers
+2821,Anthony C Readhead,A5104489199,fuzzy,,False,1,round4_maxpapers
+2855,Sara Rivara,A5008608896,fuzzy,,False,2,round4_maxpapers
+2867,Matthew C O'Reilly,A5005515045,fuzzy,,False,3,round4_maxpapers
+2870,Sally J Tracy,A5068536187,fuzzy,,False,120,round4_maxpapers
+2871,Saonli Basu,A5058258081,alias,I130238516,False,133,round4_maxpapers
+2892,Alison E Murray,A5027117034,alias,,False,2,round4_maxpapers
+2972,Robert Ogburn,A5010920581,fuzzy,,False,2,round4_maxpapers
+2973,Benjamin W Garcia,A5101624223,fuzzy,,False,532,round4_maxpapers

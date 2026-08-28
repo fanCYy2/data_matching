@@ -120,7 +120,7 @@ def match_1a():
             sci.authorid       AS authorid,
             sci.display_name   AS sci_name
         FROM eu
-        JOIN 'sciscinet_authors.parquet' sci
+        JOIN '../sciscinet_authors.parquet' sci
           ON norm(eu."Researcher(s)") = norm(sci.display_name)
     """).df()
     return result
@@ -149,7 +149,7 @@ def match_1b():
             FROM (
                 SELECT authorid, display_name,
                        unnest(from_json(display_name_alternatives, '["VARCHAR"]')) AS alt
-                FROM 'sciscinet_author_details.parquet'
+                FROM '../sciscinet_author_details.parquet'
             )
             WHERE norm(alt) IN (SELECT nn FROM nm)
                OR wset(alt) IN (SELECT ws FROM nm)
@@ -176,7 +176,7 @@ def match_1c():
             sci.authorid         AS authorid,
             sci.display_name     AS sci_name
         FROM eu
-        JOIN 'sciscinet_authors.parquet' sci
+        JOIN '../sciscinet_authors.parquet' sci
           ON fl(sci.display_name) = fl(eu."Researcher(s)")
         WHERE eu."Researcher(s)" IS NOT NULL
           AND eu.rid NOT IN (SELECT DISTINCT rid FROM r1_ea)
@@ -201,7 +201,7 @@ def match_2():
         aff AS (
             -- 只查候选作者、且机构正好是某个 EU host 机构的记录,去重到 (作者, 机构)
             SELECT DISTINCT authorid, institutionid
-            FROM 'sciscinet_paper_author_affiliation.parquet'
+            FROM '../sciscinet_paper_author_affiliation.parquet'
             WHERE authorid      IN (SELECT authorid FROM cand)
               AND institutionid IN (SELECT host_id  FROM cand)
         )
@@ -231,20 +231,20 @@ def match_3():
         papers AS (
             -- 只取候选 author 的论文
             SELECT authorid, paperid
-            FROM 'sciscinet_authors_paperid.parquet'
+            FROM '../sciscinet_authors_paperid.parquet'
             WHERE authorid IN (SELECT authorid FROM cand)
         ),
         lvl1 AS (
             -- OpenAlex level-1 子学科(284 个),细领域信号就用这一级
             SELECT fieldid, display_name
-            FROM 'sciscinet_fields.parquet'
+            FROM '../sciscinet_fields.parquet'
             WHERE level = 1
         ),
         field_cnt AS (
             -- 每个 author 在各 level-1 子学科的发文数
             SELECT p.authorid, pf.fieldid, count(*) AS n
             FROM papers p
-            JOIN 'sciscinet_paperfields.parquet' pf ON p.paperid = pf.paperid
+            JOIN '../sciscinet_paperfields.parquet' pf ON p.paperid = pf.paperid
             WHERE pf.fieldid IN (SELECT fieldid FROM lvl1)
             GROUP BY 1, 2
         ),
@@ -357,7 +357,7 @@ def match_4():
         pcnt AS (
             -- 每个候选 author 的论文数(去重 paperid)
             SELECT authorid, count(DISTINCT paperid) AS n_papers
-            FROM 'sciscinet_authors_paperid.parquet'
+            FROM '../sciscinet_authors_paperid.parquet'
             WHERE authorid IN (SELECT DISTINCT authorid FROM cand)
             GROUP BY authorid
         ),
@@ -417,9 +417,9 @@ def homonym_reopen(uniq_rids, r1):
         flh AS (
             SELECT DISTINCT r.rid, r.eu_name, sci.authorid, sci.display_name AS cname
             FROM rids r
-            JOIN 'sciscinet_authors.parquet' sci
+            JOIN '../sciscinet_authors.parquet' sci
               ON fl(sci.display_name) = fl(r.eu_name)
-            JOIN 'sciscinet_paper_author_affiliation.parquet' aff
+            JOIN '../sciscinet_paper_author_affiliation.parquet' aff
               ON aff.authorid = sci.authorid AND aff.institutionid = r.host_id
             LEFT JOIN reopen_exist e ON e.rid = r.rid AND e.authorid = sci.authorid
             WHERE e.authorid IS NULL
@@ -584,7 +584,7 @@ def main():
     con.register('final_ids', final[['authorid']].drop_duplicates())
     npdf = con.sql("""
         SELECT authorid, count(DISTINCT paperid) AS n_papers
-        FROM 'sciscinet_authors_paperid.parquet'
+        FROM '../sciscinet_authors_paperid.parquet'
         WHERE authorid IN (SELECT authorid FROM final_ids)
         GROUP BY authorid
     """).df()

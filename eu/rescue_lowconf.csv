@@ -1,0 +1,44 @@
+﻿rid,eu_name,authorid,match_type,host_id,source,n_papers,reason,cname,n_cand,fuzzy_pass
+178,Ehud Itzhak Qimron,A5024578974,fuzzy,I16391192,rescue_host_fuzzyfail,137,host_ok_fuzzy_fail,Yossef Itzhak,10,False
+211,Thore Rickard Hakan Sandberg,A5049256903,fuzzy,I28166907,rescue_host_fuzzyfail,417,host_ok_fuzzy_fail,Sverre Sandberg,45,False
+264,Meritxell Huch Ortega,A5026367289,fuzzy,I149899117,rescue_host_fuzzyfail,584,host_ok_fuzzy_fail,R. Huch,10,False
+316,Sophie Geneviève Elisabeth Martin Benton,A5012652688,fuzzy,I97565354,rescue_host_fuzzyfail,2663,host_ok_fuzzy_fail,Nicholas G. Martin,77,False
+417,Soni Savai,A5061019810,fuzzy,I200763008,rescue_host_fuzzyfail,243,host_ok_fuzzy_fail,Rajkumar Savai,2,False
+467,Georgios Garinis,A5031038259,fuzzy,I8901234,rescue_host_fuzzyfail,73,host_ok_fuzzy_fail,George A. Garinis,2,False
+476,Luciana Isabella Peduto,A5080359435,fuzzy,I157536573,rescue_host_fuzzyfail,28,host_ok_fuzzy_fail,Lucie Peduto,2,False
+1030,Adriana Maria (Charissa) De Bekker,A5039654436,fuzzy,I193662353,rescue_host_fuzzyfail,186,host_ok_fuzzy_fail,Mireille N. Bekker,39,False
+1081,Barbara Stecher-Letsch,A5000730993,fuzzy,I8204097,rescue_host_fuzzyfail,168,host_ok_fuzzy_fail,Santa Bárbara,11,False
+1106,Sylvia Maria Cremer-Sixt,A5015575955,fuzzy,I157556583,rescue_host_fuzzyfail,157,host_ok_fuzzy_fail,Michael Sixt,2,False
+1136,Asaf Vardi,A5000059818,fuzzy,I53964585,rescue_host_fuzzyfail,901,host_ok_fuzzy_fail,Moshe Y. Vardi,15,False
+1208,Martha Gerdina Vijver,A5062981502,fuzzy,I121797337,rescue_host_fuzzyfail,516,host_ok_fuzzy_fail,Marc J. van de Vijver,5,False
+1262,Pascale Andrée Simone Lapujade Daran,A5033414409,fuzzy,I98358874,rescue_host_fuzzyfail,180,host_ok_fuzzy_fail,Jean‐Marc Daran,2,False
+1952,Felix Emilio Rico Camps,A5049250189,fuzzy,I21491767,rescue_host_fuzzyfail,306,host_ok_fuzzy_fail,Pelayo Camps,22,False
+2162,Liv Haahr Hornekaer,A5083204894,fuzzy,I204337017,rescue_host_fuzzyfail,84,host_ok_fuzzy_fail,S. Haahr,6,False
+2336,Andrii Andrey Klymchenko,A5086625921,fuzzy,I68947357,rescue_host_fuzzyfail,396,host_ok_fuzzy_fail,Andrey S. Klymchenko,2,False
+2338,Dzmitry Shchukin,A5024535129,fuzzy,I146655781,rescue_host_fuzzyfail,310,host_ok_fuzzy_fail,Dmitry G. Shchukin,2,False
+2567,Johannes Maria Broersen,A5001106217,fuzzy,I193662353,rescue_host_fuzzyfail,120,host_ok_fuzzy_fail,Jan Broersen,7,False
+2844,Laoise Maria Cunningham,A5043648150,fuzzy,I188760350,rescue_host_fuzzyfail,437,host_ok_fuzzy_fail,Michael L. Cunningham,28,False
+2963,Beatrix Rowlinson,A5072917215,fuzzy,I887064364,rescue_host_fuzzyfail,308,host_ok_fuzzy_fail,A. Rowlinson,3,False
+3153,Christina Felfe De Ormeno,A5110017785,fuzzy,I189712700,rescue_host_fuzzyfail,35,host_ok_fuzzy_fail,Rajib Lal De,2,False
+3266,Elias - Ilias Dinas - Ntinas,A5040629621,fuzzy,I874792244,rescue_host_fuzzyfail,152,host_ok_fuzzy_fail,Elias Dinas,2,False
+3311,Nadia Capus,A5024319314,fuzzy,I57825437,rescue_host_fuzzyfail,68,host_ok_fuzzy_fail,Nadja Capus,1,False
+3384,Rebecca Anna Empson Mannerfelt,A5000813061,fuzzy,I45129253,rescue_host_fuzzyfail,38,host_ok_fuzzy_fail,Rebecca Empson,6,False
+3467,Clara Laetitia Ter Hoeven,A5022558761,fuzzy,I913958620,rescue_host_fuzzyfail,125,host_ok_fuzzy_fail,Rolph van der Hoeven,15,False
+3496,Simcha Jong Kon Chin,A5072957389,fuzzy,I121797337,rescue_host_fuzzyfail,231,host_ok_fuzzy_fail,Nyuk Ling Chin,9,False
+3622,Judith Burkart Natalucci,A5089432101,fuzzy,I202697423,rescue_host_fuzzyfail,150,host_ok_fuzzy_fail,Judith M. Burkart,4,False
+3697,Maria Catharina Wichers,A5087751292,fuzzy,I1334415907,rescue_host_fuzzyfail,308,host_ok_fuzzy_fail,Marieke Wichers,4,False
+3708,Alberdina Cornelia Krabbendam,A5051708068,fuzzy,I865915315,rescue_host_fuzzyfail,384,host_ok_fuzzy_fail,Lydia Krabbendam,2,False
+3762,Johanna Tummers,A5061491560,fuzzy,I32597200,rescue_host_fuzzyfail,93,host_ok_fuzzy_fail,Philippe Tummers,2,False
+4043,Elisabeth (Elise) Van Nederveen Meerkerk,A5070504139,fuzzy,I193662353,rescue_host_fuzzyfail,552,host_ok_fuzzy_fail,Aart J. Nederveen,5,False
+4172,Rebecca Anna Empson Mannerfelt,A5000813061,fuzzy,I45129253,rescue_host_fuzzyfail,38,host_ok_fuzzy_fail,Rebecca Empson,6,False
+262,Dr. Debora Gasperini,A5040252580,fuzzy,I4210110463,rescue_host_unique,26,lowpaper,,1,True
+892,Esteban Gurzov Amarelo,A5071473485,fuzzy,I132053463,rescue_host_unique,1,lowpaper,,1,True
+1314,Martinus Kool,A5053312672,fuzzy,I193662353,rescue_host_unique,16,lowpaper,,1,True
+1513,Amaelle Adeline Landais Israel,A5045405213,fuzzy,I1294671590,rescue_host_unique,3,lowpaper,,1,True
+2110,Anne-Clémence Corminboeuf Wodrich,A5112550221,fuzzy,I5124864,rescue_host_unique,3,lowpaper,,1,True
+2525,Mikolaj Konstanty Bojanczyk,A5108790838,fuzzy,I4654613,rescue_host_unique,1,lowpaper,,1,True
+2701,"Antoine, Sébastien Girard",A5101910928,fuzzy,I1294671590,rescue_semantic,15,lowpaper,,1,True
+3044,Marijke Haverkorn Van Rijsewijk,A5081754940,fuzzy,I145872427,rescue_host_unique,13,lowpaper,,1,True
+3148,Joachim Konrad Mierendorff,A5002661648,fuzzy,I45129253,rescue_host_unique,23,lowpaper,,1,True
+3465,Heinz Christoph Steinhardt,A5072312199,fuzzy,I129774422,rescue_host_unique,25,lowpaper,,1,True
+3793,Emine Fisek Turem,A5087607624,fuzzy,I138211613,rescue_host_unique,22,lowpaper,,1,True

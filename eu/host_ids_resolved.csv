@@ -1,0 +1,4243 @@
+﻿row_id,host_openalex_id,matched_name,method
+0,I34809795,Medizinische Hochschule Hannover,exact
+1,I4210094062,University Medical Center of the Johannes Gutenberg University Mainz,fuzzy
+2,I195525897,Research Institute of Molecular Pathology,fuzzy
+3,I98358874,Delft University of Technology,exact
+4,I4210152560,National Institute of Chemistry,exact
+5,I150540706,University of Veterinary Medicine Vienna,fuzzy
+6,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+7,I197251160,Hebrew University of Jerusalem,exact
+8,I53964585,Weizmann Institute of Science,fuzzy
+9,I36234482,University of Bristol,exact
+10,I21250087,Charles University,fuzzy
+11,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+12,I255234318,Universidad de Zaragoza,exact
+13,I4210153543,European Molecular Biology Laboratory,fuzzy
+14,I4210153543,European Molecular Biology Laboratory,fuzzy
+15,I114090438,Goethe University Frankfurt,fuzzy
+16,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+17,I62916508,Technical University of Munich,exact
+18,,,
+19,I2738703131,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,fuzzy
+20,I95674353,UCLouvain,fuzzy
+21,I54108979,Norwegian University of Life Sciences,exact
+22,,,
+23,I124055696,University of Copenhagen,exact
+24,I2800006345,Leiden University Medical Center,exact
+25,,,
+26,,,
+27,I193662353,Utrecht University,exact
+28,I91712215,Saarland University,exact
+29,I28166907,Karolinska Institutet,exact
+30,I39804081,Sorbonne Université,exact
+31,I159176309,Universität Hamburg,exact
+32,,,
+33,I193662353,Utrecht University,exact
+34,I157556583,Institute of Science and Technology Austria,exact
+35,I2800006345,Leiden University Medical Center,exact
+36,I1322597698,Royal Netherlands Academy of Arts and Sciences,exact
+37,,,
+38,I129774422,University of Vienna,exact
+39,I55143463,University of Turin,exact
+40,I204337017,Aarhus University,exact
+41,,,
+42,I177639307,University of Dundee,exact
+43,I126596746,Jagiellonian University,exact
+44,I1322597698,Royal Netherlands Academy of Arts and Sciences,exact
+45,,,
+46,I47508984,Imperial College London,fuzzy
+47,,,
+48,I183935753,King's College London,exact
+49,I114457229,University of Geneva,exact
+50,I91712215,Saarland University,exact
+51,I169381384,University of Groningen,exact
+52,I129774422,University of Vienna,exact
+53,I4210121365,Leibniz Institute for Analytical Sciences - ISAS,fuzzy
+54,I4210115812,Human Technopole,exact
+55,I202697423,University of Zurich,exact
+56,I2801081054,The Francis Crick Institute,fuzzy
+57,I161593684,Stockholm University,exact
+58,I114457229,University of Geneva,exact
+59,I98358874,Delft University of Technology,exact
+60,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+61,I2801240073,University Medical Center Freiburg,exact
+62,I53964585,Weizmann Institute of Science,fuzzy
+63,I124055696,University of Copenhagen,exact
+64,I202697423,University of Zurich,exact
+65,I200763008,Justus-Liebig-Universität Gießen,exact
+66,I202697423,University of Zurich,exact
+67,I150540706,University of Veterinary Medicine Vienna,fuzzy
+68,I4432739,University of Bergen,exact
+69,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+70,I193662353,Utrecht University,exact
+71,I97565354,University of Lausanne,exact
+72,I149899117,Max Planck Society,exact
+73,I124055696,University of Copenhagen,exact
+74,,,
+75,,,
+76,,,
+77,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+78,,,
+79,I102335020,Karlsruhe Institute of Technology,exact
+80,I25974101,University of Würzburg,exact
+81,I881427289,University of Gothenburg,exact
+82,I118564535,University of Bern,exact
+83,,,
+84,I7882870,University of Glasgow,exact
+85,I60668342,University of Regensburg,exact
+86,I4210114103,IFOM,exact
+87,,,
+88,I133731052,University of Helsinki,exact
+89,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+90,I40120149,University of Oxford,exact
+91,,,
+92,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+93,,,
+94,I2801240073,University Medical Center Freiburg,exact
+95,I53964585,Weizmann Institute of Science,fuzzy
+96,I56085075,University of Tartu,exact
+97,I54009628,University of Bayreuth,exact
+98,I4210143228,Cancer Research UK Scotland Institute,fuzzy
+99,I149899117,Max Planck Society,exact
+100,I124055696,University of Copenhagen,exact
+101,I189158943,University of Milan,exact
+102,,,
+103,I205582932,Max Delbrück Center,exact
+104,I60668342,University of Regensburg,exact
+105,I53964585,Weizmann Institute of Science,fuzzy
+106,I202697423,University of Zurich,exact
+107,I114457229,University of Geneva,exact
+108,I45129253,University College London,exact
+109,I40120149,University of Oxford,exact
+110,I8087733,University of Tübingen,exact
+111,I16391192,Tel Aviv University,exact
+112,I1850255,University of Basel,exact
+113,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+114,I190082696,Durham University,exact
+115,I241749,University of Cambridge,exact
+116,I4387155398,Vall d'Hebron Institute of Oncology,exact
+117,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+118,I2801952686,Erasmus MC,exact
+119,I4210153543,European Molecular Biology Laboratory,fuzzy
+120,I2898336195,The Netherlands Cancer Institute,exact
+121,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+122,I129774422,University of Vienna,exact
+123,I3018483916,University Medical Center Utrecht,exact
+124,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+125,I138689650,University of Padua,exact
+126,,,
+127,I4210115812,Human Technopole,exact
+128,I4210115812,Human Technopole,exact
+129,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+130,I53964585,Weizmann Institute of Science,fuzzy
+131,,,
+132,I3018483916,University Medical Center Utrecht,exact
+133,I4210147769,Institute for Bioengineering of Catalonia,exact
+134,I157556583,Institute of Science and Technology Austria,exact
+135,I32597200,Ghent University,exact
+136,I169381384,University of Groningen,exact
+137,I175532246,University of Eastern Finland,exact
+138,I4210153543,European Molecular Biology Laboratory,fuzzy
+139,,,
+140,I204337017,Aarhus University,exact
+141,I157536573,Institut Pasteur,exact
+142,I184942183,University of Oslo,exact
+143,I4210153543,European Molecular Biology Laboratory,fuzzy
+144,I4210115812,Human Technopole,exact
+145,I135140700,University of Bonn,exact
+146,I124055696,University of Copenhagen,exact
+147,I53964585,Weizmann Institute of Science,fuzzy
+148,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+149,I25974101,University of Würzburg,exact
+150,I53964585,Weizmann Institute of Science,fuzzy
+151,I86987016,KTH Royal Institute of Technology,fuzzy
+152,I4210153543,European Molecular Biology Laboratory,fuzzy
+153,I2799391451,University Hospital Bonn,exact
+154,I53964585,Weizmann Institute of Science,fuzzy
+155,I205582932,Max Delbrück Center,exact
+156,I53964585,Weizmann Institute of Science,fuzzy
+157,,,
+158,,,
+159,I53964585,Weizmann Institute of Science,fuzzy
+160,I1322597698,Royal Netherlands Academy of Arts and Sciences,exact
+161,I4210137962,Centre for Genomic Regulation,exact
+162,I100930933,University College Dublin,fuzzy
+163,I98677209,University of Edinburgh,exact
+164,I157536573,Institut Pasteur,exact
+165,I98677209,University of Edinburgh,exact
+166,I7882870,University of Glasgow,exact
+167,I170486558,Universitat Pompeu Fabra,exact
+168,I193662353,Utrecht University,exact
+169,I186903577,University of Luxembourg,exact
+170,I2898336195,The Netherlands Cancer Institute,exact
+171,I53964585,Weizmann Institute of Science,fuzzy
+172,I13134134,Universidad de Cantabria,exact
+173,I202697423,University of Zurich,exact
+174,I35440088,ETH Zurich,fuzzy
+175,I53964585,Weizmann Institute of Science,fuzzy
+176,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+177,I17937529,German Cancer Research Center,exact
+178,I16391192,Tel Aviv University,exact
+179,I149899117,Max Planck Society,exact
+180,I25974101,University of Würzburg,exact
+181,I16391192,Tel Aviv University,exact
+182,I4210153543,European Molecular Biology Laboratory,fuzzy
+183,I157556583,Institute of Science and Technology Austria,exact
+184,I2898336195,The Netherlands Cancer Institute,exact
+185,I53964585,Weizmann Institute of Science,fuzzy
+186,I53964585,Weizmann Institute of Science,fuzzy
+187,I4210153543,European Molecular Biology Laboratory,fuzzy
+188,I4210153543,European Molecular Biology Laboratory,fuzzy
+189,,,
+190,I157536573,Institut Pasteur,exact
+191,I145872427,Radboud University Nijmegen,exact
+192,,,
+193,I149899117,Max Planck Society,exact
+194,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+195,I53964585,Weizmann Institute of Science,fuzzy
+196,I157556583,Institute of Science and Technology Austria,exact
+197,,,
+198,I124055696,University of Copenhagen,exact
+199,I124055696,University of Copenhagen,exact
+200,I53964585,Weizmann Institute of Science,fuzzy
+201,I162608824,University of Sussex,exact
+202,I124055696,University of Copenhagen,exact
+203,,,
+204,I4210122345,Institute for Research in Biomedicine,fuzzy
+205,I53964585,Weizmann Institute of Science,fuzzy
+206,,,
+207,I40120149,University of Oxford,exact
+208,I860889466,Friedrich Miescher Institute,exact
+209,I241749,University of Cambridge,exact
+210,,,
+211,I28166907,Karolinska Institutet,exact
+212,I17937529,German Cancer Research Center,exact
+213,I4210138103,"Czech Academy of Sciences, Institute of Molecular Genetics",exact
+214,I124055696,University of Copenhagen,exact
+215,I47508984,Imperial College London,fuzzy
+216,I195525897,Research Institute of Molecular Pathology,fuzzy
+217,,,
+218,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+219,I53964585,Weizmann Institute of Science,fuzzy
+220,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+221,I193223587,University of Trento,exact
+222,,,
+223,I4210089594,Spanish National Cancer Research Centre,exact
+224,,,
+225,I2800006345,Leiden University Medical Center,exact
+226,I80043,Institut Curie,fuzzy
+227,I80043,Institut Curie,fuzzy
+228,I53964585,Weizmann Institute of Science,fuzzy
+229,I40120149,University of Oxford,exact
+230,I4210137962,Centre for Genomic Regulation,exact
+231,I75951250,Freie Universität Berlin,exact
+232,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+233,I123387679,Uppsala University,exact
+234,I4210122345,Institute for Research in Biomedicine,fuzzy
+235,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+236,I53964585,Weizmann Institute of Science,fuzzy
+237,I277688954,Université Paris-Saclay,exact
+238,I133731052,University of Helsinki,exact
+239,I56085075,University of Tartu,exact
+240,,,
+241,I1322597698,Royal Netherlands Academy of Arts and Sciences,exact
+242,I157556583,Institute of Science and Technology Austria,exact
+243,I53964585,Weizmann Institute of Science,fuzzy
+244,I4210148920,Danish Cancer Society,exact
+245,I193662353,Utrecht University,exact
+246,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+247,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+248,I2801240073,University Medical Center Freiburg,exact
+249,,,
+250,I124227911,Ben-Gurion University of the Negev,exact
+251,I98358874,Delft University of Technology,exact
+252,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+253,I150540706,University of Veterinary Medicine Vienna,fuzzy
+254,I124055696,University of Copenhagen,exact
+255,I4210153543,European Molecular Biology Laboratory,fuzzy
+256,I4210156025,"Czech Academy of Sciences, Institute of Experimental Botany",fuzzy
+257,,,
+258,I4210137962,Centre for Genomic Regulation,exact
+259,I62916508,Technical University of Munich,exact
+260,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+261,I4210089592,Josep Carreras Leukaemia Research Institute,exact
+262,I4210110463,Leibniz Institute of Plant Biochemistry,exact
+263,I157536573,Institut Pasteur,exact
+264,I149899117,Max Planck Society,exact
+265,I197251160,Hebrew University of Jerusalem,exact
+266,I28166907,Karolinska Institutet,exact
+267,I195525897,Research Institute of Molecular Pathology,fuzzy
+268,I133731052,University of Helsinki,exact
+269,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+270,I4210164740,"Czech Academy of Sciences, Biology Centre",exact
+271,I149899117,Max Planck Society,exact
+272,,,
+273,I157556583,Institute of Science and Technology Austria,exact
+274,I223822909,Heidelberg University,fuzzy
+275,I114090438,Goethe University Frankfurt,fuzzy
+276,,,
+277,I2802805223,Calouste Gulbenkian Foundation,exact
+278,I189158943,University of Milan,exact
+279,I205582932,Max Delbrück Center,exact
+280,I97565354,University of Lausanne,exact
+281,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+282,,,
+283,I189712700,University of Konstanz,exact
+284,I98677209,University of Edinburgh,exact
+285,I4210153543,European Molecular Biology Laboratory,fuzzy
+286,,,
+287,I202697423,University of Zurich,exact
+288,I157536573,Institut Pasteur,exact
+289,I53964585,Weizmann Institute of Science,fuzzy
+290,,,
+291,I193662353,Utrecht University,exact
+292,I241749,University of Cambridge,exact
+293,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+294,I133731052,University of Helsinki,exact
+295,,,
+296,I241749,University of Cambridge,exact
+297,I40120149,University of Oxford,exact
+298,I149899117,Max Planck Society,exact
+299,I4387154544,Institut National de la Recherche Agronomique,exact
+300,I157536573,Institut Pasteur,exact
+301,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+302,I4210127611,CeMM Research Center for Molecular Medicine,fuzzy
+303,I2738703131,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,fuzzy
+304,I241749,University of Cambridge,exact
+305,I74656192,University of Göttingen,exact
+306,I17937529,German Cancer Research Center,exact
+307,I133731052,University of Helsinki,exact
+308,I17937529,German Cancer Research Center,exact
+309,I80043,Institut Curie,fuzzy
+310,I189158943,University of Milan,exact
+311,I157556583,Institute of Science and Technology Austria,exact
+312,I4210164740,"Czech Academy of Sciences, Biology Centre",exact
+313,,,
+314,I98677209,University of Edinburgh,exact
+315,,,
+316,I97565354,University of Lausanne,exact
+317,I2802805223,Calouste Gulbenkian Foundation,exact
+318,I183935753,King's College London,exact
+319,,,
+320,I16391192,Tel Aviv University,exact
+321,I32597200,Ghent University,exact
+322,I202697423,University of Zurich,exact
+323,,,
+324,I129774422,University of Vienna,exact
+325,I180437899,University of Bremen,exact
+326,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+327,I45129253,University College London,exact
+328,,,
+329,I53964585,Weizmann Institute of Science,fuzzy
+330,I223822909,Heidelberg University,fuzzy
+331,I4210086872,Institut de génétique et de biologie moléculaire et cellulaire,fuzzy
+332,I149899117,Max Planck Society,exact
+333,I149899117,Max Planck Society,exact
+334,I150540706,University of Veterinary Medicine Vienna,fuzzy
+335,I2801081054,The Francis Crick Institute,fuzzy
+336,I155660961,University of Turku,exact
+337,I113358080,Champalimaud Foundation,exact
+338,I97565354,University of Lausanne,exact
+339,I40120149,University of Oxford,exact
+340,,,
+341,I4387154544,Institut National de la Recherche Agronomique,exact
+342,I193662353,Utrecht University,exact
+343,,,
+344,I4210089594,Spanish National Cancer Research Centre,exact
+345,I53964585,Weizmann Institute of Science,fuzzy
+346,I4210147769,Institute for Bioengineering of Catalonia,exact
+347,I202697423,University of Zurich,exact
+348,I241749,University of Cambridge,exact
+349,I35440088,ETH Zurich,fuzzy
+350,I202697423,University of Zurich,exact
+351,,,
+352,,,
+353,I56085075,University of Tartu,exact
+354,I133731052,University of Helsinki,exact
+355,I28166907,Karolinska Institutet,exact
+356,I149899117,Max Planck Society,exact
+357,I17937529,German Cancer Research Center,exact
+358,I4210122345,Institute for Research in Biomedicine,fuzzy
+359,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+360,,,
+361,,,
+362,,,
+363,I881427289,University of Gothenburg,exact
+364,I124055696,University of Copenhagen,exact
+365,I53964585,Weizmann Institute of Science,fuzzy
+366,I17937529,German Cancer Research Center,exact
+367,I4210101141,Luxembourg Institute of Health,exact
+368,I154387261,Vita-Salute San Raffaele University,exact
+369,I196349391,Universität Ulm,exact
+370,I25974101,University of Würzburg,exact
+371,I1334415907,University Medical Center Groningen,exact
+372,,,
+373,I4405252639,Gulbenkian Institute for Molecular Medicine,fuzzy
+374,I8087733,University of Tübingen,exact
+375,,,
+376,I4210120689,Universitätsklinikum Aachen,exact
+377,,,
+378,I195525897,Research Institute of Molecular Pathology,fuzzy
+379,,,
+380,I62916508,Technical University of Munich,exact
+381,I124055696,University of Copenhagen,exact
+382,,,
+383,,,
+384,I205274468,Trinity College Dublin,exact
+385,I16391192,Tel Aviv University,exact
+386,I32021983,Christian-Albrechts-Universität zu Kiel,fuzzy
+387,I71267560,University of Naples Federico II,exact
+388,I53964585,Weizmann Institute of Science,fuzzy
+389,I17937529,German Cancer Research Center,exact
+390,,,
+391,I124055696,University of Copenhagen,exact
+392,,,
+393,I39804081,Sorbonne Université,exact
+394,,,
+395,,,
+396,I4210120689,Universitätsklinikum Aachen,exact
+397,,,
+398,I2809107791,Spanish National Centre for Cardiovascular Research,fuzzy
+399,I124055696,University of Copenhagen,exact
+400,I13955877,Bar-Ilan University,exact
+401,I138689650,University of Padua,exact
+402,,,
+403,I4210088053,Universitätsklinikum Erlangen,exact
+404,I204730241,Université Paris Cité,exact
+405,I2809107791,Spanish National Centre for Cardiovascular Research,fuzzy
+406,I4210087039,Institut d'Investigació Biomédica de Bellvitge,fuzzy
+407,I35440088,ETH Zurich,fuzzy
+408,,,
+409,I4210089594,Spanish National Cancer Research Centre,exact
+410,,,
+411,I204337017,Aarhus University,exact
+412,I8087733,University of Tübingen,exact
+413,I28166907,Karolinska Institutet,exact
+414,I2799391451,University Hospital Bonn,exact
+415,I124055696,University of Copenhagen,exact
+416,I2802164966,University Hospital Heidelberg,fuzzy
+417,I200763008,Justus-Liebig-Universität Gießen,exact
+418,I205274468,Trinity College Dublin,exact
+419,,,
+420,I99464096,KU Leuven,exact
+421,,,
+422,I133836048,Royal Veterinary College,exact
+423,I114457229,University of Geneva,exact
+424,I53964585,Weizmann Institute of Science,fuzzy
+425,,,
+426,I4210153755,University Hospital Cologne,exact
+427,,,
+428,I241749,University of Cambridge,exact
+429,,,
+430,I118564535,University of Bern,exact
+431,I53964585,Weizmann Institute of Science,fuzzy
+432,I133731052,University of Helsinki,exact
+433,I28407311,University of Manchester,exact
+434,,,
+435,I149213910,University of Antwerp,exact
+436,,,
+437,I174306211,Technion – Israel Institute of Technology,exact
+438,,,
+439,I95674353,UCLouvain,fuzzy
+440,,,
+441,,,
+442,I40120149,University of Oxford,exact
+443,,,
+444,,,
+445,,,
+446,I197251160,Hebrew University of Jerusalem,exact
+447,,,
+448,,,
+449,I2802934949,Radboud University Medical Center,exact
+450,I40120149,University of Oxford,exact
+451,I16391192,Tel Aviv University,exact
+452,I2801081054,The Francis Crick Institute,fuzzy
+453,,,
+454,,,
+455,,,
+456,I149899117,Max Planck Society,exact
+457,I47508984,Imperial College London,fuzzy
+458,I17937529,German Cancer Research Center,exact
+459,I4210130481,Foundation for the Research and Cure of Lymphoma in Ticino,exact
+460,I124055696,University of Copenhagen,exact
+461,I4210089594,Spanish National Cancer Research Centre,exact
+462,I1334415907,University Medical Center Groningen,exact
+463,I197251160,Hebrew University of Jerusalem,exact
+464,I2898336195,The Netherlands Cancer Institute,exact
+465,I184942183,University of Oslo,exact
+466,I8087733,University of Tübingen,exact
+467,I8901234,Foundation for Research and Technology Hellas,exact
+468,I241749,University of Cambridge,exact
+469,,,
+470,I4210089592,Josep Carreras Leukaemia Research Institute,exact
+471,I2802805223,Calouste Gulbenkian Foundation,exact
+472,I34809795,Medizinische Hochschule Hannover,exact
+473,I123387679,Uppsala University,exact
+474,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+475,,,
+476,I157536573,Institut Pasteur,exact
+477,I138689650,University of Padua,exact
+478,I45084792,University of Florence,exact
+479,I2809107791,Spanish National Centre for Cardiovascular Research,fuzzy
+480,I98677209,University of Edinburgh,exact
+481,,,
+482,I145872427,Radboud University Nijmegen,exact
+483,I4210108711,University Medical Center Hamburg-Eppendorf,exact
+484,I4405267316,German Center for Neurodegenerative Diseases (DZNE) Dresden,fuzzy
+485,I187531555,Lund University,exact
+486,I114457229,University of Geneva,exact
+487,I881427289,University of Gothenburg,exact
+488,I1322597698,Royal Netherlands Academy of Arts and Sciences,exact
+489,I53964585,Weizmann Institute of Science,fuzzy
+490,I1850255,University of Basel,exact
+491,,,
+492,,,
+493,I2801081054,The Francis Crick Institute,fuzzy
+494,,,
+495,I2801081054,The Francis Crick Institute,fuzzy
+496,,,
+497,I91712215,Saarland University,exact
+498,I21491767,Aix-Marseille Université,exact
+499,,,
+500,I88155538,Universidad de Navarra,exact
+501,I40120149,University of Oxford,exact
+502,I1850255,University of Basel,exact
+503,I45129253,University College London,exact
+504,I45129253,University College London,exact
+505,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+506,I99464096,KU Leuven,exact
+507,I113358080,Champalimaud Foundation,exact
+508,I2801952686,Erasmus MC,exact
+509,I4405267316,German Center for Neurodegenerative Diseases (DZNE) Dresden,fuzzy
+510,,,
+511,I53964585,Weizmann Institute of Science,fuzzy
+512,I62916508,Technical University of Munich,exact
+513,,,
+514,I4210100306,Achucarro Basque Center for Neuroscience,exact
+515,I47508984,Imperial College London,fuzzy
+516,I926574661,Leipzig University,fuzzy
+517,I53964585,Weizmann Institute of Science,fuzzy
+518,,,
+519,,,
+520,I74656192,University of Göttingen,exact
+521,I30771326,Italian Institute of Technology,exact
+522,I4405267316,German Center for Neurodegenerative Diseases (DZNE) Dresden,fuzzy
+523,I100532134,Université Claude Bernard Lyon 1,fuzzy
+524,I149899117,Max Planck Society,exact
+525,I149899117,Max Planck Society,exact
+526,I181369854,Friedrich-Alexander-Universität Erlangen-Nürnberg,exact
+527,,,
+528,I197251160,Hebrew University of Jerusalem,exact
+529,I197251160,Hebrew University of Jerusalem,exact
+530,I8087733,University of Tübingen,exact
+531,I123044942,Universitat Autònoma de Barcelona,exact
+532,I113358080,Champalimaud Foundation,exact
+533,I16391192,Tel Aviv University,exact
+534,I157556583,Institute of Science and Technology Austria,exact
+535,I149899117,Max Planck Society,exact
+536,I16391192,Tel Aviv University,exact
+537,I172446870,University of Cagliari,exact
+538,,,
+539,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+540,,,
+541,I4210100306,Achucarro Basque Center for Neuroscience,exact
+542,,,
+543,,,
+544,,,
+545,I187531555,Lund University,exact
+546,,,
+547,,,
+548,I175532246,University of Eastern Finland,exact
+549,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+550,I4432739,University of Bergen,exact
+551,I124055696,University of Copenhagen,exact
+552,I157556583,Institute of Science and Technology Austria,exact
+553,,,
+554,I16835326,University of St Andrews,exact
+555,I53964585,Weizmann Institute of Science,fuzzy
+556,I124601658,University of Parma,exact
+557,,,
+558,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+559,I86987016,KTH Royal Institute of Technology,fuzzy
+560,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+561,,,
+562,I34352273,Maastricht University,exact
+563,I99682543,University of Minho,exact
+564,,,
+565,I860889466,Friedrich Miescher Institute,exact
+566,I45129253,University College London,exact
+567,,,
+568,I904495901,Ruhr University Bochum,fuzzy
+569,I113358080,Champalimaud Foundation,exact
+570,I4405267316,German Center for Neurodegenerative Diseases (DZNE) Dresden,fuzzy
+571,I200284239,Universidade de Santiago de Compostela,exact
+572,,,
+573,I926574661,Leipzig University,fuzzy
+574,I114457229,University of Geneva,exact
+575,I98677209,University of Edinburgh,exact
+576,I113358080,Champalimaud Foundation,exact
+577,I45129253,University College London,exact
+578,I35440088,ETH Zurich,fuzzy
+579,I241749,University of Cambridge,exact
+580,I2802805223,Calouste Gulbenkian Foundation,exact
+581,,,
+582,I53964585,Weizmann Institute of Science,fuzzy
+583,,,
+584,I157556583,Institute of Science and Technology Austria,exact
+585,I2802164966,University Hospital Heidelberg,fuzzy
+586,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+587,I197251160,Hebrew University of Jerusalem,exact
+588,I145872427,Radboud University Nijmegen,exact
+589,,,
+590,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+591,I45129253,University College London,exact
+592,I113358080,Champalimaud Foundation,exact
+593,I4210153755,University Hospital Cologne,exact
+594,I241749,University of Cambridge,exact
+595,,,
+596,I113358080,Champalimaud Foundation,exact
+597,I138898306,Reichman University,exact
+598,I45129253,University College London,exact
+599,I113358080,Champalimaud Foundation,exact
+600,,,
+601,I118564535,University of Bern,exact
+602,I183935753,King's College London,exact
+603,I30771326,Italian Institute of Technology,exact
+604,I53964585,Weizmann Institute of Science,fuzzy
+605,I157556583,Institute of Science and Technology Austria,exact
+606,I16391192,Tel Aviv University,exact
+607,,,
+608,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+609,I118564535,University of Bern,exact
+610,,,
+611,I96578850,Leibniz Institute for Neurobiology,exact
+612,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+613,I205582932,Max Delbrück Center,exact
+614,,,
+615,I98677209,University of Edinburgh,exact
+616,,,
+617,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+618,,,
+619,I118564535,University of Bern,exact
+620,,,
+621,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+622,I53964585,Weizmann Institute of Science,fuzzy
+623,,,
+624,I4210108711,University Medical Center Hamburg-Eppendorf,exact
+625,I79510175,Cardiff University,exact
+626,,,
+627,I197251160,Hebrew University of Jerusalem,exact
+628,I39804081,Sorbonne Université,exact
+629,I45129253,University College London,exact
+630,I45129253,University College London,exact
+631,I4405267316,German Center for Neurodegenerative Diseases (DZNE) Dresden,fuzzy
+632,I20121455,Bielefeld University,fuzzy
+633,,,
+634,,,
+635,I861853513,Sapienza University of Rome,exact
+636,I62916508,Technical University of Munich,exact
+637,I158438070,Universidad de La Laguna,exact
+638,,,
+639,,,
+640,,,
+641,,,
+642,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+643,I197251160,Hebrew University of Jerusalem,exact
+644,I241749,University of Cambridge,exact
+645,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+646,I53964585,Weizmann Institute of Science,fuzzy
+647,,,
+648,I62916508,Technical University of Munich,exact
+649,I4405267316,German Center for Neurodegenerative Diseases (DZNE) Dresden,fuzzy
+650,I97565354,University of Lausanne,exact
+651,,,
+652,I149899117,Max Planck Society,exact
+653,I40120149,University of Oxford,exact
+654,I138549579,Scuola Internazionale Superiore di Studi Avanzati,fuzzy
+655,I113358080,Champalimaud Foundation,exact
+656,I197251160,Hebrew University of Jerusalem,exact
+657,,,
+658,,,
+659,I45129253,University College London,exact
+660,,,
+661,I114457229,University of Geneva,exact
+662,I8087733,University of Tübingen,exact
+663,I187531555,Lund University,exact
+664,,,
+665,I40120149,University of Oxford,exact
+666,I193662353,Utrecht University,exact
+667,I28166907,Karolinska Institutet,exact
+668,I202697423,University of Zurich,exact
+669,I154387261,Vita-Salute San Raffaele University,exact
+670,I53964585,Weizmann Institute of Science,fuzzy
+671,,,
+672,I16391192,Tel Aviv University,exact
+673,I4210162077,Leibniz-Institut für Naturstoff-Forschung und Infektionsbiologie e. V. - Hans-Knöll-Institut (HKI),exact
+674,I95674353,UCLouvain,fuzzy
+675,I4210138103,"Czech Academy of Sciences, Institute of Molecular Genetics",exact
+676,I4210108711,University Medical Center Hamburg-Eppendorf,exact
+677,I2799391451,University Hospital Bonn,exact
+678,I4210100188,Biogipuzkoa Health Research Institute,exact
+679,I187531555,Lund University,exact
+680,I157674565,University of Liège,exact
+681,I124055696,University of Copenhagen,exact
+682,I6820528,Alexander Fleming Biomedical Sciences Research Center,fuzzy
+683,,,
+684,I75951250,Freie Universität Berlin,exact
+685,,,
+686,,,
+687,I53964585,Weizmann Institute of Science,fuzzy
+688,,,
+689,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+690,I34809795,Medizinische Hochschule Hannover,exact
+691,I2799391451,University Hospital Bonn,exact
+692,,,
+693,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+694,I96673099,Technical University of Denmark,exact
+695,I17937529,German Cancer Research Center,exact
+696,I4405252639,Gulbenkian Institute for Molecular Medicine,fuzzy
+697,I3018483916,University Medical Center Utrecht,exact
+698,I114457229,University of Geneva,exact
+699,I98358874,Delft University of Technology,exact
+700,,,
+701,I2802805223,Calouste Gulbenkian Foundation,exact
+702,I53964585,Weizmann Institute of Science,fuzzy
+703,I98677209,University of Edinburgh,exact
+704,I1850255,University of Basel,exact
+705,I53964585,Weizmann Institute of Science,fuzzy
+706,I8901234,Foundation for Research and Technology Hellas,exact
+707,,,
+708,I114457229,University of Geneva,exact
+709,I4210108711,University Medical Center Hamburg-Eppendorf,exact
+710,I35440088,ETH Zurich,fuzzy
+711,I187531555,Lund University,exact
+712,I53964585,Weizmann Institute of Science,fuzzy
+713,I16391192,Tel Aviv University,exact
+714,,,
+715,I202697423,University of Zurich,exact
+716,I3020210244,Sanquin,exact
+717,I62916508,Technical University of Munich,exact
+718,I25974101,University of Würzburg,exact
+719,,,
+720,I205274468,Trinity College Dublin,exact
+721,I2801081054,The Francis Crick Institute,fuzzy
+722,I4210089966,London School of Hygiene & Tropical Medicine,exact
+723,,,
+724,I97565354,University of Lausanne,exact
+725,I97565354,University of Lausanne,exact
+726,I4210143228,Cancer Research UK Scotland Institute,fuzzy
+727,I62916508,Technical University of Munich,exact
+728,I2802805223,Calouste Gulbenkian Foundation,exact
+729,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+730,I4210124929,Helmholtz Centre for Infection Research,exact
+731,,,
+732,I25974101,University of Würzburg,exact
+733,,,
+734,I2809107791,Spanish National Centre for Cardiovascular Research,fuzzy
+735,I241749,University of Cambridge,exact
+736,I53964585,Weizmann Institute of Science,fuzzy
+737,I195460627,University of Aberdeen,exact
+738,I7882870,University of Glasgow,exact
+739,I157536573,Institut Pasteur,exact
+740,,,
+741,I157536573,Institut Pasteur,exact
+742,I22465464,University of Münster,exact
+743,I95674353,UCLouvain,fuzzy
+744,I1302113299,Babraham Institute,exact
+745,I45129253,University College London,exact
+746,,,
+747,I241749,University of Cambridge,exact
+748,,,
+749,,,
+750,I113358080,Champalimaud Foundation,exact
+751,I133731052,University of Helsinki,exact
+752,I2801081054,The Francis Crick Institute,fuzzy
+753,,,
+754,,,
+755,I3129555431,University Hospital Regensburg,exact
+756,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+757,I17937529,German Cancer Research Center,exact
+758,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+759,I79619799,University of Birmingham,exact
+760,,,
+761,I1339471597,Humanitas University,exact
+762,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+763,I2898336195,The Netherlands Cancer Institute,exact
+764,I2799391451,University Hospital Bonn,exact
+765,I197251160,Hebrew University of Jerusalem,exact
+766,I53964585,Weizmann Institute of Science,fuzzy
+767,I79619799,University of Birmingham,exact
+768,,,
+769,,,
+770,I157536573,Institut Pasteur,exact
+771,,,
+772,I145872427,Radboud University Nijmegen,exact
+773,I4210120689,Universitätsklinikum Aachen,exact
+774,I8087733,University of Tübingen,exact
+775,,,
+776,I166337079,Queen Mary University of London,fuzzy
+777,I3020210244,Sanquin,exact
+778,I183935753,King's College London,exact
+779,I184942183,University of Oslo,exact
+780,I32597200,Ghent University,exact
+781,I83019370,Eindhoven University of Technology,exact
+782,I36234482,University of Bristol,exact
+783,I123387679,Uppsala University,exact
+784,I2799391451,University Hospital Bonn,exact
+785,I124055696,University of Copenhagen,exact
+786,I28166907,Karolinska Institutet,exact
+787,I4432739,University of Bergen,exact
+788,,,
+789,,,
+790,I184942183,University of Oslo,exact
+791,,,
+792,I150540706,University of Veterinary Medicine Vienna,fuzzy
+793,I154387261,Vita-Salute San Raffaele University,exact
+794,,,
+795,I34809795,Medizinische Hochschule Hannover,exact
+796,I2799391451,University Hospital Bonn,exact
+797,,,
+798,I157536573,Institut Pasteur,exact
+799,I202276237,Medical University of Graz,exact
+800,I149213910,University of Antwerp,exact
+801,I204730241,Université Paris Cité,exact
+802,I155660961,University of Turku,exact
+803,I188760350,Ollscoil na Gaillimhe – University of Galway,exact
+804,I17937529,German Cancer Research Center,exact
+805,,,
+806,I187531555,Lund University,exact
+807,,,
+808,I3129555431,University Hospital Regensburg,exact
+809,,,
+810,I28166907,Karolinska Institutet,exact
+811,I133731052,University of Helsinki,exact
+812,I2801952686,Erasmus MC,exact
+813,I3018483916,University Medical Center Utrecht,exact
+814,I4432739,University of Bergen,exact
+815,I187531555,Lund University,exact
+816,I4210136987,St. Anne's University Hospital Brno,exact
+817,,,
+818,I2802164966,University Hospital Heidelberg,fuzzy
+819,I150540706,University of Veterinary Medicine Vienna,fuzzy
+820,I53964585,Weizmann Institute of Science,fuzzy
+821,,,
+822,I189158943,University of Milan,exact
+823,I154387261,Vita-Salute San Raffaele University,exact
+824,I4210112713,University Hospital Schleswig-Holstein,fuzzy
+825,I891191580,Aalborg University,exact
+826,,,
+827,I2802934949,Radboud University Medical Center,exact
+828,,,
+829,I174306211,Technion – Israel Institute of Technology,exact
+830,I2801349226,Leibniz Institute of Photonic Technology,fuzzy
+831,I17937529,German Cancer Research Center,exact
+832,I71999127,Universitat de Barcelona,exact
+833,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+834,,,
+835,I188760350,Ollscoil na Gaillimhe – University of Galway,exact
+836,I13955877,Bar-Ilan University,exact
+837,,,
+838,I1334415907,University Medical Center Groningen,exact
+839,I165368041,University of Iceland,exact
+840,I16391192,Tel Aviv University,exact
+841,,,
+842,,,
+843,,,
+844,I32597200,Ghent University,exact
+845,,,
+846,I71999127,Universitat de Barcelona,exact
+847,,,
+848,I34809795,Medizinische Hochschule Hannover,exact
+849,I187531555,Lund University,exact
+850,,,
+851,I2800006345,Leiden University Medical Center,exact
+852,I16391192,Tel Aviv University,exact
+853,I4210120689,Universitätsklinikum Aachen,exact
+854,,,
+855,I1334415907,University Medical Center Groningen,exact
+856,I28166907,Karolinska Institutet,exact
+857,I4210127611,CeMM Research Center for Molecular Medicine,fuzzy
+858,I99464096,KU Leuven,exact
+859,I16391192,Tel Aviv University,exact
+860,I123387679,Uppsala University,exact
+861,,,
+862,I2802934949,Radboud University Medical Center,exact
+863,I17937529,German Cancer Research Center,exact
+864,,,
+865,I133731052,University of Helsinki,exact
+866,I202697423,University of Zurich,exact
+867,I32597200,Ghent University,exact
+868,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+869,,,
+870,,,
+871,I28166907,Karolinska Institutet,exact
+872,,,
+873,I2802934949,Radboud University Medical Center,exact
+874,,,
+875,I34352273,Maastricht University,exact
+876,,,
+877,I45129253,University College London,exact
+878,I4210120689,Universitätsklinikum Aachen,exact
+879,I28407311,University of Manchester,exact
+880,I184942183,University of Oslo,exact
+881,I183935753,King's College London,exact
+882,I2802934949,Radboud University Medical Center,exact
+883,I881427289,University of Gothenburg,exact
+884,I3018483916,University Medical Center Utrecht,exact
+885,I189158943,University of Milan,exact
+886,I166337079,Queen Mary University of London,fuzzy
+887,I28166907,Karolinska Institutet,exact
+888,I34809795,Medizinische Hochschule Hannover,exact
+889,I32597200,Ghent University,exact
+890,,,
+891,I2809107791,Spanish National Centre for Cardiovascular Research,fuzzy
+892,,,
+893,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+894,I28166907,Karolinska Institutet,exact
+895,I2801952686,Erasmus MC,exact
+896,I1850255,University of Basel,exact
+897,I53964585,Weizmann Institute of Science,fuzzy
+898,I174306211,Technion – Israel Institute of Technology,exact
+899,I88155538,Universidad de Navarra,exact
+900,I187531555,Lund University,exact
+901,I183935753,King's College London,exact
+902,I4210130481,Foundation for the Research and Cure of Lymphoma in Ticino,exact
+903,I3018483916,University Medical Center Utrecht,exact
+904,,,
+905,,,
+906,I174306211,Technion – Israel Institute of Technology,exact
+907,I28166907,Karolinska Institutet,exact
+908,,,
+909,I28166907,Karolinska Institutet,exact
+910,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+911,I187531555,Lund University,exact
+912,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+913,I187531555,Lund University,exact
+914,I4210089966,London School of Hygiene & Tropical Medicine,exact
+915,I34809795,Medizinische Hochschule Hannover,exact
+916,I2800006345,Leiden University Medical Center,exact
+917,I55143463,University of Turin,exact
+918,I53964585,Weizmann Institute of Science,fuzzy
+919,I28166907,Karolinska Institutet,exact
+920,I27483092,University of Perugia,exact
+921,I3018483916,University Medical Center Utrecht,exact
+922,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+923,,,
+924,I133731052,University of Helsinki,exact
+925,I98677209,University of Edinburgh,exact
+926,I2800006345,Leiden University Medical Center,exact
+927,I187531555,Lund University,exact
+928,I133731052,University of Helsinki,exact
+929,,,
+930,I165368041,University of Iceland,exact
+931,I94624287,University of Twente,exact
+932,I28407311,University of Manchester,exact
+933,I28166907,Karolinska Institutet,exact
+934,I2801240073,University Medical Center Freiburg,exact
+935,,,
+936,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+937,I187531555,Lund University,exact
+938,I197251160,Hebrew University of Jerusalem,exact
+939,I161103922,Philipps University of Marburg,fuzzy
+940,I202697423,University of Zurich,exact
+941,I881427289,University of Gothenburg,exact
+942,I133731052,University of Helsinki,exact
+943,I28166907,Karolinska Institutet,exact
+944,I124055696,University of Copenhagen,exact
+945,I118564535,University of Bern,exact
+946,I878454856,Hasselt University,exact
+947,I124055696,University of Copenhagen,exact
+948,I3018483916,University Medical Center Utrecht,exact
+949,I100930933,University College Dublin,fuzzy
+950,,,
+951,I187531555,Lund University,exact
+952,I241749,University of Cambridge,exact
+953,I99464096,KU Leuven,exact
+954,I80043,Institut Curie,fuzzy
+955,I2801952686,Erasmus MC,exact
+956,I174306211,Technion – Israel Institute of Technology,exact
+957,I241749,University of Cambridge,exact
+958,,,
+959,I3018483916,University Medical Center Utrecht,exact
+960,I16391192,Tel Aviv University,exact
+961,I4210108711,University Medical Center Hamburg-Eppendorf,exact
+962,I2801952686,Erasmus MC,exact
+963,I32597200,Ghent University,exact
+964,I30771326,Italian Institute of Technology,exact
+965,I28166907,Karolinska Institutet,exact
+966,I157674565,University of Liège,exact
+967,I183935753,King's College London,exact
+968,I241749,University of Cambridge,exact
+969,I187531555,Lund University,exact
+970,I158937107,Swiss Tropical and Public Health Institute,exact
+971,I34352273,Maastricht University,exact
+972,I189158943,University of Milan,exact
+973,I189158943,University of Milan,exact
+974,,,
+975,I27483092,University of Perugia,exact
+976,I1333353642,Norwegian Institute of Public Health,exact
+977,I138689650,University of Padua,exact
+978,I138689650,University of Padua,exact
+979,I124055696,University of Copenhagen,exact
+980,I28166907,Karolinska Institutet,exact
+981,I86987016,KTH Royal Institute of Technology,fuzzy
+982,I4387155398,Vall d'Hebron Institute of Oncology,exact
+983,I16391192,Tel Aviv University,exact
+984,I84884186,Newcastle University,fuzzy
+985,,,
+986,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+987,,,
+988,I145872427,Radboud University Nijmegen,exact
+989,I166337079,Queen Mary University of London,fuzzy
+990,I40120149,University of Oxford,exact
+991,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+992,I187531555,Lund University,exact
+993,I187531555,Lund University,exact
+994,I241749,University of Cambridge,exact
+995,I98677209,University of Edinburgh,exact
+996,I40120149,University of Oxford,exact
+997,I241749,University of Cambridge,exact
+998,I36234482,University of Bristol,exact
+999,I74656192,University of Göttingen,exact
+1000,I2802697327,Senckenberg - Leibniz Institution for Biodiversity and Earth System Research,exact
+1001,I94722563,University of Jyväskylä,exact
+1002,I4210137962,Centre for Genomic Regulation,exact
+1003,I4387154544,Institut National de la Recherche Agronomique,exact
+1004,I241749,University of Cambridge,exact
+1005,I23923803,University of Exeter,exact
+1006,,,
+1007,I16391192,Tel Aviv University,exact
+1008,I129774422,University of Vienna,exact
+1009,I204778367,Norwegian University of Science and Technology,exact
+1010,I187531555,Lund University,exact
+1011,I4210164740,"Czech Academy of Sciences, Biology Centre",exact
+1012,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1013,I53964585,Weizmann Institute of Science,fuzzy
+1014,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1015,,,
+1016,I32597200,Ghent University,exact
+1017,I149899117,Max Planck Society,exact
+1018,,,
+1019,I1322597698,Royal Netherlands Academy of Arts and Sciences,exact
+1020,I123387679,Uppsala University,exact
+1021,I94722563,University of Jyväskylä,exact
+1022,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1023,,,
+1024,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1025,I129774422,University of Vienna,exact
+1026,I21250087,Charles University,fuzzy
+1027,I123387679,Uppsala University,exact
+1028,I4210112713,University Hospital Schleswig-Holstein,fuzzy
+1029,,,
+1030,I193662353,Utrecht University,exact
+1031,I133731052,University of Helsinki,exact
+1032,I32021983,Christian-Albrechts-Universität zu Kiel,fuzzy
+1033,,,
+1034,I4210164740,"Czech Academy of Sciences, Biology Centre",exact
+1035,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+1036,I94722563,University of Jyväskylä,exact
+1037,I99464096,KU Leuven,exact
+1038,I32021983,Christian-Albrechts-Universität zu Kiel,fuzzy
+1039,I4210092744,Basque Centre for Climate Change,fuzzy
+1040,I149899117,Max Planck Society,exact
+1041,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1042,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1043,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+1044,,,
+1045,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1046,I205984670,Czech University of Life Sciences Prague,exact
+1047,I1322597698,Royal Netherlands Academy of Arts and Sciences,exact
+1048,I189712700,University of Konstanz,exact
+1049,,,
+1050,I184942183,University of Oslo,exact
+1051,I187531555,Lund University,exact
+1052,I71999127,Universitat de Barcelona,exact
+1053,I193223587,University of Trento,exact
+1054,I177969490,University of Southern Denmark,exact
+1055,I1295562517,Naturalis Biodiversity Center,exact
+1056,I100930933,University College Dublin,fuzzy
+1057,I56085075,University of Tartu,exact
+1058,I123387679,Uppsala University,exact
+1059,I32021983,Christian-Albrechts-Universität zu Kiel,fuzzy
+1060,I4210092744,Basque Centre for Climate Change,fuzzy
+1061,I123044942,Universitat Autònoma de Barcelona,exact
+1062,I183935753,King's College London,exact
+1063,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1064,I16391192,Tel Aviv University,exact
+1065,I124055696,University of Copenhagen,exact
+1066,I204778367,Norwegian University of Science and Technology,exact
+1067,I35440088,ETH Zurich,fuzzy
+1068,I1850255,University of Basel,exact
+1069,,,
+1070,,,
+1071,I2800262456,"Swiss Federal Institute for Forest, Snow and Landscape Research",fuzzy
+1072,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1073,I100930933,University College Dublin,fuzzy
+1074,I40120149,University of Oxford,exact
+1075,I35440088,ETH Zurich,fuzzy
+1076,I1118541,University of East Anglia,exact
+1077,I197251160,Hebrew University of Jerusalem,exact
+1078,I196349391,Universität Ulm,exact
+1079,,,
+1080,I4210134900,Jena University Hospital,fuzzy
+1081,,,
+1082,,,
+1083,,,
+1084,I91136226,University of Sheffield,exact
+1085,I97565354,University of Lausanne,exact
+1086,I124227911,Ben-Gurion University of the Negev,exact
+1087,I149899117,Max Planck Society,exact
+1088,I298625061,Swedish University of Agricultural Sciences,exact
+1089,I40120149,University of Oxford,exact
+1090,I187531555,Lund University,exact
+1091,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1092,,,
+1093,I129774422,University of Vienna,exact
+1094,,,
+1095,I913481162,Wageningen University & Research,fuzzy
+1096,I129774422,University of Vienna,exact
+1097,I149899117,Max Planck Society,exact
+1098,I146655781,University of Liverpool,exact
+1099,I187531555,Lund University,exact
+1100,I21250087,Charles University,fuzzy
+1101,I53964585,Weizmann Institute of Science,fuzzy
+1102,I94722563,University of Jyväskylä,exact
+1103,I124055696,University of Copenhagen,exact
+1104,I205274468,Trinity College Dublin,exact
+1105,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1106,I157556583,Institute of Science and Technology Austria,exact
+1107,,,
+1108,I189158943,University of Milan,exact
+1109,,,
+1110,I68947357,Université de Strasbourg,exact
+1111,I16835326,University of St Andrews,exact
+1112,,,
+1113,I84884186,Newcastle University,fuzzy
+1114,I39555362,University of Warwick,exact
+1115,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1116,I1118541,University of East Anglia,exact
+1117,I241749,University of Cambridge,exact
+1118,I184942183,University of Oslo,exact
+1119,I16391192,Tel Aviv University,exact
+1120,I99464096,KU Leuven,exact
+1121,I202697423,University of Zurich,exact
+1122,I2799803557,Barcelona Supercomputing Center,exact
+1123,,,
+1124,I16097986,Universitat de València,exact
+1125,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1126,I202697423,University of Zurich,exact
+1127,I157674565,University of Liège,exact
+1128,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1129,I35440088,ETH Zurich,fuzzy
+1130,I23923803,University of Exeter,exact
+1131,I40120149,University of Oxford,exact
+1132,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1133,I25217355,University of Pavia,exact
+1134,I36234482,University of Bristol,exact
+1135,I197251160,Hebrew University of Jerusalem,exact
+1136,I53964585,Weizmann Institute of Science,fuzzy
+1137,,,
+1138,I130194489,University of Alicante,exact
+1139,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1140,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+1141,I155660961,University of Turku,exact
+1142,I146655781,University of Liverpool,exact
+1143,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1144,I4432739,University of Bergen,exact
+1145,I241749,University of Cambridge,exact
+1146,I23923803,University of Exeter,exact
+1147,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1148,I174306211,Technion – Israel Institute of Technology,exact
+1149,,,
+1150,I40120149,University of Oxford,exact
+1151,I123387679,Uppsala University,exact
+1152,I161046081,University of Freiburg,exact
+1153,I1850255,University of Basel,exact
+1154,I23923803,University of Exeter,exact
+1155,I241749,University of Cambridge,exact
+1156,I100930933,University College Dublin,fuzzy
+1157,I149899117,Max Planck Society,exact
+1158,I39804081,Sorbonne Université,exact
+1159,I223822909,Heidelberg University,fuzzy
+1160,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1161,I40120149,University of Oxford,exact
+1162,I6289922,Universidade de Vigo,exact
+1163,I170486558,Universitat Pompeu Fabra,exact
+1164,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1165,I91136226,University of Sheffield,exact
+1166,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1167,I4387154544,Institut National de la Recherche Agronomique,exact
+1168,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+1169,I35440088,ETH Zurich,fuzzy
+1170,I123387679,Uppsala University,exact
+1171,I4210147769,Institute for Bioengineering of Catalonia,exact
+1172,I30771326,Italian Institute of Technology,exact
+1173,,,
+1174,I28166907,Karolinska Institutet,exact
+1175,I204337017,Aarhus University,exact
+1176,I16391192,Tel Aviv University,exact
+1177,I28166907,Karolinska Institutet,exact
+1178,I149899117,Max Planck Society,exact
+1179,I4210145889,"Czech Academy of Sciences, Institute of Organic Chemistry and Biochemistry",exact
+1180,I184942183,University of Oslo,exact
+1181,,,
+1182,I197251160,Hebrew University of Jerusalem,exact
+1183,I169381384,University of Groningen,exact
+1184,,,
+1185,I95674353,UCLouvain,fuzzy
+1186,I56085075,University of Tartu,exact
+1187,I298625061,Swedish University of Agricultural Sciences,exact
+1188,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+1189,I8901234,Foundation for Research and Technology Hellas,exact
+1190,I223822909,Heidelberg University,fuzzy
+1191,I170486558,Universitat Pompeu Fabra,exact
+1192,I200284239,Universidade de Santiago de Compostela,exact
+1193,I197251160,Hebrew University of Jerusalem,exact
+1194,I4210134900,Jena University Hospital,fuzzy
+1195,I53964585,Weizmann Institute of Science,fuzzy
+1196,I16097986,Universitat de València,exact
+1197,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+1198,I174306211,Technion – Israel Institute of Technology,exact
+1199,I149899117,Max Planck Society,exact
+1200,I204730241,Université Paris Cité,exact
+1201,I157536573,Institut Pasteur,exact
+1202,I298625061,Swedish University of Agricultural Sciences,exact
+1203,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+1204,I8087733,University of Tübingen,exact
+1205,I171892758,Forschungszentrum Jülich,exact
+1206,I177639307,University of Dundee,exact
+1207,I84884186,Newcastle University,fuzzy
+1208,I121797337,Leiden University,exact
+1209,I4210147769,Institute for Bioengineering of Catalonia,exact
+1210,I114112103,Leibniz University Hannover,fuzzy
+1211,I62916508,Technical University of Munich,exact
+1212,I161046081,University of Freiburg,exact
+1213,,,
+1214,,,
+1215,I40120149,University of Oxford,exact
+1216,I35440088,ETH Zurich,fuzzy
+1217,,,
+1218,I4210124929,Helmholtz Centre for Infection Research,exact
+1219,,,
+1220,,,
+1221,I4210162077,Leibniz-Institut für Naturstoff-Forschung und Infektionsbiologie e. V. - Hans-Knöll-Institut (HKI),exact
+1222,I62916508,Technical University of Munich,exact
+1223,I241749,University of Cambridge,exact
+1224,I149899117,Max Planck Society,exact
+1225,I193662353,Utrecht University,exact
+1226,I40120149,University of Oxford,exact
+1227,I161046081,University of Freiburg,exact
+1228,I161046081,University of Freiburg,exact
+1229,I204337017,Aarhus University,exact
+1230,I28166907,Karolinska Institutet,exact
+1231,I53964585,Weizmann Institute of Science,fuzzy
+1232,I99464096,KU Leuven,exact
+1233,I8087733,University of Tübingen,exact
+1234,,,
+1235,I6820528,Alexander Fleming Biomedical Sciences Research Center,fuzzy
+1236,I187531555,Lund University,exact
+1237,I241749,University of Cambridge,exact
+1238,,,
+1239,I130217899,Åbo Akademi University,exact
+1240,I9927081,Aalto University,exact
+1241,I32597200,Ghent University,exact
+1242,I22465464,University of Münster,exact
+1243,I45129253,University College London,exact
+1244,I51532219,University of Lincoln,exact
+1245,I2802973921,"Federal Department of Economic Affairs, Education and Research",exact
+1246,I176453806,University of Potsdam,exact
+1247,I169381384,University of Groningen,exact
+1248,I39804081,Sorbonne Université,exact
+1249,,,
+1250,I92869138,BOKU University,fuzzy
+1251,I913481162,Wageningen University & Research,fuzzy
+1252,I149899117,Max Planck Society,exact
+1253,I149899117,Max Planck Society,exact
+1254,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+1255,,,
+1256,I35440088,ETH Zurich,fuzzy
+1257,,,
+1258,I4210127902,Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK),exact
+1259,,,
+1260,I204337017,Aarhus University,exact
+1261,I133731052,University of Helsinki,exact
+1262,I98358874,Delft University of Technology,exact
+1263,I9927081,Aalto University,exact
+1264,I98358874,Delft University of Technology,exact
+1265,I7882870,University of Glasgow,exact
+1266,I177969490,University of Southern Denmark,exact
+1267,,,
+1268,I23923803,University of Exeter,exact
+1269,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1270,,,
+1271,I8087733,University of Tübingen,exact
+1272,I4210129734,"NEIKER, Basque Institute for Agricultural Research and Development",exact
+1273,,,
+1274,I40120149,University of Oxford,exact
+1275,I94722563,University of Jyväskylä,exact
+1276,I135140700,University of Bonn,exact
+1277,I32597200,Ghent University,exact
+1278,I40120149,University of Oxford,exact
+1279,I54009628,University of Bayreuth,exact
+1280,I63664421,Swiss Federal Institute of Aquatic Science and Technology,exact
+1281,I4210145032,Migal - Galilee Technology Center,exact
+1282,I181647926,University of Strathclyde,exact
+1283,I190082696,Durham University,exact
+1284,I106118109,Eötvös Loránd University,exact
+1285,I204730241,Université Paris Cité,exact
+1286,I108290504,University of Pisa,exact
+1287,I2738703131,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,fuzzy
+1288,I47508984,Imperial College London,fuzzy
+1289,I40120149,University of Oxford,exact
+1290,I39804081,Sorbonne Université,exact
+1291,I176453806,University of Potsdam,exact
+1292,I277688954,Université Paris-Saclay,exact
+1293,,,
+1294,I133731052,University of Helsinki,exact
+1295,I121797337,Leiden University,exact
+1296,I39804081,Sorbonne Université,exact
+1297,I40120149,University of Oxford,exact
+1298,I241749,University of Cambridge,exact
+1299,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1300,I138689650,University of Padua,exact
+1301,I124261006,École Supérieure des Sciences Économiques et Commerciales,exact
+1302,I241749,University of Cambridge,exact
+1303,I94624287,University of Twente,exact
+1304,I99464096,KU Leuven,exact
+1305,I56435720,Université Paris Dauphine-PSL,exact
+1306,I55143463,University of Turin,exact
+1307,I138549579,Scuola Internazionale Superiore di Studi Avanzati,fuzzy
+1308,I861853513,Sapienza University of Rome,exact
+1309,I145847075,TU Wien,exact
+1310,I116067653,University of Rome Tor Vergata,exact
+1311,I71999127,Universitat de Barcelona,exact
+1312,I197251160,Hebrew University of Jerusalem,exact
+1313,I4577782,Technische Universität Berlin,fuzzy
+1314,I193662353,Utrecht University,exact
+1315,I133731052,University of Helsinki,exact
+1316,I94722563,University of Jyväskylä,exact
+1317,I53964585,Weizmann Institute of Science,fuzzy
+1318,I66862912,Chalmers University of Technology,exact
+1319,I277688954,Université Paris-Saclay,exact
+1320,I22465464,University of Münster,exact
+1321,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1322,I22465464,University of Münster,exact
+1323,I124055696,University of Copenhagen,exact
+1324,,,
+1325,I16391192,Tel Aviv University,exact
+1326,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1327,I100532134,Université Claude Bernard Lyon 1,fuzzy
+1328,I174306211,Technion – Israel Institute of Technology,exact
+1329,I7882870,University of Glasgow,exact
+1330,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1331,,,
+1332,I86987016,KTH Royal Institute of Technology,fuzzy
+1333,I198244214,Université Clermont Auvergne,exact
+1334,I129774422,University of Vienna,exact
+1335,I39555362,University of Warwick,exact
+1336,I16391192,Tel Aviv University,exact
+1337,I16391192,Tel Aviv University,exact
+1338,I39804081,Sorbonne Université,exact
+1339,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+1340,I16391192,Tel Aviv University,exact
+1341,I179225836,University of Augsburg,exact
+1342,I39804081,Sorbonne Université,exact
+1343,I98677209,University of Edinburgh,exact
+1344,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1345,I887064364,University of Amsterdam,exact
+1346,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1347,I149213910,University of Antwerp,exact
+1348,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1349,I35440088,ETH Zurich,fuzzy
+1350,I7882870,University of Glasgow,exact
+1351,I55143463,University of Turin,exact
+1352,I133731052,University of Helsinki,exact
+1353,I186903577,University of Luxembourg,exact
+1354,I98677209,University of Edinburgh,exact
+1355,I22465464,University of Münster,exact
+1356,I197251160,Hebrew University of Jerusalem,exact
+1357,I35440088,ETH Zurich,fuzzy
+1358,I19894307,Université de Montpellier,exact
+1359,I94722563,University of Jyväskylä,exact
+1360,I124055696,University of Copenhagen,exact
+1361,I22465464,University of Münster,exact
+1362,I127817813,Alfréd Rényi Institute of Mathematics,exact
+1363,I16391192,Tel Aviv University,exact
+1364,,,
+1365,I189158943,University of Milan,exact
+1366,,,
+1367,I45129253,University College London,exact
+1368,I16391192,Tel Aviv University,exact
+1369,I926574661,Leipzig University,fuzzy
+1370,I39804081,Sorbonne Université,exact
+1371,I40120149,University of Oxford,exact
+1372,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1373,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1374,I241749,University of Cambridge,exact
+1375,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1376,I159176309,Universität Hamburg,exact
+1377,I35440088,ETH Zurich,fuzzy
+1378,,,
+1379,I138549579,Scuola Internazionale Superiore di Studi Avanzati,fuzzy
+1380,I86987016,KTH Royal Institute of Technology,fuzzy
+1381,,,
+1382,,,
+1383,I25974101,University of Würzburg,exact
+1384,I197251160,Hebrew University of Jerusalem,exact
+1385,I4577782,Technische Universität Berlin,fuzzy
+1386,,,
+1387,I47508984,Imperial College London,fuzzy
+1388,I62916508,Technical University of Munich,exact
+1389,I124055696,University of Copenhagen,exact
+1390,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+1391,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1392,I40120149,University of Oxford,exact
+1393,I45129253,University College London,exact
+1394,I121748325,Universidad Complutense de Madrid,exact
+1395,,,
+1396,I74656192,University of Göttingen,exact
+1397,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1398,I127817813,Alfréd Rényi Institute of Mathematics,exact
+1399,,,
+1400,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1401,I241749,University of Cambridge,exact
+1402,,,
+1403,I241749,University of Cambridge,exact
+1404,I47508984,Imperial College London,fuzzy
+1405,I223822909,Heidelberg University,fuzzy
+1406,I241749,University of Cambridge,exact
+1407,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+1408,I25217355,University of Pavia,exact
+1409,I181369854,Friedrich-Alexander-Universität Erlangen-Nürnberg,exact
+1410,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1411,,,
+1412,I2802176441,Basque Center for Applied Mathematics,exact
+1413,I99464096,KU Leuven,exact
+1414,I127817813,Alfréd Rényi Institute of Mathematics,exact
+1415,I39555362,University of Warwick,exact
+1416,I71267560,University of Naples Federico II,exact
+1417,,,
+1418,I56085075,University of Tartu,exact
+1419,I167360494,University of Wuppertal,exact
+1420,I123387679,Uppsala University,exact
+1421,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1422,I20581793,University of Kent,exact
+1423,I16835326,University of St Andrews,exact
+1424,I98358874,Delft University of Technology,exact
+1425,,,
+1426,I138689650,University of Padua,exact
+1427,I193662353,Utrecht University,exact
+1428,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1429,I897542642,University of Plymouth,exact
+1430,I881427289,University of Gothenburg,exact
+1431,I9360294,University of Bologna,exact
+1432,I4210152878,GFZ Helmholtz Centre for Geosciences,exact
+1433,,,
+1434,,,
+1435,I2799803557,Barcelona Supercomputing Center,exact
+1436,I43439940,University of Southampton,exact
+1437,I193662353,Utrecht University,exact
+1438,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1439,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1440,I83019370,Eindhoven University of Technology,exact
+1441,,,
+1442,I4210152878,GFZ Helmholtz Centre for Geosciences,exact
+1443,I34403800,GEOMAR Helmholtz Centre for Ocean Research Kiel,exact
+1444,,,
+1445,I99464096,KU Leuven,exact
+1446,,,
+1447,I124055696,University of Copenhagen,exact
+1448,I187531555,Lund University,exact
+1449,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1450,I34403800,GEOMAR Helmholtz Centre for Ocean Research Kiel,exact
+1451,I127251866,Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung,exact
+1452,I62916508,Technical University of Munich,exact
+1453,,,
+1454,I4210152878,GFZ Helmholtz Centre for Geosciences,exact
+1455,I4210139239,Helmholtz-Zentrum Hereon,fuzzy
+1456,,,
+1457,I32597200,Ghent University,exact
+1458,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1459,I904495901,Ruhr University Bochum,fuzzy
+1460,I161593684,Stockholm University,exact
+1461,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+1462,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1463,I4210152878,GFZ Helmholtz Centre for Geosciences,exact
+1464,I4432739,University of Bergen,exact
+1465,I180437899,University of Bremen,exact
+1466,,,
+1467,,,
+1468,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1469,I184942183,University of Oslo,exact
+1470,I127251866,Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung,exact
+1471,,,
+1472,I205274468,Trinity College Dublin,exact
+1473,,,
+1474,I100532134,Université Claude Bernard Lyon 1,fuzzy
+1475,,,
+1476,I298625061,Swedish University of Agricultural Sciences,exact
+1477,,,
+1478,I184942183,University of Oslo,exact
+1479,,,
+1480,I4387154544,Institut National de la Recherche Agronomique,exact
+1481,,,
+1482,,,
+1483,I4432739,University of Bergen,exact
+1484,I36234482,University of Bristol,exact
+1485,I148261361,Institut de physique du globe de Paris,fuzzy
+1486,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1487,,,
+1488,I40120149,University of Oxford,exact
+1489,I161593684,Stockholm University,exact
+1490,I35440088,ETH Zurich,fuzzy
+1491,I98677209,University of Edinburgh,exact
+1492,I190249584,Universität Innsbruck,exact
+1493,I45129253,University College London,exact
+1494,I190082696,Durham University,exact
+1495,I40120149,University of Oxford,exact
+1496,I899635006,Université Grenoble Alpes,fuzzy
+1497,I9360294,University of Bologna,exact
+1498,I130828816,University of Leeds,exact
+1499,I4210152878,GFZ Helmholtz Centre for Geosciences,exact
+1500,I161593684,Stockholm University,exact
+1501,I114457229,University of Geneva,exact
+1502,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1503,I184942183,University of Oslo,exact
+1504,I190082696,Durham University,exact
+1505,I23923803,University of Exeter,exact
+1506,,,
+1507,I4210107808,NORCE Research AS,fuzzy
+1508,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1509,I154338468,University of Fribourg,exact
+1510,I193662353,Utrecht University,exact
+1511,I899635006,Université Grenoble Alpes,fuzzy
+1512,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1513,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1514,I124227911,Ben-Gurion University of the Negev,exact
+1515,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1516,I97565354,University of Lausanne,exact
+1517,I118564535,University of Bern,exact
+1518,I118564535,University of Bern,exact
+1519,I40120149,University of Oxford,exact
+1520,I96673099,Technical University of Denmark,exact
+1521,I130828816,University of Leeds,exact
+1522,I138689650,University of Padua,exact
+1523,I2799803557,Barcelona Supercomputing Center,exact
+1524,I127251866,Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung,exact
+1525,I161593684,Stockholm University,exact
+1526,I2799883060,Leibniz Centre for Tropical Marine Research,exact
+1527,I4432739,University of Bergen,exact
+1528,,,
+1529,I2800262456,"Swiss Federal Institute for Forest, Snow and Landscape Research",fuzzy
+1530,I40120149,University of Oxford,exact
+1531,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1532,I193662353,Utrecht University,exact
+1533,I124055696,University of Copenhagen,exact
+1534,I4405262988,NWO-I,fuzzy
+1535,I146655781,University of Liverpool,exact
+1536,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+1537,I4210118731,National Observatory of Athens,exact
+1538,I54009628,University of Bayreuth,exact
+1539,I191240316,University of Hull,exact
+1540,,,
+1541,I1850255,University of Basel,exact
+1542,,,
+1543,I130828816,University of Leeds,exact
+1544,I8901234,Foundation for Research and Technology Hellas,exact
+1545,I40120149,University of Oxford,exact
+1546,I197251160,Hebrew University of Jerusalem,exact
+1547,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+1548,I40120149,University of Oxford,exact
+1549,I193662353,Utrecht University,exact
+1550,I123044942,Universitat Autònoma de Barcelona,exact
+1551,I45129253,University College London,exact
+1552,,,
+1553,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+1554,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1555,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1556,I74656192,University of Göttingen,exact
+1557,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1558,I241749,University of Cambridge,exact
+1559,I171892758,Forschungszentrum Jülich,exact
+1560,I71999127,Universitat de Barcelona,exact
+1561,,,
+1562,I913481162,Wageningen University & Research,fuzzy
+1563,I98358874,Delft University of Technology,exact
+1564,I43439940,University of Southampton,exact
+1565,I98677209,University of Edinburgh,exact
+1566,I1285790362,Finnish Meteorological Institute,exact
+1567,I193662353,Utrecht University,exact
+1568,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1569,I130828816,University of Leeds,exact
+1570,I149899117,Max Planck Society,exact
+1571,I4210152878,GFZ Helmholtz Centre for Geosciences,exact
+1572,I4432739,University of Bergen,exact
+1573,I148261361,Institut de physique du globe de Paris,fuzzy
+1574,I4210152878,GFZ Helmholtz Centre for Geosciences,exact
+1575,I1118541,University of East Anglia,exact
+1576,,,
+1577,,,
+1578,I27483092,University of Perugia,exact
+1579,I35440088,ETH Zurich,fuzzy
+1580,I180437899,University of Bremen,exact
+1581,I8087733,University of Tübingen,exact
+1582,I84884186,Newcastle University,fuzzy
+1583,I22465464,University of Münster,exact
+1584,I62916508,Technical University of Munich,exact
+1585,I129774422,University of Vienna,exact
+1586,I138689650,University of Padua,exact
+1587,I36234482,University of Bristol,exact
+1588,I148261361,Institut de physique du globe de Paris,fuzzy
+1589,I124055696,University of Copenhagen,exact
+1590,I1330165540,Federal Institute For Materials Research and Testing,fuzzy
+1591,I149899117,Max Planck Society,exact
+1592,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1593,I99464096,KU Leuven,exact
+1594,I62916508,Technical University of Munich,exact
+1595,I83019370,Eindhoven University of Technology,exact
+1596,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+1597,I200284239,Universidade de Santiago de Compostela,exact
+1598,I9927081,Aalto University,exact
+1599,I171892758,Forschungszentrum Jülich,exact
+1600,I114112103,Leibniz University Hannover,fuzzy
+1601,I32597200,Ghent University,exact
+1602,I166337079,Queen Mary University of London,fuzzy
+1603,I4210111736,"Czech Academy of Sciences, Institute of Plasma Physics",fuzzy
+1604,I25217355,University of Pavia,exact
+1605,I169381384,University of Groningen,exact
+1606,I4210141319,International Iberian Nanotechnology Laboratory,exact
+1607,I53964585,Weizmann Institute of Science,fuzzy
+1608,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+1609,I79619799,University of Birmingham,exact
+1610,I161046081,University of Freiburg,exact
+1611,,,
+1612,,,
+1613,,,
+1614,I9927081,Aalto University,exact
+1615,I241749,University of Cambridge,exact
+1616,I2610724,Chemnitz University of Technology,exact
+1617,I4210100188,Biogipuzkoa Health Research Institute,exact
+1618,I63634437,Universidad Autónoma de Madrid,exact
+1619,,,
+1620,I182712176,Montanuniversität Leoben,exact
+1621,,,
+1622,I904495901,Ruhr University Bochum,fuzzy
+1623,,,
+1624,,,
+1625,I98358874,Delft University of Technology,exact
+1626,I171892758,Forschungszentrum Jülich,exact
+1627,,,
+1628,I102335020,Karlsruhe Institute of Technology,exact
+1629,,,
+1630,,,
+1631,I34352273,Maastricht University,exact
+1632,I11019714,Universidade da Coruña,exact
+1633,I3018417779,Leibniz Institute for Solid State and Materials Research,fuzzy
+1634,I34352273,Maastricht University,exact
+1635,,,
+1636,,,
+1637,I66862912,Chalmers University of Technology,exact
+1638,I30771326,Italian Institute of Technology,exact
+1639,I4210102767,DWI – Leibniz Institute for Interactive Materials,exact
+1640,I99464096,KU Leuven,exact
+1641,,,
+1642,I76903346,University of Coimbra,exact
+1643,,,
+1644,I189158943,University of Milan,exact
+1645,,,
+1646,I891191580,Aalborg University,exact
+1647,I102335020,Karlsruhe Institute of Technology,exact
+1648,I4210090776,IMDEA Materials,fuzzy
+1649,I9360294,University of Bologna,exact
+1650,I887064364,University of Amsterdam,exact
+1651,I79619799,University of Birmingham,exact
+1652,I155660961,University of Turku,exact
+1653,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1654,,,
+1655,,,
+1656,I173304897,Universidad de Granada,exact
+1657,I149899117,Max Planck Society,exact
+1658,I145847075,TU Wien,exact
+1659,I157556583,Institute of Science and Technology Austria,exact
+1660,I75951250,Freie Universität Berlin,exact
+1661,,,
+1662,I126231945,Queen's University Belfast,exact
+1663,I904495901,Ruhr University Bochum,fuzzy
+1664,I98677209,University of Edinburgh,exact
+1665,,,
+1666,I40120149,University of Oxford,exact
+1667,I123387679,Uppsala University,exact
+1668,,,
+1669,I187531555,Lund University,exact
+1670,I167360494,University of Wuppertal,exact
+1671,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1672,I62916508,Technical University of Munich,exact
+1673,I223822909,Heidelberg University,fuzzy
+1674,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1675,I190082696,Durham University,exact
+1676,I121797337,Leiden University,exact
+1677,I149899117,Max Planck Society,exact
+1678,I55143463,University of Turin,exact
+1679,I106118109,Eötvös Loránd University,exact
+1680,I149899117,Max Planck Society,exact
+1681,I32597200,Ghent University,exact
+1682,I94722563,University of Jyväskylä,exact
+1683,I71267560,University of Naples Federico II,exact
+1684,,,
+1685,I16391192,Tel Aviv University,exact
+1686,I169556180,GSI Helmholtz Centre for Heavy Ion Research,exact
+1687,I161593684,Stockholm University,exact
+1688,I174306211,Technion – Israel Institute of Technology,exact
+1689,I124055696,University of Copenhagen,exact
+1690,I157556583,Institute of Science and Technology Austria,exact
+1691,I861853513,Sapienza University of Rome,exact
+1692,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1693,I205274468,Trinity College Dublin,exact
+1694,I32597200,Ghent University,exact
+1695,I39804081,Sorbonne Université,exact
+1696,I99464096,KU Leuven,exact
+1697,I4405262988,NWO-I,fuzzy
+1698,,,
+1699,I157556583,Institute of Science and Technology Austria,exact
+1700,,,
+1701,,,
+1702,I904495901,Ruhr University Bochum,fuzzy
+1703,I66862912,Chalmers University of Technology,exact
+1704,,,
+1705,I8901234,Foundation for Research and Technology Hellas,exact
+1706,,,
+1707,I145847075,TU Wien,exact
+1708,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1709,I67311998,European Organization for Nuclear Research,fuzzy
+1710,I133731052,University of Helsinki,exact
+1711,,,
+1712,I135140700,University of Bonn,exact
+1713,,,
+1714,I67311998,European Organization for Nuclear Research,fuzzy
+1715,I114112103,Leibniz University Hannover,fuzzy
+1716,,,
+1717,I108290504,University of Pisa,exact
+1718,I94624287,University of Twente,exact
+1719,,,
+1720,I39804081,Sorbonne Université,exact
+1721,I62916508,Technical University of Munich,exact
+1722,I118564535,University of Bern,exact
+1723,I130929987,University of Mons,exact
+1724,I169556180,GSI Helmholtz Centre for Heavy Ion Research,exact
+1725,,,
+1726,I887064364,University of Amsterdam,exact
+1727,I124055696,University of Copenhagen,exact
+1728,I98358874,Delft University of Technology,exact
+1729,I861853513,Sapienza University of Rome,exact
+1730,I28407311,University of Manchester,exact
+1731,,,
+1732,I32062511,Heriot-Watt University,exact
+1733,I53964585,Weizmann Institute of Science,fuzzy
+1734,I2738703131,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,fuzzy
+1735,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1736,I183935753,King's College London,exact
+1737,I2738703131,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,fuzzy
+1738,,,
+1739,,,
+1740,I138549579,Scuola Internazionale Superiore di Studi Avanzati,fuzzy
+1741,I40120149,University of Oxford,exact
+1742,I129774422,University of Vienna,exact
+1743,I39555362,University of Warwick,exact
+1744,I114457229,University of Geneva,exact
+1745,I39804081,Sorbonne Université,exact
+1746,I887064364,University of Amsterdam,exact
+1747,I160013858,Istituto Nazionale di Fisica Nucleare,fuzzy
+1748,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1749,I39804081,Sorbonne Université,exact
+1750,I4210150763,Gran Sasso Science Institute,fuzzy
+1751,I35440088,ETH Zurich,fuzzy
+1752,,,
+1753,,,
+1754,I35440088,ETH Zurich,fuzzy
+1755,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1756,I223822909,Heidelberg University,fuzzy
+1757,I28407311,University of Manchester,exact
+1758,I186903577,University of Luxembourg,exact
+1759,I55143463,University of Turin,exact
+1760,I94722563,University of Jyväskylä,exact
+1761,I67311998,European Organization for Nuclear Research,fuzzy
+1762,I138549579,Scuola Internazionale Superiore di Studi Avanzati,fuzzy
+1763,I98677209,University of Edinburgh,exact
+1764,I98358874,Delft University of Technology,exact
+1765,I197251160,Hebrew University of Jerusalem,exact
+1766,,,
+1767,I4210134900,Jena University Hospital,fuzzy
+1768,I135140700,University of Bonn,exact
+1769,I189158943,University of Milan,exact
+1770,,,
+1771,I2738703131,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,fuzzy
+1772,,,
+1773,I45084792,University of Florence,exact
+1774,I149899117,Max Planck Society,exact
+1775,I133731052,University of Helsinki,exact
+1776,,,
+1777,,,
+1778,I206945453,Paderborn University,fuzzy
+1779,I223822909,Heidelberg University,fuzzy
+1780,I31512782,Technische Universität Darmstadt,exact
+1781,,,
+1782,I887064364,University of Amsterdam,exact
+1783,I206945453,Paderborn University,fuzzy
+1784,I223822909,Heidelberg University,fuzzy
+1785,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1786,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1787,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1788,I161046081,University of Freiburg,exact
+1789,I169556180,GSI Helmholtz Centre for Heavy Ion Research,exact
+1790,I94722563,University of Jyväskylä,exact
+1791,I138689650,University of Padua,exact
+1792,I98358874,Delft University of Technology,exact
+1793,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1794,I40120149,University of Oxford,exact
+1795,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+1796,I16391192,Tel Aviv University,exact
+1797,I241749,University of Cambridge,exact
+1798,I183935753,King's College London,exact
+1799,I241749,University of Cambridge,exact
+1800,I98358874,Delft University of Technology,exact
+1801,I190249584,Universität Innsbruck,exact
+1802,I100066346,University of Stuttgart,exact
+1803,I47508984,Imperial College London,fuzzy
+1804,I206895457,University of Siegen,exact
+1805,I47508984,Imperial College London,fuzzy
+1806,I45084792,University of Florence,exact
+1807,I25217355,University of Pavia,exact
+1808,I62916508,Technical University of Munich,exact
+1809,I79510175,Cardiff University,exact
+1810,I205274468,Trinity College Dublin,exact
+1811,I183935753,King's College London,exact
+1812,I189712700,University of Konstanz,exact
+1813,,,
+1814,I172446870,University of Cagliari,exact
+1815,I28407311,University of Manchester,exact
+1816,I138689650,University of Padua,exact
+1817,I43439940,University of Southampton,exact
+1818,I197251160,Hebrew University of Jerusalem,exact
+1819,,,
+1820,,,
+1821,I116067653,University of Rome Tor Vergata,exact
+1822,I135140700,University of Bonn,exact
+1823,I66862912,Chalmers University of Technology,exact
+1824,I36234482,University of Bristol,exact
+1825,I129774422,University of Vienna,exact
+1826,I35440088,ETH Zurich,fuzzy
+1827,I32597200,Ghent University,exact
+1828,I161046081,University of Freiburg,exact
+1829,I79619799,University of Birmingham,exact
+1830,I93860229,Politecnico di Milano,exact
+1831,I4210134900,Jena University Hospital,fuzzy
+1832,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1833,I160013858,Istituto Nazionale di Fisica Nucleare,fuzzy
+1834,I35440088,ETH Zurich,fuzzy
+1835,I67311998,European Organization for Nuclear Research,fuzzy
+1836,I53964585,Weizmann Institute of Science,fuzzy
+1837,I145847075,TU Wien,exact
+1838,I114090438,Goethe University Frankfurt,fuzzy
+1839,I181369854,Friedrich-Alexander-Universität Erlangen-Nürnberg,exact
+1840,,,
+1841,I190082696,Durham University,exact
+1842,,,
+1843,I887064364,University of Amsterdam,exact
+1844,I99464096,KU Leuven,exact
+1845,I190082696,Durham University,exact
+1846,I53964585,Weizmann Institute of Science,fuzzy
+1847,I135140700,University of Bonn,exact
+1848,I135140700,University of Bonn,exact
+1849,I149899117,Max Planck Society,exact
+1850,I28407311,University of Manchester,exact
+1851,I183935753,King's College London,exact
+1852,I121748325,Universidad Complutense de Madrid,exact
+1853,I1334415907,University Medical Center Groningen,exact
+1854,I189712700,University of Konstanz,exact
+1855,I62916508,Technical University of Munich,exact
+1856,I145847075,TU Wien,exact
+1857,I186903577,University of Luxembourg,exact
+1858,I181369854,Friedrich-Alexander-Universität Erlangen-Nürnberg,exact
+1859,I47508984,Imperial College London,fuzzy
+1860,I129877168,Carl von Ossietzky Universität Oldenburg,fuzzy
+1861,I62916508,Technical University of Munich,exact
+1862,I98358874,Delft University of Technology,exact
+1863,I4665924,University of Rostock,exact
+1864,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1865,I109144446,Bavarian Academy of Sciences and Humanities,exact
+1866,I4210112527,Luxembourg Institute of Science and Technology,exact
+1867,I3006985408,Jožef Stefan Institute,exact
+1868,I21250087,Charles University,fuzzy
+1869,I94624287,University of Twente,exact
+1870,I32021983,Christian-Albrechts-Universität zu Kiel,fuzzy
+1871,,,
+1872,I53964585,Weizmann Institute of Science,fuzzy
+1873,I3006985408,Jožef Stefan Institute,exact
+1874,I180437899,University of Bremen,exact
+1875,I62916508,Technical University of Munich,exact
+1876,I204337017,Aarhus University,exact
+1877,I102335020,Karlsruhe Institute of Technology,exact
+1878,,,
+1879,I197251160,Hebrew University of Jerusalem,exact
+1880,I2738703131,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,fuzzy
+1881,I16391192,Tel Aviv University,exact
+1882,I145847075,TU Wien,exact
+1883,I123387679,Uppsala University,exact
+1884,I161046081,University of Freiburg,exact
+1885,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1886,I47686490,Donostia International Physics Center,exact
+1887,I66862912,Chalmers University of Technology,exact
+1888,I187531555,Lund University,exact
+1889,I123387679,Uppsala University,exact
+1890,I29770179,Budapest University of Technology and Economics,exact
+1891,I157556583,Institute of Science and Technology Austria,exact
+1892,I149899117,Max Planck Society,exact
+1893,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1894,I149899117,Max Planck Society,exact
+1895,I153267046,University of Kaiserslautern,exact
+1896,,,
+1897,I96673099,Technical University of Denmark,exact
+1898,,,
+1899,,,
+1900,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1901,,,
+1902,I149899117,Max Planck Society,exact
+1903,I165339363,Universidad de Oviedo,exact
+1904,I145847075,TU Wien,exact
+1905,I35440088,ETH Zurich,fuzzy
+1906,I241749,University of Cambridge,exact
+1907,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1908,,,
+1909,I16391192,Tel Aviv University,exact
+1910,I86987016,KTH Royal Institute of Technology,fuzzy
+1911,I881427289,University of Gothenburg,exact
+1912,,,
+1913,I223822909,Heidelberg University,fuzzy
+1914,I28407311,University of Manchester,exact
+1915,I2802805223,Calouste Gulbenkian Foundation,exact
+1916,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1917,I204778367,Norwegian University of Science and Technology,exact
+1918,I4210153543,European Molecular Biology Laboratory,fuzzy
+1919,,,
+1920,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1921,I193662353,Utrecht University,exact
+1922,I121797337,Leiden University,exact
+1923,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1924,I1850255,University of Basel,exact
+1925,I142444530,University of Trieste,exact
+1926,I13955877,Bar-Ilan University,exact
+1927,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1928,I96673099,Technical University of Denmark,exact
+1929,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1930,,,
+1931,I2738703131,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,fuzzy
+1932,I71999127,Universitat de Barcelona,exact
+1933,I53964585,Weizmann Institute of Science,fuzzy
+1934,I174306211,Technion – Israel Institute of Technology,exact
+1935,I35440088,ETH Zurich,fuzzy
+1936,I67415387,Lancaster University,exact
+1937,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1938,I53964585,Weizmann Institute of Science,fuzzy
+1939,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+1940,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+1941,I145872427,Radboud University Nijmegen,exact
+1942,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1943,I75951250,Freie Universität Berlin,exact
+1944,I62916508,Technical University of Munich,exact
+1945,I241749,University of Cambridge,exact
+1946,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1947,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+1948,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+1949,,,
+1950,I96673099,Technical University of Denmark,exact
+1951,I45129253,University College London,exact
+1952,I21491767,Aix-Marseille Université,exact
+1953,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1954,I149213910,University of Antwerp,exact
+1955,I62916508,Technical University of Munich,exact
+1956,I35440088,ETH Zurich,fuzzy
+1957,I32062511,Heriot-Watt University,exact
+1958,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1959,I4210153543,European Molecular Biology Laboratory,fuzzy
+1960,I56067802,Université de Rennes,exact
+1961,I62916508,Technical University of Munich,exact
+1962,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1963,I74656192,University of Göttingen,exact
+1964,I154338468,University of Fribourg,exact
+1965,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+1966,I145872427,Radboud University Nijmegen,exact
+1967,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1968,I193662353,Utrecht University,exact
+1969,,,
+1970,I145847075,TU Wien,exact
+1971,,,
+1972,I926574661,Leipzig University,fuzzy
+1973,I149899117,Max Planck Society,exact
+1974,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1975,I171892758,Forschungszentrum Jülich,exact
+1976,I98677209,University of Edinburgh,exact
+1977,I39555362,University of Warwick,exact
+1978,I149899117,Max Planck Society,exact
+1979,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1980,,,
+1981,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+1982,,,
+1983,I186903577,University of Luxembourg,exact
+1984,I241749,University of Cambridge,exact
+1985,I9927081,Aalto University,exact
+1986,I913481162,Wageningen University & Research,fuzzy
+1987,I75951250,Freie Universität Berlin,exact
+1988,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+1989,I45129253,University College London,exact
+1990,I241749,University of Cambridge,exact
+1991,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1992,I145847075,TU Wien,exact
+1993,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1994,I3018417779,Leibniz Institute for Solid State and Materials Research,fuzzy
+1995,I204730241,Université Paris Cité,exact
+1996,I30771326,Italian Institute of Technology,exact
+1997,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+1998,I7882870,University of Glasgow,exact
+1999,I241749,University of Cambridge,exact
+2000,I53964585,Weizmann Institute of Science,fuzzy
+2001,,,
+2002,I79510175,Cardiff University,exact
+2003,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2004,I98677209,University of Edinburgh,exact
+2005,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2006,I899635006,Université Grenoble Alpes,fuzzy
+2007,I9927081,Aalto University,exact
+2008,I2738703131,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,fuzzy
+2009,,,
+2010,,,
+2011,,,
+2012,,,
+2013,I4577782,Technische Universität Berlin,fuzzy
+2014,I241749,University of Cambridge,exact
+2015,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2016,I36234482,University of Bristol,exact
+2017,I75951250,Freie Universität Berlin,exact
+2018,I30771326,Italian Institute of Technology,exact
+2019,I241749,University of Cambridge,exact
+2020,I94624287,University of Twente,exact
+2021,I94624287,University of Twente,exact
+2022,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2023,I251424209,Universitat de Girona,exact
+2024,I129774422,University of Vienna,exact
+2025,I36234482,University of Bristol,exact
+2026,I35440088,ETH Zurich,fuzzy
+2027,I62916508,Technical University of Munich,exact
+2028,I40120149,University of Oxford,exact
+2029,,,
+2030,I66862912,Chalmers University of Technology,exact
+2031,I146655781,University of Liverpool,exact
+2032,I99464096,KU Leuven,exact
+2033,I83019370,Eindhoven University of Technology,exact
+2034,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2035,I193662353,Utrecht University,exact
+2036,I16391192,Tel Aviv University,exact
+2037,I204778367,Norwegian University of Science and Technology,exact
+2038,I145872427,Radboud University Nijmegen,exact
+2039,I94624287,University of Twente,exact
+2040,I149899117,Max Planck Society,exact
+2041,I83019370,Eindhoven University of Technology,exact
+2042,,,
+2043,I881427289,University of Gothenburg,exact
+2044,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2045,I145847075,TU Wien,exact
+2046,I108103353,Universidad de Valladolid,exact
+2047,I161593684,Stockholm University,exact
+2048,I100066346,University of Stuttgart,exact
+2049,,,
+2050,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2051,I53964585,Weizmann Institute of Science,fuzzy
+2052,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2053,,,
+2054,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2055,,,
+2056,I129774422,University of Vienna,exact
+2057,I96673099,Technical University of Denmark,exact
+2058,I251424209,Universitat de Girona,exact
+2059,I153267046,University of Kaiserslautern,exact
+2060,I32597200,Ghent University,exact
+2061,I95674353,UCLouvain,fuzzy
+2062,I102335020,Karlsruhe Institute of Technology,exact
+2063,I4405262988,NWO-I,fuzzy
+2064,I75951250,Freie Universität Berlin,exact
+2065,I62916508,Technical University of Munich,exact
+2066,I129774422,University of Vienna,exact
+2067,I1293226324,UNESCO,exact
+2068,I100532134,Université Claude Bernard Lyon 1,fuzzy
+2069,I66862912,Chalmers University of Technology,exact
+2070,I227486990,University of Szeged,exact
+2071,I83019370,Eindhoven University of Technology,exact
+2072,I40120149,University of Oxford,exact
+2073,I106157433,University of Kassel,exact
+2074,I57201433,Università della Svizzera italiana,exact
+2075,I96673099,Technical University of Denmark,exact
+2076,I241749,University of Cambridge,exact
+2077,I40120149,University of Oxford,exact
+2078,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+2079,I124055696,University of Copenhagen,exact
+2080,I193662353,Utrecht University,exact
+2081,I223822909,Heidelberg University,fuzzy
+2082,I66862912,Chalmers University of Technology,exact
+2083,I102335020,Karlsruhe Institute of Technology,exact
+2084,I878454856,Hasselt University,exact
+2085,I53964585,Weizmann Institute of Science,fuzzy
+2086,I145847075,TU Wien,exact
+2087,I75951250,Freie Universität Berlin,exact
+2088,I53964585,Weizmann Institute of Science,fuzzy
+2089,I83019370,Eindhoven University of Technology,exact
+2090,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2091,I66862912,Chalmers University of Technology,exact
+2092,I200284239,Universidade de Santiago de Compostela,exact
+2093,I47508984,Imperial College London,fuzzy
+2094,I28407311,University of Manchester,exact
+2095,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2096,I124055696,University of Copenhagen,exact
+2097,I62916508,Technical University of Munich,exact
+2098,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2099,I40120149,University of Oxford,exact
+2100,I71267560,University of Naples Federico II,exact
+2101,I177477856,Politecnico di Torino,exact
+2102,I204337017,Aarhus University,exact
+2103,I145872427,Radboud University Nijmegen,exact
+2104,,,
+2105,I2738703131,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,fuzzy
+2106,I28407311,University of Manchester,exact
+2107,I16391192,Tel Aviv University,exact
+2108,I40120149,University of Oxford,exact
+2109,I116067653,University of Rome Tor Vergata,exact
+2110,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+2111,I97188460,Nantes Université,fuzzy
+2112,I223822909,Heidelberg University,fuzzy
+2113,I39804081,Sorbonne Université,exact
+2114,I35440088,ETH Zurich,fuzzy
+2115,,,
+2116,I180437899,University of Bremen,exact
+2117,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2118,I4577782,Technische Universität Berlin,fuzzy
+2119,I39586589,Swansea University,exact
+2120,I4210115111,University of Arts and Industrial Design Linz,fuzzy
+2121,I75951250,Freie Universität Berlin,exact
+2122,I176453806,University of Potsdam,exact
+2123,I62318514,University of Duisburg-Essen,exact
+2124,I30771326,Italian Institute of Technology,exact
+2125,I189712700,University of Konstanz,exact
+2126,I142263535,University of Nottingham,exact
+2127,I98381234,University of Oulu,exact
+2128,I186903577,University of Luxembourg,exact
+2129,I45129253,University College London,exact
+2130,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+2131,I40120149,University of Oxford,exact
+2132,I98358874,Delft University of Technology,exact
+2133,,,
+2134,I161593684,Stockholm University,exact
+2135,I881427289,University of Gothenburg,exact
+2136,I47508984,Imperial College London,fuzzy
+2137,I10902133,Universitat Jaume I,fuzzy
+2138,I149899117,Max Planck Society,exact
+2139,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+2140,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2141,I4210126328,IBM Research - Zurich,fuzzy
+2142,I241749,University of Cambridge,exact
+2143,I45129253,University College London,exact
+2144,I71824836,Swiss Federal Laboratories for Materials Science and Technology,fuzzy
+2145,I53964585,Weizmann Institute of Science,fuzzy
+2146,I145872427,Radboud University Nijmegen,exact
+2147,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+2148,I241749,University of Cambridge,exact
+2149,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+2150,I161046081,University of Freiburg,exact
+2151,I92869138,BOKU University,fuzzy
+2152,I45129253,University College London,exact
+2153,I138689650,University of Padua,exact
+2154,I2738703131,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,fuzzy
+2155,I193662353,Utrecht University,exact
+2156,,,
+2157,I4210122345,Institute for Research in Biomedicine,fuzzy
+2158,,,
+2159,I25974101,University of Würzburg,exact
+2160,I32597200,Ghent University,exact
+2161,I3018417779,Leibniz Institute for Solid State and Materials Research,fuzzy
+2162,I204337017,Aarhus University,exact
+2163,I98358874,Delft University of Technology,exact
+2164,I169381384,University of Groningen,exact
+2165,I161046081,University of Freiburg,exact
+2166,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2167,I189158943,University of Milan,exact
+2168,,,
+2169,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2170,I100066346,University of Stuttgart,exact
+2171,,,
+2172,,,
+2173,I146655781,University of Liverpool,exact
+2174,I16835326,University of St Andrews,exact
+2175,I45129253,University College London,exact
+2176,I47508984,Imperial College London,fuzzy
+2177,I25974101,University of Würzburg,exact
+2178,I149899117,Max Planck Society,exact
+2179,I62916508,Technical University of Munich,exact
+2180,I51601045,University of Bath,exact
+2181,I53964585,Weizmann Institute of Science,fuzzy
+2182,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+2183,I91712215,Saarland University,exact
+2184,I124227911,Ben-Gurion University of the Negev,exact
+2185,I200284239,Universidade de Santiago de Compostela,exact
+2186,I223822909,Heidelberg University,fuzzy
+2187,I36234482,University of Bristol,exact
+2188,I40120149,University of Oxford,exact
+2189,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2190,I79510175,Cardiff University,exact
+2191,I62318514,University of Duisburg-Essen,exact
+2192,I2610724,Chemnitz University of Technology,exact
+2193,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+2194,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2195,I22465464,University of Münster,exact
+2196,I904495901,Ruhr University Bochum,fuzzy
+2197,I98677209,University of Edinburgh,exact
+2198,I4210147769,Institute for Bioengineering of Catalonia,exact
+2199,I25974101,University of Würzburg,exact
+2200,I40120149,University of Oxford,exact
+2201,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2202,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+2203,I53964585,Weizmann Institute of Science,fuzzy
+2204,I22465464,University of Münster,exact
+2205,I30771326,Italian Institute of Technology,exact
+2206,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2207,I91712215,Saarland University,exact
+2208,I181369854,Friedrich-Alexander-Universität Erlangen-Nürnberg,exact
+2209,I15766117,University of Graz,exact
+2210,I121797337,Leiden University,exact
+2211,I62916508,Technical University of Munich,exact
+2212,I92869138,BOKU University,fuzzy
+2213,,,
+2214,I904495901,Ruhr University Bochum,fuzzy
+2215,I31512782,Technische Universität Darmstadt,exact
+2216,I174306211,Technion – Israel Institute of Technology,exact
+2217,I161046081,University of Freiburg,exact
+2218,,,
+2219,I145847075,TU Wien,exact
+2220,I196349391,Universität Ulm,exact
+2221,I79189158,University of Castilla-La Mancha,exact
+2222,I94722563,University of Jyväskylä,exact
+2223,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2224,,,
+2225,I53964585,Weizmann Institute of Science,fuzzy
+2226,I4210093216,Institut Català de Nanociència i Nanotecnologia,fuzzy
+2227,I149768937,University of Namur,exact
+2228,,,
+2229,I9927081,Aalto University,exact
+2230,I887064364,University of Amsterdam,exact
+2231,I4405262988,NWO-I,fuzzy
+2232,I16097986,Universitat de València,exact
+2233,I126596746,Jagiellonian University,exact
+2234,I161593684,Stockholm University,exact
+2235,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2236,I114112103,Leibniz University Hannover,fuzzy
+2237,I145872427,Radboud University Nijmegen,exact
+2238,I62916508,Technical University of Munich,exact
+2239,,,
+2240,I913481162,Wageningen University & Research,fuzzy
+2241,I189712700,University of Konstanz,exact
+2242,I190249584,Universität Innsbruck,exact
+2243,I47508984,Imperial College London,fuzzy
+2244,,,
+2245,I4210143995,Fondation Jean-Marie Lehn,exact
+2246,,,
+2247,I181369854,Friedrich-Alexander-Universität Erlangen-Nürnberg,exact
+2248,I9927081,Aalto University,exact
+2249,I83019370,Eindhoven University of Technology,exact
+2250,I63634437,Universidad Autónoma de Madrid,exact
+2251,I196349391,Universität Ulm,exact
+2252,I35440088,ETH Zurich,fuzzy
+2253,I1850255,University of Basel,exact
+2254,I133731052,University of Helsinki,exact
+2255,I177477856,Politecnico di Torino,exact
+2256,I200284239,Universidade de Santiago de Compostela,exact
+2257,I129774422,University of Vienna,exact
+2258,I145847075,TU Wien,exact
+2259,I4210088955,Institut Català d'Investigació Química,exact
+2260,I146655781,University of Liverpool,exact
+2261,I169381384,University of Groningen,exact
+2262,I1850255,University of Basel,exact
+2263,I2738703131,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,fuzzy
+2264,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2265,I39555362,University of Warwick,exact
+2266,I121797337,Leiden University,exact
+2267,,,
+2268,,,
+2269,I60858718,University of Aveiro,exact
+2270,I204337017,Aarhus University,exact
+2271,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2272,I60858718,University of Aveiro,exact
+2273,,,
+2274,I28407311,University of Manchester,exact
+2275,I75951250,Freie Universität Berlin,exact
+2276,I62916508,Technical University of Munich,exact
+2277,I53964585,Weizmann Institute of Science,fuzzy
+2278,I169381384,University of Groningen,exact
+2279,I16097986,Universitat de València,exact
+2280,I149213910,University of Antwerp,exact
+2281,I22465464,University of Münster,exact
+2282,I2738703131,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,fuzzy
+2283,I35440088,ETH Zurich,fuzzy
+2284,,,
+2285,,,
+2286,I4210147769,Institute for Bioengineering of Catalonia,exact
+2287,I98677209,University of Edinburgh,exact
+2288,I98677209,University of Edinburgh,exact
+2289,I183935753,King's College London,exact
+2290,I123387679,Uppsala University,exact
+2291,I60668342,University of Regensburg,exact
+2292,I169381384,University of Groningen,exact
+2293,I47508984,Imperial College London,fuzzy
+2294,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2295,I40120149,University of Oxford,exact
+2296,I169381384,University of Groningen,exact
+2297,I4092182,Graz University of Technology,exact
+2298,I166337079,Queen Mary University of London,fuzzy
+2299,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+2300,I94722563,University of Jyväskylä,exact
+2301,I74656192,University of Göttingen,exact
+2302,,,
+2303,I241749,University of Cambridge,exact
+2304,I223822909,Heidelberg University,fuzzy
+2305,I62916508,Technical University of Munich,exact
+2306,I169108374,University of the Basque Country,exact
+2307,I22465464,University of Münster,exact
+2308,I121797337,Leiden University,exact
+2309,,,
+2310,I40120149,University of Oxford,exact
+2311,I43439940,University of Southampton,exact
+2312,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2313,I121797337,Leiden University,exact
+2314,I16097986,Universitat de València,exact
+2315,I124055696,University of Copenhagen,exact
+2316,I98358874,Delft University of Technology,exact
+2317,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+2318,I70703428,Palacký University Olomouc,exact
+2319,I40120149,University of Oxford,exact
+2320,I4210088955,Institut Català d'Investigació Química,exact
+2321,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+2322,I159176309,Universität Hamburg,exact
+2323,I25974101,University of Würzburg,exact
+2324,I123387679,Uppsala University,exact
+2325,I193662353,Utrecht University,exact
+2326,I187531555,Lund University,exact
+2327,,,
+2328,,,
+2329,I189712700,University of Konstanz,exact
+2330,I96673099,Technical University of Denmark,exact
+2331,I79619799,University of Birmingham,exact
+2332,I197251160,Hebrew University of Jerusalem,exact
+2333,I129774422,University of Vienna,exact
+2334,I83019370,Eindhoven University of Technology,exact
+2335,,,
+2336,I68947357,Université de Strasbourg,exact
+2337,I16097986,Universitat de València,exact
+2338,I146655781,University of Liverpool,exact
+2339,,,
+2340,I36234482,University of Bristol,exact
+2341,I4210088955,Institut Català d'Investigació Química,exact
+2342,I51601045,University of Bath,exact
+2343,I170658231,Osnabrück University,exact
+2344,I899635006,Université Grenoble Alpes,fuzzy
+2345,I4210165109,Centro de Investigacion Principe Felipe,exact
+2346,I74656192,University of Göttingen,exact
+2347,I162608824,University of Sussex,exact
+2348,I4923324,Fraunhofer-Gesellschaft,exact
+2349,I181369854,Friedrich-Alexander-Universität Erlangen-Nürnberg,exact
+2350,I205274468,Trinity College Dublin,exact
+2351,I39555362,University of Warwick,exact
+2352,I63634437,Universidad Autónoma de Madrid,exact
+2353,I16835326,University of St Andrews,exact
+2354,I98358874,Delft University of Technology,exact
+2355,I189712700,University of Konstanz,exact
+2356,I4210093216,Institut Català de Nanociència i Nanotecnologia,fuzzy
+2357,I60668342,University of Regensburg,exact
+2358,I47508984,Imperial College London,fuzzy
+2359,I4387154544,Institut National de la Recherche Agronomique,exact
+2360,I94624287,University of Twente,exact
+2361,I79619799,University of Birmingham,exact
+2362,,,
+2363,I118564535,University of Bern,exact
+2364,I30771326,Italian Institute of Technology,exact
+2365,I28407311,University of Manchester,exact
+2366,I170486558,Universitat Pompeu Fabra,exact
+2367,I8087733,University of Tübingen,exact
+2368,,,
+2369,,,
+2370,I16391192,Tel Aviv University,exact
+2371,I124227911,Ben-Gurion University of the Negev,exact
+2372,I16391192,Tel Aviv University,exact
+2373,I204337017,Aarhus University,exact
+2374,I124055696,University of Copenhagen,exact
+2375,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2376,I4654613,University of Warsaw,exact
+2377,I4210162154,IMDEA Software Institute,exact
+2378,I40120149,University of Oxford,exact
+2379,I174306211,Technion – Israel Institute of Technology,exact
+2380,I4210128801,Helmholtz Center for Information Security,fuzzy
+2381,I4654613,University of Warsaw,exact
+2382,I149899117,Max Planck Society,exact
+2383,I1902872,EURECOM,exact
+2384,I193662353,Utrecht University,exact
+2385,I145872427,Radboud University Nijmegen,exact
+2386,I4210128801,Helmholtz Center for Information Security,fuzzy
+2387,I149899117,Max Planck Society,exact
+2388,I887064364,University of Amsterdam,exact
+2389,I39555362,University of Warwick,exact
+2390,I16391192,Tel Aviv University,exact
+2391,I62916508,Technical University of Munich,exact
+2392,I106118109,Eötvös Loránd University,exact
+2393,,,
+2394,I174306211,Technion – Israel Institute of Technology,exact
+2395,I133731052,University of Helsinki,exact
+2396,I102335020,Karlsruhe Institute of Technology,exact
+2397,I32021983,Christian-Albrechts-Universität zu Kiel,fuzzy
+2398,I124055696,University of Copenhagen,exact
+2399,I8087733,University of Tübingen,exact
+2400,I102335020,Karlsruhe Institute of Technology,exact
+2401,I4654613,University of Warsaw,exact
+2402,I99464096,KU Leuven,exact
+2403,I177969490,University of Southern Denmark,exact
+2404,I204337017,Aarhus University,exact
+2405,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2406,I55741626,Technical University of Crete,exact
+2407,I96673099,Technical University of Denmark,exact
+2408,I197251160,Hebrew University of Jerusalem,exact
+2409,I31512782,Technische Universität Darmstadt,exact
+2410,,,
+2411,I83019370,Eindhoven University of Technology,exact
+2412,I204337017,Aarhus University,exact
+2413,I53964585,Weizmann Institute of Science,fuzzy
+2414,,,
+2415,,,
+2416,I68947357,Université de Strasbourg,exact
+2417,,,
+2418,I130929987,University of Mons,exact
+2419,I153267046,University of Kaiserslautern,exact
+2420,,,
+2421,I181369854,Friedrich-Alexander-Universität Erlangen-Nürnberg,exact
+2422,,,
+2423,I98358874,Delft University of Technology,exact
+2424,,,
+2425,I53964585,Weizmann Institute of Science,fuzzy
+2426,I157556583,Institute of Science and Technology Austria,exact
+2427,I31512782,Technische Universität Darmstadt,exact
+2428,I161046081,University of Freiburg,exact
+2429,,,
+2430,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+2431,I135140700,University of Bonn,exact
+2432,I197251160,Hebrew University of Jerusalem,exact
+2433,I83467386,IT University of Copenhagen,exact
+2434,I2799803557,Barcelona Supercomputing Center,exact
+2435,I86987016,KTH Royal Institute of Technology,fuzzy
+2436,I4577782,Technische Universität Berlin,fuzzy
+2437,I8087733,University of Tübingen,exact
+2438,,,
+2439,I174306211,Technion – Israel Institute of Technology,exact
+2440,I145847075,TU Wien,exact
+2441,I45129253,University College London,exact
+2442,I50357001,Universidad Carlos III de Madrid,exact
+2443,I99464096,KU Leuven,exact
+2444,I62916508,Technical University of Munich,exact
+2445,I47508984,Imperial College London,fuzzy
+2446,,,
+2447,I35440088,ETH Zurich,fuzzy
+2448,I149899117,Max Planck Society,exact
+2449,I4210162154,IMDEA Software Institute,exact
+2450,I4210126328,IBM Research - Zurich,fuzzy
+2451,I686019,AGH University of Krakow,fuzzy
+2452,I35440088,ETH Zurich,fuzzy
+2453,I241749,University of Cambridge,exact
+2454,I40120149,University of Oxford,exact
+2455,I35440088,ETH Zurich,fuzzy
+2456,I4577782,Technische Universität Berlin,fuzzy
+2457,I241749,University of Cambridge,exact
+2458,I40120149,University of Oxford,exact
+2459,I94624287,University of Twente,exact
+2460,I174306211,Technion – Israel Institute of Technology,exact
+2461,,,
+2462,I157556583,Institute of Science and Technology Austria,exact
+2463,I9927081,Aalto University,exact
+2464,,,
+2465,I16391192,Tel Aviv University,exact
+2466,I31512782,Technische Universität Darmstadt,exact
+2467,I62916508,Technical University of Munich,exact
+2468,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2469,I1850255,University of Basel,exact
+2470,I56085075,University of Tartu,exact
+2471,I9360294,University of Bologna,exact
+2472,I80180929,Universidad de Murcia,exact
+2473,I31512782,Technische Universität Darmstadt,exact
+2474,I197251160,Hebrew University of Jerusalem,exact
+2475,I16391192,Tel Aviv University,exact
+2476,I4432739,University of Bergen,exact
+2477,I47508984,Imperial College London,fuzzy
+2478,I36234482,University of Bristol,exact
+2479,I35440088,ETH Zurich,fuzzy
+2480,I124055696,University of Copenhagen,exact
+2481,I114112103,Leibniz University Hannover,fuzzy
+2482,I83816512,University of Genoa,exact
+2483,I35440088,ETH Zurich,fuzzy
+2484,I53964585,Weizmann Institute of Science,fuzzy
+2485,I149899117,Max Planck Society,exact
+2486,I157286207,"National University of Ireland, Maynooth",exact
+2487,I1902872,EURECOM,exact
+2488,I145847075,TU Wien,exact
+2489,I21250087,Charles University,fuzzy
+2490,I881427289,University of Gothenburg,exact
+2491,,,
+2492,,,
+2493,I133731052,University of Helsinki,exact
+2494,I2799803557,Barcelona Supercomputing Center,exact
+2495,I53964585,Weizmann Institute of Science,fuzzy
+2496,I53964585,Weizmann Institute of Science,fuzzy
+2497,I2799803557,Barcelona Supercomputing Center,exact
+2498,I182083151,Universidad Rey Juan Carlos,exact
+2499,I4654613,University of Warsaw,exact
+2500,I86987016,KTH Royal Institute of Technology,fuzzy
+2501,,,
+2502,,,
+2503,I62916508,Technical University of Munich,exact
+2504,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+2505,I35440088,ETH Zurich,fuzzy
+2506,I16391192,Tel Aviv University,exact
+2507,I241749,University of Cambridge,exact
+2508,I40120149,University of Oxford,exact
+2509,I4210162154,IMDEA Software Institute,exact
+2510,I861853513,Sapienza University of Rome,exact
+2511,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2512,I35440088,ETH Zurich,fuzzy
+2513,I4210166741,University of Klagenfurt,exact
+2514,,,
+2515,I95674353,UCLouvain,fuzzy
+2516,I4210128801,Helmholtz Center for Information Security,fuzzy
+2517,,,
+2518,I255234318,Universidad de Zaragoza,exact
+2519,,,
+2520,,,
+2521,,,
+2522,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2523,I202697423,University of Zurich,exact
+2524,I154338468,University of Fribourg,exact
+2525,I4654613,University of Warsaw,exact
+2526,I39804081,Sorbonne Université,exact
+2527,I13955877,Bar-Ilan University,exact
+2528,I4210128801,Helmholtz Center for Information Security,fuzzy
+2529,I149899117,Max Planck Society,exact
+2530,I98677209,University of Edinburgh,exact
+2531,I4092182,Graz University of Technology,exact
+2532,I174306211,Technion – Israel Institute of Technology,exact
+2533,I123387679,Uppsala University,exact
+2534,I157556583,Institute of Science and Technology Austria,exact
+2535,I98677209,University of Edinburgh,exact
+2536,I62916508,Technical University of Munich,exact
+2537,I44504214,Czech Technical University in Prague,fuzzy
+2538,,,
+2539,I149899117,Max Planck Society,exact
+2540,I124055696,University of Copenhagen,exact
+2541,I180437899,University of Bremen,exact
+2542,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2543,I91136226,University of Sheffield,exact
+2544,I4577782,Technische Universität Berlin,fuzzy
+2545,,,
+2546,I241749,University of Cambridge,exact
+2547,I204337017,Aarhus University,exact
+2548,I223822909,Heidelberg University,fuzzy
+2549,I16097986,Universitat de València,exact
+2550,I187531555,Lund University,exact
+2551,,,
+2552,I39555362,University of Warwick,exact
+2553,,,
+2554,I83019370,Eindhoven University of Technology,exact
+2555,I40120149,University of Oxford,exact
+2556,I40120149,University of Oxford,exact
+2557,I142617266,University of Crete,exact
+2558,I157556583,Institute of Science and Technology Austria,exact
+2559,I904495901,Ruhr University Bochum,fuzzy
+2560,,,
+2561,I32597200,Ghent University,exact
+2562,I13955877,Bar-Ilan University,exact
+2563,I21250087,Charles University,fuzzy
+2564,I57201433,Università della Svizzera italiana,exact
+2565,I174306211,Technion – Israel Institute of Technology,exact
+2566,I4405262988,NWO-I,fuzzy
+2567,I193662353,Utrecht University,exact
+2568,I35440088,ETH Zurich,fuzzy
+2569,I83467386,IT University of Copenhagen,exact
+2570,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+2571,I98358874,Delft University of Technology,exact
+2572,I96673099,Technical University of Denmark,exact
+2573,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+2574,I197251160,Hebrew University of Jerusalem,exact
+2575,I32597200,Ghent University,exact
+2576,I193223587,University of Trento,exact
+2577,I1850255,University of Basel,exact
+2578,I32062511,Heriot-Watt University,exact
+2579,,,
+2580,I255234318,Universidad de Zaragoza,exact
+2581,,,
+2582,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+2583,,,
+2584,I169381384,University of Groningen,exact
+2585,,,
+2586,I187531555,Lund University,exact
+2587,,,
+2588,,,
+2589,I23923803,University of Exeter,exact
+2590,I71267560,University of Naples Federico II,exact
+2591,,,
+2592,I114112103,Leibniz University Hannover,fuzzy
+2593,I52590639,Nottingham Trent University,exact
+2594,I98358874,Delft University of Technology,exact
+2595,I150540706,University of Veterinary Medicine Vienna,fuzzy
+2596,I83019370,Eindhoven University of Technology,exact
+2597,,,
+2598,,,
+2599,I96673099,Technical University of Denmark,exact
+2600,,,
+2601,I135140700,University of Bonn,exact
+2602,I30771326,Italian Institute of Technology,exact
+2603,I161046081,University of Freiburg,exact
+2604,I115752224,University of Insubria,exact
+2605,I94624287,University of Twente,exact
+2606,I4210093216,Institut Català de Nanociència i Nanotecnologia,fuzzy
+2607,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2608,I149899117,Max Planck Society,exact
+2609,I99464096,KU Leuven,exact
+2610,I55741626,Technical University of Crete,exact
+2611,,,
+2612,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2613,I4405262988,NWO-I,fuzzy
+2614,I99464096,KU Leuven,exact
+2615,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2616,I197251160,Hebrew University of Jerusalem,exact
+2617,,,
+2618,I34771391,University of Cyprus,exact
+2619,,,
+2620,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2621,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2622,I34771391,University of Cyprus,exact
+2623,I16391192,Tel Aviv University,exact
+2624,I32597200,Ghent University,exact
+2625,I98381234,University of Oulu,exact
+2626,I2738703131,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,fuzzy
+2627,I174306211,Technion – Israel Institute of Technology,exact
+2628,,,
+2629,I79940851,University of Brescia,exact
+2630,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2631,I34771391,University of Cyprus,exact
+2632,I114112103,Leibniz University Hannover,fuzzy
+2633,I123387679,Uppsala University,exact
+2634,I94624287,University of Twente,exact
+2635,I126231945,Queen's University Belfast,exact
+2636,I32597200,Ghent University,exact
+2637,I53964585,Weizmann Institute of Science,fuzzy
+2638,I71999127,Universitat de Barcelona,exact
+2639,I100930933,University College Dublin,fuzzy
+2640,I30771326,Italian Institute of Technology,exact
+2641,I196972281,Imec the Netherlands,exact
+2642,I96673099,Technical University of Denmark,exact
+2643,I102335020,Karlsruhe Institute of Technology,exact
+2644,I13955877,Bar-Ilan University,exact
+2645,I197251160,Hebrew University of Jerusalem,exact
+2646,I1902872,EURECOM,exact
+2647,I123387679,Uppsala University,exact
+2648,I4405262988,NWO-I,fuzzy
+2649,I202697423,University of Zurich,exact
+2650,,,
+2651,I62916508,Technical University of Munich,exact
+2652,I30771326,Italian Institute of Technology,exact
+2653,I95674353,UCLouvain,fuzzy
+2654,I86987016,KTH Royal Institute of Technology,fuzzy
+2655,I94624287,University of Twente,exact
+2656,,,
+2657,,,
+2658,I157674565,University of Liège,exact
+2659,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2660,I96673099,Technical University of Denmark,exact
+2661,I66862912,Chalmers University of Technology,exact
+2662,I16835326,University of St Andrews,exact
+2663,I34771391,University of Cyprus,exact
+2664,I30771326,Italian Institute of Technology,exact
+2665,I161046081,University of Freiburg,exact
+2666,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+2667,I62916508,Technical University of Munich,exact
+2668,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2669,I2738703131,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,fuzzy
+2670,I145847075,TU Wien,exact
+2671,I130828816,University of Leeds,exact
+2672,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2673,I174306211,Technion – Israel Institute of Technology,exact
+2674,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2675,I31512782,Technische Universität Darmstadt,exact
+2676,I169381384,University of Groningen,exact
+2677,I66862912,Chalmers University of Technology,exact
+2678,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2679,I96673099,Technical University of Denmark,exact
+2680,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2681,I31512782,Technische Universität Darmstadt,exact
+2682,I108290504,University of Pisa,exact
+2683,I96673099,Technical University of Denmark,exact
+2684,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+2685,I106785703,Institut polytechnique de Grenoble,exact
+2686,I99464096,KU Leuven,exact
+2687,I102335020,Karlsruhe Institute of Technology,exact
+2688,I177477856,Politecnico di Torino,exact
+2689,I35440088,ETH Zurich,fuzzy
+2690,I1902872,EURECOM,exact
+2691,I170486558,Universitat Pompeu Fabra,exact
+2692,I183935753,King's College London,exact
+2693,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2694,I241749,University of Cambridge,exact
+2695,I60053951,Universitat Politècnica de València,exact
+2696,I170486558,Universitat Pompeu Fabra,exact
+2697,I2801349226,Leibniz Institute of Photonic Technology,fuzzy
+2698,I202697423,University of Zurich,exact
+2699,I47508984,Imperial College London,fuzzy
+2700,I32597200,Ghent University,exact
+2701,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2702,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+2703,I143804889,Loughborough University,exact
+2704,I899635006,Université Grenoble Alpes,fuzzy
+2705,I4092182,Graz University of Technology,exact
+2706,,,
+2707,I43439940,University of Southampton,exact
+2708,I4210126328,IBM Research - Zurich,fuzzy
+2709,I28407311,University of Manchester,exact
+2710,,,
+2711,I142263535,University of Nottingham,exact
+2712,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+2713,I53964585,Weizmann Institute of Science,fuzzy
+2714,I100930933,University College Dublin,fuzzy
+2715,I9341345,University of Lübeck,exact
+2716,I62916508,Technical University of Munich,exact
+2717,,,
+2718,I7882870,University of Glasgow,exact
+2719,I95793202,Otto-von-Guericke-Universität Magdeburg,exact
+2720,I98358874,Delft University of Technology,exact
+2721,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2722,I45129253,University College London,exact
+2723,I94624287,University of Twente,exact
+2724,I93860229,Politecnico di Milano,exact
+2725,I891191580,Aalborg University,exact
+2726,,,
+2727,I2738703131,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,fuzzy
+2728,I32021983,Christian-Albrechts-Universität zu Kiel,fuzzy
+2729,,,
+2730,I241749,University of Cambridge,exact
+2731,,,
+2732,,,
+2733,I86987016,KTH Royal Institute of Technology,fuzzy
+2734,I47508984,Imperial College London,fuzzy
+2735,,,
+2736,I83019370,Eindhoven University of Technology,exact
+2737,,,
+2738,I193223587,University of Trento,exact
+2739,I166337079,Queen Mary University of London,fuzzy
+2740,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+2741,I4577782,Technische Universität Berlin,fuzzy
+2742,I123387679,Uppsala University,exact
+2743,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+2744,,,
+2745,I177969490,University of Southern Denmark,exact
+2746,,,
+2747,I100066346,University of Stuttgart,exact
+2748,I50357001,Universidad Carlos III de Madrid,exact
+2749,I193662353,Utrecht University,exact
+2750,I4405262988,NWO-I,fuzzy
+2751,I116067653,University of Rome Tor Vergata,exact
+2752,I887064364,University of Amsterdam,exact
+2753,I100930933,University College Dublin,fuzzy
+2754,,,
+2755,I129774422,University of Vienna,exact
+2756,I86987016,KTH Royal Institute of Technology,fuzzy
+2757,,,
+2758,I34352273,Maastricht University,exact
+2759,I96673099,Technical University of Denmark,exact
+2760,I50357001,Universidad Carlos III de Madrid,exact
+2761,I9360294,University of Bologna,exact
+2762,I99464096,KU Leuven,exact
+2763,I184942183,University of Oslo,exact
+2764,,,
+2765,I93860229,Politecnico di Milano,exact
+2766,,,
+2767,I2799562678,Catalan Institute for Water Research,fuzzy
+2768,I25217355,University of Pavia,exact
+2769,I114112103,Leibniz University Hannover,fuzzy
+2770,I11019714,Universidade da Coruña,exact
+2771,I204778367,Norwegian University of Science and Technology,exact
+2772,I98358874,Delft University of Technology,exact
+2773,I66862912,Chalmers University of Technology,exact
+2774,I98358874,Delft University of Technology,exact
+2775,I98358874,Delft University of Technology,exact
+2776,I83019370,Eindhoven University of Technology,exact
+2777,I205274468,Trinity College Dublin,exact
+2778,,,
+2779,I100930933,University College Dublin,fuzzy
+2780,,,
+2781,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+2782,I94624287,University of Twente,exact
+2783,I159176309,Universität Hamburg,exact
+2784,,,
+2785,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+2786,I4432739,University of Bergen,exact
+2787,,,
+2788,I93860229,Politecnico di Milano,exact
+2789,,,
+2790,I157674565,University of Liège,exact
+2791,I86987016,KTH Royal Institute of Technology,fuzzy
+2792,I94624287,University of Twente,exact
+2793,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+2794,,,
+2795,I193223587,University of Trento,exact
+2796,I149213910,University of Antwerp,exact
+2797,I100930933,University College Dublin,fuzzy
+2798,I93860229,Politecnico di Milano,exact
+2799,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2800,,,
+2801,I86987016,KTH Royal Institute of Technology,fuzzy
+2802,I174306211,Technion – Israel Institute of Technology,exact
+2803,I86987016,KTH Royal Institute of Technology,fuzzy
+2804,I98358874,Delft University of Technology,exact
+2805,I174306211,Technion – Israel Institute of Technology,exact
+2806,,,
+2807,I180437899,University of Bremen,exact
+2808,I170486558,Universitat Pompeu Fabra,exact
+2809,I204778367,Norwegian University of Science and Technology,exact
+2810,I204778367,Norwegian University of Science and Technology,exact
+2811,,,
+2812,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2813,I98381234,University of Oulu,exact
+2814,I98677209,University of Edinburgh,exact
+2815,,,
+2816,I129774422,University of Vienna,exact
+2817,I60053951,Universitat Politècnica de València,exact
+2818,I166337079,Queen Mary University of London,fuzzy
+2819,,,
+2820,I96673099,Technical University of Denmark,exact
+2821,I4210139239,Helmholtz-Zentrum Hereon,fuzzy
+2822,I123387679,Uppsala University,exact
+2823,I4432739,University of Bergen,exact
+2824,,,
+2825,I99464096,KU Leuven,exact
+2826,I205274468,Trinity College Dublin,exact
+2827,I175532246,University of Eastern Finland,exact
+2828,I30771326,Italian Institute of Technology,exact
+2829,I83816512,University of Genoa,exact
+2830,I187531555,Lund University,exact
+2831,I71824836,Swiss Federal Laboratories for Materials Science and Technology,fuzzy
+2832,I54009628,University of Bayreuth,exact
+2833,I174306211,Technion – Israel Institute of Technology,exact
+2834,I100930933,University College Dublin,fuzzy
+2835,I4210112527,Luxembourg Institute of Science and Technology,exact
+2836,I98358874,Delft University of Technology,exact
+2837,I93860229,Politecnico di Milano,exact
+2838,I40527276,Universität der Bundeswehr München,fuzzy
+2839,I4210147769,Institute for Bioengineering of Catalonia,exact
+2840,I34771391,University of Cyprus,exact
+2841,I205274468,Trinity College Dublin,exact
+2842,I100066346,University of Stuttgart,exact
+2843,I62318514,University of Duisburg-Essen,exact
+2844,I188760350,Ollscoil na Gaillimhe – University of Galway,exact
+2845,I241749,University of Cambridge,exact
+2846,,,
+2847,I133731052,University of Helsinki,exact
+2848,I5124864,École Polytechnique Fédérale de Lausanne,fuzzy
+2849,,,
+2850,,,
+2851,I9360294,University of Bologna,exact
+2852,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+2853,I47508984,Imperial College London,fuzzy
+2854,I35440088,ETH Zurich,fuzzy
+2855,I182712176,Montanuniversität Leoben,exact
+2856,I4210135925,Materials Center Leoben (Austria),fuzzy
+2857,I83019370,Eindhoven University of Technology,exact
+2858,I98358874,Delft University of Technology,exact
+2859,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+2860,I159176309,Universität Hamburg,exact
+2861,I30771326,Italian Institute of Technology,exact
+2862,I203474044,"National Centre of Scientific Research ""Demokritos""",fuzzy
+2863,I32597200,Ghent University,exact
+2864,I177477856,Politecnico di Torino,exact
+2865,I241749,University of Cambridge,exact
+2866,I35440088,ETH Zurich,fuzzy
+2867,I47508984,Imperial College London,fuzzy
+2868,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2869,I177477856,Politecnico di Torino,exact
+2870,I153976015,University of Ljubljana,exact
+2871,I35440088,ETH Zurich,fuzzy
+2872,I35440088,ETH Zurich,fuzzy
+2873,I157674565,University of Liège,exact
+2874,I99682543,University of Minho,exact
+2875,I79510175,Cardiff University,exact
+2876,I95674353,UCLouvain,fuzzy
+2877,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2878,I40120149,University of Oxford,exact
+2879,I4210106926,Max-Planck-Institut für Nachhaltige Materialien,fuzzy
+2880,I145847075,TU Wien,exact
+2881,I182712176,Montanuniversität Leoben,exact
+2882,I102335020,Karlsruhe Institute of Technology,exact
+2883,,,
+2884,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2885,,,
+2886,I99682543,University of Minho,exact
+2887,I93860229,Politecnico di Milano,exact
+2888,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2889,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2890,,,
+2891,I47508984,Imperial College London,fuzzy
+2892,I4210085895,IMDEA Energy Institute,exact
+2893,I4210106926,Max-Planck-Institut für Nachhaltige Materialien,fuzzy
+2894,I93860229,Politecnico di Milano,exact
+2895,I2801587439,"Basque Center for Materials, Applications and Nanostructures",fuzzy
+2896,I241749,University of Cambridge,exact
+2897,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+2898,I98358874,Delft University of Technology,exact
+2899,I9927081,Aalto University,exact
+2900,I95674353,UCLouvain,fuzzy
+2901,I205274468,Trinity College Dublin,exact
+2902,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2903,I177477856,Politecnico di Torino,exact
+2904,I913481162,Wageningen University & Research,fuzzy
+2905,,,
+2906,I138689650,University of Padua,exact
+2907,I47508984,Imperial College London,fuzzy
+2908,,,
+2909,I31512782,Technische Universität Darmstadt,exact
+2910,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2911,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2912,I4210128520,Institut de Recerca en Energia de Catalunya,fuzzy
+2913,I4210134900,Jena University Hospital,fuzzy
+2914,,,
+2915,,,
+2916,,,
+2917,I4210147769,Institute for Bioengineering of Catalonia,exact
+2918,I93860229,Politecnico di Milano,exact
+2919,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+2920,I4210085895,IMDEA Energy Institute,exact
+2921,I130828816,University of Leeds,exact
+2922,I186903577,University of Luxembourg,exact
+2923,I205274468,Trinity College Dublin,exact
+2924,I93860229,Politecnico di Milano,exact
+2925,I28407311,University of Manchester,exact
+2926,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2927,I56067802,Université de Rennes,exact
+2928,I163151358,Cyprus University of Technology,exact
+2929,I123044942,Universitat Autònoma de Barcelona,exact
+2930,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+2931,I51601045,University of Bath,exact
+2932,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2933,I204337017,Aarhus University,exact
+2934,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2935,I51441396,Bauhaus-Universität Weimar,fuzzy
+2936,I4210126310,Universitätsklinikum Würzburg,exact
+2937,I174306211,Technion – Israel Institute of Technology,exact
+2938,I79619799,University of Birmingham,exact
+2939,I32597200,Ghent University,exact
+2940,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+2941,I255234318,Universidad de Zaragoza,exact
+2942,I98358874,Delft University of Technology,exact
+2943,I93860229,Politecnico di Milano,exact
+2944,I30771326,Italian Institute of Technology,exact
+2945,I138689650,University of Padua,exact
+2946,I86987016,KTH Royal Institute of Technology,fuzzy
+2947,I16391192,Tel Aviv University,exact
+2948,I161593684,Stockholm University,exact
+2949,I241749,University of Cambridge,exact
+2950,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2951,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+2952,I118564535,University of Bern,exact
+2953,I145872427,Radboud University Nijmegen,exact
+2954,I28407311,University of Manchester,exact
+2955,I149899117,Max Planck Society,exact
+2956,I4405262988,NWO-I,fuzzy
+2957,I75951250,Freie Universität Berlin,exact
+2958,I9360294,University of Bologna,exact
+2959,I145872427,Radboud University Nijmegen,exact
+2960,I169381384,University of Groningen,exact
+2961,I2799713863,Leibniz Institute for Astrophysics Potsdam,fuzzy
+2962,I9927081,Aalto University,exact
+2963,I887064364,University of Amsterdam,exact
+2964,I149899117,Max Planck Society,exact
+2965,I21250087,Charles University,fuzzy
+2966,I40120149,University of Oxford,exact
+2967,I84884186,Newcastle University,fuzzy
+2968,I205274468,Trinity College Dublin,exact
+2969,I904495901,Ruhr University Bochum,fuzzy
+2970,,,
+2971,I129774422,University of Vienna,exact
+2972,I2738703131,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,fuzzy
+2973,I96673099,Technical University of Denmark,exact
+2974,I121797337,Leiden University,exact
+2975,I96673099,Technical University of Denmark,exact
+2976,I1285790362,Finnish Meteorological Institute,exact
+2977,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+2978,I197251160,Hebrew University of Jerusalem,exact
+2979,I133731052,University of Helsinki,exact
+2980,I4210152878,GFZ Helmholtz Centre for Geosciences,exact
+2981,I122346577,University of Modena and Reggio Emilia,exact
+2982,I149899117,Max Planck Society,exact
+2983,I75951250,Freie Universität Berlin,exact
+2984,I126596746,Jagiellonian University,exact
+2985,I161593684,Stockholm University,exact
+2986,I4405262988,NWO-I,fuzzy
+2987,I16097986,Universitat de València,exact
+2988,,,
+2989,I121797337,Leiden University,exact
+2990,,,
+2991,I187453708,Institute for High Energy Physics,exact
+2992,I2799713863,Leibniz Institute for Astrophysics Potsdam,fuzzy
+2993,I21491767,Aix-Marseille Université,exact
+2994,,,
+2995,I4210134900,Jena University Hospital,fuzzy
+2996,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+2997,I99464096,KU Leuven,exact
+2998,I98358874,Delft University of Technology,exact
+2999,I241749,University of Cambridge,exact
+3000,I116067653,University of Rome Tor Vergata,exact
+3001,I12449238,Université d'Orléans,exact
+3002,I149899117,Max Planck Society,exact
+3003,I71030271,Heidelberg Institute for Theoretical Studies,fuzzy
+3004,I23923803,University of Exeter,exact
+3005,I204778367,Norwegian University of Science and Technology,exact
+3006,I39555362,University of Warwick,exact
+3007,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3008,I899635006,Université Grenoble Alpes,fuzzy
+3009,I121797337,Leiden University,exact
+3010,I887064364,University of Amsterdam,exact
+3011,,,
+3012,I899635006,Université Grenoble Alpes,fuzzy
+3013,I40120149,University of Oxford,exact
+3014,,,
+3015,I114457229,University of Geneva,exact
+3016,,,
+3017,I123044942,Universitat Autònoma de Barcelona,exact
+3018,I99464096,KU Leuven,exact
+3019,I174306211,Technion – Israel Institute of Technology,exact
+3020,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3021,I121797337,Leiden University,exact
+3022,,,
+3023,I56067802,Université de Rennes,exact
+3024,I184942183,University of Oslo,exact
+3025,I157674565,University of Liège,exact
+3026,I45129253,University College London,exact
+3027,I138549579,Scuola Internazionale Superiore di Studi Avanzati,fuzzy
+3028,I23923803,University of Exeter,exact
+3029,I16391192,Tel Aviv University,exact
+3030,I133731052,University of Helsinki,exact
+3031,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+3032,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+3033,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3034,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3035,I9927081,Aalto University,exact
+3036,I4210118731,National Observatory of Athens,exact
+3037,I9360294,University of Bologna,exact
+3038,I63098007,Liverpool John Moores University,exact
+3039,I184942183,University of Oslo,exact
+3040,I904495901,Ruhr University Bochum,fuzzy
+3041,I223822909,Heidelberg University,fuzzy
+3042,I118564535,University of Bern,exact
+3043,I62916508,Technical University of Munich,exact
+3044,I145872427,Radboud University Nijmegen,exact
+3045,I99464096,KU Leuven,exact
+3046,I13955877,Bar-Ilan University,exact
+3047,I8901234,Foundation for Research and Technology Hellas,exact
+3048,,,
+3049,I149899117,Max Planck Society,exact
+3050,I899635006,Université Grenoble Alpes,fuzzy
+3051,I129774422,University of Vienna,exact
+3052,I71999127,Universitat de Barcelona,exact
+3053,I99464096,KU Leuven,exact
+3054,I28407311,University of Manchester,exact
+3055,I135140700,University of Bonn,exact
+3056,I53964585,Weizmann Institute of Science,fuzzy
+3057,I114457229,University of Geneva,exact
+3058,I153648349,University of Leicester,exact
+3059,I75951250,Freie Universität Berlin,exact
+3060,I47508984,Imperial College London,fuzzy
+3061,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3062,I124055696,University of Copenhagen,exact
+3063,I4210128682,HUN-REN Research Centre for Astronomy and Earth Sciences,fuzzy
+3064,I133731052,University of Helsinki,exact
+3065,I145872427,Radboud University Nijmegen,exact
+3066,I23923803,University of Exeter,exact
+3067,I153648349,University of Leicester,exact
+3068,I169381384,University of Groningen,exact
+3069,I28407311,University of Manchester,exact
+3070,,,
+3071,I202697423,University of Zurich,exact
+3072,I2799713863,Leibniz Institute for Astrophysics Potsdam,fuzzy
+3073,,,
+3074,I32597200,Ghent University,exact
+3075,I133731052,University of Helsinki,exact
+3076,I184942183,University of Oslo,exact
+3077,I99464096,KU Leuven,exact
+3078,I124055696,University of Copenhagen,exact
+3079,I16835326,University of St Andrews,exact
+3080,I79510175,Cardiff University,exact
+3081,I63072094,University of Portsmouth,exact
+3082,I2799713863,Leibniz Institute for Astrophysics Potsdam,fuzzy
+3083,I149899117,Max Planck Society,exact
+3084,I98677209,University of Edinburgh,exact
+3085,I4405262988,NWO-I,fuzzy
+3086,I4405262988,NWO-I,fuzzy
+3087,I63098007,Liverpool John Moores University,exact
+3088,I124055696,University of Copenhagen,exact
+3089,I2738703131,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,fuzzy
+3090,,,
+3091,I8901234,Foundation for Research and Technology Hellas,exact
+3092,I4405262988,NWO-I,fuzzy
+3093,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3094,I162608824,University of Sussex,exact
+3095,I63072094,University of Portsmouth,exact
+3096,I45129253,University College London,exact
+3097,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+3098,I99464096,KU Leuven,exact
+3099,I66862912,Chalmers University of Technology,exact
+3100,I43439940,University of Southampton,exact
+3101,I138689650,University of Padua,exact
+3102,I4210122644,FZU ‒ Institute of Physics of the Academy of Sciences of the Czech Republic,fuzzy
+3103,I45129253,University College London,exact
+3104,I205092303,Institut d'Etudes Politiques de Paris,exact
+3105,I50357001,Universidad Carlos III de Madrid,exact
+3106,I45129253,University College London,exact
+3107,,,
+3108,I202697423,University of Zurich,exact
+3109,I202697423,University of Zurich,exact
+3110,I138689650,University of Padua,exact
+3111,I40120149,University of Oxford,exact
+3112,,,
+3113,I161593684,Stockholm University,exact
+3114,I47508984,Imperial College London,fuzzy
+3115,I16391192,Tel Aviv University,exact
+3116,,,
+3117,I161593684,Stockholm University,exact
+3118,,,
+3119,,,
+3120,,,
+3121,I161593684,Stockholm University,exact
+3122,I170486558,Universitat Pompeu Fabra,exact
+3123,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+3124,I170486558,Universitat Pompeu Fabra,exact
+3125,,,
+3126,I170486558,Universitat Pompeu Fabra,exact
+3127,,,
+3128,,,
+3129,,,
+3130,,,
+3131,I83860666,HEC Paris,exact
+3132,I159176309,Universität Hamburg,exact
+3133,I170486558,Universitat Pompeu Fabra,exact
+3134,,,
+3135,I57995698,Paris School of Economics,exact
+3136,I184942183,University of Oslo,exact
+3137,,,
+3138,I114090438,Goethe University Frankfurt,fuzzy
+3139,I170486558,Universitat Pompeu Fabra,exact
+3140,I155660961,University of Turku,exact
+3141,,,
+3142,I4210121976,Centro de Estudios Monetarios y Financieros,fuzzy
+3143,I205092303,Institut d'Etudes Politiques de Paris,exact
+3144,I205092303,Institut d'Etudes Politiques de Paris,exact
+3145,I161593684,Stockholm University,exact
+3146,I4210121259,"Czech Academy of Sciences, Economics Institute",exact
+3147,,,
+3148,I45129253,University College London,exact
+3149,I42134832,Barcelona School of Economics,fuzzy
+3150,I909854389,London School of Economics and Political Science,fuzzy
+3151,I913958620,Erasmus University Rotterdam,exact
+3152,I205092303,Institut d'Etudes Politiques de Paris,exact
+3153,I189712700,University of Konstanz,exact
+3154,I83860666,HEC Paris,exact
+3155,I241749,University of Cambridge,exact
+3156,,,
+3157,I909854389,London School of Economics and Political Science,fuzzy
+3158,I205092303,Institut d'Etudes Politiques de Paris,exact
+3159,I47508984,Imperial College London,fuzzy
+3160,I177802217,University of Mannheim,exact
+3161,I202697423,University of Zurich,exact
+3162,,,
+3163,I45129253,University College London,exact
+3164,I45129253,University College London,exact
+3165,I202697423,University of Zurich,exact
+3166,I45129253,University College London,exact
+3167,I99464096,KU Leuven,exact
+3168,I114090438,Goethe University Frankfurt,fuzzy
+3169,I61544103,London Business School,exact
+3170,I40120149,University of Oxford,exact
+3171,I40120149,University of Oxford,exact
+3172,I909854389,London School of Economics and Political Science,fuzzy
+3173,I95674353,UCLouvain,fuzzy
+3174,I4210121259,"Czech Academy of Sciences, Economics Institute",exact
+3175,I50357001,Universidad Carlos III de Madrid,exact
+3176,I909854389,London School of Economics and Political Science,fuzzy
+3177,I909854389,London School of Economics and Political Science,fuzzy
+3178,I170486558,Universitat Pompeu Fabra,exact
+3179,I61544103,London Business School,exact
+3180,I61544103,London Business School,exact
+3181,I177802217,University of Mannheim,exact
+3182,I135140700,University of Bonn,exact
+3183,I61544103,London Business School,exact
+3184,I193700539,Tilburg University,exact
+3185,I177802217,University of Mannheim,exact
+3186,I45129253,University College London,exact
+3187,I170486558,Universitat Pompeu Fabra,exact
+3188,I135140700,University of Bonn,exact
+3189,,,
+3190,,,
+3191,I909854389,London School of Economics and Political Science,fuzzy
+3192,I184942183,University of Oslo,exact
+3193,I909854389,London School of Economics and Political Science,fuzzy
+3194,I241749,University of Cambridge,exact
+3195,I47508984,Imperial College London,fuzzy
+3196,I45129253,University College London,exact
+3197,I909854389,London School of Economics and Political Science,fuzzy
+3198,,,
+3199,I909854389,London School of Economics and Political Science,fuzzy
+3200,I50357001,Universidad Carlos III de Madrid,exact
+3201,I45129253,University College London,exact
+3202,I45129253,University College London,exact
+3203,I57995698,Paris School of Economics,exact
+3204,,,
+3205,I170486558,Universitat Pompeu Fabra,exact
+3206,I40120149,University of Oxford,exact
+3207,I61544103,London Business School,exact
+3208,I170486558,Universitat Pompeu Fabra,exact
+3209,,,
+3210,,,
+3211,,,
+3212,I205092303,Institut d'Etudes Politiques de Paris,exact
+3213,I170486558,Universitat Pompeu Fabra,exact
+3214,I161593684,Stockholm University,exact
+3215,,,
+3216,,,
+3217,,,
+3218,I21491767,Aix-Marseille Université,exact
+3219,,,
+3220,I45129253,University College London,exact
+3221,I99464096,KU Leuven,exact
+3222,I909854389,London School of Economics and Political Science,fuzzy
+3223,I909854389,London School of Economics and Political Science,fuzzy
+3224,I125068653,IE University,exact
+3225,I98677209,University of Edinburgh,exact
+3226,,,
+3227,I184942183,University of Oslo,exact
+3228,,,
+3229,I205274468,Trinity College Dublin,exact
+3230,I204337017,Aarhus University,exact
+3231,I887064364,University of Amsterdam,exact
+3232,I887064364,University of Amsterdam,exact
+3233,I183935753,King's College London,exact
+3234,I205274468,Trinity College Dublin,exact
+3235,I183935753,King's College London,exact
+3236,I197251160,Hebrew University of Jerusalem,exact
+3237,I161593684,Stockholm University,exact
+3238,I91203450,University of Haifa,exact
+3239,,,
+3240,I114112103,Leibniz University Hannover,fuzzy
+3241,I42934936,Dublin City University,exact
+3242,I4432739,University of Bergen,exact
+3243,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+3244,I121797337,Leiden University,exact
+3245,I32597200,Ghent University,exact
+3246,,,
+3247,I913481162,Wageningen University & Research,fuzzy
+3248,I114090438,Goethe University Frankfurt,fuzzy
+3249,I21250087,Charles University,fuzzy
+3250,I100930933,University College Dublin,fuzzy
+3251,I100930933,University College Dublin,fuzzy
+3252,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+3253,I32597200,Ghent University,exact
+3254,I100930933,University College Dublin,fuzzy
+3255,I161104310,Zeppelin Universität gemeinnützige GmbH,exact
+3256,I887064364,University of Amsterdam,exact
+3257,I124055696,University of Copenhagen,exact
+3258,,,
+3259,I129774422,University of Vienna,exact
+3260,I32597200,Ghent University,exact
+3261,I50357001,Universidad Carlos III de Madrid,exact
+3262,I34771391,University of Cyprus,exact
+3263,I32597200,Ghent University,exact
+3264,I100930933,University College Dublin,fuzzy
+3265,I16391192,Tel Aviv University,exact
+3266,I874792244,European University Institute,exact
+3267,I176453806,University of Potsdam,exact
+3268,I100930933,University College Dublin,fuzzy
+3269,I188760350,Ollscoil na Gaillimhe – University of Galway,exact
+3270,I193700539,Tilburg University,exact
+3271,I887064364,University of Amsterdam,exact
+3272,I91203450,University of Haifa,exact
+3273,I32597200,Ghent University,exact
+3274,I204778367,Norwegian University of Science and Technology,exact
+3275,,,
+3276,I129774422,University of Vienna,exact
+3277,I193662353,Utrecht University,exact
+3278,I124055696,University of Copenhagen,exact
+3279,,,
+3280,I145872427,Radboud University Nijmegen,exact
+3281,,,
+3282,,,
+3283,I200284239,Universidade de Santiago de Compostela,exact
+3284,I184942183,University of Oslo,exact
+3285,I40120149,University of Oxford,exact
+3286,I4432739,University of Bergen,exact
+3287,,,
+3288,,,
+3289,,,
+3290,I205274468,Trinity College Dublin,exact
+3291,I205274468,Trinity College Dublin,exact
+3292,I913481162,Wageningen University & Research,fuzzy
+3293,I4432739,University of Bergen,exact
+3294,I118564535,University of Bern,exact
+3295,,,
+3296,I161941770,University of Lucerne,exact
+3297,I123387679,Uppsala University,exact
+3298,I183935753,King's College London,exact
+3299,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3300,I157286207,"National University of Ireland, Maynooth",exact
+3301,I7882870,University of Glasgow,exact
+3302,I4210148332,Barcelona Institute for Global Health,fuzzy
+3303,I184942183,University of Oslo,exact
+3304,I173713965,Institut Barcelona d'Estudis Internacionals,fuzzy
+3305,I202697423,University of Zurich,exact
+3306,,,
+3307,I184558857,Royal Holloway University of London,fuzzy
+3308,I153648349,University of Leicester,exact
+3309,I204337017,Aarhus University,exact
+3310,I62318514,University of Duisburg-Essen,exact
+3311,I57825437,University of Neuchâtel,exact
+3312,I121797337,Leiden University,exact
+3313,I184558857,Royal Holloway University of London,fuzzy
+3314,I63098007,Liverpool John Moores University,exact
+3315,I100930933,University College Dublin,fuzzy
+3316,I202697423,University of Zurich,exact
+3317,I22465464,University of Münster,exact
+3318,I100930933,University College Dublin,fuzzy
+3319,I91136226,University of Sheffield,exact
+3320,I241749,University of Cambridge,exact
+3321,I887064364,University of Amsterdam,exact
+3322,I51601045,University of Bath,exact
+3323,I193662353,Utrecht University,exact
+3324,I204337017,Aarhus University,exact
+3325,I183935753,King's College London,exact
+3326,I9927081,Aalto University,exact
+3327,I123044942,Universitat Autònoma de Barcelona,exact
+3328,I31575130,SOAS University of London,fuzzy
+3329,,,
+3330,I190082696,Durham University,exact
+3331,I43439940,University of Southampton,exact
+3332,I133731052,University of Helsinki,exact
+3333,I183935753,King's College London,exact
+3334,I123387679,Uppsala University,exact
+3335,I909854389,London School of Economics and Political Science,fuzzy
+3336,I183935753,King's College London,exact
+3337,I123044942,Universitat Autònoma de Barcelona,exact
+3338,I202697423,University of Zurich,exact
+3339,I133731052,University of Helsinki,exact
+3340,I187531555,Lund University,exact
+3341,I241749,University of Cambridge,exact
+3342,I98358874,Delft University of Technology,exact
+3343,I79619799,University of Birmingham,exact
+3344,I913958620,Erasmus University Rotterdam,exact
+3345,I100930933,University College Dublin,fuzzy
+3346,I881427289,University of Gothenburg,exact
+3347,I102248843,Vienna University of Economics and Business,exact
+3348,I123044942,Universitat Autònoma de Barcelona,exact
+3349,I20581793,University of Kent,exact
+3350,I193700539,Tilburg University,exact
+3351,I182212641,University of Salzburg,exact
+3352,I162608824,University of Sussex,exact
+3353,I193700539,Tilburg University,exact
+3354,I887064364,University of Amsterdam,exact
+3355,I123387679,Uppsala University,exact
+3356,I23923803,University of Exeter,exact
+3357,I28290843,University of Surrey,exact
+3358,I887064364,University of Amsterdam,exact
+3359,I887064364,University of Amsterdam,exact
+3360,I45129253,University College London,exact
+3361,I4392738132,Instituto de Ciências Sociais da Universidade de Lisboa,exact
+3362,I874792244,European University Institute,exact
+3363,I51601045,University of Bath,exact
+3364,I124055696,University of Copenhagen,exact
+3365,,,
+3366,I98677209,University of Edinburgh,exact
+3367,I887064364,University of Amsterdam,exact
+3368,I179225836,University of Augsburg,exact
+3369,I60419261,Peace Research Institute Oslo,exact
+3370,I241749,University of Cambridge,exact
+3371,I40120149,University of Oxford,exact
+3372,,,
+3373,I909854389,London School of Economics and Political Science,fuzzy
+3374,I887064364,University of Amsterdam,exact
+3375,,,
+3376,I99682543,University of Minho,exact
+3377,I170486558,Universitat Pompeu Fabra,exact
+3378,I13955877,Bar-Ilan University,exact
+3379,I180437899,University of Bremen,exact
+3380,I50357001,Universidad Carlos III de Madrid,exact
+3381,I157674565,University of Liège,exact
+3382,I45129253,University College London,exact
+3383,I114090438,Goethe University Frankfurt,fuzzy
+3384,I45129253,University College London,exact
+3385,I98677209,University of Edinburgh,exact
+3386,,,
+3387,I149213910,University of Antwerp,exact
+3388,I205092303,Institut d'Etudes Politiques de Paris,exact
+3389,I155660961,University of Turku,exact
+3390,I145872427,Radboud University Nijmegen,exact
+3391,I887064364,University of Amsterdam,exact
+3392,I31575130,SOAS University of London,fuzzy
+3393,I4392738132,Instituto de Ciências Sociais da Universidade de Lisboa,exact
+3394,I904495901,Ruhr University Bochum,fuzzy
+3395,I887064364,University of Amsterdam,exact
+3396,I45129253,University College London,exact
+3397,I887064364,University of Amsterdam,exact
+3398,I887064364,University of Amsterdam,exact
+3399,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+3400,I100930933,University College Dublin,fuzzy
+3401,I4210115111,University of Arts and Industrial Design Linz,fuzzy
+3402,I193662353,Utrecht University,exact
+3403,I887064364,University of Amsterdam,exact
+3404,I97565354,University of Lausanne,exact
+3405,I159176309,Universität Hamburg,exact
+3406,I39555362,University of Warwick,exact
+3407,,,
+3408,I99464096,KU Leuven,exact
+3409,,,
+3410,I7882870,University of Glasgow,exact
+3411,I20121455,Bielefeld University,fuzzy
+3412,I52099693,University of York,exact
+3413,I909854389,London School of Economics and Political Science,fuzzy
+3414,I32597200,Ghent University,exact
+3415,I904495901,Ruhr University Bochum,fuzzy
+3416,,,
+3417,I36234482,University of Bristol,exact
+3418,I183935753,King's College London,exact
+3419,I100930933,University College Dublin,fuzzy
+3420,I4210134900,Jena University Hospital,fuzzy
+3421,,,
+3422,I157674565,University of Liège,exact
+3423,I121797337,Leiden University,exact
+3424,I161593684,Stockholm University,exact
+3425,,,
+3426,I230495080,University of Limerick,exact
+3427,,,
+3428,I34352273,Maastricht University,exact
+3429,I4654613,University of Warsaw,exact
+3430,,,
+3431,I193662353,Utrecht University,exact
+3432,,,
+3433,I124055696,University of Copenhagen,exact
+3434,,,
+3435,I1282776028,German Institute for Economic Research,exact
+3436,I34352273,Maastricht University,exact
+3437,I129774422,University of Vienna,exact
+3438,I197251160,Hebrew University of Jerusalem,exact
+3439,I168208266,Venice International University,fuzzy
+3440,I123044942,Universitat Autònoma de Barcelona,exact
+3441,I91203450,University of Haifa,exact
+3442,I165368041,University of Iceland,exact
+3443,I189158943,University of Milan,exact
+3444,I184942183,University of Oslo,exact
+3445,I193700539,Tilburg University,exact
+3446,,,
+3447,I913481162,Wageningen University & Research,fuzzy
+3448,I16391192,Tel Aviv University,exact
+3449,I174306211,Technion – Israel Institute of Technology,exact
+3450,I133731052,University of Helsinki,exact
+3451,I4392738132,Instituto de Ciências Sociais da Universidade de Lisboa,exact
+3452,I4654613,University of Warsaw,exact
+3453,I177802217,University of Mannheim,exact
+3454,I29107187,Norwegian Institute for Cultural Heritage Research,fuzzy
+3455,I83467386,IT University of Copenhagen,exact
+3456,I193662353,Utrecht University,exact
+3457,I71999127,Universitat de Barcelona,exact
+3458,I184942183,University of Oslo,exact
+3459,I94722563,University of Jyväskylä,exact
+3460,I913958620,Erasmus University Rotterdam,exact
+3461,I4432739,University of Bergen,exact
+3462,,,
+3463,I100930933,University College Dublin,fuzzy
+3464,I129774422,University of Vienna,exact
+3465,I129774422,University of Vienna,exact
+3466,,,
+3467,I913958620,Erasmus University Rotterdam,exact
+3468,I9360294,University of Bologna,exact
+3469,,,
+3470,I40120149,University of Oxford,exact
+3471,I50357001,Universidad Carlos III de Madrid,exact
+3472,I9360294,University of Bologna,exact
+3473,,,
+3474,I204337017,Aarhus University,exact
+3475,I71999127,Universitat de Barcelona,exact
+3476,,,
+3477,,,
+3478,,,
+3479,I40120149,University of Oxford,exact
+3480,I9360294,University of Bologna,exact
+3481,I193662353,Utrecht University,exact
+3482,,,
+3483,I4654613,University of Warsaw,exact
+3484,I177802217,University of Mannheim,exact
+3485,I197251160,Hebrew University of Jerusalem,exact
+3486,I899635006,Université Grenoble Alpes,fuzzy
+3487,,,
+3488,I241749,University of Cambridge,exact
+3489,I887064364,University of Amsterdam,exact
+3490,I123387679,Uppsala University,exact
+3491,I887064364,University of Amsterdam,exact
+3492,I197251160,Hebrew University of Jerusalem,exact
+3493,I184942183,University of Oslo,exact
+3494,I60419261,Peace Research Institute Oslo,exact
+3495,I162608824,University of Sussex,exact
+3496,I121797337,Leiden University,exact
+3497,I1322597698,Royal Netherlands Academy of Arts and Sciences,exact
+3498,I184942183,University of Oslo,exact
+3499,,,
+3500,I200284239,Universidade de Santiago de Compostela,exact
+3501,I186354981,University of Passau,exact
+3502,I193662353,Utrecht University,exact
+3503,I193662353,Utrecht University,exact
+3504,I2800006345,Leiden University Medical Center,exact
+3505,I149899117,Max Planck Society,exact
+3506,,,
+3507,I161593684,Stockholm University,exact
+3508,I40120149,University of Oxford,exact
+3509,I40120149,University of Oxford,exact
+3510,I170486558,Universitat Pompeu Fabra,exact
+3511,I193662353,Utrecht University,exact
+3512,I100930933,University College Dublin,fuzzy
+3513,I909854389,London School of Economics and Political Science,fuzzy
+3514,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3515,I180519160,Copenhagen Business School,exact
+3516,I43439940,University of Southampton,exact
+3517,I23923803,University of Exeter,exact
+3518,I124055696,University of Copenhagen,exact
+3519,I4432739,University of Bergen,exact
+3520,I45084792,University of Florence,exact
+3521,,,
+3522,I121797337,Leiden University,exact
+3523,,,
+3524,,,
+3525,I16391192,Tel Aviv University,exact
+3526,I40120149,University of Oxford,exact
+3527,I40120149,University of Oxford,exact
+3528,I40120149,University of Oxford,exact
+3529,I205274468,Trinity College Dublin,exact
+3530,I118564535,University of Bern,exact
+3531,I34352273,Maastricht University,exact
+3532,I161593684,Stockholm University,exact
+3533,I177477856,Politecnico di Torino,exact
+3534,I123185442,Reykjavík University,exact
+3535,I887064364,University of Amsterdam,exact
+3536,I4210154111,Université Gustave Eiffel,exact
+3537,,,
+3538,I205274468,Trinity College Dublin,exact
+3539,I145872427,Radboud University Nijmegen,exact
+3540,,,
+3541,I1317774081,International Institute for Applied Systems Analysis,fuzzy
+3542,I130828816,University of Leeds,exact
+3543,I98358874,Delft University of Technology,exact
+3544,,,
+3545,I40120149,University of Oxford,exact
+3546,,,
+3547,I149899117,Max Planck Society,exact
+3548,I4210104355,"Basque Center on Cognition, Brain and Language",fuzzy
+3549,I8087733,University of Tübingen,exact
+3550,I202697423,University of Zurich,exact
+3551,I145872427,Radboud University Nijmegen,exact
+3552,,,
+3553,I95674353,UCLouvain,fuzzy
+3554,I34352273,Maastricht University,exact
+3555,I887064364,University of Amsterdam,exact
+3556,I145872427,Radboud University Nijmegen,exact
+3557,I202697423,University of Zurich,exact
+3558,I241749,University of Cambridge,exact
+3559,,,
+3560,I204730241,Université Paris Cité,exact
+3561,I71999127,Universitat de Barcelona,exact
+3562,I4210104355,"Basque Center on Cognition, Brain and Language",fuzzy
+3563,I28166907,Karolinska Institutet,exact
+3564,I149899117,Max Planck Society,exact
+3565,I205274468,Trinity College Dublin,exact
+3566,I2802934949,Radboud University Medical Center,exact
+3567,I129774422,University of Vienna,exact
+3568,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3569,I4210105615,Central Institute of Mental Health,fuzzy
+3570,I193700539,Tilburg University,exact
+3571,I108290504,University of Pisa,exact
+3572,I2800917498,Northeastern University London,exact
+3573,I52099693,University of York,exact
+3574,I184942183,University of Oslo,exact
+3575,I193223587,University of Trento,exact
+3576,I145872427,Radboud University Nijmegen,exact
+3577,I904495901,Ruhr University Bochum,fuzzy
+3578,I75951250,Freie Universität Berlin,exact
+3579,I13955877,Bar-Ilan University,exact
+3580,I32597200,Ghent University,exact
+3581,I106118109,Eötvös Loránd University,exact
+3582,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3583,I887064364,University of Amsterdam,exact
+3584,I91203450,University of Haifa,exact
+3585,I75951250,Freie Universität Berlin,exact
+3586,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3587,I184942183,University of Oslo,exact
+3588,I30771326,Italian Institute of Technology,exact
+3589,,,
+3590,I149899117,Max Planck Society,exact
+3591,,,
+3592,I121797337,Leiden University,exact
+3593,,,
+3594,I197251160,Hebrew University of Jerusalem,exact
+3595,I8087733,University of Tübingen,exact
+3596,I71999127,Universitat de Barcelona,exact
+3597,,,
+3598,I193662353,Utrecht University,exact
+3599,I16391192,Tel Aviv University,exact
+3600,I31512782,Technische Universität Darmstadt,exact
+3601,I121797337,Leiden University,exact
+3602,I99464096,KU Leuven,exact
+3603,I31512782,Technische Universität Darmstadt,exact
+3604,I124055696,University of Copenhagen,exact
+3605,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3606,I204730241,Université Paris Cité,exact
+3607,I204337017,Aarhus University,exact
+3608,,,
+3609,I926574661,Leipzig University,fuzzy
+3610,I887064364,University of Amsterdam,exact
+3611,I145872427,Radboud University Nijmegen,exact
+3612,,,
+3613,I186354981,University of Passau,exact
+3614,I2800920820,Istituto Universitario di Studi Superiori di Pavia,exact
+3615,,,
+3616,,,
+3617,I123044942,Universitat Autònoma de Barcelona,exact
+3618,,,
+3619,,,
+3620,I149899117,Max Planck Society,exact
+3621,I94722563,University of Jyväskylä,exact
+3622,I202697423,University of Zurich,exact
+3623,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3624,I184942183,University of Oslo,exact
+3625,I99464096,KU Leuven,exact
+3626,I142263535,University of Nottingham,exact
+3627,I23923803,University of Exeter,exact
+3628,,,
+3629,I161103922,Philipps University of Marburg,fuzzy
+3630,I40120149,University of Oxford,exact
+3631,I145872427,Radboud University Nijmegen,exact
+3632,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3633,I887064364,University of Amsterdam,exact
+3634,I7882870,University of Glasgow,exact
+3635,I52590639,Nottingham Trent University,exact
+3636,I23923803,University of Exeter,exact
+3637,I71052956,University of Reading,exact
+3638,I193662353,Utrecht University,exact
+3639,I205274468,Trinity College Dublin,exact
+3640,I196349391,Universität Ulm,exact
+3641,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3642,I8087733,University of Tübingen,exact
+3643,I193662353,Utrecht University,exact
+3644,I16391192,Tel Aviv University,exact
+3645,I16391192,Tel Aviv University,exact
+3646,,,
+3647,I135140700,University of Bonn,exact
+3648,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3649,I887064364,University of Amsterdam,exact
+3650,I162608824,University of Sussex,exact
+3651,I130828816,University of Leeds,exact
+3652,I129774422,University of Vienna,exact
+3653,I45129253,University College London,exact
+3654,I190082696,Durham University,exact
+3655,I4210104355,"Basque Center on Cognition, Brain and Language",fuzzy
+3656,,,
+3657,I39555362,University of Warwick,exact
+3658,,,
+3659,I138689650,University of Padua,exact
+3660,I145872427,Radboud University Nijmegen,exact
+3661,I162608824,University of Sussex,exact
+3662,I32597200,Ghent University,exact
+3663,I145872427,Radboud University Nijmegen,exact
+3664,I52099693,University of York,exact
+3665,I28407311,University of Manchester,exact
+3666,I55143463,University of Turin,exact
+3667,,,
+3668,,,
+3669,I184942183,University of Oslo,exact
+3670,I170658231,Osnabrück University,exact
+3671,,,
+3672,I184942183,University of Oslo,exact
+3673,I202697423,University of Zurich,exact
+3674,,,
+3675,I124055696,University of Copenhagen,exact
+3676,I204778367,Norwegian University of Science and Technology,exact
+3677,I193700539,Tilburg University,exact
+3678,I184558857,Royal Holloway University of London,fuzzy
+3679,I52099693,University of York,exact
+3680,I84884186,Newcastle University,fuzzy
+3681,I145872427,Radboud University Nijmegen,exact
+3682,I40120149,University of Oxford,exact
+3683,I149213910,University of Antwerp,exact
+3684,,,
+3685,I138549579,Scuola Internazionale Superiore di Studi Avanzati,fuzzy
+3686,I146655781,University of Liverpool,exact
+3687,I98677209,University of Edinburgh,exact
+3688,I145872427,Radboud University Nijmegen,exact
+3689,I157286207,"National University of Ireland, Maynooth",exact
+3690,I16835326,University of St Andrews,exact
+3691,I124357947,University of London,exact
+3692,I193662353,Utrecht University,exact
+3693,I169199633,Aston University,exact
+3694,I913958620,Erasmus University Rotterdam,exact
+3695,I200763008,Justus-Liebig-Universität Gießen,exact
+3696,I2802934949,Radboud University Medical Center,exact
+3697,I1334415907,University Medical Center Groningen,exact
+3698,I9341345,University of Lübeck,exact
+3699,I79510175,Cardiff University,exact
+3700,I157286207,"National University of Ireland, Maynooth",exact
+3701,I7882870,University of Glasgow,exact
+3702,I149899117,Max Planck Society,exact
+3703,I7882870,University of Glasgow,exact
+3704,,,
+3705,I98677209,University of Edinburgh,exact
+3706,I887064364,University of Amsterdam,exact
+3707,I12093191,University of Stirling,exact
+3708,,,
+3709,I52099693,University of York,exact
+3710,,,
+3711,I52099693,University of York,exact
+3712,I99464096,KU Leuven,exact
+3713,I202697423,University of Zurich,exact
+3714,,,
+3715,I40120149,University of Oxford,exact
+3716,I121797337,Leiden University,exact
+3717,,,
+3718,I114090438,Goethe University Frankfurt,fuzzy
+3719,I162608824,University of Sussex,exact
+3720,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3721,I79619799,University of Birmingham,exact
+3722,I28166907,Karolinska Institutet,exact
+3723,,,
+3724,I193223587,University of Trento,exact
+3725,I904495901,Ruhr University Bochum,fuzzy
+3726,I861853513,Sapienza University of Rome,exact
+3727,I129774422,University of Vienna,exact
+3728,I133731052,University of Helsinki,exact
+3729,I98677209,University of Edinburgh,exact
+3730,I121797337,Leiden University,exact
+3731,I55143463,University of Turin,exact
+3732,I159176309,Universität Hamburg,exact
+3733,I52099693,University of York,exact
+3734,I170486558,Universitat Pompeu Fabra,exact
+3735,I133731052,University of Helsinki,exact
+3736,I108290504,University of Pisa,exact
+3737,I100930933,University College Dublin,fuzzy
+3738,I909854389,London School of Economics and Political Science,fuzzy
+3739,I23923803,University of Exeter,exact
+3740,I124055696,University of Copenhagen,exact
+3741,I114090438,Goethe University Frankfurt,fuzzy
+3742,I25217355,University of Pavia,exact
+3743,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3744,,,
+3745,I127927624,University of Naples - L'Orientale,exact
+3746,I161046081,University of Freiburg,exact
+3747,I184942183,University of Oslo,exact
+3748,I887064364,University of Amsterdam,exact
+3749,I193662353,Utrecht University,exact
+3750,I887064364,University of Amsterdam,exact
+3751,I133731052,University of Helsinki,exact
+3752,I15766117,University of Graz,exact
+3753,,,
+3754,I182534213,Universidade do Porto,exact
+3755,I4210115111,University of Arts and Industrial Design Linz,exact
+3756,I184942183,University of Oslo,exact
+3757,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+3758,I1322597698,Royal Netherlands Academy of Arts and Sciences,exact
+3759,I99464096,KU Leuven,exact
+3760,I168208266,Venice International University,fuzzy
+3761,I55143463,University of Turin,exact
+3762,I32597200,Ghent University,exact
+3763,I123044942,Universitat Autònoma de Barcelona,exact
+3764,I157286207,"National University of Ireland, Maynooth",exact
+3765,I168208266,Venice International University,fuzzy
+3766,I223822909,Heidelberg University,fuzzy
+3767,,,
+3768,,,
+3769,I129774422,University of Vienna,exact
+3770,I169381384,University of Groningen,exact
+3771,I184942183,University of Oslo,exact
+3772,I1322597698,Royal Netherlands Academy of Arts and Sciences,exact
+3773,,,
+3774,I161929037,Université de Bretagne Occidentale,exact
+3775,,,
+3776,I138689650,University of Padua,exact
+3777,I188760350,Ollscoil na Gaillimhe – University of Galway,exact
+3778,I1322597698,Royal Netherlands Academy of Arts and Sciences,exact
+3779,I159176309,Universität Hamburg,exact
+3780,,,
+3781,I99464096,KU Leuven,exact
+3782,I95674353,UCLouvain,fuzzy
+3783,I887064364,University of Amsterdam,exact
+3784,I75951250,Freie Universität Berlin,exact
+3785,I102335020,Karlsruhe Institute of Technology,exact
+3786,I182534213,Universidade do Porto,exact
+3787,I129774422,University of Vienna,exact
+3788,,,
+3789,,,
+3790,I50441567,Universitat de les Illes Balears,exact
+3791,I189712700,University of Konstanz,exact
+3792,I121797337,Leiden University,exact
+3793,,,
+3794,,,
+3795,I197251160,Hebrew University of Jerusalem,exact
+3796,I94626330,University of Bamberg,exact
+3797,I142263535,University of Nottingham,exact
+3798,,,
+3799,I2799785105,Iceland University of the Arts,exact
+3800,,,
+3801,I32597200,Ghent University,exact
+3802,I4210127711,National Hellenic Research Foundation,exact
+3803,I188760350,Ollscoil na Gaillimhe – University of Galway,exact
+3804,I129774422,University of Vienna,exact
+3805,,,
+3806,,,
+3807,I197251160,Hebrew University of Jerusalem,exact
+3808,I188760350,Ollscoil na Gaillimhe – University of Galway,exact
+3809,,,
+3810,,,
+3811,I168208266,Venice International University,fuzzy
+3812,I184942183,University of Oslo,exact
+3813,I184942183,University of Oslo,exact
+3814,I4210108156,"Czech Academy of Sciences, Institute of Ethnology",exact
+3815,I193662353,Utrecht University,exact
+3816,I121797337,Leiden University,exact
+3817,I45129253,University College London,exact
+3818,I161046081,University of Freiburg,exact
+3819,I86987016,KTH Royal Institute of Technology,fuzzy
+3820,,,
+3821,I8087733,University of Tübingen,exact
+3822,I168208266,Venice International University,fuzzy
+3823,I8087733,University of Tübingen,exact
+3824,I40120149,University of Oxford,exact
+3825,I74656192,University of Göttingen,exact
+3826,,,
+3827,I31575130,SOAS University of London,fuzzy
+3828,I39804081,Sorbonne Université,exact
+3829,I100930933,University College Dublin,fuzzy
+3830,I204337017,Aarhus University,exact
+3831,I124357947,University of London,exact
+3832,I55143463,University of Turin,exact
+3833,,,
+3834,I91712215,Saarland University,exact
+3835,I32597200,Ghent University,exact
+3836,I54009628,University of Bayreuth,exact
+3837,I40120149,University of Oxford,exact
+3838,I205274468,Trinity College Dublin,exact
+3839,I121797337,Leiden University,exact
+3840,I40120149,University of Oxford,exact
+3841,I99464096,KU Leuven,exact
+3842,I79619799,University of Birmingham,exact
+3843,I74656192,University of Göttingen,exact
+3844,I118564535,University of Bern,exact
+3845,I40120149,University of Oxford,exact
+3846,I9360294,University of Bologna,exact
+3847,I9360294,University of Bologna,exact
+3848,,,
+3849,I34352273,Maastricht University,exact
+3850,I4432739,University of Bergen,exact
+3851,I36234482,University of Bristol,exact
+3852,I71999127,Universitat de Barcelona,exact
+3853,I100930933,University College Dublin,fuzzy
+3854,I32597200,Ghent University,exact
+3855,I40120149,University of Oxford,exact
+3856,I887064364,University of Amsterdam,exact
+3857,I9360294,University of Bologna,exact
+3858,I187531555,Lund University,exact
+3859,I241749,University of Cambridge,exact
+3860,I904495901,Ruhr University Bochum,fuzzy
+3861,I193662353,Utrecht University,exact
+3862,I133837150,University of Huddersfield,exact
+3863,I121797337,Leiden University,exact
+3864,I21370196,Aristotle University of Thessaloniki,exact
+3865,,,
+3866,I98677209,University of Edinburgh,exact
+3867,I9927081,Aalto University,exact
+3868,I193662353,Utrecht University,exact
+3869,I193662353,Utrecht University,exact
+3870,I159176309,Universität Hamburg,exact
+3871,I97565354,University of Lausanne,exact
+3872,I32021983,Christian-Albrechts-Universität zu Kiel,fuzzy
+3873,I94722563,University of Jyväskylä,exact
+3874,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3875,,,
+3876,I913958620,Erasmus University Rotterdam,exact
+3877,I145872427,Radboud University Nijmegen,exact
+3878,I121797337,Leiden University,exact
+3879,I4654613,University of Warsaw,exact
+3880,I2799391115,Deutsches Museum,exact
+3881,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3882,I241749,University of Cambridge,exact
+3883,I40120149,University of Oxford,exact
+3884,I129774422,University of Vienna,exact
+3885,I193662353,Utrecht University,exact
+3886,I159176309,Universität Hamburg,exact
+3887,I193662353,Utrecht University,exact
+3888,I31575130,SOAS University of London,fuzzy
+3889,I36234482,University of Bristol,exact
+3890,,,
+3891,,,
+3892,I197251160,Hebrew University of Jerusalem,exact
+3893,I887064364,University of Amsterdam,exact
+3894,I241749,University of Cambridge,exact
+3895,I99464096,KU Leuven,exact
+3896,I241749,University of Cambridge,exact
+3897,I123044942,Universitat Autònoma de Barcelona,exact
+3898,I59411706,Adam Mickiewicz University in Poznań,exact
+3899,I202697423,University of Zurich,exact
+3900,I188760350,Ollscoil na Gaillimhe – University of Galway,exact
+3901,I169381384,University of Groningen,exact
+3902,I4210113357,Institut Català de Paleoecologia Humana i Evolució Social,fuzzy
+3903,I100930933,University College Dublin,fuzzy
+3904,I121797337,Leiden University,exact
+3905,I1295435021,British Museum,exact
+3906,,,
+3907,I202697423,University of Zurich,exact
+3908,I241749,University of Cambridge,exact
+3909,I123044942,Universitat Autònoma de Barcelona,exact
+3910,,,
+3911,I4654613,University of Warsaw,exact
+3912,I146655781,University of Liverpool,exact
+3913,I159176309,Universität Hamburg,exact
+3914,I145872427,Radboud University Nijmegen,exact
+3915,,,
+3916,I183935753,King's College London,exact
+3917,I32021983,Christian-Albrechts-Universität zu Kiel,fuzzy
+3918,I34352273,Maastricht University,exact
+3919,I79510175,Cardiff University,exact
+3920,I4654613,University of Warsaw,exact
+3921,I124055696,University of Copenhagen,exact
+3922,I157286207,"National University of Ireland, Maynooth",exact
+3923,I89864525,Universität Trier,exact
+3924,,,
+3925,I129774422,University of Vienna,exact
+3926,I4210107808,NORCE Research AS,fuzzy
+3927,I157674565,University of Liège,exact
+3928,I129774422,University of Vienna,exact
+3929,,,
+3930,I204337017,Aarhus University,exact
+3931,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+3932,I71503853,University of Algarve,exact
+3933,I55143463,University of Turin,exact
+3934,I100930933,University College Dublin,fuzzy
+3935,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3936,I147962203,Democritus University of Thrace,exact
+3937,I193662353,Utrecht University,exact
+3938,I138689650,University of Padua,exact
+3939,I4210142438,National Museum of Denmark,exact
+3940,I1322597698,Royal Netherlands Academy of Arts and Sciences,exact
+3941,I121797337,Leiden University,exact
+3942,I197251160,Hebrew University of Jerusalem,exact
+3943,I159885104,École Pratique des Hautes Études,exact
+3944,I83816512,University of Genoa,exact
+3945,,,
+3946,I1322597698,Royal Netherlands Academy of Arts and Sciences,exact
+3947,I55143463,University of Turin,exact
+3948,I298625061,Swedish University of Agricultural Sciences,exact
+3949,,,
+3950,I4654613,University of Warsaw,exact
+3951,I170486558,Universitat Pompeu Fabra,exact
+3952,I135140700,University of Bonn,exact
+3953,I75951250,Freie Universität Berlin,exact
+3954,I94722563,University of Jyväskylä,exact
+3955,I223822909,Heidelberg University,fuzzy
+3956,,,
+3957,I39804081,Sorbonne Université,exact
+3958,I200284239,Universidade de Santiago de Compostela,exact
+3959,I15766117,University of Graz,exact
+3960,I123044942,Universitat Autònoma de Barcelona,exact
+3961,I91203450,University of Haifa,exact
+3962,I145872427,Radboud University Nijmegen,exact
+3963,I100930933,University College Dublin,fuzzy
+3964,,,
+3965,I173304897,Universidad de Granada,exact
+3966,I168208266,Venice International University,fuzzy
+3967,I124055696,University of Copenhagen,exact
+3968,I169381384,University of Groningen,exact
+3969,I32597200,Ghent University,exact
+3970,I123044942,Universitat Autònoma de Barcelona,exact
+3971,I193223587,University of Trento,exact
+3972,I71503853,University of Algarve,exact
+3973,,,
+3974,I32597200,Ghent University,exact
+3975,I904495901,Ruhr University Bochum,fuzzy
+3976,I4210166460,Institute of Systematics and Evolution of Animals,fuzzy
+3977,I4577782,Technische Universität Berlin,fuzzy
+3978,I123387679,Uppsala University,exact
+3979,,,
+3980,,,
+3981,I168208266,Venice International University,fuzzy
+3982,I9360294,University of Bologna,exact
+3983,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3984,,,
+3985,,,
+3986,I153648349,University of Leicester,exact
+3987,I116067653,University of Rome Tor Vergata,exact
+3988,I138689650,University of Padua,exact
+3989,I22465464,University of Münster,exact
+3990,,,
+3991,I114112103,Leibniz University Hannover,fuzzy
+3992,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+3993,I138689650,University of Padua,exact
+3994,I40120149,University of Oxford,exact
+3995,I4654613,University of Warsaw,exact
+3996,,,
+3997,I89864525,Universität Trier,exact
+3998,I129774422,University of Vienna,exact
+3999,I119439378,University of Verona,exact
+4000,I8087733,University of Tübingen,exact
+4001,I89864525,Universität Trier,exact
+4002,,,
+4003,I133731052,University of Helsinki,exact
+4004,I4210092825,École Française d'Extrême-Orient,fuzzy
+4005,I45084792,University of Florence,exact
+4006,I887064364,University of Amsterdam,exact
+4007,I40120149,University of Oxford,exact
+4008,,,
+4009,I52099693,University of York,exact
+4010,I124055696,University of Copenhagen,exact
+4011,,,
+4012,I129774422,University of Vienna,exact
+4013,,,
+4014,I129774422,University of Vienna,exact
+4015,,,
+4016,I32597200,Ghent University,exact
+4017,I204337017,Aarhus University,exact
+4018,I184942183,University of Oslo,exact
+4019,I77901215,"MF Norwegian School of Theology, Religion and Society",fuzzy
+4020,I71999127,Universitat de Barcelona,exact
+4021,I75951250,Freie Universität Berlin,exact
+4022,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+4023,I20581793,University of Kent,exact
+4024,I8901234,Foundation for Research and Technology Hellas,exact
+4025,I205092303,Institut d'Etudes Politiques de Paris,exact
+4026,I13134134,Universidad de Cantabria,exact
+4027,I189158943,University of Milan,exact
+4028,I123044942,Universitat Autònoma de Barcelona,exact
+4029,I4210134641,"Czech Academy of Sciences, Masaryk Institute and Archives",fuzzy
+4030,,,
+4031,I32021983,Christian-Albrechts-Universität zu Kiel,fuzzy
+4032,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+4033,I16835326,University of St Andrews,exact
+4034,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+4035,I193662353,Utrecht University,exact
+4036,I8901234,Foundation for Research and Technology Hellas,exact
+4037,I181369854,Friedrich-Alexander-Universität Erlangen-Nürnberg,exact
+4038,,,
+4039,,,
+4040,I4210128508,Institute of Political History (Hungary),fuzzy
+4041,I86987016,KTH Royal Institute of Technology,fuzzy
+4042,I149899117,Max Planck Society,exact
+4043,I193662353,Utrecht University,exact
+4044,I100930933,University College Dublin,fuzzy
+4045,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+4046,I23923803,University of Exeter,exact
+4047,I32597200,Ghent University,exact
+4048,I57825437,University of Neuchâtel,exact
+4049,I8087733,University of Tübingen,exact
+4050,I168208266,Venice International University,fuzzy
+4051,I887064364,University of Amsterdam,exact
+4052,I21491767,Aix-Marseille Université,exact
+4053,I197251160,Hebrew University of Jerusalem,exact
+4054,,,
+4055,I9360294,University of Bologna,exact
+4056,I197251160,Hebrew University of Jerusalem,exact
+4057,I40120149,University of Oxford,exact
+4058,I142263535,University of Nottingham,exact
+4059,I121797337,Leiden University,exact
+4060,I93860229,Politecnico di Milano,exact
+4061,I32597200,Ghent University,exact
+4062,I130194489,University of Alicante,exact
+4063,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+4064,I121797337,Leiden University,exact
+4065,I21370196,Aristotle University of Thessaloniki,exact
+4066,I95013407,Universidad Pablo de Olavide,exact
+4067,I121797337,Leiden University,exact
+4068,I180437899,University of Bremen,exact
+4069,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+4070,I904495901,Ruhr University Bochum,fuzzy
+4071,,,
+4072,I91203450,University of Haifa,exact
+4073,,,
+4074,I158438070,Universidad de La Laguna,exact
+4075,I121797337,Leiden University,exact
+4076,I241749,University of Cambridge,exact
+4077,I74656192,University of Göttingen,exact
+4078,I40120149,University of Oxford,exact
+4079,I241749,University of Cambridge,exact
+4080,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+4081,I161046081,University of Freiburg,exact
+4082,I40120149,University of Oxford,exact
+4083,I169108374,University of the Basque Country,exact
+4084,I23923803,University of Exeter,exact
+4085,I193662353,Utrecht University,exact
+4086,I45129253,University College London,exact
+4087,I891191580,Aalborg University,exact
+4088,I79619799,University of Birmingham,exact
+4089,I241749,University of Cambridge,exact
+4090,I184942183,University of Oslo,exact
+4091,I16391192,Tel Aviv University,exact
+4092,I132976966,Universität für Weiterbildung Krems,exact
+4093,I205274468,Trinity College Dublin,exact
+4094,I135140700,University of Bonn,exact
+4095,I155660961,University of Turku,exact
+4096,I130828816,University of Leeds,exact
+4097,I98358874,Delft University of Technology,exact
+4098,I124055696,University of Copenhagen,exact
+4099,I98358874,Delft University of Technology,exact
+4100,I9360294,University of Bologna,exact
+4101,I133731052,University of Helsinki,exact
+4102,I133731052,University of Helsinki,exact
+4103,I187531555,Lund University,exact
+4104,I177477856,Politecnico di Torino,exact
+4105,I193662353,Utrecht University,exact
+4106,I9360294,University of Bologna,exact
+4107,I102248843,Vienna University of Economics and Business,exact
+4108,I183935753,King's College London,exact
+4109,I56085075,University of Tartu,exact
+4110,I124601658,University of Parma,exact
+4111,I98358874,Delft University of Technology,exact
+4112,,,
+4113,I913481162,Wageningen University & Research,fuzzy
+4114,I111262870,Universitat de Miguel Hernández d'Elx,exact
+4115,I20121455,Bielefeld University,fuzzy
+4116,I170486558,Universitat Pompeu Fabra,exact
+4117,,,
+4118,I123044942,Universitat Autònoma de Barcelona,exact
+4119,I20121455,Bielefeld University,fuzzy
+4120,I124055696,University of Copenhagen,exact
+4121,I887064364,University of Amsterdam,exact
+4122,I56085075,University of Tartu,exact
+4123,,,
+4124,I133731052,University of Helsinki,exact
+4125,I54108979,Norwegian University of Life Sciences,exact
+4126,I9360294,University of Bologna,exact
+4127,,,
+4128,,,
+4129,,,
+4130,I31512782,Technische Universität Darmstadt,exact
+4131,I177969490,University of Southern Denmark,exact
+4132,I93860229,Politecnico di Milano,exact
+4133,I83019370,Eindhoven University of Technology,exact
+4134,,,
+4135,I133731052,University of Helsinki,exact
+4136,I123044942,Universitat Autònoma de Barcelona,exact
+4137,,,
+4138,I96673099,Technical University of Denmark,exact
+4139,I255234318,Universidad de Zaragoza,exact
+4140,I96673099,Technical University of Denmark,exact
+4141,,,
+4142,I124055696,University of Copenhagen,exact
+4143,I75951250,Freie Universität Berlin,exact
+4144,I4432739,University of Bergen,exact
+4145,I138689650,University of Padua,exact
+4146,I202963720,University of St.Gallen,exact
+4147,I184942183,University of Oslo,exact
+4148,I70703428,Palacký University Olomouc,exact
+4149,I170486558,Universitat Pompeu Fabra,exact
+4150,,,
+4151,I204778367,Norwegian University of Science and Technology,exact
+4152,I79619799,University of Birmingham,exact
+4153,I90669466,École des hautes études en sciences sociales,exact
+4154,I197251160,Hebrew University of Jerusalem,exact
+4155,I20121455,Bielefeld University,fuzzy
+4156,I21250087,Charles University,fuzzy
+4157,,,
+4158,I100930933,University College Dublin,fuzzy
+4159,I4432739,University of Bergen,exact
+4160,I4210108156,"Czech Academy of Sciences, Institute of Ethnology",exact
+4161,I31575130,SOAS University of London,fuzzy
+4162,I149213910,University of Antwerp,exact
+4163,,,
+4164,I173304897,Universidad de Granada,exact
+4165,I1317774081,International Institute for Applied Systems Analysis,fuzzy
+4166,I99464096,KU Leuven,exact
+4167,I909854389,London School of Economics and Political Science,fuzzy
+4168,I161593684,Stockholm University,exact
+4169,I21491767,Aix-Marseille Université,exact
+4170,I23923803,University of Exeter,exact
+4171,I202697423,University of Zurich,exact
+4172,I45129253,University College London,exact
+4173,,,
+4174,I40120149,University of Oxford,exact
+4175,I202697423,University of Zurich,exact
+4176,,,
+4177,,,
+4178,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+4179,,,
+4180,I62318514,University of Duisburg-Essen,exact
+4181,,,
+4182,I35440088,ETH Zurich,fuzzy
+4183,I98358874,Delft University of Technology,exact
+4184,,,
+4185,I241749,University of Cambridge,exact
+4186,I51601045,University of Bath,exact
+4187,I181369854,Friedrich-Alexander-Universität Erlangen-Nürnberg,exact
+4188,I2738703131,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,fuzzy
+4189,I135140700,University of Bonn,exact
+4190,I2738703131,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,fuzzy
+4191,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+4192,I8087733,University of Tübingen,exact
+4193,I2802176441,Basque Center for Applied Mathematics,exact
+4194,I62916508,Technical University of Munich,exact
+4195,I35440088,ETH Zurich,fuzzy
+4196,I134820265,Consejo Superior de Investigaciones Científicas,fuzzy
+4197,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+4198,I16835326,University of St Andrews,exact
+4199,I255234318,Universidad de Zaragoza,exact
+4200,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+4201,I25974101,University of Würzburg,exact
+4202,,,
+4203,I16835326,University of St Andrews,exact
+4204,I28407311,University of Manchester,exact
+4205,,,
+4206,I99464096,KU Leuven,exact
+4207,,,
+4208,I4210089594,Spanish National Cancer Research Centre,exact
+4209,I28166907,Karolinska Institutet,exact
+4210,,,
+4211,I2800006345,Leiden University Medical Center,exact
+4212,I6289922,Universidade de Vigo,exact
+4213,,,
+4214,I40120149,University of Oxford,exact
+4215,I149899117,Max Planck Society,exact
+4216,I113358080,Champalimaud Foundation,exact
+4217,I34352273,Maastricht University,exact
+4218,I4210108711,University Medical Center Hamburg-Eppendorf,exact
+4219,I54009628,University of Bayreuth,exact
+4220,I4210147769,Institute for Bioengineering of Catalonia,exact
+4221,I4210137962,Centre for Genomic Regulation,exact
+4222,,,
+4223,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+4224,I124055696,University of Copenhagen,exact
+4225,I4387154544,Institut National de la Recherche Agronomique,exact
+4226,I145872427,Radboud University Nijmegen,exact
+4227,I1294671590,Centre National de la Recherche Scientifique,fuzzy
+4228,I881427289,University of Gothenburg,exact
+4229,I39804081,Sorbonne Université,exact
+4230,I157536573,Institut Pasteur,exact
+4231,I97565354,University of Lausanne,exact
+4232,I181647926,University of Strathclyde,exact
+4233,I113358080,Champalimaud Foundation,exact
+4234,I4210122345,Institute for Research in Biomedicine,fuzzy
+4235,,,
+4236,I158937107,Swiss Tropical and Public Health Institute,exact
+4237,,,
+4238,I114457229,University of Geneva,exact
+4239,,,
+4240,,,
+4241,,,
