@@ -5,3 +5,13 @@ __pycache__
 .claude
 /pres
 *.npz
+*.pkl
+
+# 大文件（>5MB 的数据/输出 CSV，不入库）
+cn/match_1_cn.csv
+cn/match_3_cn.csv
+cn/cand_orcids_cn.csv
+us/match_3_us.csv
+us/match_1_us.csv
+us/US.csv
+aus/match_3_aus.csv
