@@ -311,10 +311,14 @@ def api_get(params):
 
 # ======================= 缓存 =======================
 def load_cache():
+    """载入缓存。保留所有条目, 含确认 0 命中的 [](空列表)。
+    区别于 EU/CN 老版(丢弃 [] 以自愈"429 被错存成空"的旧 bug): 本版 429/预算用尽已由
+    BudgetExhausted 处理、网络失败 net_fail 返 None 不缓存, 故 [] 一定是【真 0 命中】,
+    应持久化, 避免每次重跑都把 none 机构的整条回退变体链(~8 次调用)重烧一遍(计费漏)。
+    缺席的 key = 从未查过 = pending。"""
     if Path(CACHE_PATH).exists():
         try:
-            raw = json.loads(Path(CACHE_PATH).read_text(encoding="utf-8"))
-            return {k: v for k, v in raw.items() if v}
+            return json.loads(Path(CACHE_PATH).read_text(encoding="utf-8"))
         except Exception:
             return {}
     return {}

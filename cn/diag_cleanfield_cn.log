@@ -1,0 +1,29 @@
+load_cn:丢弃无机构无领域行 212(1994–1996 早期,无消歧锚点)
+[    1s] disambig_wrong 有中文领域文本+gold+pred:573 行
+[    1s] 涉及候选作者(gold∪pred)去重:1091
+[    1s] 取子学科(4 种聚合)...
+[   12s]   [all] 有子学科的候选作者 1091(11s)
+[   22s]   [firstlast] 有子学科的候选作者 1070(10s)
+[   35s]   [weighted] 有子学科的候选作者 1091(13s)
+[   48s]   [fl+weight] 有子学科的候选作者 1070(14s)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|��������������������| 391/391 [00:00<00:00, 33866.24it/s]
+[  106s] 嵌入模型 BAAI/bge-m3 载入(device=cuda)
+[  106s] 嵌入 284 子学科名 + 394 领域文本...
+
+==========================================================================
+每种聚合:gold vs pred 头对头(N=573 disambig_wrong)
+  cover = gold&pred 都有子学科档案的 rid 数(firstlast 会因无一作/末作而掉档)
+--------------------------------------------------------------------------
+  scheme       cover    mrg>0 mrg>=0.03    mean_mrg    median_mrg
+  all            573    23.6%     17.1%     -0.0638       -0.0627
+  firstlast      552    28.6%     22.6%     -0.0467       -0.0377
+  weighted       573    25.7%     19.7%     -0.0503       -0.0351
+  fl+weight      552    30.3%     22.1%     -0.0433       -0.0285
+--------------------------------------------------------------------------
+gold 子学科集合被改变的比例:firstlast 39% | weighted 73%(=0 则该 lever 对 gold 无效)
+  vs all:firstlast 使 gold 由负转正 45,由正转负 20,净 +25(N可比=552)
+  vs all:weighted 使 gold 由负转正 32,由正转负 20,净 +12(N可比=573)
+  vs all:fl+weight 使 gold 由负转正 59,由正转负 25,净 +34(N可比=552)
+==========================================================================
+[  108s] 明细已写 diag_cleanfield_cn.csv
