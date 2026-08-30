@@ -1,7 +1,0 @@
-[1/4] 构建候选 paperid 集合 (K=30/作者) ...
-      映射行 559252, 需要的 distinct paperid 475198  (3.6s)
-[2/4] 扫描 ../sciscinet_papertitleabstract.parquet (122M 行) 抽取匹配 ... 这一步最慢
-      扫描完成:命中 en 论文 313008 / 需要 475198  (scan 91.3s)
-[3/4] 还原 313008 条摘要(倒排索引 -> 文本) ...
-[4/4] 写出 cand_abstracts_us.parquet  行 313008, 有摘要 312896 (100%)
-总用时 121.4s

@@ -1,18 +1,0 @@
-CN 名单:4603 行 | 罗马化变体 59485 条(heteronym=True)| 有真值 1949
-[   15s] 层1a 精确完成:9238078 候选行
-[   15s] 层1b 别名完成:0 候选行(alias=False)
-[   36s] 层1c 模糊完成:0 候选行
-层1 候选:精确 4602 | 别名 0 | 模糊 0 | 有候选的行 4602
-层1→ 名字唯一 0,剩下 4602
-[   51s] 层2 机构过滤完成:64488 候选行
-层2 机构 → 确定 354,平局 3901,缺失 347,剩下 4248
-[   70s] 层3 取数完成:1892528 行长表
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4489.07it/s]
-层3 语义打分:v1 子学科名×中文领域文本(thresh=0.62, margin=0.03)
-[  145s] 层3 语义 → 确定 650,剩下 3598
-[  155s] 层4 兜底 → 确定 3598(语义平局 2928,论文数 670),剩下 0
-
-汇总:匹配成功 4602 / 4603 = 100.0%(未定 0)
-  来源:名字唯一 0 | 机构 354 | 语义领域 650 | 语义平局 2928 | 论文数兜底 670
-结果:matched_final_cn.csv, match_1_cn.csv, match_3_cn.csv, match_4_cn.csv

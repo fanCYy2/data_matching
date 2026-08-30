@@ -10,25 +10,32 @@
 10,Shangqing Zhao,A5057883383,alias,,round3_semantic,53
 11,Poulami Das,A5039719490,alias,,round3_semantic,64
 12,Andrea Wei Coladangelo,A5091749382,alias,I201448701,round2_inst,54
+13,Chinmay Nirkhe,A5081746541,alias,,round3_semantic,21
 14,Ramin Ayanzadeh,A5082674928,exact,,name_unique,49
 15,Qianyun Zhang,A5052563154,exact,I10052268,round3_semantic,140
 16,Boqing Gong,A5017319429,alias,,round3_semantic,196
 17,Pan Xu,A5007399946,exact,I118118575,round3_semantic,74
 18,Jian Zhang,A5100768056,alias,,round3_semantic,153
+19,Shuna Ni,A5040240885,alias,I66946132,round2_inst,28
 20,Sean P Howe,A5011269698,fuzzy,I223532165,round2_inst,50
 21,Junsoo Kim,A5100636165,alias,,round3_semantic,86
 22,Sandhya Saisubramanian,A5037326029,exact,I131249849,round2_inst,32
+23,Serena Booth,A5084731369,exact,,name_unique,28
 24,Xijun Shi,A5007940659,alias,,round3_semantic,70
 26,Lan Zhang,A5100322308,alias,I8078737,round3_semantic,73
+27,Gabrielle J Gutierrez,A5064552774,fuzzy,I98540497,round2_inst,23
 28,Benjamin J Delaware,A5073767542,fuzzy,,round3_semantic,49
+29,Danica M Ommen,A5002822388,fuzzy,I173911158,round2_inst,29
 30,Jihong A Ma,A5029136335,fuzzy,I111236770,round2_inst,52
 31,Patrick J Walsh,A5037620851,fuzzy,I79576946,round3_semantic,692
+32,Lin Cheng,A5109195926,alias,,round3_semantic,29
 33,Forest Agostinelli,A5005964283,exact,,name_unique,36
 34,Zhenyu Gan,A5083017120,exact,I70983195,round2_inst,30
 35,Daniel Fried,A5102739620,exact,I74973139,round3_semantic,57
 36,Alexis M Mychajliw,A5074091475,fuzzy,I195575238,round2_inst,72
 37,Luis A Ceferino,A5007804127,fuzzy,I95457486,round3_semantic,43
 38,Bruno Nachtergaele,A5082684634,alias,I84218800,round2_inst,180
+39,Kirill Y Lazebnik,A5022990676,fuzzy,,round3_semantic,26
 40,Andrea Contina,A5020004054,exact,I2802326326,round2_inst,49
 42,Kevin A Adkins,A5076207736,fuzzy,I84475105,round2_inst,48
 43,Afsaneh Razi,A5040820784,exact,,name_unique,47
@@ -37,6 +44,8 @@
 47,Haihan Sun,A5033289076,alias,I135310074,round2_inst,82
 48,Seyyedali Hosseinalipour,A5074403000,alias,,round3_semantic,40
 49,Jieyang Chen,A5063649910,alias,,round3_semantic,81
+50,Thierry Tambe,A5005762501,exact,,name_unique,27
+51,Tej Chajed,A5010436566,exact,,name_unique,24
 52,Hannah K Larson,A5064565006,fuzzy,I95457486,round2_inst,75
 54,Mutian Hua,A5001839231,exact,,name_unique,43
 55,Samantha A Meenach,A5006060582,fuzzy,I17626003,round2_inst,49
@@ -44,6 +53,7 @@
 58,Daniel Khashabi,A5043628255,exact,,name_unique,142
 59,Noboru Nakamura,A5034918184,alias,I40347166,round2_inst,502
 60,Syed Bahauddin Alam,A5063457131,alias,,round3_semantic,141
+61,Jeanette B Moss,A5075318875,fuzzy,I859038795,round2_inst,26
 62,Sougata Roy,A5047320891,exact,I173911158,round2_inst,75
 63,Anne J Shiu,A5042332739,fuzzy,I91045830,round2_inst,128
 64,Janani Sampath,A5014909385,exact,,name_unique,40
@@ -53,6 +63,7 @@
 71,Jida Huang,A5072191882,exact,I39422238,round2_inst,58
 73,Tim Rademacher,A5069914963,exact,,name_unique,66
 74,Farhad Imani,A5058788547,alias,I140172145,round2_inst,136
+75,Danae Schulz,A5000253803,exact,,name_unique,26
 76,Kai Gong,A5061620513,alias,I74775410,round3_semantic,100
 77,Maryam Hojati,A5011294780,alias,I169521973,round2_inst,31
 78,Xiang Tang,A5028578509,alias,,round3_semantic,126
@@ -60,6 +71,7 @@
 80,Abhay Bangalore Ramachandra,A5003306040,alias,I173911158,round2_inst,64
 81,Megan G Behringer,A5027309077,fuzzy,I200719446,round2_inst,43
 82,Estelle Couradeau,A5065616461,exact,,name_unique,67
+83,Agnieszka Truszkowska,A5027368498,exact,,name_unique,27
 84,Zhongyang Wang,A5100748094,alias,,round3_semantic,39
 85,Pan Zhao,A5101803704,alias,,round3_semantic,36
 86,Zhengtao Gan,A5046231968,alias,,round3_semantic,48
@@ -75,7 +87,10 @@
 96,Agnes Thorarinsdottir,A5028170577,alias,I5388228,round2_inst,55
 97,Matthew J Hankins,A5014357505,fuzzy,,round4_maxpapers,135
 99,Florian Frick,A5070597025,alias,I74973139,round2_inst,118
+101,Shilva Shrestha,A5066118636,exact,,name_unique,22
 102,Shijie Cao,A5015998327,exact,I201448701,round2_inst,75
+103,Qian Wang,A5100391009,alias,,round3_semantic,22
+104,Zahra Ghodsi,A5034694460,alias,,round3_semantic,24
 107,Muhammad Ali Gulzar,A5003747461,alias,I859038795,round2_inst,53
 109,Yuyang Dong,A5021045482,exact,I92446798,round2_inst,83
 110,Afsah Anwar,A5064140739,alias,,round3_semantic,50
@@ -87,6 +102,7 @@
 117,Shirley Li,A5100426717,alias,I204250578,round2_inst,126
 118,Florent P Baudier,A5001062856,fuzzy,I91045830,round2_inst,59
 119,Daniel Huh,A5031307618,fuzzy,I17626003,round2_inst,109
+120,David J Eckman,A5029732249,fuzzy,,round3_semantic,27
 123,Aryan Deshwal,A5083191585,exact,,name_unique,53
 124,Minxiang Zeng,A5023724066,alias,I12315562,round3_semantic,56
 125,Alison Gould,A5004407993,alias,,round3_semantic,31
@@ -106,7 +122,10 @@
 140,James Doss-Gollin,A5013447883,exact,,name_unique,50
 141,Meenal Datta,A5015735736,alias,I107639228,round2_inst,115
 142,Tianjun Lu,A5035331464,exact,I143302722,round2_inst,44
+143,Amy K Webster,A5036492412,fuzzy,,round3_semantic,26
 144,Ang Guo,A5039833068,alias,,round3_semantic,63
+145,Karen King,A5089117706,alias,,round3_semantic,23
+146,Masoud Jahandar Lashaki,A5024246686,alias,I63772739,round2_inst,28
 147,Aron B Laszka,A5049435924,fuzzy,,round3_semantic,227
 148,Rajiv Khanna,A5045284674,alias,,round3_semantic,59
 149,Andres R Vindas Melendez,A5065824597,fuzzy,I133543626,round2_inst,39
@@ -117,16 +136,21 @@
 154,Xueqing Liu,A5100775509,exact,I108468826,round4_maxpapers,158
 155,Ziyuan Guo,A5018919093,exact,I1285204247,round3_semantic,111
 156,Aaron Sternbach,A5072139749,exact,,name_unique,75
+159,Noelia Grande Gutiérrez,A5090383833,alias,I74973139,round2_inst,29
 160,Xiaomei Wang,A5100457091,exact,I142740786,round3_semantic,47
 161,Duri Long,A5035682073,alias,I111979921,round2_inst,46
+162,Souti Chattopadhyay,A5059243154,exact,,name_unique,29
 163,Shivani Ahuja,A5012032251,alias,I55486353,round2_inst,76
 164,Yuan Liu,A5020246614,alias,I137902535,round2_inst,93
 166,Luis Zaman,A5083341108,exact,,name_unique,77
+167,Heather Feaga,A5021305940,alias,I205783295,round2_inst,21
 168,John King,A5109970239,alias,I169521973,round2_inst,87
+169,Zhiyuan Li,A5100337956,alias,,round3_semantic,29
 170,Zaoxing Liu,A5015818714,exact,,name_unique,51
 171,Sangjin Kim,A5101426374,alias,,round3_semantic,107
 172,Zhiquan Shu,A5001130716,exact,I201448701,round2_inst,114
 173,Travis W Sawyer,A5083412885,fuzzy,I138006243,round2_inst,114
+174,Tathagata Srimani,A5011011809,exact,,name_unique,24
 175,Peipei Zhou,A5063866156,exact,I27804330,round2_inst,78
 176,Wolfgang Pfaff,A5045600273,alias,,round3_semantic,107
 177,Gang Qiu,A5046303912,alias,I130238516,round2_inst,121
@@ -137,26 +161,34 @@
 185,Trevor M Nolan,A5033718612,fuzzy,,round3_semantic,47
 186,Kerry A Geiler-Samerotte,A5079773342,fuzzy,I55732556,round2_inst,37
 187,Maurine Neiman,A5079752580,exact,,name_unique,116
+188,Devanshi D Khokhani,A5060316373,fuzzy,I130238516,round2_inst,24
 189,MINGYU CAI,A5001420415,alias,I103635307,round3_semantic,30
 190,Ricardo Azevedo,A5076747646,alias,I44461941,round2_inst,68
 191,Vladyslav Kozii,A5027751427,exact,,name_unique,58
 192,Miao Yin,A5074398218,alias,,round3_semantic,34
+193,Shuaihua Gao,A5073092786,alias,,round3_semantic,24
 195,Alexander J Pak,A5004172217,fuzzy,I167576493,round2_inst,68
 196,Surbhi Goel,A5019144684,alias,,round3_semantic,70
 197,Andrew Head,A5003473641,alias,I79576946,round2_inst,88
+198,Mert D Pesé,A5085340429,fuzzy,I8078737,round2_inst,25
 199,Yu-Chan Chang,A5036497451,alias,,round4_maxpapers,184
 200,Jiaqi Gu,A5090386129,exact,I55732556,round2_inst,161
 201,David M Truong,A5087863649,fuzzy,I57206974,round2_inst,34
 202,Mikael Vejdemo-Johansson,A5049695343,exact,I121847817,round2_inst,99
 203,Ioannis Gkioulekas,A5091763115,exact,,name_unique,99
 205,Jing Wang,A5100378437,alias,,round3_semantic,52
+206,Vignesh Sundaresan,A5022523999,alias,I368840534,round2_inst,24
 207,Irene Andreu Blanco,A5058487371,fuzzy,,round3_semantic,65
 208,Shyam Shankar,A5038859024,alias,,round3_semantic,210
 209,Maria M Coronel,A5065868161,fuzzy,I27837315,round3_semantic,32
+210,Brooke M Gardner,A5007386757,fuzzy,I154570441,round2_inst,29
 211,Xingcheng Lin,A5046672665,alias,I137902535,round2_inst,80
 212,Ahmed Saeed,A5031381014,alias,I130701444,round2_inst,100
+214,Laura H Gunn,A5055734767,fuzzy,I205783295,round2_inst,22
 216,Clemencia M Rojas,A5072214709,fuzzy,I114395901,round2_inst,32
 217,Lily Wang,A5100335873,alias,I162714631,round3_semantic,218
+220,Sara Achour,A5060778165,exact,,name_unique,27
+221,Caroline B Turner,A5048792570,fuzzy,,round3_semantic,24
 222,Yu Huang,A5055069752,exact,I200719446,round3_semantic,114
 223,Tessa M Burch-Smith,A5053128994,fuzzy,I2799511691,round2_inst,71
 224,Rongjie Liu,A5067572716,alias,,round3_semantic,67
@@ -177,12 +209,14 @@
 243,Sean P Howe,A5011269698,fuzzy,I223532165,round2_inst,50
 244,Philip T Gressman,A5073463363,fuzzy,I79576946,round2_inst,69
 245,Kai Wu,A5073951891,alias,I12315562,round3_semantic,186
+246,Alan Chang,A5060634233,alias,,round3_semantic,21
 247,David Futer,A5004718984,exact,I84392919,round2_inst,66
 248,Cyprian K Lewandowski,A5052399510,fuzzy,I103163165,round2_inst,60
 249,Bobby L Wilson,A5102828227,fuzzy,I201448701,round2_inst,30
 251,Suhas S Jain,A5023212336,fuzzy,I130701444,round2_inst,48
 252,Siobhan Brady,A5028923057,alias,,round3_semantic,150
 253,James D Gaynor,A5062707882,fuzzy,,round3_semantic,38
+254,Rohit Kannan,A5033501125,exact,,name_unique,24
 255,Aobo Li,A5016189936,alias,I36258959,round3_semantic,78
 260,Hiroshi Maeda,A5040429486,exact,I135310074,round2_inst,616
 261,Aaron Brown,A5006803920,alias,,round3_semantic,120
@@ -220,7 +254,9 @@
 299,Laura H Blumenschein,A5034706353,fuzzy,,round3_semantic,51
 300,Tianlu Wang,A5102870653,alias,,round3_semantic,71
 301,Weilu Gao,A5001678605,exact,I223532165,round3_semantic,156
+302,Brendan M David-John,A5070114175,fuzzy,I859038795,round2_inst,28
 303,Jena E Johnson,A5009853422,fuzzy,I27837315,round2_inst,61
+305,Tabitha K Samuel,A5057573904,fuzzy,,round3_semantic,21
 306,Anthony Dell,A5005797884,alias,I2801455325,round2_inst,63
 308,Leif N Thomas,A5046021358,fuzzy,,round3_semantic,104
 309,Todd M Holden,A5048324575,fuzzy,I47807954,round2_inst,101
@@ -232,6 +268,7 @@
 316,Richard d'Arcy,A5006495466,alias,I55732556,round2_inst,54
 317,Boris Vaisband,A5064794690,alias,,round3_semantic,45
 318,Kelly Stevens,A5023663402,alias,,round3_semantic,78
+319,Hadi Noori,A5019853531,alias,,round3_semantic,27
 321,Seth D Newsome,A5082666143,fuzzy,I169521973,round2_inst,222
 322,Amelia A Wolf,A5049897063,fuzzy,,round3_semantic,37
 323,Dan Margalit,A5090661352,alias,,round3_semantic,112
@@ -241,6 +278,7 @@
 327,Tianqi Chen,A5101471083,alias,I74973139,round2_inst,155
 328,Ali Vakilian,A5052582756,exact,,name_unique,78
 329,John D Finan,A5017386590,fuzzy,I39422238,round3_semantic,54
+330,Amin Reihani,A5013878549,alias,,round3_semantic,26
 331,Hadi Hosseini,A5101542162,alias,,round3_semantic,30
 332,Ashok Ajoy,A5068029900,exact,,name_unique,119
 333,Reeta Vyas,A5038157255,alias,,round3_semantic,152
@@ -250,11 +288,13 @@
 340,Max S New,A5050680882,fuzzy,I27837315,round2_inst,31
 341,Tyler R Kartzinel,A5073382238,fuzzy,I27804330,round2_inst,74
 342,Alexander Sushkov,A5078023223,alias,,round3_semantic,149
+343,Ryan L Sensenig,A5060176573,fuzzy,I107639228,round2_inst,27
 344,Angelica M Osorno,A5008716625,fuzzy,I55486353,round2_inst,54
 345,Hua Fang,A5084745600,alias,,round3_semantic,144
 347,Laura J Muller,A5051344430,fuzzy,I4210115256,round2_inst,116
 348,Daigo Shishika,A5057044271,exact,,name_unique,83
 349,Dorina Mitrea,A5053496960,exact,,name_unique,189
+350,Nek Sharan,A5083776721,exact,,name_unique,25
 351,Fatemeh Ganji,A5017195195,exact,I107077323,round2_inst,81
 352,Sloan Coats,A5058928456,exact,I1331384533,round2_inst,117
 353,Zhengming Ding,A5083458247,alias,I114832834,round3_semantic,243
@@ -304,8 +344,10 @@
 404,Auinash Kalsotra,A5085428833,exact,,name_unique,142
 405,Aditya Vashistha,A5072922547,exact,I205783295,round2_inst,80
 406,David Galvin,A5073164280,alias,I107639228,round2_inst,240
+407,Maria S Santisteban,A5028347594,fuzzy,I3970613,round2_inst,27
 408,Ying Cui,A5025630034,exact,I95457486,round3_semantic,48
 409,Richard D Canary,A5025951431,fuzzy,I27837315,round2_inst,123
+410,Matthew R Dent,A5032775970,fuzzy,,round3_semantic,28
 411,David A Butler,A5020577930,fuzzy,I1318687432,round4_maxpapers,757
 412,Donald E Penman,A5084514056,fuzzy,I121980950,round2_inst,228
 413,Soroosh Shafiee,A5030361767,alias,I205783295,round3_semantic,38
@@ -316,6 +358,7 @@
 418,Casey O'Brien,A5084631013,alias,,round3_semantic,66
 420,Daniel T Grier,A5074338298,fuzzy,I36258959,round2_inst,39
 421,Wan Shou,A5075926701,alias,,round3_semantic,84
+422,Sandy M Kawano,A5030752894,fuzzy,,round3_semantic,28
 423,Jamie Sikora,A5081134036,exact,,name_unique,81
 424,Robert J Wagner,A5108624092,fuzzy,,round3_semantic,149
 425,Kun Wang,A5100366663,exact,I145608581,round3_semantic,149
@@ -325,6 +368,7 @@
 429,Jinho Baik,A5075477221,exact,,name_unique,121
 430,Jaspreet Singh Randhawa,A5046695893,alias,,round3_semantic,41
 431,Navid Azizan Ruhi,A5005748450,alias,I63966007,round2_inst,63
+432,Kurt W Vinhage,A5031884099,fuzzy,I223532165,round2_inst,28
 433,Peter Patzt,A5083749916,exact,,name_unique,31
 434,Narayanan Rengaswamy,A5070430560,exact,I138006243,round2_inst,50
 436,Catherine Oertel,A5073562044,alias,,round3_semantic,61
@@ -345,6 +389,7 @@
 454,Tommaso Cappello,A5087615351,exact,,name_unique,54
 455,Martin Tomanik,A5084366282,alias,I57206974,round2_inst,36
 456,Ilya Kachkovskiy,A5067211872,exact,,name_unique,41
+457,Jacob Z Shapiro,A5040981258,fuzzy,I127591826,round3_semantic,28
 458,Hang Yu,A5026394256,exact,I23732399,round2_inst,219
 459,Yifan Zhou,A5100698858,alias,,round3_semantic,66
 460,Umar Farooq,A5048619460,alias,,round3_semantic,75
@@ -352,8 +397,11 @@
 462,Dezhi Wu,A5080246841,alias,,round3_semantic,149
 464,Frederi G Viens,A5033321277,fuzzy,I74775410,round2_inst,186
 465,Ken Van Tilburg,A5040107562,exact,,name_unique,40
+466,Elizabeth Jerison,A5067499591,alias,I40347166,round2_inst,25
 467,Max D Engelstein,A5030903138,fuzzy,I130238516,round2_inst,53
+468,Weijie Zhao,A5011623954,alias,,round3_semantic,21
 469,Aline Eid,A5025955516,alias,I27837315,round2_inst,67
+470,Matthew D Golub,A5008892922,fuzzy,I201448701,round2_inst,26
 472,Patricia J Williams,A5107278056,fuzzy,,round3_semantic,110
 473,Bala Krishnamoorthy,A5102955818,alias,I72951846,round2_inst,104
 476,Kevin Konrad,A5066024005,alias,I131249849,round2_inst,160
@@ -361,14 +409,18 @@
 480,Akram Aldroubi,A5003347271,exact,I200719446,round2_inst,221
 482,Daniel W Roush,A5009793855,fuzzy,,round4_maxpapers,35
 483,Stephen Fafulas,A5032567231,exact,,name_unique,31
+484,Nathan E Green,A5101718052,fuzzy,I919208787,round2_inst,26
 485,Jane L Lehr,A5061316154,fuzzy,I149919469,round3_semantic,55
 486,Eranda Nikolla,A5039071105,alias,,round3_semantic,83
+487,Alison Bain,A5001246019,exact,I131249849,round2_inst,26
 489,Anne Pommier,A5044468660,exact,I196817621,round2_inst,99
 490,Gabrielle Gaustad,A5015444230,alias,I49502546,round2_inst,82
+492,David W Lipke,A5020657344,fuzzy,I20382870,round2_inst,21
 493,Cedric Schaack,A5020645619,exact,,name_unique,30
 495,Joseph A Gauthier,A5088579134,fuzzy,I12315562,round2_inst,61
 496,Elizabeth Stearns,A5022605294,exact,I102149020,round2_inst,81
 498,Zoe Yan,A5009696386,alias,,round3_semantic,78
+499,Jason S Bates,A5014967076,fuzzy,,round3_semantic,25
 500,Qingwang Yuan,A5011010111,exact,,name_unique,69
 501,Daniel C Floryan,A5086567929,fuzzy,I44461941,round2_inst,65
 502,Ling Long,A5103382982,alias,I121820613,round3_semantic,59
@@ -389,10 +441,13 @@
 520,Ian Tobasco,A5053207581,exact,,name_unique,37
 521,Qifei Niu,A5014934575,exact,I120156002,round2_inst,58
 522,Yisha Xiang,A5063225585,alias,I44461941,round2_inst,71
+523,Yanyu Chen,A5100639366,alias,,round3_semantic,27
 526,Jakub Witaszek,A5047674919,exact,,name_unique,63
 527,Tuncay Aktosun,A5053386759,exact,,round4_maxpapers,81
+528,Alexa S Kuenstler,A5075808460,fuzzy,,round3_semantic,24
 529,William M Mongan,A5045056426,fuzzy,I177753169,round2_inst,36
 530,Christina O Lee,A5080924936,fuzzy,I95457486,round3_semantic,156
+531,Nathalie M Pinkerton,A5071946643,fuzzy,I57206974,round2_inst,21
 532,JIE LI,A5072494269,alias,,round3_semantic,121
 533,Joon-Ho Choi,A5084133523,exact,I1174212,round3_semantic,113
 534,Srivatsav Kunnawalkam Elayavalli,A5054329756,exact,,name_unique,50
@@ -409,14 +464,19 @@
 547,Laura L Anderson,A5026606130,fuzzy,,round3_semantic,96
 549,Renyuan Xu,A5068576165,alias,,round3_semantic,79
 550,Daniel E Parker,A5082530701,fuzzy,I36258959,round2_inst,49
+551,Zhongwang Dou,A5034434540,exact,,name_unique,27
+552,Eric Steward,A5034542996,exact,,name_unique,23
 554,Min Shi,A5076712745,exact,I79516672,round2_inst,107
 555,M Hassan Najafi,A5013272913,fuzzy,,round4_maxpapers,171
 556,Louis Bouchard,A5053925403,alias,I161318765,round2_inst,221
 557,Kun Zhang,A5100342372,alias,,round3_semantic,52
+558,Chris Overstreet,A5015665568,exact,,name_unique,29
 559,Armina A Kazi,A5112771700,fuzzy,I165556055,round2_inst,99
 560,Dong Hou,A5026983787,alias,,round3_semantic,94
 561,Xuefeng Zhang,A5100402663,alias,,round3_semantic,805
 562,Facundo Scordo,A5047005560,exact,,name_unique,54
+563,Murielle Watzky,A5020145081,fuzzy,I71966907,round2_inst,22
+564,Michael Hagenow,A5052368316,exact,,name_unique,26
 565,Matthew R Edwards,A5086315430,fuzzy,I97018004,round3_semantic,123
 566,Jane Bae,A5051222488,alias,I122411786,round2_inst,64
 568,Chang Liu,A5100353347,exact,I140172145,round3_semantic,138
@@ -426,6 +486,7 @@
 573,Peng Guo,A5056002620,exact,I125467818,round2_inst,146
 575,Yafei Ren,A5037101414,alias,I86501945,round2_inst,86
 576,Wenyang Gao,A5082455230,alias,I4210106879,round2_inst,172
+578,Sarah Morris,A5101905037,alias,,round3_semantic,29
 579,Clayton R Mulvihill,A5080431097,fuzzy,I157394403,round2_inst,46
 580,Zachary Manchester,A5003687365,alias,,round3_semantic,145
 581,Judy Hoffman,A5038068459,alias,,round3_semantic,171
@@ -434,24 +495,32 @@
 584,Lucy Pickering,A5086578840,alias,I206651237,round2_inst,92
 585,Michael J Eller,A5028278236,fuzzy,,round3_semantic,69
 588,William C Camarillo-Gibbs,A5113723523,fuzzy,,round3_semantic,45
+589,Veronica Boyce,A5076462736,alias,,round3_semantic,26
 590,Jane D Fudyma,A5060149877,fuzzy,,round3_semantic,37
 592,Jordan Harshman,A5000862885,exact,,name_unique,31
 594,Shannon E Pittman,A5028946997,fuzzy,I72702400,round2_inst,30
+595,Sanjivan Manoharan,A5016554422,exact,,name_unique,29
+598,Huaijin Chen,A5038865931,alias,,round3_semantic,28
 599,Elizabeth Harvey,A5005327012,alias,I161057412,round2_inst,45
+601,Amanda Achberger,A5012781709,alias,I121820613,round2_inst,24
 602,Wei Liu,A5100431814,exact,I859038795,round3_semantic,101
 603,Steven M Kahn,A5066700951,fuzzy,,round4_maxpapers,722
 604,Arial J Shogren,A5005389704,fuzzy,,round3_semantic,64
 605,Lance E Miller,A5052682888,fuzzy,,round3_semantic,63
+607,Tiantian Yang,A5101717804,alias,,round3_semantic,22
 609,Sarah Aarons,A5010051587,alias,,round3_semantic,37
 610,Junpeng Wang,A5002963148,alias,,round3_semantic,95
 611,Kazuo Yamazaki,A5011915062,exact,I114395901,round2_inst,256
 612,Pu Duan,A5065870564,alias,,round3_semantic,62
+613,Jacob Downs,A5006823448,exact,I6750721,round2_inst,26
 614,Jeffrey P Walters,A5034631575,fuzzy,I201448701,round3_semantic,47
+615,Houqian Li,A5049451461,exact,,name_unique,29
 617,Maureen C Kennedy,A5008063149,fuzzy,I201448701,round2_inst,73
 618,Mark A Zumberge,A5080938337,fuzzy,,round3_semantic,169
 619,Mehmet Aydeniz,A5002412821,exact,,name_unique,51
 620,Surui Xie,A5033862664,exact,,name_unique,92
 621,Ruiqing Shen,A5027558966,alias,I115475287,round2_inst,69
+622,Davi V Q Rodrigues,A5039024512,fuzzy,,round3_semantic,24
 625,Kirsten Adam,A5066280556,alias,I74775410,round2_inst,99
 626,Matthew J Troia,A5017666359,fuzzy,,round3_semantic,33
 627,Yun Suk Eo,A5020073868,exact,,name_unique,80
@@ -463,9 +532,12 @@
 634,Jason B Sylvan,A5014777100,fuzzy,I91045830,round2_inst,171
 635,Richard C Flagan,A5012711441,fuzzy,I122411786,round3_semantic,672
 636,Samantha R Brunhaver,A5068072480,fuzzy,I55732556,round2_inst,93
+637,Kristin Bartlett,A5037494295,alias,I143302722,round2_inst,25
 639,Nasim Nosoudi,A5011776959,exact,,name_unique,43
+642,Wokil Bam,A5085774175,alias,,round3_semantic,24
 644,Mikkel Plagborg-Moller,A5053352252,alias,,round3_semantic,53
 645,Xiaoyi Lu,A5067748041,alias,,round3_semantic,185
+646,Michael Gangone,A5113107997,alias,,round4_maxpapers,23
 647,Igor Cialenco,A5061567868,exact,I180949307,round2_inst,114
 648,Meng Han,A5071013651,alias,I189590672,round2_inst,65
 649,Henry Corrigan-Gibbs,A5010212636,exact,,name_unique,68
@@ -474,6 +546,8 @@
 652,Stace E Beaulieu,A5078786551,fuzzy,I66958751,round2_inst,88
 654,Vitaly Shmatikov,A5038206174,alias,I205783295,round2_inst,185
 655,Yan Li,A5100380431,alias,I107672454,round3_semantic,72
+657,christine verhille,A5020549954,alias,I23732399,round2_inst,25
+658,Charles S Lichtenwalner,A5021768261,fuzzy,,round3_semantic,21
 659,Ryan F Need,A5060997235,fuzzy,,round3_semantic,47
 660,Kerri M Crawford,A5010616834,fuzzy,I44461941,round2_inst,54
 661,Meridith Joyce,A5009377606,exact,,name_unique,106
@@ -494,12 +568,16 @@
 682,Jae-Won Shin,A5089735895,alias,,round3_semantic,85
 683,Jessie L Williamson,A5071944605,fuzzy,,round3_semantic,30
 685,Sangram Redkar,A5034552874,exact,,name_unique,113
+686,Narges Norouzi,A5090187471,alias,I95457486,round3_semantic,21
+687,Nicole R Looper,A5039070582,fuzzy,I27804330,round2_inst,25
 689,Byron D Erath,A5037255191,fuzzy,,round3_semantic,102
 691,Jinhui Wang,A5100394108,alias,,round3_semantic,83
 692,Carlos Castano,A5082098424,alias,,round3_semantic,58
 693,Angelo Gaitas,A5027061615,exact,,name_unique,65
 694,Mathew A Kuttolamadom,A5069726361,fuzzy,,round3_semantic,88
 696,Timothy J Nokes-Malach,A5073862769,fuzzy,I170201317,round2_inst,80
+698,Julie Malmberg,A5072111125,alias,,round3_semantic,22
+699,Robert Iafe,A5054473185,alias,I226560621,round2_inst,21
 700,Mohiuddin Quadir,A5014281779,exact,,name_unique,111
 701,Pavel Galashin,A5003525038,alias,,round3_semantic,77
 704,Dimitri Y Shlyakhtenko,A5085505149,fuzzy,I161318765,round2_inst,122
@@ -512,7 +590,9 @@
 713,Jitao Zhang,A5102015003,alias,,round3_semantic,128
 714,Tao Ye,A5100419662,alias,,round3_semantic,107
 715,Robert J Lemke Oliver,A5102849268,fuzzy,I135310074,round3_semantic,65
+719,Mengxue Hou,A5063884621,exact,I107639228,round3_semantic,27
 720,Weihang Zhu,A5072028806,alias,I44461941,round2_inst,156
+722,Matthew G Durham,A5109059071,fuzzy,,round3_semantic,29
 724,Alexander K Fremier,A5088098542,fuzzy,I72951846,round2_inst,107
 725,Van A Doze,A5041537880,fuzzy,,round4_maxpapers,108
 726,Wenli Bi,A5029898698,alias,,round3_semantic,128
@@ -521,20 +601,26 @@
 729,Jan P Stegemann,A5044948841,fuzzy,I27837315,round3_semantic,127
 731,Mary Kurz,A5045753221,alias,I8078737,round2_inst,62
 732,Chadia Affane Aji,A5003263087,alias,I6026837,round3_semantic,34
+735,Candice Y Lumibao,A5062966432,fuzzy,I96749437,round2_inst,26
 736,Jeremiah A Henning,A5031055261,fuzzy,I83809506,round2_inst,55
 737,Amanda M Holland-Minkley,A5005093323,fuzzy,I28527212,round2_inst,30
 738,Samantha A Meenach,A5006060582,fuzzy,I17626003,round2_inst,49
 742,Laura P Ford,A5038305877,fuzzy,I87208437,round2_inst,36
 744,Robert B Rose,A5111489753,fuzzy,I137902535,round4_maxpapers,65
 745,James D Teresco,A5039235248,fuzzy,,round3_semantic,41
+748,Shannon Timmons,A5054239280,alias,I2276074,round2_inst,25
 749,Carolyn T Chang,A5000093928,fuzzy,,round4_maxpapers,44
 750,Logan L Watts,A5025775366,fuzzy,,round3_semantic,69
 751,Andrew H Owens,A5034304163,fuzzy,I205783295,round2_inst,73
 752,Sean P Colin,A5064592204,fuzzy,I79839527,round3_semantic,124
+753,Nathan W Klein,A5102180519,fuzzy,,round3_semantic,28
+754,Jessica D Boles,A5044794240,fuzzy,I95457486,round2_inst,25
 755,Yunfei Hou,A5056807970,alias,,round4_maxpapers,174
 756,Shiyao Lin,A5061557446,exact,,round4_maxpapers,77
+757,John R Morelock,A5009561291,fuzzy,,round3_semantic,22
 758,Diane L Peters,A5055565398,fuzzy,I39965400,round2_inst,108
 760,Meng-Che Ho,A5017120398,alias,,round3_semantic,34
+762,Grant A Clayton,A5067504928,fuzzy,,round3_semantic,27
 763,Robert F Anderson,A5005785286,fuzzy,I78577930,round3_semantic,534
 764,Sarah L Harris,A5065027413,fuzzy,I133999245,round2_inst,145
 765,Martin J Egan,A5080382205,fuzzy,,round3_semantic,31
@@ -545,6 +631,7 @@
 770,Dung Tran,A5021137751,alias,,round3_semantic,96
 771,Joel Atallah,A5086244426,alias,I192396691,round4_maxpapers,32
 772,Elisa Castagnola,A5030462307,exact,,name_unique,61
+773,Azadeh Bolhari,A5033511099,exact,,name_unique,22
 774,Vitaliy Dorogan,A5024643279,alias,,round3_semantic,96
 775,Feng Lin,A5074636244,alias,,round3_semantic,343
 776,Amy E Landis,A5050149943,fuzzy,,round3_semantic,173
@@ -556,8 +643,10 @@
 786,Lin Lin,A5100342029,exact,I95457486,round3_semantic,141
 787,Shuang Zhao,A5057808448,alias,,round3_semantic,185
 788,Paige Evans,A5054685136,alias,I44461941,round2_inst,31
+789,Lucas Pinto,A5042836198,alias,,round3_semantic,28
 790,Kimberly P Boyd,A5108559964,fuzzy,,round3_semantic,31
 793,Jianqiang Wei,A5052369732,alias,,round3_semantic,55
+796,Jennifer A Wilhelm,A5004852878,fuzzy,I143302722,round3_semantic,21
 797,Mina Sartipi,A5065246264,exact,,name_unique,88
 798,Hussein Nassar,A5082558391,alias,,round3_semantic,56
 799,Amanda M Thomas,A5022111653,fuzzy,,round3_semantic,103
@@ -576,12 +665,15 @@
 819,Aram Amassian,A5035652561,exact,I137902535,round2_inst,309
 821,Aditya Johri,A5056968920,alias,I162714631,round2_inst,240
 822,Saeid Tizpaz-Niari,A5076300752,alias,,round3_semantic,50
+823,Olusola T Odeyomi,A5035313713,fuzzy,I35777872,round2_inst,28
+824,Michael J Daley,A5102913303,fuzzy,I5388228,round2_inst,23
 825,Christopher A Lepczyk,A5072956454,fuzzy,I82497590,round2_inst,190
 826,George Veletsianos,A5052894920,alias,I130238516,round2_inst,178
 827,Hongyang Sun,A5076659753,alias,,round3_semantic,151
 828,Mark Lawrence,A5045306511,alias,,round3_semantic,60
 829,Yanning Shen,A5019337064,alias,I204250578,round2_inst,112
 830,Sangeetha Abdu Jyothi,A5058967466,alias,I204250578,round2_inst,59
+831,Anand K Gramopadhye,A5014880083,fuzzy,I8078737,round3_semantic,25
 834,Cody W Edwards,A5079018829,fuzzy,I162714631,round2_inst,39
 835,Suzette R Burckhard,A5032926565,fuzzy,I177156846,round2_inst,39
 836,Helene Le Mevel,A5015206859,exact,I196817621,round2_inst,48
@@ -592,10 +684,12 @@
 843,Brendan R Eagan,A5061166172,fuzzy,I135310074,round2_inst,53
 844,Jennifer Parham-Mocello,A5083053559,exact,,name_unique,31
 846,Andrew D Steen,A5040578598,fuzzy,I1174212,round2_inst,112
+847,Rebecca McGraw,A5035512894,exact,,name_unique,24
 848,Cesar A Uribe,A5047076392,fuzzy,I74775410,round3_semantic,186
 850,Kimberly A Reynolds,A5047794033,fuzzy,,round3_semantic,57
 851,Mingyue Ji,A5058487273,alias,I33213144,round2_inst,249
 852,Yvette E Pearson,A5003046968,fuzzy,,round3_semantic,63
+853,Ordene Edwards,A5083759017,alias,,round3_semantic,23
 854,James Cahoon,A5006320259,alias,I114027177,round2_inst,130
 855,Yizheng Chen,A5101433146,alias,,round3_semantic,57
 856,Emilie G Beaudon,A5003287327,fuzzy,,round3_semantic,61
@@ -612,16 +706,19 @@
 874,Felix Warneken,A5024921128,exact,I27837315,round3_semantic,133
 875,Tim Dallas,A5022340845,exact,,name_unique,90
 876,Yanghyo R Kim,A5017337944,fuzzy,,round3_semantic,83
+878,Matthew Shannon,A5091607760,alias,I99490713,round2_inst,26
 879,Liang Du,A5052534353,alias,,round3_semantic,127
 881,David Esparza,A5024763889,alias,,round3_semantic,45
 882,Trisha L Spanbauer,A5004012768,fuzzy,,round3_semantic,51
 883,Na Gong,A5069728349,alias,,round3_semantic,114
+884,Ryan J Zerr,A5072255467,fuzzy,,round4_maxpapers,26
 885,Hamdy Ibrahim,A5074953763,alias,,round3_semantic,46
 886,Brent A Nelson,A5110104317,fuzzy,I87216513,round3_semantic,41
 887,Emily K Fox,A5068568859,fuzzy,,round3_semantic,188
 888,Anne M Baranger,A5031194172,fuzzy,I95457486,round2_inst,96
 889,Valentina V Kuskova,A5069790131,fuzzy,I107639228,round2_inst,43
 890,Susan E Burns,A5051522198,fuzzy,I130701444,round2_inst,152
+891,Li Ke,A5100343545,alias,I201448701,round3_semantic,24
 892,Sankha Banerjee,A5082113851,exact,I67328108,round2_inst,32
 893,Sarah Cannon,A5032733831,alias,I106107269,round2_inst,58
 895,Christina L Boyd,A5070750613,fuzzy,,round3_semantic,97
@@ -639,14 +736,17 @@
 912,Abas Sabouni,A5090617284,alias,I160003610,round2_inst,64
 913,Maureen H Walczak,A5077218396,fuzzy,,round3_semantic,94
 914,Alice-Agnes Gabriel,A5016717269,alias,,round3_semantic,361
+915,Adrian Villalta Cerdas,A5080295814,exact,,name_unique,28
 916,Dan Li,A5100380810,exact,I201448701,round3_semantic,1077
 917,Yang Ye,A5085383839,alias,,round3_semantic,41
 920,Allan P Donsig,A5085341813,fuzzy,I114395901,round2_inst,62
+921,Xuecai Ge,A5003450162,alias,,round3_semantic,25
 927,David A Butler,A5020577930,fuzzy,I1318687432,round4_maxpapers,757
 934,David Mitzi,A5024058183,alias,I170897317,round2_inst,374
 937,Felix Leditzky,A5033192808,alias,,round3_semantic,53
 940,Afrooz Jalilzadeh,A5010113200,alias,I138006243,round2_inst,48
 942,Brad J Gemmell,A5025268550,fuzzy,I2613432,round2_inst,107
+943,Zhenkai Zhang,A5101696649,exact,I8078737,round3_semantic,27
 945,Paul Ruth,A5072444330,exact,I114027177,round2_inst,72
 946,Virginia J Flood,A5021110947,fuzzy,,round3_semantic,44
 950,Alisa Javadi,A5047269803,exact,,name_unique,84
@@ -681,6 +781,7 @@
 984,Benjamin Zwickl,A5087463886,alias,,round3_semantic,106
 985,Santosh K Pandey,A5005422935,fuzzy,I173911158,round2_inst,114
 986,David P Hartley,A5046640393,fuzzy,,round3_semantic,308
+988,Erin Scott,A5024768868,alias,,round3_semantic,23
 990,Nanette I Marcum-Dietrich,A5086151138,fuzzy,I104651037,round2_inst,35
 992,Jen Munson,A5013685272,exact,,name_unique,43
 993,Alejandro Rico-Guevara,A5046143048,alias,I201448701,round2_inst,55
@@ -690,6 +791,7 @@
 1001,Rebecca C Bowers-Gentry,A5057896970,fuzzy,,round3_semantic,40
 1002,Noah Butler,A5019550435,alias,,round4_maxpapers,88
 1004,Fioralba Cakoni,A5016533774,exact,,name_unique,175
+1005,Joshua Bloomekatz,A5067069927,exact,,name_unique,22
 1006,Jenya Soprunova,A5008244060,exact,,name_unique,42
 1007,Yash Lodha,A5080195606,exact,,name_unique,59
 1009,Misty Riddle,A5025554475,alias,,round3_semantic,35
@@ -700,7 +802,9 @@
 1020,Ricarose Roque,A5036319711,exact,,name_unique,57
 1022,Karen A High,A5043514708,fuzzy,I8078737,round2_inst,89
 1023,William J Davis,A5077504928,fuzzy,I91036609,round3_semantic,65
+1024,Andrea M Ogilvie,A5054901202,fuzzy,I91045830,round3_semantic,25
 1027,Neil A Knobloch,A5023781025,fuzzy,,round3_semantic,73
+1028,Sheel C Ganatra,A5023715795,fuzzy,I1174212,round2_inst,27
 1029,Christine L Mallinson,A5047324018,fuzzy,I79272384,round2_inst,74
 1031,Sarah J Watzman,A5003692095,fuzzy,,round3_semantic,50
 1033,Georgios Moutsanidis,A5010310237,exact,,name_unique,30
@@ -709,6 +813,7 @@
 1037,Linda Hyman,A5054452522,alias,I1338920048,round2_inst,36
 1038,Benjamin K Blackman,A5059939053,fuzzy,I95457486,round2_inst,55
 1039,Christopher T Solomon,A5056737164,fuzzy,I3131038610,round2_inst,135
+1040,Lucinda M Sisk,A5067941155,fuzzy,,round3_semantic,29
 1041,Shaowen Wang,A5026042163,alias,,round3_semantic,310
 1042,Hao Sun,A5005804154,alias,I40253897,round3_semantic,181
 1043,Colin R Meyer,A5042908854,fuzzy,I107672454,round2_inst,172
@@ -726,11 +831,13 @@
 1057,Christian Agatemor,A5001040554,alias,,round3_semantic,72
 1059,Naruki Hiranuma,A5005965575,exact,,name_unique,147
 1061,Jian J Zhang,A5100409879,fuzzy,I201448701,round4_maxpapers,1915
+1062,Trevor M Leslie,A5066200410,fuzzy,I180949307,round2_inst,25
 1063,Carlos F Moffat,A5044995325,fuzzy,I86501945,round2_inst,68
 1064,Xiaolong Liu,A5100393819,alias,I107639228,round2_inst,140
 1066,Samantha M Krause,A5008844054,fuzzy,,round3_semantic,60
 1068,Daniel Ducat,A5007719112,alias,I87216513,round2_inst,55
 1071,Dorothy Lerit,A5065143503,fuzzy,I150468666,round2_inst,37
+1072,Mania Aghaei Meibodi,A5024588953,alias,I27837315,round2_inst,25
 1074,Luiz Santos,A5036222542,alias,I150468666,round2_inst,83
 1075,Robert Streubel,A5019471167,exact,,name_unique,138
 1076,Wei Xie,A5069412360,exact,I12912129,round3_semantic,117
@@ -758,6 +865,7 @@
 1102,Benjamin Steinberg,A5056602969,alias,,round3_semantic,361
 1103,Jean-Philippe F Gourdine,A5001674341,fuzzy,,round3_semantic,43
 1104,Ming L Tang,A5056292870,fuzzy,I223532165,round3_semantic,121
+1105,Emily Edwards,A5052859229,alias,,round3_semantic,26
 1107,Bin Sun,A5100641761,exact,I87216513,round3_semantic,271
 1109,Charles E Lawrence,A5026511725,fuzzy,I27804330,round2_inst,146
 1110,Douglas E Spearot,A5060135475,fuzzy,I33213144,round2_inst,128
@@ -788,6 +896,7 @@
 1137,Biyun Xie,A5041461170,exact,,name_unique,37
 1138,Mohammad H Malakooti,A5074703772,fuzzy,I201448701,round2_inst,74
 1139,Bo Xiao,A5062706653,exact,I11957088,round2_inst,68
+1140,Haicen Yue,A5007669972,exact,,name_unique,29
 1143,Martin J Bridgeman,A5088287805,fuzzy,I103531236,round2_inst,82
 1144,Kimberly S Sheldon,A5017245255,fuzzy,,round3_semantic,53
 1145,Michael K West,A5110941587,fuzzy,I184647316,round3_semantic,33
@@ -798,10 +907,13 @@
 1151,Kaiyi Ji,A5071973105,alias,,round3_semantic,70
 1152,Mark Moritz,A5008502764,exact,,round3_semantic,109
 1153,Konrad Aguilar,A5071112876,exact,,name_unique,46
+1154,Kiran C Jayaram,A5058932186,fuzzy,I2613432,round2_inst,24
+1156,Stephanie M Campos,A5068500580,fuzzy,I7863295,round2_inst,27
 1158,Allyson C Tessin,A5006260867,fuzzy,I149910238,round2_inst,168
 1159,Giacomo Valerio Iungo,A5079765625,exact,,name_unique,153
 1161,Niall M Mangan,A5075972178,fuzzy,,round3_semantic,79
 1163,Aaron J Rossini,A5061742754,fuzzy,I173911158,round2_inst,338
+1164,Haochi Zheng,A5073107681,exact,,name_unique,26
 1165,Yunan Luo,A5040139742,exact,I130701444,round2_inst,60
 1166,Russell R Hopcroft,A5026971095,fuzzy,,round3_semantic,145
 1167,Alexey V Akimov,A5083739979,fuzzy,,round3_semantic,96
@@ -822,6 +934,7 @@
 1191,Xiaojing Liao,A5084889167,alias,,round3_semantic,75
 1192,Luyi Xing,A5036446600,alias,,round3_semantic,37
 1193,John M Zobitz,A5019528799,fuzzy,I119916105,round3_semantic,61
+1194,Melissa S Plakke,A5071018805,exact,,name_unique,24
 1195,Tim L Andersen,A5007449362,fuzzy,I120156002,round2_inst,66
 1198,Gautam Rupak,A5048801065,exact,,name_unique,101
 1199,Megan Cimino,A5036046813,alias,I185103710,round2_inst,55
@@ -837,13 +950,16 @@
 1212,Monique Borgerhoff Mulder,A5081576422,alias,I1308548392,round3_semantic,236
 1213,Julie A Peterson,A5064344192,fuzzy,I157417397,round2_inst,74
 1214,Efren Ruiz,A5040375181,exact,,name_unique,93
+1215,Rachel Bangle,A5002209596,alias,,round3_semantic,29
 1216,Colleen M Witzenburg,A5052683196,fuzzy,I135310074,round2_inst,32
 1220,Eunjung Jung,A5086018496,alias,,round3_semantic,214
+1221,Tej B Limbu,A5037790456,fuzzy,I52913039,round2_inst,24
 1224,Daniel Anglés-Alcázar,A5008589829,alias,I140172145,round2_inst,196
 1226,John P Ziker,A5073382012,fuzzy,I120156002,round2_inst,116
 1227,Sara Warix,A5074170532,alias,I223532165,round2_inst,34
 1228,Joseph A Waldron,A5051652526,fuzzy,,round4_maxpapers,38
 1229,Lorraine Lisiecki,A5091455900,alias,I154570441,round2_inst,146
+1230,Gilbert Moss,A5079451259,exact,,name_unique,26
 1231,Lijing Wang,A5100330300,alias,,round3_semantic,67
 1232,Akshay Venkatesh,A5114444440,alias,I40036882,round2_inst,79
 1233,Elizabeth Paul,A5070073675,exact,I78577930,round3_semantic,54
@@ -854,17 +970,23 @@
 1240,John J Dennehy,A5007945304,fuzzy,I111455621,round2_inst,93
 1242,Meng Wang,A5100377130,alias,I44461941,round3_semantic,140
 1243,Katrina D Barron,A5034296934,fuzzy,I107639228,round2_inst,49
+1244,Yao Zheng,A5101975545,alias,I140172145,round3_semantic,24
+1246,Shuna Ni,A5040240885,alias,I66946132,round2_inst,28
 1247,Andrew T Jessup,A5048023885,fuzzy,I201448701,round2_inst,120
+1248,Heili E Lowman,A5086722808,fuzzy,I170897317,round2_inst,28
 1249,Derk Joester,A5046468644,alias,I111979921,round3_semantic,88
 1250,Aparajeo Chattopadhyay,A5039399220,alias,I5388228,round2_inst,36
+1251,Diana M Byrne,A5073979252,fuzzy,I143302722,round2_inst,25
 1253,Kayhan batmanghelich,A5031717623,exact,I111088046,round3_semantic,146
 1254,Tao Gao,A5013727422,exact,I223532165,round3_semantic,160
 1255,Manel Errando,A5081189251,alias,,round3_semantic,301
+1256,Michelle Chu,A5020303759,alias,I130238516,round2_inst,22
 1258,Amy Dejongh Curry,A5078104720,fuzzy,I94658018,round4_maxpapers,51
 1259,Angeline G Pendergrass,A5015849102,fuzzy,I205783295,round2_inst,143
 1260,Amanda K Gibson,A5090244220,fuzzy,,round3_semantic,67
 1261,Nicholas P McKay,A5013707453,fuzzy,I203172682,round3_semantic,249
 1262,Shana Moothedath,A5087007662,alias,I173911158,round2_inst,70
+1263,Carla Michini,A5078379802,alias,I135310074,round2_inst,29
 1265,Beth Tellman,A5087383776,exact,,name_unique,90
 1266,Ozgun Babur,A5006448195,exact,I33434090,round2_inst,104
 1267,Oana Carja,A5046423739,exact,,name_unique,42
@@ -908,12 +1030,15 @@
 1310,Alberto Canestrelli,A5082110607,exact,,name_unique,57
 1314,Rajesh K Sani,A5063534124,fuzzy,I184647316,round2_inst,204
 1315,Terrence J Sejnowski,A5044141636,fuzzy,I36258959,round2_inst,967
+1316,Danial Davarnia,A5029812131,exact,,name_unique,27
 1317,Ashley M Burkett,A5043461828,fuzzy,I115475287,round2_inst,167
 1318,Tanmay Gupta,A5044439981,alias,,round3_semantic,55
 1319,James D Quigley,A5040388325,alias,,round3_semantic,41
+1320,Yan Wang,A5100322723,alias,I33213144,round3_semantic,24
 1321,Christopher E Miles,A5036077055,fuzzy,I223532165,round2_inst,43
 1323,Panagiotis E Souganidis,A5066466020,fuzzy,I40347166,round2_inst,243
 1324,Kacy Gordon,A5044188303,alias,I114027177,round2_inst,34
+1325,Tepring Piquado,A5003485327,exact,,name_unique,28
 1327,Golden G Richard,A5040000514,fuzzy,I121820613,round2_inst,122
 1328,Cara H Haney,A5039705679,fuzzy,I170201317,round2_inst,54
 1330,Jessie Chin,A5033241314,exact,,name_unique,94
@@ -937,8 +1062,10 @@
 1352,Suzanne S Bohlson,A5011158259,fuzzy,I204250578,round2_inst,38
 1353,Paul Higgins,A5048846112,exact,I1298748095,round2_inst,102
 1354,Irene V Pasquetto,A5024537982,fuzzy,I66946132,round2_inst,44
+1355,Brittany N Hupp,A5014237407,fuzzy,I162714631,round2_inst,26
 1356,Luca V Delacretaz,A5089019137,fuzzy,I40347166,round2_inst,51
 1357,Jose Eduardo Meireles,A5087198596,exact,,name_unique,48
+1358,Shahrzad Roshankhah,A5047551134,exact,,name_unique,26
 1359,Ritambhara Singh,A5070578596,alias,I27804330,round3_semantic,109
 1360,Xuan Zhang,A5100697673,exact,I156087764,round3_semantic,132
 1361,Zane K Li,A5013213435,fuzzy,I137902535,round2_inst,30
@@ -947,9 +1074,12 @@
 1365,Megan E Cattau,A5077064108,fuzzy,I120156002,round2_inst,55
 1366,Esteban A Hernandez Vargas,A5051418152,fuzzy,I155093810,round2_inst,180
 1368,Igor Fedin,A5026725542,alias,,round3_semantic,46
+1369,Deniz Bilman,A5034839174,exact,,name_unique,26
 1370,Juba Ziani,A5008250785,exact,I130701444,round2_inst,58
 1371,Maureen H Walczak,A5077218396,fuzzy,,round3_semantic,94
+1372,Anne B McCoy,A5039510931,fuzzy,I201448701,round3_semantic,24
 1374,Khairi Reda,A5060626774,alias,I39422238,round2_inst,57
+1376,Julie Malmberg,A5072111125,alias,,round3_semantic,22
 1377,Alex G Novoselov,A5089905547,fuzzy,I223532165,round2_inst,43
 1381,Melissa K Santala,A5043758880,fuzzy,I131249849,round2_inst,69
 1382,Mengjia Yan,A5057740643,exact,I63966007,round2_inst,50
@@ -969,6 +1099,7 @@
 1403,Nathaniel Traaseth,A5044049726,alias,,round3_semantic,96
 1404,Mark Lipke,A5086306543,alias,,round3_semantic,90
 1405,Ilya Kovalenko,A5065261986,alias,,round3_semantic,51
+1407,Amanda N Laubmeier,A5020753799,fuzzy,I12315562,round2_inst,25
 1410,Daniel Erman,A5082037003,alias,,round3_semantic,76
 1411,Radu Laza,A5020748889,alias,,round3_semantic,101
 1412,Jonathan J Zhu,A5017697784,fuzzy,I201448701,round2_inst,50
@@ -980,10 +1111,12 @@
 1419,Praveen Bollini,A5025125447,exact,,name_unique,58
 1420,Christine Berkesch,A5013953187,exact,,name_unique,52
 1422,Caitlin Proctor,A5025344139,alias,,round3_semantic,38
+1423,Nicholas Truex,A5006223544,alias,,round3_semantic,21
 1424,Jia Deng,A5035378988,alias,,round3_semantic,80
 1425,Surangi W Punyasena,A5033161050,fuzzy,,round3_semantic,86
 1426,Anna M Nierenberg,A5006631263,fuzzy,I156087764,round2_inst,76
 1428,Roxanne S Beltran,A5075982283,fuzzy,I185103710,round2_inst,68
+1429,Xiaoran Hu,A5042217329,exact,I70983195,round2_inst,26
 1431,Juan Pablo Canales,A5050859458,alias,I66958751,round3_semantic,194
 1432,Yun Shen,A5069847496,exact,I193531525,round2_inst,89
 1433,Claudia Polini,A5057295462,exact,,name_unique,108
@@ -992,6 +1125,7 @@
 1438,Yulong Lu,A5080770658,alias,I130238516,round2_inst,72
 1440,Shenghua Wu,A5088002090,exact,I83809506,round3_semantic,81
 1441,Sebastian Stoian,A5047008470,alias,I155093810,round2_inst,208
+1443,Kyle Moor,A5081839704,alias,I121980950,round2_inst,21
 1444,Wenbin Yu,A5101934162,alias,,round4_maxpapers,324
 1445,Tonmoy Chakraborty,A5091783739,alias,I169521973,round2_inst,37
 1446,Aditi Raghunathan,A5031731960,alias,I74973139,round2_inst,86
@@ -1003,9 +1137,12 @@
 1452,Ge Gao,A5062008887,exact,I66946132,round3_semantic,57
 1453,David J Durden,A5039964575,fuzzy,I1325736334,round2_inst,87
 1455,Allison H Moore,A5036989845,fuzzy,I184840846,round2_inst,39
+1456,Randy Hamchand,A5003765180,exact,,name_unique,21
 1458,Wen Shen,A5076470489,alias,,round3_semantic,76
 1459,Chicheng Zhang,A5066555678,alias,I138006243,round2_inst,66
 1460,Robin S Walters,A5020217201,fuzzy,I12912129,round3_semantic,37
+1461,Lucia Fernandez-Ballester,A5013585390,exact,,name_unique,24
+1462,Andrew Hanlon,A5045186649,alias,,round3_semantic,25
 1464,Navid Goudarzi,A5085464099,exact,,name_unique,96
 1466,Dennis Brylow,A5044223148,exact,,name_unique,59
 1467,Mimi M Recker,A5001765476,fuzzy,I121980950,round2_inst,180
@@ -1014,8 +1151,10 @@
 1470,Leonid Mirny,A5017406892,alias,I63966007,round2_inst,348
 1472,Augustin Chaintreau,A5026913706,exact,I78577930,round2_inst,137
 1473,Matthew R Ballard,A5057102698,fuzzy,,round3_semantic,131
+1474,Austin D Gray,A5017457100,fuzzy,I859038795,round2_inst,24
 1479,Hamish Gordon,A5086004922,alias,I74973139,round2_inst,385
 1480,Jonathan K Pokorski,A5055997846,fuzzy,I36258959,round2_inst,103
+1481,Christopher Shepard,A5082306307,alias,I143302722,round2_inst,27
 1483,Kristin Poinar,A5083800146,alias,,round3_semantic,80
 1484,Gabor Szekelyhidi,A5003517719,exact,,name_unique,116
 1485,Paul D Asimow,A5052684939,fuzzy,I122411786,round3_semantic,446
@@ -1024,10 +1163,12 @@
 1488,Clark Barrett,A5026961968,alias,I97018004,round2_inst,297
 1489,Paul V Ullmann,A5037468207,fuzzy,,round3_semantic,47
 1490,Louise Yarnall,A5075936821,exact,,name_unique,52
+1491,Patrick F Musgrave,A5015064505,fuzzy,I33213144,round2_inst,27
 1492,Jason B Fellman,A5072539093,fuzzy,,round3_semantic,106
 1493,Laura H Blumenschein,A5034706353,fuzzy,,round3_semantic,51
 1494,Chung Hwan Kim,A5101947406,alias,,round3_semantic,33
 1495,Sam J Silva,A5012693145,fuzzy,I1174212,round2_inst,79
+1496,Hrayer Aprahamian,A5065552098,alias,,round3_semantic,25
 1497,Joanna C Carey,A5004185049,fuzzy,I96062909,round2_inst,52
 1498,Marko Cetina,A5069374443,exact,,name_unique,84
 1499,Charles A Schambeau,A5044380763,fuzzy,,round3_semantic,87
@@ -1036,6 +1177,8 @@
 1503,Victoria A Webster-Wood,A5007509117,fuzzy,I74973139,round2_inst,82
 1504,Mei Yang,A5100438307,exact,I133999245,round3_semantic,45
 1505,Davita Watkins,A5007869147,alias,,round4_maxpapers,99
+1506,Sheel C Ganatra,A5023715795,fuzzy,I1174212,round2_inst,27
+1507,Lisa D Brown,A5031581947,fuzzy,I83909951,round2_inst,27
 1509,Bin Chen,A5073108937,exact,I1331384533,round3_semantic,182
 1510,Jonathan Rittle,A5073789463,alias,I95457486,round2_inst,115
 1511,Matthew Gleeson,A5028911822,exact,I95457486,round2_inst,86
@@ -1058,6 +1201,7 @@
 1528,Frank Li,A5050884723,exact,I130701444,round3_semantic,102
 1529,Catherine M Drerup,A5041989144,fuzzy,I135310074,round2_inst,33
 1531,Baibhab Chatterjee,A5039890044,exact,,name_unique,115
+1532,Javad Hashemi,A5102999974,alias,I63772739,round3_semantic,23
 1534,Kathryn Mann,A5083634119,exact,I205783295,round3_semantic,74
 1535,Rebecca Sandlin,A5078139072,alias,I4210087915,round2_inst,43
 1536,Allegra T Aron,A5069291692,fuzzy,I131651094,round2_inst,70
@@ -1074,16 +1218,20 @@
 1551,Yuanyuan Shi,A5055691206,exact,I36258959,round3_semantic,134
 1552,Doowon Kim,A5025936242,alias,,round3_semantic,46
 1553,Elizabeth Medina,A5033683390,alias,,round3_semantic,80
+1554,Zoleikha Biron,A5015697083,alias,I33213144,round2_inst,25
 1555,Sarah Kurtz,A5065574271,exact,I156087764,round2_inst,674
 1557,Annette R Rowe,A5003216727,fuzzy,,round3_semantic,76
 1559,Kirthevasan Kandasamy,A5050433159,exact,,name_unique,82
 1560,Habeeb D Olufowobi,A5071036966,fuzzy,,round3_semantic,34
+1561,Weiwei Jia,A5034331684,exact,I17626003,round3_semantic,22
+1564,Shagufta Mehnaz,A5032020253,exact,,name_unique,29
 1565,Hua Wei,A5100777770,exact,I55732556,round3_semantic,256
 1568,Xiaorui Liu,A5100621795,exact,I137902535,round3_semantic,70
 1569,Yang Xiao,A5009050006,alias,I143302722,round3_semantic,37
 1570,Susan G Glenn,A5064461404,fuzzy,,round4_maxpapers,43
 1571,Aaron J Teator,A5050434313,fuzzy,,round3_semantic,30
 1572,Seth B Herzon,A5055878366,fuzzy,I32971472,round2_inst,211
+1578,Bradley A Kramer,A5034350821,fuzzy,I189590672,round2_inst,29
 1579,Hannah Kerner,A5053180513,exact,,name_unique,185
 1580,Peter D Roopnarine,A5050488917,fuzzy,I2803094215,round2_inst,148
 1581,Qi Zhang,A5100360194,exact,I107077323,round3_semantic,833
@@ -1094,6 +1242,7 @@
 1587,Kyungtae Kim,A5100713090,alias,,round4_maxpapers,448
 1588,Yoon H Kim,A5100693798,fuzzy,I63966007,round3_semantic,350
 1590,Robert J McTaggart,A5014894626,fuzzy,I177156846,round2_inst,35
+1592,Hannah Zierden,A5021503157,alias,I66946132,round2_inst,24
 1594,Andras Gyenis,A5008337401,alias,,round3_semantic,65
 1595,Jouha Min,A5026244823,exact,,name_unique,37
 1596,Tao Zhou,A5042861452,alias,,round3_semantic,97
@@ -1107,10 +1256,12 @@
 1605,Tyler B Smith,A5011044707,fuzzy,I17001226,round2_inst,129
 1606,Giuseppe Loianno,A5077485450,alias,,round3_semantic,176
 1607,Yorie Nakahira,A5084147009,alias,I74973139,round2_inst,74
+1608,Paulina Diaz-Montiel,A5051322481,exact,,name_unique,22
 1609,Daniela Inclezan,A5022062603,exact,I83328450,round3_semantic,41
 1610,Yang Zhang,A5100354763,alias,I137902535,round3_semantic,141
 1611,Peng Li,A5100432738,alias,,round3_semantic,224
 1614,Xu Wang,A5068653834,exact,I27837315,round3_semantic,81
+1615,Patricia S Thibodeau,A5082061293,fuzzy,I275799156,round2_inst,23
 1616,Eshed Ohn-Bar,A5025893246,exact,,name_unique,107
 1617,Varun Mishra,A5036254245,exact,I12912129,round3_semantic,57
 1618,Christian O'Reilly,A5081475746,alias,,round3_semantic,101
@@ -1127,8 +1278,10 @@
 1631,Mishko Mitkovski,A5041568435,exact,,name_unique,51
 1632,Maryam Tilton,A5028934015,exact,,name_unique,30
 1633,Xiaodong Yan,A5072606921,alias,,round3_semantic,100
+1634,Elizabeth Roberto,A5027128329,exact,I74775410,round2_inst,21
 1636,Billy M Williams,A5037471842,fuzzy,I160664669,round3_semantic,84
 1637,Zheng Shi,A5100743019,alias,,round3_semantic,85
+1638,Andrea Quinn,A5102851455,alias,,round3_semantic,26
 1639,Chirag Gupta,A5031523626,exact,I135310074,round3_semantic,99
 1640,Song Gao,A5101938899,exact,I135310074,round3_semantic,242
 1641,Andrew J Wilson,A5014078497,fuzzy,I142740786,round2_inst,74
@@ -1145,6 +1298,7 @@
 1653,Brendan R Eagan,A5061166172,fuzzy,I135310074,round2_inst,53
 1654,Anthony P Straub,A5055651880,fuzzy,,round3_semantic,41
 1655,Ping Yang,A5039935543,alias,I91045830,round3_semantic,606
+1656,Lisa C McManus,A5044601653,fuzzy,I1331384533,round2_inst,29
 1657,Kent D Messer,A5000708557,fuzzy,I86501945,round3_semantic,233
 1658,Wenchao Ge,A5042192813,exact,I17626003,round2_inst,61
 1659,Ishan G Thakkar,A5083056788,fuzzy,I143302722,round2_inst,101
@@ -1161,6 +1315,7 @@
 1671,Jinyoung Park,A5100428898,exact,I57206974,round2_inst,63
 1672,Jared M Ashcroft,A5052574788,fuzzy,I109301148,round2_inst,44
 1673,Jacob Bortnik,A5011734134,exact,,name_unique,614
+1676,Rebecca B Abney,A5083150661,fuzzy,,round3_semantic,27
 1678,Assaf Naor,A5052985577,exact,I20089843,round2_inst,275
 1679,Sulaymon Eshkabilov,A5020834582,exact,,name_unique,68
 1680,Mary S Himmelstein,A5078646799,fuzzy,I149910238,round2_inst,67
@@ -1180,6 +1335,7 @@
 1698,Chih-Hao Chang,A5077745794,alias,,round3_semantic,184
 1699,Jian-Xun Wang,A5085043351,alias,I205783295,round3_semantic,266
 1701,Yin Li,A5100451141,alias,I135310074,round3_semantic,195
+1702,Rachel Greenfeld,A5052625405,exact,,name_unique,27
 1703,Kejie Zhao,A5057355127,alias,,round4_maxpapers,182
 1704,Francesc Castella,A5028129170,exact,I154570441,round2_inst,61
 1705,Wei Tang,A5009121711,exact,I39422238,round3_semantic,107
@@ -1216,6 +1372,7 @@
 1743,Stephanie J Galla,A5025507139,fuzzy,I120156002,round2_inst,38
 1744,Divita Mathur,A5073477299,exact,,name_unique,55
 1745,Rosangela Sozzani,A5041070807,alias,I137902535,round2_inst,111
+1746,Mark Brown,A5007919097,alias,,round3_semantic,22
 1748,Matthew R Walter,A5103153703,fuzzy,I160992636,round3_semantic,153
 1750,Varghese M Vaidyan,A5090994008,fuzzy,I125467818,round4_maxpapers,37
 1751,Yong-Jie Hu,A5091112732,alias,I72816309,round2_inst,84
@@ -1238,6 +1395,7 @@
 1770,Prateek Prasanna,A5036343196,alias,,round3_semantic,240
 1771,Yongjoo Park,A5023168280,alias,,round3_semantic,32
 1772,Marvin Parasram,A5053648790,exact,,name_unique,46
+1773,Kristen Vaccaro,A5064496195,alias,I36258959,round2_inst,23
 1774,Paolo Mantero,A5050593391,alias,,round3_semantic,51
 1775,Panpan Zhang,A5100411733,alias,,round3_semantic,170
 1776,Rashaunda M Henderson,A5001686088,fuzzy,,round3_semantic,203
@@ -1248,6 +1406,7 @@
 1783,Sarah E Fox,A5038768773,fuzzy,I74973139,round2_inst,109
 1784,Shubham Tulsiani,A5029932788,alias,I74973139,round2_inst,137
 1785,David van Dijk,A5019679682,alias,I32971472,round2_inst,141
+1787,Matt Bainbridge,A5053156464,exact,,name_unique,23
 1788,Tzung Hsiai,A5081322672,alias,,round3_semantic,302
 1789,Kurt E Beschorner,A5070381564,fuzzy,I170201317,round2_inst,99
 1790,Ge Ou,A5015846787,exact,I33213144,round3_semantic,61
@@ -1267,11 +1426,14 @@
 1805,Eshwar Chandrasekharan,A5069919112,exact,,name_unique,46
 1806,Danaé Metaxa,A5086524212,exact,,name_unique,34
 1807,Diliang Chen,A5009208057,alias,I161057412,round2_inst,32
+1808,Ajay Anand,A5078900695,alias,I5388228,round2_inst,23
 1809,Md Mobashir H Shandhi,A5031102176,fuzzy,I55732556,round2_inst,65
 1810,Carl Yang,A5006897094,exact,I150468666,round3_semantic,228
+1811,Sarah E Kienle,A5015210058,fuzzy,,round3_semantic,28
 1812,Nancy Fulda,A5043661073,exact,I100005738,round2_inst,45
 1813,David C Anastasiu,A5002755684,fuzzy,I16269868,round2_inst,74
 1815,Yixin Wang,A5101934111,alias,I27837315,round3_semantic,330
+1816,Maria D Molina,A5069471918,fuzzy,I87216513,round2_inst,26
 1817,Yalong Yang,A5050126617,alias,I130701444,round2_inst,66
 1818,Naomi T Fitter,A5090905513,fuzzy,I131249849,round2_inst,86
 1819,Na Du,A5027093356,exact,I170201317,round2_inst,70
@@ -1284,6 +1446,7 @@
 1828,Maryam Rahnemoonfar,A5010792548,alias,I186143895,round2_inst,113
 1829,Fei Dai,A5113910816,exact,I1331384533,round3_semantic,190
 1830,Herman R Gluck,A5001799964,fuzzy,I79576946,round2_inst,90
+1831,Alex Abramson,A5018503273,exact,I130701444,round2_inst,21
 1832,Daniel I Pineda,A5013055856,fuzzy,,round3_semantic,60
 1833,Samuel Carton,A5086610894,exact,I161057412,round3_semantic,30
 1834,Sergey V Kravtsov,A5052337472,fuzzy,I43579087,round2_inst,136
@@ -1293,6 +1456,7 @@
 1840,Brittany T Fasy,A5063015907,fuzzy,I23732399,round3_semantic,116
 1841,Francis-Yan Cyr-Racine,A5064297957,exact,I169521973,round2_inst,149
 1842,Ionut Chifan,A5065917902,exact,,name_unique,65
+1843,Elizabeth Qian,A5059159562,alias,I130701444,round2_inst,21
 1844,Gregory Thom,A5048988469,exact,,name_unique,35
 1845,Meghan E Huber,A5045432789,fuzzy,I24603500,round2_inst,59
 1847,Ed Habtour,A5004423131,alias,I201448701,round2_inst,68
@@ -1315,6 +1479,7 @@
 1869,Mimi Xie,A5059911353,alias,,round3_semantic,69
 1870,Susan E Clark,A5005699219,fuzzy,I97018004,round3_semantic,206
 1871,Lon Mitchell,A5022005345,exact,,name_unique,42
+1872,Catherine F Whittington,A5043257357,fuzzy,I107077323,round2_inst,23
 1873,Jose Pablo Vazquez-Medina,A5027325862,alias,I95457486,round3_semantic,129
 1875,David Saldana,A5023803863,alias,I186143895,round2_inst,65
 1877,Ali C Gurbuz,A5036752295,fuzzy,I137902535,round2_inst,218
@@ -1329,9 +1494,12 @@
 1888,Anna V Little,A5063777231,fuzzy,I223532165,round2_inst,39
 1889,Reza Abiri,A5064238465,exact,,name_unique,49
 1890,Caroline M Ajo-Franklin,A5000355786,fuzzy,I74775410,round2_inst,115
+1892,Margaret E Glasner,A5016336553,fuzzy,,round3_semantic,27
 1894,Ian Bradley,A5057501799,alias,,round3_semantic,44
 1895,Christine Queitsch,A5050779824,exact,,name_unique,125
 1896,Wenfei Xu,A5062166205,alias,I205783295,round2_inst,46
+1897,Joseph C Ayoob,A5087052833,fuzzy,I170201317,round2_inst,22
+1898,Adriana Rocha Lima,A5068524877,exact,I79272384,round3_semantic,22
 1899,Craig A Schenck,A5073604787,fuzzy,I76835614,round2_inst,33
 1900,Michael B Sponsler,A5058956621,fuzzy,I70983195,round2_inst,48
 1901,Baobao Zhang,A5031187446,alias,I70983195,round2_inst,96
@@ -1368,6 +1536,7 @@
 1939,Zhizhang Xie,A5020451303,exact,I91045830,round3_semantic,59
 1940,Laura M Hurley,A5077477494,fuzzy,I592451,round2_inst,54
 1941,Filippo Romiti,A5091398327,exact,,name_unique,51
+1943,Berkin Dortdivanlioglu,A5051543902,exact,,name_unique,24
 1944,William B Ludington,A5053132852,fuzzy,,round3_semantic,60
 1945,Matthew H Rosenzweig,A5017793144,fuzzy,I74973139,round2_inst,45
 1947,Cynthia Holland,A5006419595,alias,I22675022,round2_inst,33
@@ -1375,6 +1544,7 @@
 1949,Lisa D Timmons,A5036434081,fuzzy,,round3_semantic,31
 1950,Steven Holtzen,A5066166509,exact,,name_unique,33
 1951,Yen-Ling Kuo,A5087296750,alias,,round3_semantic,67
+1952,Barbara Giunti,A5056040649,exact,,name_unique,23
 1953,Weiwen Jiang,A5019027088,alias,I162714631,round3_semantic,188
 1954,Brian S Cheng,A5062923931,fuzzy,I24603500,round2_inst,40
 1955,Jacob W Faber,A5041240817,fuzzy,I57206974,round3_semantic,67
@@ -1388,12 +1558,14 @@
 1964,Stephen Archer,A5025073434,alias,I2800663845,round3_semantic,133
 1966,Lu Cheng,A5022914600,alias,I39422238,round3_semantic,71
 1967,Wenzhen Yuan,A5055947140,alias,,round3_semantic,83
+1970,Justin Yim,A5068354203,alias,,round3_semantic,26
 1971,Diego Cerrai,A5063609097,exact,,name_unique,62
 1972,Sung-Joo Lim,A5019054490,alias,,round3_semantic,30
 1973,Michael Bizimis,A5082289101,exact,,name_unique,203
 1974,Mehdi Sadi,A5036369307,exact,I82497590,round3_semantic,43
 1977,Martha M Munoz,A5031423099,fuzzy,I32971472,round3_semantic,61
 1978,Ryan W Webb,A5034011859,fuzzy,I12834331,round2_inst,71
+1979,Andrea M Balbas,A5020021456,fuzzy,I131249849,round2_inst,29
 1980,Eric J Tervo,A5014598762,fuzzy,I135310074,round2_inst,53
 1981,Li Zhang,A5115588160,exact,I2802326326,round3_semantic,377
 1983,Ryan Norris,A5102926177,alias,I207123951,round2_inst,59
@@ -1405,13 +1577,16 @@
 1991,David Talmy,A5010267674,exact,,name_unique,33
 1992,Xiaomeng Liu,A5100749512,alias,,round3_semantic,40
 1993,Olufemi M Olorode,A5032921989,fuzzy,I121820613,round2_inst,34
+1994,Akram Alishahi,A5039524026,exact,,name_unique,23
 1995,Evgenios Kornaropoulos,A5030196581,alias,I162714631,round2_inst,38
 1996,Pragya Sur,A5001559651,exact,,name_unique,33
 1997,Morgane Austern,A5044354848,exact,,name_unique,34
 1998,Ralf C Kotulla,A5075900375,fuzzy,I135310074,round2_inst,93
 2000,Jimmy H Saw,A5005089302,fuzzy,I193531525,round2_inst,56
 2001,David Punihaole,A5066993330,exact,,name_unique,36
+2002,Elodie Pozzi,A5011704669,alias,I47838141,round2_inst,22
 2003,Christina M Rost,A5014759418,fuzzy,I859038795,round2_inst,68
+2004,Robin Lammi,A5051590972,alias,I169086405,round2_inst,28
 2005,Juliet Y Davidow,A5061427957,fuzzy,I12912129,round3_semantic,31
 2006,Christopher Grieco,A5001643296,exact,,name_unique,49
 2007,Peter Barry,A5052302040,alias,I66958751,round3_semantic,280
@@ -1419,12 +1594,17 @@
 2009,Mark A Thornton,A5090132542,fuzzy,I107672454,round2_inst,144
 2011,Erin K Molloy,A5045334836,fuzzy,I66946132,round2_inst,71
 2012,Megan N Jackson,A5051130665,fuzzy,I114027177,round2_inst,46
+2013,Ji Yong Shin,A5059352538,alias,I12912129,round2_inst,23
 2014,Xiang Tang,A5028578509,alias,,round3_semantic,126
 2015,Jonathan D Sharp,A5032917150,fuzzy,I201448701,round2_inst,40
+2016,Aleksandr Kazachkov,A5025774365,alias,I33213144,round2_inst,23
+2017,Hamed Rahmani,A5066586950,exact,I57206974,round2_inst,25
 2018,Esther W Gomez,A5036236765,fuzzy,,round3_semantic,75
+2019,Dawn H Nagel,A5008414483,fuzzy,I103635307,round2_inst,27
 2020,Kyle Bibby,A5062959054,exact,I107639228,round2_inst,193
 2022,Yi Xue,A5089479936,exact,I84218800,round3_semantic,93
 2023,Maryam Raeeszadeh Sarmazdeh,A5073412412,alias,,round3_semantic,34
+2024,Alexandra L Rutz,A5014185535,fuzzy,,round3_semantic,26
 2025,Michelle H Wilkerson,A5019886241,fuzzy,I95457486,round2_inst,77
 2026,Chen Kan,A5100636626,alias,,round3_semantic,100
 2027,Sneha Prabha Narra,A5032736409,exact,,name_unique,47
@@ -1439,10 +1619,12 @@
 2039,Pratik Mukherjee,A5101668451,alias,,round3_semantic,30
 2040,Raphael Stern,A5053975688,alias,I130238516,round2_inst,88
 2041,Bijaya Adhikari,A5052463345,exact,I126307644,round2_inst,93
+2042,Brian A Aguado,A5037165431,fuzzy,I36258959,round3_semantic,26
 2043,William Gilpin,A5090794745,alias,,round3_semantic,541
 2044,Catherine Zucker,A5079515801,alias,,round3_semantic,1224
 2045,Sarah J Wolff,A5008364793,fuzzy,,round3_semantic,53
 2046,Jiaoyang Li,A5101499733,exact,I74973139,round3_semantic,136
+2047,Andrea M Balbas,A5020021456,fuzzy,I131249849,round2_inst,29
 2048,Carolyn Crow,A5036490819,alias,,round3_semantic,48
 2051,Andrew B Davies,A5063589119,fuzzy,I136199984,round3_semantic,90
 2052,Luke T Roling,A5015241487,fuzzy,I173911158,round2_inst,53
@@ -1458,13 +1640,16 @@
 2065,Jing Li,A5100337102,exact,I368840534,round3_semantic,140
 2066,Michelle B Sabick,A5071915724,fuzzy,I131651094,round2_inst,61
 2068,Sean W Freeman,A5037555208,fuzzy,I82495205,round2_inst,35
+2069,Lindsay B Case,A5003361057,fuzzy,I63966007,round2_inst,27
 2070,Yong Zheng,A5051900701,exact,I180949307,round2_inst,148
 2071,Cesar A Uribe,A5047076392,fuzzy,I74775410,round3_semantic,186
+2072,Lauren F Bergquist,A5001814138,alias,I32971472,round2_inst,22
 2074,Yair Zick,A5076656216,alias,I24603500,round2_inst,112
 2075,Laura Edsberg,A5032369938,alias,I137296409,round2_inst,36
 2077,Ruijuan Xu,A5080728082,alias,I137902535,round2_inst,91
 2078,Vassilis Kekatos,A5085212636,exact,,name_unique,194
 2079,Leah D Grant,A5090426744,fuzzy,I92446798,round2_inst,63
+2080,Rachel E Wilbur,A5007147671,fuzzy,I72951846,round2_inst,27
 2081,Andrew McShan,A5011793026,alias,I130701444,round2_inst,56
 2082,Monica Olvera de la Cruz,A5068153815,alias,I111979921,round3_semantic,694
 2083,Saiprasad Ravishankar,A5101799762,exact,I87216513,round3_semantic,109
@@ -1479,10 +1664,12 @@
 2094,Jun-Chau Chien,A5057902584,exact,I95457486,round3_semantic,72
 2095,Nadia Chernyak,A5021821625,exact,,name_unique,54
 2096,Wubin Bai,A5030073571,exact,,name_unique,102
+2097,Juan F Patarroyo,A5053161433,fuzzy,,round4_maxpapers,21
 2099,Sviatoslav Baranets,A5071239599,exact,,name_unique,181
 2100,Tingting Wang,A5100447698,alias,I184565670,round2_inst,34
 2101,Andres Montoya Castillo,A5054378080,alias,,round3_semantic,67
 2102,Ru-yu Lai,A5020756113,exact,I130238516,round3_semantic,64
+2104,Sunil K Sukumaran,A5042702040,fuzzy,I114395901,round2_inst,24
 2105,Kyle Chard,A5065464552,alias,I40347166,round2_inst,348
 2106,YANG YANG,A5012877783,alias,I26538001,round3_semantic,35
 2108,Michelle H DiBenedetto,A5019294850,fuzzy,,round3_semantic,30
@@ -1490,6 +1677,7 @@
 2111,Ala Qattawi,A5036587414,exact,,name_unique,63
 2112,Sitan Chen,A5026455990,alias,I136199984,round2_inst,80
 2113,Tal G Malkin,A5058081649,fuzzy,I78577930,round2_inst,182
+2114,Samantha Coday,A5023287767,exact,,name_unique,21
 2115,Keara M Lane,A5042851368,fuzzy,I111979921,round2_inst,34
 2117,Sara M Freeman,A5105986512,fuzzy,I121980950,round2_inst,130
 2119,Vasiliki Kalavri,A5068567119,exact,,name_unique,43
@@ -1519,6 +1707,8 @@
 2150,Erfan Goharian,A5042550173,exact,,name_unique,101
 2151,Xin Cui,A5101507502,exact,I123534392,round2_inst,70
 2152,Elizabeth C Sibert,A5017129924,exact,,name_unique,105
+2153,Rebecca E Garcia,A5074834712,fuzzy,,round3_semantic,28
+2154,Molly C Sutherland,A5031151984,fuzzy,I86501945,round2_inst,21
 2155,Wilma A Bainbridge,A5061047919,fuzzy,I40347166,round2_inst,1538
 2156,Yue Zhang,A5100333652,alias,I91045830,round3_semantic,102
 2157,Hendrik Utzat,A5036365552,exact,I95457486,round2_inst,40
@@ -1538,10 +1728,12 @@
 2173,Mikael P Backlund,A5059916655,fuzzy,,round3_semantic,31
 2174,Eric A Stach,A5075870873,fuzzy,I79576946,round2_inst,712
 2175,Damek S Davis,A5011856337,fuzzy,,round3_semantic,106
+2176,Kota Katsumi,A5007593551,alias,,round3_semantic,25
 2177,Roy Joshua,A5042124856,alias,,round3_semantic,77
 2178,Anthony S Hall,A5112664443,fuzzy,,round3_semantic,34
 2179,Martin A Edwards,A5012941254,alias,,round3_semantic,167
 2180,Benjamin Golub,A5103269921,alias,,round3_semantic,102
+2181,David R Jacobson,A5026201606,fuzzy,,round3_semantic,21
 2184,William Wylie,A5067628220,alias,I70983195,round2_inst,55
 2185,Ramya Kumar,A5078716221,alias,I167576493,round2_inst,40
 2187,Dior R Kelley,A5050426745,fuzzy,I173911158,round2_inst,41
@@ -1563,16 +1755,19 @@
 2208,Javad Mohammadi,A5101880128,alias,,round3_semantic,90
 2209,Anna-Karin Gustavsson,A5003904085,exact,,name_unique,60
 2210,Laura A Katz,A5024826537,fuzzy,I202524275,round3_semantic,214
+2211,Jacqueline A Smith,A5084042822,fuzzy,I137853757,round3_semantic,25
 2212,Nicholas A Mason,A5056310769,fuzzy,I121820613,round3_semantic,55
 2213,Faez Ahmed,A5040705509,alias,I63966007,round3_semantic,156
 2214,Ross Parnell-Turner,A5043535408,exact,,name_unique,81
 2215,Steward T Pickett,A5062031872,fuzzy,I3131038610,round2_inst,421
 2217,Rong Yin,A5058963501,alias,I137902535,round2_inst,86
 2219,Michael Grillo,A5063731121,alias,,round3_semantic,71
+2220,Hyewon K Pechkis,A5084362008,fuzzy,,round3_semantic,29
 2222,Konstantin Bukhryakov,A5043699263,alias,I19700959,round2_inst,84
 2223,Stefano Martiniani,A5003291747,alias,I57206974,round2_inst,52
 2224,Andy I Nguyen,A5015088254,fuzzy,I39422238,round2_inst,68
 2225,Lea Nienhaus,A5007496801,alias,I74775410,round2_inst,137
+2227,Sung Soo Kim,A5035518782,alias,I154570441,round2_inst,22
 2228,Angela M Oliverio,A5035890361,fuzzy,I70983195,round2_inst,59
 2229,Jennifer Jacobs,A5058644728,exact,I154570441,round2_inst,86
 2231,Roman Feiman,A5086405058,exact,,name_unique,37
@@ -1583,6 +1778,8 @@
 2237,Zeyu Guo,A5004777401,alias,,round3_semantic,53
 2240,Rahul Gomes,A5034845580,exact,,name_unique,41
 2242,Rees F Garmann,A5016295954,fuzzy,I26538001,round2_inst,47
+2243,Alexander Perry,A5108254938,exact,I27837315,round3_semantic,28
+2244,Chris Richardson,A5002966076,alias,I154570441,round2_inst,23
 2246,Gareth Speight,A5065491876,exact,,name_unique,64
 2247,Md Mahbubul Islam,A5046600331,exact,I185443292,round2_inst,96
 2248,Joerg Bewersdorf,A5037258583,alias,I32971472,round2_inst,196
@@ -1590,6 +1787,7 @@
 2250,Anton Bernshteyn,A5019172041,exact,,name_unique,96
 2251,Wen Chen,A5111579326,fuzzy,I1174212,round3_semantic,38
 2253,Zhenglu Li,A5031521970,exact,,name_unique,80
+2254,Alexandra E Strom,A5075986062,fuzzy,I202524275,round2_inst,21
 2255,Deanna M Arble,A5054185816,fuzzy,I102461120,round2_inst,38
 2257,GARIMA MALHOTRA,A5024370950,alias,,round3_semantic,32
 2258,Juan Pablo Canales,A5050859458,alias,I66958751,round3_semantic,194
@@ -1602,11 +1800,13 @@
 2266,Wah Chiu,A5049689333,alias,I97018004,round2_inst,726
 2268,Susanne Freidberg,A5016887179,exact,,name_unique,59
 2269,Kaiqing Zhang,A5047410441,alias,I66946132,round2_inst,179
+2270,Alicia K Rogers,A5045835561,fuzzy,,round3_semantic,26
 2271,Massimiliano Bonamente,A5076383783,exact,,name_unique,232
 2273,Saining Xie,A5102416863,exact,,name_unique,100
 2274,Kevin Konrad,A5066024005,alias,I131249849,round2_inst,160
 2275,Umamaheswara R Tida,A5076972812,fuzzy,,round3_semantic,35
 2277,Duncan Watson-Parris,A5019776645,alias,,round3_semantic,257
+2278,Stephen J Turner,A5102230064,fuzzy,,round3_semantic,22
 2280,James L Huff,A5052980784,fuzzy,,round3_semantic,74
 2281,Scott A Showalter,A5047930774,fuzzy,,round3_semantic,85
 2283,Jack D Hare,A5075228754,fuzzy,,round3_semantic,120
@@ -1621,6 +1821,7 @@
 2294,Sidong Lei,A5088638988,alias,,round3_semantic,96
 2295,John F Wheeler,A5102804006,fuzzy,I86115722,round2_inst,66
 2296,Ruth H Carmichael,A5064675225,fuzzy,,round3_semantic,107
+2297,Maureen M Sanz,A5075420932,fuzzy,,round4_maxpapers,26
 2299,Yuan Cao,A5101949866,exact,I95457486,round2_inst,116
 2300,Rahman Tashakkori,A5045740822,exact,I430192,round2_inst,60
 2302,Fereshteh Billiot,A5059824285,alias,I96749437,round2_inst,36
@@ -1629,6 +1830,7 @@
 2306,Shyam Kattel,A5050750734,alias,,round3_semantic,96
 2307,Amit A Levy,A5078224627,fuzzy,I20089843,round2_inst,57
 2309,Michael P Howard,A5046436466,fuzzy,I82497590,round2_inst,97
+2311,Zhichao Cao,A5038377797,exact,I55732556,round2_inst,27
 2312,HAILIN SANG,A5076040083,exact,,name_unique,61
 2313,Susan E Perry,A5005385786,fuzzy,I161318765,round2_inst,167
 2314,Yubo Qi,A5067434756,exact,I32389192,round2_inst,101
@@ -1660,6 +1862,7 @@
 2346,Grant M Rotskoff,A5071403558,fuzzy,I97018004,round2_inst,84
 2348,Mark Brinton,A5043448627,alias,I35429941,round2_inst,34
 2349,Gül Zerze,A5034358356,alias,I44461941,round2_inst,57
+2350,Megan M Butala,A5076597309,fuzzy,I33213144,round3_semantic,29
 2351,Marat Latypov,A5043536344,alias,I138006243,round2_inst,55
 2352,Natalie Boehnke,A5036628698,exact,,name_unique,46
 2353,Wei Zhang,A5014921180,alias,I12315562,round3_semantic,79
@@ -1693,7 +1896,10 @@
 2388,Berrak Sisman,A5001303929,exact,,name_unique,114
 2392,Anne G Short Gianotti,A5017076546,fuzzy,I111088046,round2_inst,36
 2394,Silas Richelson,A5034122024,exact,,name_unique,35
+2395,Wenlin Zhang,A5036112318,alias,I107672454,round3_semantic,22
+2396,Joseph D Peterson,A5070534549,fuzzy,I161318765,round2_inst,29
 2397,Kira Delmore,A5013611331,alias,,round3_semantic,60
+2398,Carl E Hjelmen,A5069875178,fuzzy,I197572798,round2_inst,28
 2400,Jamie J Payton,A5046737005,fuzzy,,round3_semantic,133
 2402,Christopher P Scheitle,A5006612722,fuzzy,I12097938,round2_inst,154
 2403,Xiaogang Ma,A5071393418,alias,I155093810,round2_inst,306
@@ -1711,13 +1917,16 @@
 2417,Xiaohui Yuan,A5021355100,exact,I123534392,round3_semantic,318
 2418,Diane M Thomson,A5030966868,fuzzy,I16970960,round2_inst,34
 2419,Yanan Wang,A5100385394,alias,I114395901,round3_semantic,389
+2420,Kariane Calta,A5069688267,exact,,name_unique,21
 2421,Kevin M Pitt,A5014559211,fuzzy,I114395901,round2_inst,37
+2422,Jonathan Dannatt,A5007193236,alias,I182980787,round2_inst,22
 2423,Mark A Torres,A5090104374,fuzzy,I74775410,round2_inst,93
 2425,Muhammad Shahbaz,A5100610963,alias,I27837315,round2_inst,66
 2427,Tim J Zuehlsdorff,A5038738989,fuzzy,I131249849,round2_inst,92
 2428,Zhiren Wang,A5101485139,alias,,round3_semantic,49
 2429,Christopher M Lowery,A5055921729,fuzzy,,round4_maxpapers,238
 2430,David Harning,A5064160403,alias,,round3_semantic,57
+2431,Aditi Bhattacherjee,A5006812090,alias,,round3_semantic,28
 2433,Nikki M Seymour,A5058187280,fuzzy,I72903472,round2_inst,70
 2434,Erdem Sasmaz,A5084407783,alias,I204250578,round2_inst,32
 2435,Ming Yang,A5048213108,exact,I8078737,round3_semantic,91
@@ -1728,6 +1937,7 @@
 2441,Tomas Gonzalez-Fernandez,A5066184840,alias,I186143895,round2_inst,30
 2443,Xuan Zhang,A5010392575,exact,I12912129,round3_semantic,136
 2445,Sarah R Smith,A5088804551,fuzzy,I51504820,round2_inst,32
+2446,Emil A Hernández-Pagán,A5038983042,fuzzy,I86501945,round2_inst,25
 2449,Salvador Almagro-Moreno,A5075075157,exact,,name_unique,54
 2450,Andrew J Mannix,A5055435906,fuzzy,I97018004,round2_inst,60
 2451,Tanu Malik,A5071436717,alias,,round3_semantic,134
@@ -1741,11 +1951,13 @@
 2461,Xitong Liu,A5072983516,alias,I193531525,round2_inst,91
 2462,David Andrew B Hyde,A5040432863,fuzzy,I200719446,round2_inst,76
 2463,Wei Xu,A5054193190,alias,,round3_semantic,54
+2464,Zheyu Jiang,A5048967357,exact,I115475287,round2_inst,25
 2465,Melissa Burt,A5048639636,alias,I92446798,round2_inst,71
 2466,Jeremy A Riousset,A5057925807,fuzzy,I84475105,round2_inst,41
 2467,Paul D Friedman,A5027653820,fuzzy,,round3_semantic,34
 2468,Ivan A Moreno-Hernandez,A5025670842,fuzzy,I170897317,round2_inst,30
 2469,Richard C Thompson,A5104504828,fuzzy,I84470341,round3_semantic,108
+2470,Sabrina Neuman,A5013815284,alias,I111088046,round2_inst,25
 2471,Diana Franklin,A5015650035,alias,I40347166,round2_inst,156
 2472,Jeff G Erickson,A5042187195,alias,,round3_semantic,201
 2474,Joel Sharbrough,A5075816835,exact,,name_unique,59
@@ -1754,6 +1966,7 @@
 2477,Xin Zhang,A5100327582,exact,I111088046,round3_semantic,1614
 2480,Prashant Pandey,A5014159929,alias,,round3_semantic,69
 2481,Fariborz Tavangarian,A5012985149,alias,,round4_maxpapers,90
+2482,Maria Akopyan,A5075811160,exact,,name_unique,22
 2483,Sasha Wagner,A5022674236,alias,I165799507,round2_inst,64
 2484,Bhuvana Narasimhan,A5103152145,alias,,round3_semantic,63
 2485,Chiara Borrelli,A5021194983,alias,I5388228,round3_semantic,61
@@ -1767,13 +1980,16 @@
 2499,Shinsei Ryu,A5053662519,alias,I20089843,round2_inst,303
 2500,Jina Ko,A5065605894,alias,I79576946,round2_inst,85
 2501,Faisal Aqlan,A5021017364,alias,I142740786,round2_inst,153
+2503,Renata Rawlings-Goss,A5059357518,exact,,name_unique,22
 2504,Amir Pahlavan,A5038718370,alias,I32971472,round2_inst,94
+2505,Chris Roh,A5088669973,exact,,name_unique,26
 2506,Evdokiya G Kostadinova,A5075696019,fuzzy,I82497590,round2_inst,72
 2507,Chris Funk,A5064390526,alias,I92446798,round2_inst,160
 2508,Ebru Demir,A5073254434,alias,I186143895,round2_inst,68
 2509,Nathan B Crane,A5044700287,fuzzy,I100005738,round2_inst,130
 2511,Yinlun Huang,A5032455689,alias,I185443292,round2_inst,119
 2512,Maya L Gomes,A5025798106,fuzzy,I145311948,round2_inst,62
+2513,Wen Wu,A5066335935,exact,I368840534,round3_semantic,29
 2514,Aaryani Sajja,A5019708641,fuzzy,I44461941,round2_inst,60
 2515,Carla E Brodley,A5045379675,fuzzy,I12912129,round2_inst,159
 2516,Mathias Vuille,A5057620559,alias,,round3_semantic,253
@@ -1787,12 +2003,14 @@
 2527,Caroline Terry,A5024872274,alias,I39422238,round2_inst,37
 2528,Caryn Palatchi,A5075052771,alias,,round3_semantic,31
 2529,Vera Gluscevic,A5041566825,exact,I1174212,round3_semantic,113
+2530,Anna Marshall,A5082617071,alias,,round3_semantic,21
 2531,Tiezheng Tong,A5062563012,exact,,name_unique,88
 2532,Zhe Cheng,A5062468683,alias,,round3_semantic,113
 2533,Enrica Viparelli,A5054565375,alias,,round3_semantic,145
 2537,Joshua B Russell,A5071712019,fuzzy,I70983195,round2_inst,57
 2538,D. Jeffrey Over,A5042578690,exact,,name_unique,93
 2539,Allen Mensinger,A5018093948,alias,I1338920048,round2_inst,103
+2540,Daniel Alvarez-Gavela,A5062823087,alias,,round3_semantic,22
 2541,Mostafa Yourdkhani,A5084230225,alias,I55732556,round2_inst,40
 2542,Eun-Hwa Kim,A5079286249,exact,I102298084,round2_inst,141
 2543,Igor Zelenko,A5017897375,exact,,name_unique,82
@@ -1803,9 +2021,12 @@
 2549,Abdallah Khreishah,A5062119199,exact,I118118575,round2_inst,207
 2550,Brandon Shuck,A5043466598,alias,,round3_semantic,33
 2553,Alan J Kaufman,A5020476917,fuzzy,I66946132,round3_semantic,281
+2554,Husheng Li,A5101763887,alias,,round3_semantic,23
 2555,Nyssa Silbiger,A5066269572,alias,I1331384533,round2_inst,54
 2556,William J Longley,A5006111487,fuzzy,I118118575,round2_inst,35
+2558,Eleny-Nicoleta Ionel,A5013638611,exact,I97018004,round3_semantic,29
 2559,David F Feldon,A5060104370,fuzzy,I121980950,round2_inst,222
+2561,Lucien Nana Yobo,A5066326131,exact,,name_unique,26
 2562,Geoffrey J Gilleaudeau,A5039534526,fuzzy,I162714631,round2_inst,97
 2563,Michael T Ruggiero,A5055136612,fuzzy,I5388228,round2_inst,171
 2565,Woochul Lee,A5040830494,alias,I1331384533,round2_inst,68
@@ -1813,6 +2034,7 @@
 2569,Xian Lu,A5007895377,alias,I8078737,round2_inst,100
 2570,Christine A France,A5029835043,fuzzy,I103187081,round2_inst,56
 2572,Maureen H Tang,A5024800819,fuzzy,I72816309,round2_inst,103
+2573,Deirdre C Gonsalves-Jackson,A5021543454,fuzzy,,round4_maxpapers,24
 2574,Andrew T Olewnik,A5062578545,fuzzy,,round3_semantic,67
 2575,David M Nelson,A5072537686,alias,,round3_semantic,96
 2576,H David Jeong,A5023847318,alias,I91045830,round2_inst,89
@@ -1833,6 +2055,7 @@
 2596,Salimeh Sekeh,A5081523775,fuzzy,,round3_semantic,43
 2597,Ziming Zhao,A5073603754,alias,I12912129,round2_inst,182
 2598,Dara M Wald,A5002318671,alias,I859038795,round2_inst,42
+2599,Quentin C Sedlacek,A5086682879,fuzzy,I178169726,round2_inst,29
 2600,Jeffrey R Raker,A5041337743,fuzzy,I2613432,round2_inst,92
 2602,Peng Wang,A5100396017,alias,I58956616,round3_semantic,106
 2603,Arman Roohi,A5077392159,exact,,name_unique,117
@@ -1846,14 +2069,19 @@
 2611,Hai Lin,A5004637055,alias,I121820613,round2_inst,44
 2612,Devon G Brenner,A5052476314,fuzzy,I99041443,round2_inst,65
 2613,Chang Liu,A5100353377,exact,I24603500,round3_semantic,925
+2614,Lindsay J Walker,A5033846322,fuzzy,,round3_semantic,29
 2615,Shibaji Chakraborty,A5079748804,alias,,round3_semantic,60
+2616,Scott Wood,A5072555496,alias,,round3_semantic,25
 2617,Rong Wang,A5009811794,alias,,round3_semantic,48
 2618,Martha Escobar,A5058835370,exact,I177721651,round2_inst,106
+2619,Daniel Damelin,A5015178518,exact,,name_unique,21
 2620,Adrienne Simoes Correa,A5058737671,fuzzy,I95457486,round2_inst,77
+2621,Nicoletta Fala,A5020094807,exact,,name_unique,26
 2622,Elaheh Ahmadi,A5085630701,alias,I161318765,round2_inst,115
 2623,Susanne M Bruyere,A5040278004,exact,,name_unique,222
 2624,John R Schaibley,A5066838571,fuzzy,I138006243,round2_inst,94
 2625,Yu Bai,A5101669635,alias,,round3_semantic,58
+2627,Cassandra M Donatelli,A5046201571,fuzzy,,round3_semantic,24
 2628,Matthew K Voigt,A5017928416,fuzzy,I87216513,round2_inst,57
 2630,Steve Smith,A5011759109,alias,I184647316,round3_semantic,585
 2632,Jacqueline Urla,A5049190402,alias,I24603500,round2_inst,76
@@ -1880,13 +2108,16 @@
 2658,Lauren B Davis,A5069686900,fuzzy,I35777872,round2_inst,79
 2659,Adalbert Gerald Soosai Raj,A5016629484,alias,I36258959,round3_semantic,34
 2660,Hung T Nguyen,A5038394149,alias,,round3_semantic,50
+2661,Yanling Chang,A5079934055,alias,,round3_semantic,29
 2662,Sadan Kulturel-Konak,A5021228431,alias,,round3_semantic,119
 2663,Marimuthu Andiappan,A5035629506,exact,,name_unique,49
 2664,Bethann G Merkle,A5075563101,fuzzy,I12834331,round2_inst,32
 2665,Mac H Alford,A5080360700,fuzzy,I44854399,round2_inst,38
 2666,Ido Davidesco,A5031116134,exact,,name_unique,45
+2667,Juan S Borrero,A5036589411,fuzzy,I2613432,round3_semantic,28
 2668,Bayaner Arigong,A5042600863,exact,,name_unique,117
 2669,Fei Wang,A5100455813,alias,,round3_semantic,96
+2670,Jennifer E Broatch,A5051843155,fuzzy,I55732556,round2_inst,28
 2671,Jerrod A Henderson,A5029787065,fuzzy,I44461941,round2_inst,47
 2672,Rodrigo O Spinola,A5020235955,fuzzy,I184840846,round2_inst,142
 2673,Amy R Betz,A5049200189,fuzzy,I189590672,round2_inst,75
@@ -1895,6 +2126,8 @@
 2679,Kai Shu,A5058670321,exact,I150468666,round3_semantic,222
 2681,Kevin Konrad,A5066024005,alias,I131249849,round2_inst,160
 2682,Peter D Kvam,A5035172537,fuzzy,,round3_semantic,98
+2684,Ashley M Heers,A5056401336,fuzzy,,round3_semantic,25
+2685,Allison R Rober,A5084029556,fuzzy,,round3_semantic,21
 2686,Zhigang Peng,A5082692944,alias,I130701444,round2_inst,342
 2688,Susan Hackwood,A5071312791,alias,I103635307,round2_inst,83
 2690,Amy E Hessl,A5089688072,fuzzy,I12097938,round2_inst,108
@@ -1915,6 +2148,7 @@
 2707,James T Randerson,A5057159878,fuzzy,I204250578,round2_inst,434
 2708,Lawrence R Baker,A5023172574,fuzzy,,round3_semantic,34
 2711,Minje Kim,A5064582903,alias,,round3_semantic,153
+2712,Kelly Riedinger,A5021490850,exact,,name_unique,23
 2714,Caterina Gratton,A5066098469,exact,,name_unique,94
 2715,Joseph L Allen,A5007920939,fuzzy,I65571275,round2_inst,63
 2716,Wing Lam,A5036039220,alias,I162714631,round3_semantic,51
@@ -1955,6 +2189,7 @@
 2766,Jalene LaMontagne,A5020385048,alias,,round3_semantic,69
 2767,John T Solomon,A5103641379,fuzzy,I6026837,round2_inst,47
 2768,Maryam Hojati,A5011294780,alias,I169521973,round2_inst,31
+2769,Hannah I Shamloo,A5048362536,fuzzy,I29867402,round2_inst,22
 2772,Xiaofei Wang,A5100363486,exact,I75256744,round4_maxpapers,329
 2773,Jialai Wang,A5058220215,alias,,round4_maxpapers,142
 2776,Robert E Geer,A5079497121,fuzzy,,round4_maxpapers,161
@@ -1986,8 +2221,11 @@
 2813,Benjamin M Jones,A5006241333,fuzzy,,round3_semantic,556
 2814,Nepomuk Otte,A5078669119,alias,I130701444,round3_semantic,399
 2815,Manar M Shoshani,A5070807441,fuzzy,,round3_semantic,89
+2816,Rick Williams,A5111876392,alias,,round3_semantic,21
 2817,Kasey D Fowler-Finn,A5089570524,fuzzy,I47838141,round2_inst,53
 2818,Longji Cui,A5074635112,alias,,round3_semantic,36
+2819,Angela Storey,A5045329945,alias,I142740786,round2_inst,25
+2826,Tala Navab-Daneshmand,A5052100378,exact,I131249849,round2_inst,26
 2827,Steven R Majewski,A5088466085,fuzzy,,round3_semantic,835
 2828,Tomas Gonzalez-Fernandez,A5066184840,exact,I186143895,round2_inst,30
 2829,Dejan Slepcev,A5004682327,alias,I74973139,round2_inst,99
@@ -1997,14 +2235,18 @@
 2833,Kelum Gajamannage,A5085021434,alias,,round3_semantic,30
 2835,Berk Calli,A5008443652,alias,I107077323,round2_inst,80
 2836,David H Vanderbilt,A5000393220,fuzzy,,round3_semantic,610
+2837,Erik Brockbank,A5016696779,exact,,name_unique,21
 2838,Matthew V Tirrell,A5112722855,fuzzy,I40347166,round3_semantic,35
 2839,Amanda B Marciel,A5068486821,fuzzy,I74775410,round2_inst,46
 2840,Rui Bo,A5073578061,alias,I20382870,round2_inst,172
 2841,Ruochen Lu,A5058428199,alias,,round3_semantic,179
 2843,Michael Hartinger,A5065569295,alias,I1298453700,round2_inst,247
 2845,Jingjing Wang,A5100426850,exact,I169521973,round2_inst,213
+2846,Logan A Perry,A5048314757,fuzzy,I114395901,round2_inst,27
 2847,Benedikt Diemer,A5039067014,exact,,name_unique,96
 2849,Tuan D Nguyen,A5005095777,fuzzy,I76835614,round2_inst,97
+2850,Reza Kamali-Sarvestani,A5037852701,alias,I226560621,round2_inst,21
+2851,Amy Zhang,A5101754385,alias,,round3_semantic,28
 2852,Razieh Rahimi,A5103185916,alias,I24603500,round2_inst,36
 2854,Hongchang Gao,A5102798905,exact,I84392919,round3_semantic,55
 2856,Dinshaw S Balsara,A5077912016,fuzzy,I107639228,round2_inst,242
@@ -2020,6 +2262,7 @@
 2871,Saonli Basu,A5058258081,alias,I130238516,round4_maxpapers,133
 2872,Jonathan Crass,A5051178711,exact,,name_unique,61
 2873,Dongkyu Lee,A5100643564,alias,,round3_semantic,131
+2875,Marisa A Rinkus,A5068477204,fuzzy,I87216513,round2_inst,23
 2876,Peter Buston,A5001238421,alias,I111088046,round2_inst,99
 2877,Sukyoung Lee,A5082638338,alias,,round3_semantic,137
 2878,Judy Cha,A5109554385,exact,,name_unique,35
@@ -2041,12 +2284,16 @@
 2898,Youxing Chen,A5021748150,alias,I102149020,round2_inst,145
 2899,Andrew Parsekian,A5049920825,alias,I12834331,round2_inst,211
 2900,Rebecca B Neumann,A5018422134,fuzzy,I201448701,round2_inst,124
+2901,Narasimha Boddeti,A5063736458,exact,,name_unique,26
 2903,Peter Hitchcock,A5000195518,alias,I205783295,round2_inst,1552
+2904,Makenzie Long,A5088907365,alias,I114493937,round2_inst,23
+2905,Ming Liu,A5100347800,alias,I135310074,round3_semantic,29
 2907,Jie Ding,A5069838077,exact,I130238516,round3_semantic,134
 2909,Nathan Ahlgren,A5055904764,alias,I130785548,round2_inst,46
 2910,Alparslan E Bayrak,A5064426673,fuzzy,I186143895,round2_inst,44
 2911,Ivan I Oleynik,A5065464997,fuzzy,I2613432,round2_inst,251
 2912,Carmela Rosaria Guadagno,A5076569444,alias,I12834331,round2_inst,38
+2913,William J Shinevar,A5086853062,fuzzy,,round3_semantic,27
 2916,Bianca Viray,A5052639660,alias,I201448701,round2_inst,59
 2917,Mauricio Ibanez-Mejia,A5085536118,exact,,name_unique,120
 2919,Marcus Michelen,A5048318626,exact,I39422238,round2_inst,69
@@ -2056,6 +2303,7 @@
 2924,Ana I Torres,A5027983186,fuzzy,I74973139,round2_inst,57
 2925,Christos Athanasiou,A5087518328,alias,I130701444,round3_semantic,37
 2926,Arnold J Bloom,A5014172578,fuzzy,I84218800,round2_inst,134
+2927,Tracy Mandel,A5089486402,exact,,name_unique,25
 2928,Deborah C Good,A5034583572,fuzzy,I6750721,round2_inst,124
 2929,Marzia Cescon,A5057762991,exact,I44461941,round3_semantic,62
 2930,Douglas R MacAyeal,A5083559036,fuzzy,I40347166,round2_inst,303
@@ -2063,6 +2311,7 @@
 2932,Godwin Severa,A5071200897,exact,,name_unique,30
 2933,Myunghee Kim,A5100724191,alias,I39422238,round2_inst,157
 2934,Erica J Crespi,A5030472994,fuzzy,I72951846,round2_inst,71
+2936,Laura Rabin,A5083193407,exact,I83041322,round3_semantic,24
 2937,Santiago O Rivera,A5028220274,fuzzy,,round3_semantic,54
 2938,Nadia Fomin,A5038076817,alias,,round3_semantic,107
 2941,Nathan Laxague,A5003786387,alias,I161057412,round2_inst,53
@@ -2095,6 +2344,8 @@
 2971,Jessica E Garb,A5001309106,fuzzy,I133738476,round2_inst,63
 2973,Benjamin W Garcia,A5101624223,fuzzy,,round4_maxpapers,532
 2975,Cheng-Yu Lai,A5053289187,alias,I19700959,round2_inst,57
+2976,Stephen D Starnes,A5030926544,fuzzy,I206651237,round2_inst,24
+2977,Diane Moug,A5000549586,exact,,name_unique,29
 2978,Simon Laflamme,A5009338916,exact,I173911158,round2_inst,397
 2979,Qian Zhang,A5100401582,exact,I103163165,round3_semantic,82
 2980,Shelly Peyton,A5051251433,alias,I121934306,round2_inst,119
@@ -2113,4 +2364,5 @@
 2995,Nuwan K Wijewardane,A5057088506,fuzzy,I99041443,round2_inst,45
 2996,Arial J Shogren,A5005389704,fuzzy,,round3_semantic,64
 2997,Paulette Clancy,A5030863265,alias,I145311948,round2_inst,237
+2998,Shabnam Semnani,A5012570882,fuzzy,I36258959,round3_semantic,26
 2999,Yogatheesan Varatharajah,A5035234218,exact,,name_unique,36
