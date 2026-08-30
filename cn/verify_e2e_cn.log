@@ -1,0 +1,28 @@
+load_cn:丢弃无机构无领域行 212(1994–1996 早期,无消歧锚点)
+[    1s] sample 120 rids, 3642 cand-rows, 3266 distinct orcids to fetch
+  fetched 200/3266 (44s)
+  fetched 400/3266 (76s)
+  fetched 600/3266 (110s)
+  fetched 800/3266 (143s)
+  fetched 1000/3266 (178s)
+  fetched 1200/3266 (213s)
+  fetched 1400/3266 (245s)
+  fetched 1600/3266 (279s)
+  fetched 1800/3266 (312s)
+  fetched 2000/3266 (346s)
+  fetched 2200/3266 (380s)
+  fetched 2400/3266 (413s)
+  fetched 2600/3266 (446s)
+  fetched 2800/3266 (481s)
+  fetched 3000/3266 (516s)
+  fetched 3200/3266 (550s)
+[  560s] fetched. orcids with any org: 1332/3266
+[  560s] gold within fetched candidate set: 108/120 = 90.0%
+==========================================================================
+  openalex-only unique           prec  93.0%  cov  40/120 = 35.8%
+  openalex-only +papers          prec  72.6%  cov  85/120 = 97.5%
+  orcid-only unique              prec  63.0%  cov  29/120 = 38.3%
+  UNION unique                   prec  93.0%  cov  40/120 = 35.8%
+  UNION +papers                  prec  72.6%  cov  85/120 = 97.5%
+==========================================================================
+[  560s] done
