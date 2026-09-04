@@ -1,22 +1,42 @@
-*.parquet
-.openalex_api_key
-__pycache__
-*.json
-.claude
-/pres
-*.npz
-*.pkl
+# ---- 运行环境 / 缓存 ----
 .venv/
 .uv_cache/
 .duckdb_tmp/
+__pycache__
+.claude
+.openalex_api_key
+*.log
 
-# 大文件（>5MB 的数据/输出 CSV，不入库）
-# 最终交付 CSV（regional matched_final 已入库，final/ 为名单+author_id 拼装版）
-final/
+# ---- 原始输入库（本地数据，不入库）----
+*.parquet
+affiliations.duckdb
+# NSF 原始 award JSON：1990/ … 2023/ 共约 3GB、40 万个小文件
+/[0-9][0-9][0-9][0-9]/
+
+# ---- API / 嵌入缓存 ----
+*.json
+*.npz
+*.pkl
+
+# ---- 中间匹配产物（重跑主脚本可再生成）----
 cn/match_1_cn.csv
 cn/match_3_cn.csv
+cn/match_4_cn.csv
 cn/cand_orcids_cn.csv
-us/match_3_us.csv
 us/match_1_us.csv
-us/US.csv
+us/match_2_us.csv
+us/match_3_us.csv
+us/match_4_us.csv
+us/merge_conflicts_us.csv
+us/dropped_nosem_us.csv
 aus/match_3_aus.csv
+
+# ---- 人工/LLM 验证工作区（协议见 VERIFY_PROTOCOL.md，证据不入库）----
+verify/
+
+# ---- 大文件：名单与交付 CSV ----
+us/US.csv
+us_since1990.csv
+# final/ 为「原名单全表 + author_id」拼装版，由 build_final_us.py 等重建
+final/
+/pres

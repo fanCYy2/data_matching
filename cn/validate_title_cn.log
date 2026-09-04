@@ -1,19 +1,0 @@
-load_cn:ä¸¢å¼ƒæ— æœºæž„æ— é¢†åŸŸè¡Œ 212(1994â€“1996 æ—©æœŸ,æ— æ¶ˆæ­§é”šç‚¹)
-[    7s] sample: 524 rids, 8665 candidates
-[   68s] titles fetched
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 391/391 [00:00<00:00, 41282.10it/s]
-[  105s] bge-m3 loaded (device=cuda)
-[  310s] scored
-==============================================================
-  baseline: argmax papers                 453/524 = 86.5%
-  argmax title-sim (pure content)         164/524 = 31.3%
-  filter title-sim>=0.40 + argmax papers  415/524 = 79.2%
-  filter title-sim>=0.45 + argmax papers  345/524 = 65.8%
-  filter title-sim>=0.50 + argmax papers  372/524 = 71.0%
-  filter title-sim>=0.55 + argmax papers  421/524 = 80.3%
-  filter title-sim>=0.60 + argmax papers  451/524 = 86.1%
-  ORACLE subfield-overlap (reference)     492/524 = 93.9%
-==============================================================
-title-sim  gold: mean=0.449 p25=0.414 | nongold: mean=0.404 p75=0.442
-[  313s] done

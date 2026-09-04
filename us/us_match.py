@@ -6,7 +6,7 @@ US NSF award principal investigators -> SciSciNet/OpenAlex authorid.
   层1 名字(exact / alias / fuzzy)
   层2 机构(需要 us_host_ids_bridge.csv)
   层3 语义领域(见下)
-  层4 兜底(passed -> 论文数 -> authorid)
+  层4 兜底(仅语义平局:passed -> 论文数 -> authorid;无候选过阈值则丢弃,不做纯论文数 argmax)
 
 US 数据与 EU 数据的栏目映射:
   EU Researcher(s)          -> US PrincipalInvestigator
@@ -65,6 +65,9 @@ SEM_MARGIN = float(os.environ.get("US_SEM_MARGIN", "0.03"))
 #   THRESH=0.68 ≈ 正确候选 p10:拦掉离题的 top pick(尤其保护"真人不在候选池"的无机构行,
 #   避免硬选一个次相似的错人);MARGIN=0.00:实测任何正 margin 都把语义近并列推给更弱的层4
 #   论文数兜底,反而降低总正确率(bge 余弦被压高、近并列极多,raw margin 是钝器)。
+# 注意:MARGIN=0.00 时"过阈值即在层3 定案"恒成立(sim[0]-sim[1] >= 0 永真), 层4 的语义平局
+#   分支恒为空 —— 纯论文数兜底废弃后, 层4 在默认参数下不产出任何行, 阈值以下的 rid 一律
+#   进 dropped 队列。要让层4 重新起作用, 得把 MARGIN 调回正数(需重新标定)。
 SEM_THRESH_V2 = float(os.environ.get("US_SEM_THRESH_V2", "0.68"))
 SEM_MARGIN_V2 = float(os.environ.get("US_SEM_MARGIN_V2", "0.00"))
 
@@ -381,10 +384,16 @@ def _semantic_score_v2(long_df):
 
 
 def match_4():
-    """层4 兜底:passed DESC -> 论文数 DESC -> authorid ASC, 每 rid 取一个。"""
+    """层4 兜底:论文数 DESC -> authorid ASC, 每 rid 取一个。
+
+    只受理**有语义背书**的候选(passed = 层3 过了 SEM_THRESH), 即"多人都在题上、
+    margin 不足以分胜负"的平局。一个候选都没过阈值的 rid 在这里没有行, 交由 main
+    丢进 dropped 队列 —— 纯论文数 argmax 已废弃(理由见 main 的层4 段)。
+    """
     return con.sql("""
         WITH cand AS (
-            SELECT DISTINCT rid, us_name, authorid, match_type, host_id, passed FROM r4in
+            SELECT DISTINCT rid, us_name, authorid, match_type, host_id, passed
+            FROM r4in WHERE passed
         ),
         pcnt AS (
             SELECT authorid, count(DISTINCT paperid) AS n_papers
@@ -397,7 +406,7 @@ def match_4():
                    COALESCE(p.n_papers, 0) AS n_papers,
                    row_number() OVER (
                        PARTITION BY c.rid
-                       ORDER BY c.passed DESC, COALESCE(p.n_papers, 0) DESC, c.authorid
+                       ORDER BY COALESCE(p.n_papers, 0) DESC, c.authorid
                    ) AS rnk
             FROM cand c
             LEFT JOIN pcnt p ON c.authorid = p.authorid
@@ -547,19 +556,30 @@ def main():
     r3 = r3.sort_values(['rid', 'sim', 'authorid', 'rnk'],
                         ascending=[True, False, True, True]).reset_index(drop=True)
 
-    # 层4:兜底
+    # 层4:兜底 —— 只裁决"有语义背书的平局"(至少一个候选 sim >= 阈值)。
+    # 该 rid 下一个候选都没过阈值时**直接丢弃**,不再做纯论文数 argmax:那条兜底的失败模式
+    # 是"高产同名者遮蔽真人"(CN 实测真人论文数中位 271 vs 被选中冒名者 786;US since1990
+    # v1→v2 改判的 699 行里 92.7% 是从高产者改到低产者),挂上去的是一个说不出理由的错人。
+    # 宁可留空进 dropped 队列交人工/rescue。
     l4_in = (l3_in[l3_in['rid'].isin(pending)]
              .merge(scored[['rid', 'authorid', 'sim']], on=['rid', 'authorid'], how='left'))
     l4_in['passed'] = (l4_in['sim'] >= sem_thresh).fillna(False)
     con.register('r4in', l4_in)
     r4res = match_4()
-    r4res['source'] = np.where(r4res['passed'], 'round4_semtie', 'round4_maxpapers')
+    r4res['source'] = 'round4_semtie'
     take4 = set(r4res['rid'])
-    resolved.append(r4res[cols])
+    if not r4res.empty:
+        resolved.append(r4res[cols])
     pending -= take4
-    print('层4 兜底 → 确定 %d(语义平局 %d,论文数兜底 %d),剩下 %d'
-          % (len(take4), int((r4res['source'] == 'round4_semtie').sum()),
-             int((r4res['source'] == 'round4_maxpapers').sum()), len(pending)))
+
+    # 丢弃队列:候选全都低于阈值(或压根打不出分)的 rid,连同它们的全部候选与 sim 存档,
+    # 供人工核验 / 后续 rescue(照 EU rescue_unmatched_eu.py 的思路)。
+    dropped = (l4_in[~l4_in['rid'].isin(take4)]
+               .drop(columns='passed')
+               .sort_values(['rid', 'sim'], ascending=[True, False])
+               .reset_index(drop=True))
+    print('层4 语义平局 → 确定 %d,丢弃(无候选过阈值)%d 个 rid / %d 个候选,剩下 %d'
+          % (len(take4), dropped['rid'].nunique(), len(dropped), len(pending)))
 
     r4 = r4res.sort_values('rid').reset_index(drop=True)
 
@@ -586,6 +606,7 @@ def main():
     r4.to_csv("match_4_us.csv", index=False, encoding='utf-8-sig')
     final.to_csv("matched_final_us.csv", index=False, encoding='utf-8-sig')
     held.to_csv("held_lowpaper_us.csv", index=False, encoding='utf-8-sig')
+    dropped.to_csv("dropped_nosem_us.csv", index=False, encoding='utf-8-sig')
 
     total = con.sql("SELECT count(*) FROM us").fetchone()[0]
     n_matched, n_held = len(final), len(held)
@@ -595,16 +616,16 @@ def main():
           % (n_matched, total, 100.0 * n_matched / total))
     print('低产扣留(< %d 篇,待人工): %d,按 source: %s'
           % (PAPER_FLOOR, n_held, held['source'].value_counts().to_dict()))
+    print('语义不足丢弃(dropped_nosem_us.csv,待人工): %d 个 rid' % dropped['rid'].nunique())
     print('  来源:名字唯一', int((final['source'] == 'name_unique').sum()),
           '| 机构', int((final['source'] == 'round2_inst').sum()),
           '| 语义领域', int((final['source'] == 'round3_semantic').sum()),
-          '| 语义平局兜底', int((final['source'] == 'round4_semtie').sum()),
-          '| 论文数兜底', int((final['source'] == 'round4_maxpapers').sum()))
+          '| 语义平局兜底', int((final['source'] == 'round4_semtie').sum()))
     print('  名字类型:精确', int((final['match_type'] == 'exact').sum()),
           '| 首末名模糊', int((final['match_type'] == 'fuzzy').sum()),
           '| 别名', int((final['match_type'] == 'alias').sum()))
     print('结果已保存:match_1_us.csv, match_2_us.csv, match_3_us.csv, match_4_us.csv, '
-          'matched_final_us.csv, held_lowpaper_us.csv')
+          'matched_final_us.csv, held_lowpaper_us.csv, dropped_nosem_us.csv')
 
 
 if __name__ == "__main__":
